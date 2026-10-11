@@ -1,0 +1,123 @@
+---
+slug: why-most-fail-az-305
+title: "Why Most People Fail AZ-305 (Even After Passing AZ-104)"
+seoTitle: "Why Most People Fail AZ-305 Even After Passing AZ-104"
+seoDescription: "Passing AZ-104 doesn't prepare you for AZ-305 the way most candidates expect. Here's why the Azure Solutions Architect Expert exam trips up experienced engineers and what actually works."
+type: post
+order: 260
+author: "Priya Krishnamurthy"
+categories: ["cloud", "azure", "certification"]
+---
+# Why Most People Fail AZ-305 (Even After Passing AZ-104)
+
+Passing AZ‑104 feels like progress. You’ve administered identities, networking, VMs. Then AZ‑305 prep begins – material feels familiar, practice questions feel fine, but exam day returns **fail**. This isn’t rare. The problem isn’t knowledge. It’s the type of thinking required.
+
+👉 Learn more about Solutions Architect Expert: AZ- 305
+
+---
+
+## The Fundamental Shift
+
+- **AZ‑104** = administrator exam. “How do I configure this?”
+- **AZ‑305** = architect exam. “What should I build, and why this instead of that?”
+
+> AZ‑104 rewards correctness. AZ‑305 rewards **defensibility**. Those are different skills.
+
+👉 Learn more about Azure Administrator AZ-104
+
+---
+
+## Reason 1: Treating AZ‑305 as “AZ‑104 With More Services”
+
+Learning more Azure services at the same depth doesn’t bridge the gap. Architectural judgment does. If your prep is mostly absorbing info and testing recall, you’re building the wrong skill.
+
+---
+
+## Reason 2: Underestimating Identity & Governance (25–30%)
+
+**Management Groups & Policy inheritance** – design hierarchies so compliance applies without over‑restricting. Know policy flow, exemptions, and initiatives vs. individual policies.
+
+**Privileged Identity Management (PIM)** – when should roles be eligible vs. active? What approval workflows? How to configure access reviews? A scenario requiring “never permanently assigned, manager approval, alerts” tests PIM design, not just existence.
+
+**Entra ID tenant design** – single vs. multiple tenants? B2B vs. B2C? Hybrid identity with Entra ID Connect sync requirements – the exam tests these design decisions directly.
+
+---
+
+## Reason 3: Data Storage Design Is Harder Than It Looks
+
+**Cosmos DB consistency levels** – Strong, Bounded Staleness, Session, Consistent Prefix, Eventual. Session consistency = read your own writes globally. Strong = linearizable reads, higher latency. Know the trade‑offs.
+
+**Azure SQL vs. Cosmos DB vs. PostgreSQL** – ACID transactions with complex relationships → SQL. Horizontal scale, flexible schema, global distribution → Cosmos DB. Existing PostgreSQL workloads → Azure Database for PostgreSQL.
+
+**Storage tiers & lifecycle** – Hot, Cool, Cold, Archive. Archive requires hours of rehydration – if RTO is short, Archive is out. Read access requirements before choosing a tier.
+
+---
+
+## Reason 4: Business Continuity (10–15%) – Small Weight, Big Mistakes
+
+**RTO/RPO as design constraints** – RPO = 0 → synchronous replication. RPO = 4 hours → geo‑redundant backups. RTO = 15 minutes → no manual restore processes. Map specific numbers to specific architectures.
+
+**Azure Backup vs. Site Recovery vs. Geo‑replication**
+- **Backup** – point‑in‑time data recovery (accidental deletion, corruption).
+- **Site Recovery** – VM workload failover to another region (minutes to hours).
+- **Geo‑replication** (SQL, Cosmos DB, Storage) – synchronous/near‑sync copies, failover in seconds.
+
+A SQL DB needing zero data loss and failover within seconds → active geo‑replication with failover groups. A VM needing region failover within an hour → Site Recovery.
+
+---
+
+## Reason 5: Infrastructure Design – Constraints, Not Services
+
+**Compute selection signals**
+- Long‑running batch jobs with variable parallelism → **Azure Batch**
+- Event‑driven (<10 min, no infrastructure) → **Functions (Consumption)**
+- Containerized microservices needing orchestration → **AKS**
+- Containers without managing Kubernetes → **Container Apps**
+- Legacy lift‑and‑shift with OS control → **VMs**
+- Web apps without containers → **App Service**
+
+Matching workload to service – not choosing what you’re comfortable with – is the skill.
+
+**Landing zone & hub‑and‑spoke** – shared services (firewall, DNS, VPN) in hub VNet. UDRs force inspection. Know when to use Virtual WAN instead of manual hub‑and‑spoke.
+
+**Migration scenarios** – Framework: assess, migrate, optimize.
+- **Azure Migrate** – assessment & server migration
+- **Database Migration Service** – database workloads
+- **Azure Data Box** – offline transfer >200TB, limited bandwidth, tight deadline
+
+A 200TB migration over 1Gbps with a two‑week deadline points to **Data Box**, not online migration. Read the constraint.
+
+---
+
+## Reason 6: Case Study Questions – Different Technique
+
+Extended scenarios with multiple questions.
+
+**What works:**
+1. Read **requirements** before background – know what’s needed.
+2. **Flag constraints** (budget, compliance, timeline) – they eliminate options.
+3. Answer only from what’s **stated** – don’t bring external “best practice” unless required.
+4. **Don’t assume** unstated information.
+
+Practice case studies explicitly – they’re different from standard multiple choice.
+
+---
+
+## A Better Preparation Approach
+
+- **Prioritise design scenarios over service docs** – for every service, ask: when is it the right choice? When is it the wrong choice?
+- **Study the Well‑Architected Framework seriously** – it’s the unifying principle behind AZ‑305.
+- **Work through wrong answers** – keep a log of *why* you missed each question. Patterns reveal where your judgment is weak.
+- **Practice daily, not in blocks** – 15 minutes of scenario practice daily > 3‑week cram. ExamOS is built around this model.
+
+---
+
+## The Honest Assessment
+
+AZ‑305 is hard because it tests something genuinely difficult: designing systems across multiple dimensions under real constraints. The gap between AZ‑104 and AZ‑305 isn’t a knowledge gap. It’s a **thinking gap**. Recognise that early, adjust your preparation, and you’ll sit this exam once instead of twice.
+
+*Build design judgment with daily scenario‑based practice on ExamOS.*
+
+👉 Start Practice Test: AZ- 305
+
+```

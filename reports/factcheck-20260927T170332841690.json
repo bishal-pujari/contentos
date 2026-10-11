@@ -1,0 +1,1859 @@
+{
+  "agent": "check_facts",
+  "started_at": "2026-09-27T17:03:32.841690+00:00",
+  "input_dir": "output_frontmatter",
+  "output_dir": "output_factchecked",
+  "facts_dir": "facts",
+  "files_scanned": 81,
+  "files_with_exam": 69,
+  "files_changed": 1,
+  "files_flagged": 26,
+  "files_failed": 0,
+  "corrections_applied": 1,
+  "unresolved": 46,
+  "changes": [
+    {
+      "slug": "ai-103-most-misunderstood-concepts",
+      "path": "output_frontmatter\\ai-103-most-misunderstood-concepts.mdx",
+      "exams": [
+        "AI-103"
+      ],
+      "findings": [],
+      "review_items": [],
+      "warnings": [],
+      "sources": [],
+      "applied": 0,
+      "unresolved": 0,
+      "has_changes": false,
+      "error": null
+    },
+    {
+      "slug": "ai-103-study-guide-foundry-agents-rag",
+      "path": "output_frontmatter\\ai-103-study-guide-foundry-agents-rag.mdx",
+      "exams": [
+        "AI-103"
+      ],
+      "findings": [],
+      "review_items": [],
+      "warnings": [],
+      "sources": [],
+      "applied": 0,
+      "unresolved": 0,
+      "has_changes": false,
+      "error": null
+    },
+    {
+      "slug": "ai-200-study-guide-vector-search-managed-identity-observability-containers",
+      "path": "output_frontmatter\\ai-200-study-guide-vector-search-managed-identity-observability-containers.mdx",
+      "exams": [
+        "AI-200"
+      ],
+      "findings": [],
+      "review_items": [],
+      "warnings": [],
+      "sources": [],
+      "applied": 0,
+      "unresolved": 0,
+      "has_changes": false,
+      "error": null
+    },
+    {
+      "slug": "ai-empowered-safe-agilist",
+      "path": "output_frontmatter\\ai-empowered-safe-agilist.mdx",
+      "exams": [
+        "SA_6"
+      ],
+      "findings": [
+        {
+          "category": "rename",
+          "field": "renames",
+          "find": "SAFe Agilist 6.0",
+          "replace": "AI-Empowered SAFe Agilist",
+          "reason": "renamed to 'AI-Empowered SAFe Agilist' (this exam is retired; confirm before editing)",
+          "source": "https://scaledagile.com",
+          "applied": false
+        },
+        {
+          "category": "questions",
+          "field": "scored_questions",
+          "find": "36 questions",
+          "replace": "45 questions",
+          "reason": "scored questions: 45",
+          "source": "https://scaledagile.com",
+          "applied": false
+        }
+      ],
+      "review_items": [
+        "SAFe Agilist 6.0: renamed to 'AI-Empowered SAFe Agilist' (this exam is retired; confirm before editing)",
+        "36 questions: scored questions: 45"
+      ],
+      "warnings": [],
+      "sources": [
+        "https://scaledagile.com"
+      ],
+      "applied": 0,
+      "unresolved": 2,
+      "has_changes": false,
+      "error": null
+    },
+    {
+      "slug": "ai-103-vs-ai-200-which-should-you-take",
+      "path": "output_frontmatter\\ai-103-vs-ai-200-which-should-you-take.mdx",
+      "exams": [
+        "AI-901",
+        "AI-103",
+        "AI-200"
+      ],
+      "findings": [
+        {
+          "category": "rename",
+          "field": "renames",
+          "find": "Azure AI Services",
+          "replace": "Foundry Tools",
+          "reason": "renamed to 'Foundry Tools' (not clearly tied to this exam; confirm before editing)",
+          "source": "https://learn.microsoft.com/en-us/credentials/certifications/exams/ai-901/",
+          "applied": false
+        },
+        {
+          "category": "rename",
+          "field": "renames",
+          "find": "Azure AI Services",
+          "replace": "Foundry Tools",
+          "reason": "renamed to 'Foundry Tools' (not clearly tied to this exam; confirm before editing)",
+          "source": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/ai-103",
+          "applied": false
+        }
+      ],
+      "review_items": [
+        "Azure AI Services: renamed to 'Foundry Tools' (not clearly tied to this exam; confirm before editing)",
+        "Azure AI Services: renamed to 'Foundry Tools' (not clearly tied to this exam; confirm before editing)"
+      ],
+      "warnings": [],
+      "sources": [
+        "https://learn.microsoft.com/en-us/credentials/certifications/exams/ai-901/",
+        "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/ai-103"
+      ],
+      "applied": 0,
+      "unresolved": 2,
+      "has_changes": false,
+      "error": null
+    },
+    {
+      "slug": "ai-300-study-guide-five-core-concepts",
+      "path": "output_frontmatter\\ai-300-study-guide-five-core-concepts.mdx",
+      "exams": [
+        "AI-300"
+      ],
+      "findings": [],
+      "review_items": [],
+      "warnings": [],
+      "sources": [],
+      "applied": 0,
+      "unresolved": 0,
+      "has_changes": false,
+      "error": null
+    },
+    {
+      "slug": "ai-in-project-management-pmbok-8-what-every-pmp-candidate-must-know",
+      "path": "output_frontmatter\\ai-in-project-management-pmbok-8-what-every-pmp-candidate-must-know.mdx",
+      "exams": [
+        "PMP"
+      ],
+      "findings": [],
+      "review_items": [],
+      "warnings": [],
+      "sources": [],
+      "applied": 0,
+      "unresolved": 0,
+      "has_changes": false,
+      "error": null
+    },
+    {
+      "slug": "aws-practice-exams-brain-dumps",
+      "path": "output_frontmatter\\aws-practice-exams-brain-dumps.mdx",
+      "exams": [],
+      "findings": [],
+      "review_items": [],
+      "warnings": [],
+      "sources": [],
+      "applied": 0,
+      "unresolved": 0,
+      "has_changes": false,
+      "error": null
+    },
+    {
+      "slug": "ai-300-vs-dp-100-mlops-engineer-guide",
+      "path": "output_frontmatter\\ai-300-vs-dp-100-mlops-engineer-guide.mdx",
+      "exams": [
+        "AI-300"
+      ],
+      "findings": [],
+      "review_items": [],
+      "warnings": [],
+      "sources": [],
+      "applied": 0,
+      "unresolved": 0,
+      "has_changes": false,
+      "error": null
+    },
+    {
+      "slug": "aws-exam-concepts-misunderstood",
+      "path": "output_frontmatter\\aws-exam-concepts-misunderstood.mdx",
+      "exams": [],
+      "findings": [],
+      "review_items": [],
+      "warnings": [],
+      "sources": [],
+      "applied": 0,
+      "unresolved": 0,
+      "has_changes": false,
+      "error": null
+    },
+    {
+      "slug": "are-exam-dumps-safe-hidden-risks",
+      "path": "output_frontmatter\\are-exam-dumps-safe-hidden-risks.mdx",
+      "exams": [
+        "PMP"
+      ],
+      "findings": [],
+      "review_items": [],
+      "warnings": [],
+      "sources": [],
+      "applied": 0,
+      "unresolved": 0,
+      "has_changes": false,
+      "error": null
+    },
+    {
+      "slug": "aws-sap-c03-upcoming-changes",
+      "path": "output_frontmatter\\aws-sap-c03-upcoming-changes.mdx",
+      "exams": [
+        "SAP-C02",
+        "SAA-C03"
+      ],
+      "findings": [],
+      "review_items": [],
+      "warnings": [],
+      "sources": [],
+      "applied": 0,
+      "unresolved": 0,
+      "has_changes": false,
+      "error": null
+    },
+    {
+      "slug": "aws-solutions-architect-associate-vs-professional",
+      "path": "output_frontmatter\\aws-solutions-architect-associate-vs-professional.mdx",
+      "exams": [
+        "SAP-C02",
+        "SAA-C03"
+      ],
+      "findings": [
+        {
+          "category": "price",
+          "field": "price_usd",
+          "find": "150 USD",
+          "replace": "300 USD",
+          "reason": "exam fee is $300 USD",
+          "source": "https://aws.amazon.com/certification/certified-solutions-architect-professional/",
+          "applied": false
+        },
+        {
+          "category": "duration",
+          "field": "duration_minutes",
+          "find": "130 minutes",
+          "replace": "180 minutes",
+          "reason": "exam duration is 180 minutes",
+          "source": "https://d1.awsstatic.com/training-and-certification/docs-sa-pro/AWS-Certified-Solutions-Architect-Professional_Exam-Guide.pdf",
+          "applied": false
+        },
+        {
+          "category": "questions",
+          "field": "scored_questions",
+          "find": "75 questions",
+          "replace": "60 questions",
+          "reason": "scored questions: 60",
+          "source": "https://d1.awsstatic.com/training-and-certification/docs-sa-pro/AWS-Certified-Solutions-Architect-Professional_Exam-Guide.pdf",
+          "applied": false
+        },
+        {
+          "category": "price",
+          "field": "price_usd",
+          "find": "300 USD",
+          "replace": "150 USD",
+          "reason": "exam fee is $150 USD",
+          "source": "https://aws.amazon.com/certification/certified-solutions-architect-associate/",
+          "applied": false
+        },
+        {
+          "category": "questions",
+          "field": "scored_questions",
+          "find": "65 questions",
+          "replace": "50 questions",
+          "reason": "scored questions: 50",
+          "source": "https://d1.awsstatic.com/training-and-certification/docs-sa-assoc/AWS-Certified-Solutions-Architect-Associate_Exam-Guide.pdf",
+          "applied": false
+        }
+      ],
+      "review_items": [
+        "150 USD: exam fee is $300 USD",
+        "130 minutes: exam duration is 180 minutes",
+        "75 questions: scored questions: 60",
+        "300 USD: exam fee is $150 USD",
+        "65 questions: scored questions: 50"
+      ],
+      "warnings": [],
+      "sources": [
+        "https://aws.amazon.com/certification/certified-solutions-architect-professional/",
+        "https://d1.awsstatic.com/training-and-certification/docs-sa-pro/AWS-Certified-Solutions-Architect-Professional_Exam-Guide.pdf",
+        "https://aws.amazon.com/certification/certified-solutions-architect-associate/",
+        "https://d1.awsstatic.com/training-and-certification/docs-sa-assoc/AWS-Certified-Solutions-Architect-Associate_Exam-Guide.pdf"
+      ],
+      "applied": 0,
+      "unresolved": 5,
+      "has_changes": false,
+      "error": null
+    },
+    {
+      "slug": "az-104-networking-concepts-difficult",
+      "path": "output_frontmatter\\az-104-networking-concepts-difficult.mdx",
+      "exams": [
+        "AZ-104"
+      ],
+      "findings": [],
+      "review_items": [],
+      "warnings": [],
+      "sources": [],
+      "applied": 0,
+      "unresolved": 0,
+      "has_changes": false,
+      "error": null
+    },
+    {
+      "slug": "azure-vs-aws-vs-gcp",
+      "path": "output_frontmatter\\azure-vs-aws-vs-gcp.mdx",
+      "exams": [],
+      "findings": [],
+      "review_items": [],
+      "warnings": [],
+      "sources": [],
+      "applied": 0,
+      "unresolved": 0,
+      "has_changes": false,
+      "error": null
+    },
+    {
+      "slug": "az-204-replacement-ai-200",
+      "path": "output_frontmatter\\az-204-replacement-ai-200.mdx",
+      "exams": [
+        "AI-200",
+        "AI-901",
+        "AZ-900"
+      ],
+      "findings": [],
+      "review_items": [],
+      "warnings": [],
+      "sources": [],
+      "applied": 0,
+      "unresolved": 0,
+      "has_changes": false,
+      "error": null
+    },
+    {
+      "slug": "cissp-vs-cism-vs-ccsp-which-to-pursue-first",
+      "path": "output_frontmatter\\cissp-vs-cism-vs-ccsp-which-to-pursue-first.mdx",
+      "exams": [
+        "CISSP",
+        "CISM",
+        "CCSP"
+      ],
+      "findings": [
+        {
+          "category": "questions",
+          "field": "scored_questions",
+          "find": "100 to 150 questions",
+          "replace": "75-125 questions",
+          "reason": "scored questions: 75-125 questions",
+          "source": "https://www.isc2.org/certifications/computerized-adaptive-testing",
+          "applied": false
+        }
+      ],
+      "review_items": [
+        "100 to 150 questions: scored questions: 75-125 questions"
+      ],
+      "warnings": [],
+      "sources": [
+        "https://www.isc2.org/certifications/computerized-adaptive-testing"
+      ],
+      "applied": 0,
+      "unresolved": 1,
+      "has_changes": false,
+      "error": null
+    },
+    {
+      "slug": "cissp-ai-security-exam-guidance",
+      "path": "output_frontmatter\\cissp-ai-security-exam-guidance.mdx",
+      "exams": [
+        "CISSP"
+      ],
+      "findings": [],
+      "review_items": [],
+      "warnings": [],
+      "sources": [],
+      "applied": 0,
+      "unresolved": 0,
+      "has_changes": false,
+      "error": null
+    },
+    {
+      "slug": "certifications-worth-it-ai-era",
+      "path": "output_frontmatter\\certifications-worth-it-ai-era.mdx",
+      "exams": [
+        "AZ-104",
+        "SAA-C03",
+        "CKA"
+      ],
+      "findings": [],
+      "review_items": [],
+      "warnings": [],
+      "sources": [],
+      "applied": 0,
+      "unresolved": 0,
+      "has_changes": false,
+      "error": null
+    },
+    {
+      "slug": "comptia-trifecta-guide",
+      "path": "output_frontmatter\\comptia-trifecta-guide.mdx",
+      "exams": [
+        "SY0-701",
+        "N10-009",
+        "220-1201"
+      ],
+      "findings": [
+        {
+          "category": "rename",
+          "field": "renames",
+          "find": "Networking Fundamentals",
+          "replace": "Networking Concepts",
+          "reason": "renamed to 'Networking Concepts' (not clearly tied to this exam; confirm before editing)",
+          "source": "https://www.comptia.org/certifications/network",
+          "applied": false
+        },
+        {
+          "category": "passing_score",
+          "field": "passing_score",
+          "find": "1201 / 220",
+          "replace": "675/220",
+          "reason": "passing score is 675/220",
+          "source": "https://www.comptia.org/certifications/a",
+          "applied": false
+        }
+      ],
+      "review_items": [
+        "Networking Fundamentals: renamed to 'Networking Concepts' (not clearly tied to this exam; confirm before editing)",
+        "1201 / 220: passing score is 675/220"
+      ],
+      "warnings": [],
+      "sources": [
+        "https://www.comptia.org/certifications/network",
+        "https://www.comptia.org/certifications/a"
+      ],
+      "applied": 0,
+      "unresolved": 2,
+      "has_changes": false,
+      "error": null
+    },
+    {
+      "slug": "decoding-esg-questions-on-the-pmp-sample-scenarios-and-how-to-answer-them",
+      "path": "output_frontmatter\\decoding-esg-questions-on-the-pmp-sample-scenarios-and-how-to-answer-them.mdx",
+      "exams": [
+        "PMP"
+      ],
+      "findings": [],
+      "review_items": [],
+      "warnings": [],
+      "sources": [],
+      "applied": 0,
+      "unresolved": 0,
+      "has_changes": false,
+      "error": null
+    },
+    {
+      "slug": "daily-practice-key-to-devops-certification",
+      "path": "output_frontmatter\\daily-practice-key-to-devops-certification.mdx",
+      "exams": [
+        "AZ-400",
+        "DOP-C02",
+        "CKA"
+      ],
+      "findings": [
+        {
+          "category": "questions",
+          "field": "scored_questions",
+          "find": "75 questions",
+          "replace": "60 questions",
+          "reason": "scored questions: 60",
+          "source": "https://d1.awsstatic.com/training-and-certification/docs-devops-pro/AWS-Certified-Devops-Engineer-Professional_Exam-Guide.pdf",
+          "applied": false
+        }
+      ],
+      "review_items": [
+        "75 questions: scored questions: 60"
+      ],
+      "warnings": [],
+      "sources": [
+        "https://d1.awsstatic.com/training-and-certification/docs-devops-pro/AWS-Certified-Devops-Engineer-Professional_Exam-Guide.pdf"
+      ],
+      "applied": 0,
+      "unresolved": 1,
+      "has_changes": false,
+      "error": null
+    },
+    {
+      "slug": "devsecops-what-it-means-for-security-professionals",
+      "path": "output_frontmatter\\devsecops-what-it-means-for-security-professionals.mdx",
+      "exams": [
+        "SY0-701",
+        "SC-100",
+        "SCS-C03"
+      ],
+      "findings": [
+        {
+          "category": "duration",
+          "field": "duration_minutes",
+          "find": "170 minutes",
+          "replace": "120 minutes",
+          "reason": "exam duration is 120 minutes",
+          "source": "https://learn.microsoft.com/en-us/credentials/support/exam-duration-exam-experience",
+          "applied": false
+        }
+      ],
+      "review_items": [
+        "170 minutes: exam duration is 120 minutes"
+      ],
+      "warnings": [],
+      "sources": [
+        "https://learn.microsoft.com/en-us/credentials/support/exam-duration-exam-experience"
+      ],
+      "applied": 0,
+      "unresolved": 1,
+      "has_changes": false,
+      "error": null
+    },
+    {
+      "slug": "do-practice-exams-work",
+      "path": "output_frontmatter\\do-practice-exams-work.mdx",
+      "exams": [
+        "PMP"
+      ],
+      "findings": [],
+      "review_items": [],
+      "warnings": [],
+      "sources": [],
+      "applied": 0,
+      "unresolved": 0,
+      "has_changes": false,
+      "error": null
+    },
+    {
+      "slug": "cloud-security-roles-guide-beginners",
+      "path": "output_frontmatter\\cloud-security-roles-guide-beginners.mdx",
+      "exams": [
+        "CCSP",
+        "AZ-400",
+        "SC-500"
+      ],
+      "findings": [],
+      "review_items": [],
+      "warnings": [],
+      "sources": [],
+      "applied": 0,
+      "unresolved": 0,
+      "has_changes": false,
+      "error": null
+    },
+    {
+      "slug": "five-prompts-for-it-certification",
+      "path": "output_frontmatter\\five-prompts-for-it-certification.mdx",
+      "exams": [],
+      "findings": [],
+      "review_items": [],
+      "warnings": [],
+      "sources": [],
+      "applied": 0,
+      "unresolved": 0,
+      "has_changes": false,
+      "error": null
+    },
+    {
+      "slug": "feeling-stuck-in-it-role",
+      "path": "output_frontmatter\\feeling-stuck-in-it-role.mdx",
+      "exams": [
+        "AZ-104",
+        "SAA-C03"
+      ],
+      "findings": [],
+      "review_items": [],
+      "warnings": [],
+      "sources": [],
+      "applied": 0,
+      "unresolved": 0,
+      "has_changes": false,
+      "error": null
+    },
+    {
+      "slug": "google-ace-exam-june-2026-refresh",
+      "path": "output_frontmatter\\google-ace-exam-june-2026-refresh.mdx",
+      "exams": [
+        "GCP-ACE"
+      ],
+      "findings": [
+        {
+          "category": "rename",
+          "field": "renames",
+          "find": "Vertex AI Agent Engine",
+          "replace": "Agent Runtime on Gemini Enterprise Agent Platform",
+          "reason": "renamed to 'Agent Runtime on Gemini Enterprise Agent Platform' (appears in a rename discussion; confirm before editing)",
+          "source": "https://cloud.google.com/learn/certification/guides/associate-cloud-engineer",
+          "applied": false
+        },
+        {
+          "category": "price",
+          "field": "price_usd",
+          "find": "$75",
+          "replace": "$125",
+          "reason": "exam fee is $125 USD",
+          "source": "https://cloud.google.com/learn/certification/guides/associate-cloud-engineer",
+          "applied": false
+        },
+        {
+          "category": "price",
+          "field": "price_usd",
+          "find": "$75,",
+          "replace": "$125",
+          "reason": "exam fee is $125 USD",
+          "source": "https://cloud.google.com/learn/certification/guides/associate-cloud-engineer",
+          "applied": false
+        },
+        {
+          "category": "domain_weight",
+          "field": "domains",
+          "find": "Planning and implementing a cloud solution",
+          "replace": "30",
+          "reason": "'Planning and implementing a cloud solution' is 30% on the fact sheet, not 20-20%",
+          "source": "https://cloud.google.com/learn/certification/guides/associate-cloud-engineer",
+          "applied": false
+        }
+      ],
+      "review_items": [
+        "Vertex AI Agent Engine: renamed to 'Agent Runtime on Gemini Enterprise Agent Platform' (appears in a rename discussion; confirm before editing)",
+        "$75: exam fee is $125 USD",
+        "$75,: exam fee is $125 USD",
+        "Planning and implementing a cloud solution: 'Planning and implementing a cloud solution' is 30% on the fact sheet, not 20-20%"
+      ],
+      "warnings": [],
+      "sources": [
+        "https://cloud.google.com/learn/certification/guides/associate-cloud-engineer"
+      ],
+      "applied": 0,
+      "unresolved": 4,
+      "has_changes": false,
+      "error": null
+    },
+    {
+      "slug": "how-hard-is-ai-103",
+      "path": "output_frontmatter\\how-hard-is-ai-103.mdx",
+      "exams": [
+        "AI-901",
+        "AI-103",
+        "AZ-104"
+      ],
+      "findings": [],
+      "review_items": [],
+      "warnings": [],
+      "sources": [],
+      "applied": 0,
+      "unresolved": 0,
+      "has_changes": false,
+      "error": null
+    },
+    {
+      "slug": "generalist-to-cloud-native-security-specialist",
+      "path": "output_frontmatter\\generalist-to-cloud-native-security-specialist.mdx",
+      "exams": [
+        "CISSP",
+        "SC-300",
+        "SC-200"
+      ],
+      "findings": [],
+      "review_items": [],
+      "warnings": [],
+      "sources": [],
+      "applied": 0,
+      "unresolved": 0,
+      "has_changes": false,
+      "error": null
+    },
+    {
+      "slug": "how-hard-is-security-plus",
+      "path": "output_frontmatter\\how-hard-is-security-plus.mdx",
+      "exams": [
+        "SY0-701",
+        "AZ-104",
+        "N10-009"
+      ],
+      "findings": [
+        {
+          "category": "rename",
+          "field": "renames",
+          "find": "Networking Fundamentals",
+          "replace": "Networking Concepts",
+          "reason": "renamed to 'Networking Concepts' (not clearly tied to this exam; confirm before editing)",
+          "source": "https://www.comptia.org/certifications/network",
+          "applied": false
+        }
+      ],
+      "review_items": [
+        "Networking Fundamentals: renamed to 'Networking Concepts' (not clearly tied to this exam; confirm before editing)"
+      ],
+      "warnings": [],
+      "sources": [
+        "https://www.comptia.org/certifications/network"
+      ],
+      "applied": 0,
+      "unresolved": 1,
+      "has_changes": false,
+      "error": null
+    },
+    {
+      "slug": "how-to-handle-ai-anxiety",
+      "path": "output_frontmatter\\how-to-handle-ai-anxiety.mdx",
+      "exams": [],
+      "findings": [],
+      "review_items": [],
+      "warnings": [],
+      "sources": [],
+      "applied": 0,
+      "unresolved": 0,
+      "has_changes": false,
+      "error": null
+    },
+    {
+      "slug": "how-to-become-forward-deployed-engineer-certifications",
+      "path": "output_frontmatter\\how-to-become-forward-deployed-engineer-certifications.mdx",
+      "exams": [
+        "SY0-701",
+        "AZ-400",
+        "AZ-305"
+      ],
+      "findings": [],
+      "review_items": [],
+      "warnings": [],
+      "sources": [],
+      "applied": 0,
+      "unresolved": 0,
+      "has_changes": false,
+      "error": null
+    },
+    {
+      "slug": "how-to-know-if-youre-ready-for-ai-103",
+      "path": "output_frontmatter\\how-to-know-if-youre-ready-for-ai-103.mdx",
+      "exams": [
+        "AI-103"
+      ],
+      "findings": [],
+      "review_items": [],
+      "warnings": [],
+      "sources": [],
+      "applied": 0,
+      "unresolved": 0,
+      "has_changes": false,
+      "error": null
+    },
+    {
+      "slug": "how-to-know-if-youre-ready-for-az-104-exam",
+      "path": "output_frontmatter\\how-to-know-if-youre-ready-for-az-104-exam.mdx",
+      "exams": [
+        "AZ-104"
+      ],
+      "findings": [],
+      "review_items": [],
+      "warnings": [],
+      "sources": [],
+      "applied": 0,
+      "unresolved": 0,
+      "has_changes": false,
+      "error": null
+    },
+    {
+      "slug": "how-to-know-if-youre-ready-for-certification-exam",
+      "path": "output_frontmatter\\how-to-know-if-youre-ready-for-certification-exam.mdx",
+      "exams": [
+        "SY0-701",
+        "AZ-104",
+        "PMP"
+      ],
+      "findings": [],
+      "review_items": [],
+      "warnings": [],
+      "sources": [],
+      "applied": 0,
+      "unresolved": 0,
+      "has_changes": false,
+      "error": null
+    },
+    {
+      "slug": "how-to-know-if-youre-ready-for-pmp",
+      "path": "output_frontmatter\\how-to-know-if-youre-ready-for-pmp.mdx",
+      "exams": [
+        "PMP"
+      ],
+      "findings": [
+        {
+          "category": "domain_weight",
+          "field": "domains",
+          "find": "Business Environment",
+          "replace": "26",
+          "reason": "'Business Environment' is 26% on the fact sheet, not 8-8%",
+          "source": "https://www.pmi.org/certifications/project-management-pmp",
+          "applied": false
+        }
+      ],
+      "review_items": [
+        "Business Environment: 'Business Environment' is 26% on the fact sheet, not 8-8%"
+      ],
+      "warnings": [],
+      "sources": [
+        "https://www.pmi.org/certifications/project-management-pmp"
+      ],
+      "applied": 0,
+      "unresolved": 1,
+      "has_changes": false,
+      "error": null
+    },
+    {
+      "slug": "how-to-know-if-youre-ready-for-security-plus-exam",
+      "path": "output_frontmatter\\how-to-know-if-youre-ready-for-security-plus-exam.mdx",
+      "exams": [
+        "SY0-701"
+      ],
+      "findings": [
+        {
+          "category": "domain_weight",
+          "field": "domains",
+          "find": "Security Program Management and Oversight",
+          "replace": "20",
+          "reason": "'Security Program Management and Oversight' is 20% on the fact sheet, not 28-28%",
+          "source": "https://www.comptia.org/certifications/security",
+          "applied": false
+        }
+      ],
+      "review_items": [
+        "Security Program Management and Oversight: 'Security Program Management and Oversight' is 20% on the fact sheet, not 28-28%"
+      ],
+      "warnings": [],
+      "sources": [
+        "https://www.comptia.org/certifications/security"
+      ],
+      "applied": 0,
+      "unresolved": 1,
+      "has_changes": false,
+      "error": null
+    },
+    {
+      "slug": "how-to-practice-with-examos",
+      "path": "output_frontmatter\\how-to-practice-with-examos.mdx",
+      "exams": [],
+      "findings": [],
+      "review_items": [],
+      "warnings": [],
+      "sources": [],
+      "applied": 0,
+      "unresolved": 0,
+      "has_changes": false,
+      "error": null
+    },
+    {
+      "slug": "how-to-know-if-youre-ready-for-saa-c03-exam",
+      "path": "output_frontmatter\\how-to-know-if-youre-ready-for-saa-c03-exam.mdx",
+      "exams": [
+        "SAP-C02",
+        "SAA-C03"
+      ],
+      "findings": [
+        {
+          "category": "questions",
+          "field": "scored_questions",
+          "find": "65 questions",
+          "replace": "50 questions",
+          "reason": "scored questions: 50",
+          "source": "https://d1.awsstatic.com/training-and-certification/docs-sa-assoc/AWS-Certified-Solutions-Architect-Associate_Exam-Guide.pdf",
+          "applied": false
+        }
+      ],
+      "review_items": [
+        "65 questions: scored questions: 50"
+      ],
+      "warnings": [],
+      "sources": [
+        "https://d1.awsstatic.com/training-and-certification/docs-sa-assoc/AWS-Certified-Solutions-Architect-Associate_Exam-Guide.pdf"
+      ],
+      "applied": 0,
+      "unresolved": 1,
+      "has_changes": false,
+      "error": null
+    },
+    {
+      "slug": "is-ai-901-mandatory-for-ai-103",
+      "path": "output_frontmatter\\is-ai-901-mandatory-for-ai-103.mdx",
+      "exams": [
+        "AI-901",
+        "AI-103"
+      ],
+      "findings": [],
+      "review_items": [],
+      "warnings": [],
+      "sources": [],
+      "applied": 0,
+      "unresolved": 0,
+      "has_changes": false,
+      "error": null
+    },
+    {
+      "slug": "is-az-104-hard",
+      "path": "output_frontmatter\\is-az-104-hard.mdx",
+      "exams": [
+        "AZ-104",
+        "AZ-900",
+        "SAA-C03"
+      ],
+      "findings": [],
+      "review_items": [],
+      "warnings": [],
+      "sources": [],
+      "applied": 0,
+      "unresolved": 0,
+      "has_changes": false,
+      "error": null
+    },
+    {
+      "slug": "is-ai-901-worth-it",
+      "path": "output_frontmatter\\is-ai-901-worth-it.mdx",
+      "exams": [
+        "AI-901",
+        "AB-731",
+        "AZ-900"
+      ],
+      "findings": [],
+      "review_items": [],
+      "warnings": [],
+      "sources": [],
+      "applied": 0,
+      "unresolved": 0,
+      "has_changes": false,
+      "error": null
+    },
+    {
+      "slug": "levels-of-ai-engineering",
+      "path": "output_frontmatter\\levels-of-ai-engineering.mdx",
+      "exams": [
+        "AI-103",
+        "AIP-C01"
+      ],
+      "findings": [],
+      "review_items": [],
+      "warnings": [],
+      "sources": [],
+      "applied": 0,
+      "unresolved": 0,
+      "has_changes": false,
+      "error": null
+    },
+    {
+      "slug": "one-hour-daily-learning-plan",
+      "path": "output_frontmatter\\one-hour-daily-learning-plan.mdx",
+      "exams": [],
+      "findings": [],
+      "review_items": [],
+      "warnings": [],
+      "sources": [],
+      "applied": 0,
+      "unresolved": 0,
+      "has_changes": false,
+      "error": null
+    },
+    {
+      "slug": "learning-ai-engineering-mistakes",
+      "path": "output_frontmatter\\learning-ai-engineering-mistakes.mdx",
+      "exams": [],
+      "findings": [],
+      "review_items": [],
+      "warnings": [],
+      "sources": [],
+      "applied": 0,
+      "unresolved": 0,
+      "has_changes": false,
+      "error": null
+    },
+    {
+      "slug": "jobs-and-salary-after-ai-103",
+      "path": "output_frontmatter\\jobs-and-salary-after-ai-103.mdx",
+      "exams": [
+        "AI-901",
+        "AI-103",
+        "AZ-900"
+      ],
+      "findings": [],
+      "review_items": [],
+      "warnings": [],
+      "sources": [],
+      "applied": 0,
+      "unresolved": 0,
+      "has_changes": false,
+      "error": null
+    },
+    {
+      "slug": "platform-engineering-shift-devops-professionals",
+      "path": "output_frontmatter\\platform-engineering-shift-devops-professionals.mdx",
+      "exams": [
+        "AZ-400",
+        "DOP-C02",
+        "CKA"
+      ],
+      "findings": [],
+      "review_items": [],
+      "warnings": [],
+      "sources": [],
+      "applied": 0,
+      "unresolved": 0,
+      "has_changes": false,
+      "error": null
+    },
+    {
+      "slug": "security-plus-pbq-deep-dive",
+      "path": "output_frontmatter\\security-plus-pbq-deep-dive.mdx",
+      "exams": [
+        "SY0-701"
+      ],
+      "findings": [],
+      "review_items": [],
+      "warnings": [],
+      "sources": [],
+      "applied": 0,
+      "unresolved": 0,
+      "has_changes": false,
+      "error": null
+    },
+    {
+      "slug": "pca-exam-case-study-guide",
+      "path": "output_frontmatter\\pca-exam-case-study-guide.mdx",
+      "exams": [
+        "GCP-PCA"
+      ],
+      "findings": [
+        {
+          "category": "price",
+          "field": "price_usd",
+          "find": "$100",
+          "replace": "$200",
+          "reason": "exam fee is $200 USD",
+          "source": "https://cloud.google.com/learn/certification/cloud-architect",
+          "applied": false
+        }
+      ],
+      "review_items": [
+        "$100: exam fee is $200 USD"
+      ],
+      "warnings": [],
+      "sources": [
+        "https://cloud.google.com/learn/certification/cloud-architect"
+      ],
+      "applied": 0,
+      "unresolved": 1,
+      "has_changes": false,
+      "error": null
+    },
+    {
+      "slug": "should-non-technical-roles-take-ai-901",
+      "path": "output_frontmatter\\should-non-technical-roles-take-ai-901.mdx",
+      "exams": [
+        "AI-901",
+        "AI-103"
+      ],
+      "findings": [
+        {
+          "category": "rename",
+          "field": "renames",
+          "find": "Azure AI Services",
+          "replace": "Foundry Tools",
+          "reason": "renamed to 'Foundry Tools'",
+          "source": "https://learn.microsoft.com/en-us/credentials/certifications/exams/ai-901/",
+          "applied": true
+        },
+        {
+          "category": "rename",
+          "field": "renames",
+          "find": "Azure AI Services",
+          "replace": "Foundry Tools",
+          "reason": "renamed to 'Foundry Tools' (not clearly tied to this exam; confirm before editing)",
+          "source": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/ai-103",
+          "applied": false
+        }
+      ],
+      "review_items": [
+        "Azure AI Services: renamed to 'Foundry Tools' (not clearly tied to this exam; confirm before editing)"
+      ],
+      "warnings": [],
+      "sources": [
+        "https://learn.microsoft.com/en-us/credentials/certifications/exams/ai-901/",
+        "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/ai-103"
+      ],
+      "applied": 1,
+      "unresolved": 1,
+      "has_changes": true,
+      "error": null
+    },
+    {
+      "slug": "pmp-exam-changes-july-2026-faq",
+      "path": "output_frontmatter\\pmp-exam-changes-july-2026-faq.mdx",
+      "exams": [
+        "PMP"
+      ],
+      "findings": [
+        {
+          "category": "price",
+          "field": "price_usd",
+          "find": "$405",
+          "replace": "$675",
+          "reason": "exam fee is $675 USD",
+          "source": "https://www.pmi.org/certifications/project-management-pmp",
+          "applied": false
+        },
+        {
+          "category": "price",
+          "field": "price_usd",
+          "find": "$405",
+          "replace": "$675",
+          "reason": "exam fee is $675 USD",
+          "source": "https://www.pmi.org/certifications/project-management-pmp",
+          "applied": false
+        },
+        {
+          "category": "price",
+          "field": "price_usd",
+          "find": "$139",
+          "replace": "$675",
+          "reason": "exam fee is $675 USD",
+          "source": "https://www.pmi.org/certifications/project-management-pmp",
+          "applied": false
+        },
+        {
+          "category": "price",
+          "field": "price_usd",
+          "find": "$60",
+          "replace": "$675",
+          "reason": "exam fee is $675 USD",
+          "source": "https://www.pmi.org/certifications/project-management-pmp",
+          "applied": false
+        },
+        {
+          "category": "price",
+          "field": "price_usd",
+          "find": "$405",
+          "replace": "$675",
+          "reason": "exam fee is $675 USD",
+          "source": "https://www.pmi.org/certifications/project-management-pmp",
+          "applied": false
+        },
+        {
+          "category": "domain_weight",
+          "field": "domains",
+          "find": "People",
+          "replace": "33",
+          "reason": "'People' is 33% on the fact sheet, not 8-8%",
+          "source": "https://www.pmi.org/certifications/project-management-pmp",
+          "applied": false
+        },
+        {
+          "category": "domain_weight",
+          "field": "domains",
+          "find": "Process",
+          "replace": "41",
+          "reason": "'Process' is 41% on the fact sheet, not 8-8%",
+          "source": "https://www.pmi.org/certifications/project-management-pmp",
+          "applied": false
+        },
+        {
+          "category": "domain_weight",
+          "field": "domains",
+          "find": "Business Environment",
+          "replace": "26",
+          "reason": "'Business Environment' is 26% on the fact sheet, not 8-8%",
+          "source": "https://www.pmi.org/certifications/project-management-pmp",
+          "applied": false
+        }
+      ],
+      "review_items": [
+        "$405: exam fee is $675 USD",
+        "$405: exam fee is $675 USD",
+        "$139: exam fee is $675 USD",
+        "$60: exam fee is $675 USD",
+        "$405: exam fee is $675 USD",
+        "People: 'People' is 33% on the fact sheet, not 8-8%",
+        "Process: 'Process' is 41% on the fact sheet, not 8-8%",
+        "Business Environment: 'Business Environment' is 26% on the fact sheet, not 8-8%"
+      ],
+      "warnings": [],
+      "sources": [
+        "https://www.pmi.org/certifications/project-management-pmp"
+      ],
+      "applied": 0,
+      "unresolved": 8,
+      "has_changes": false,
+      "error": null
+    },
+    {
+      "slug": "stay-relevant-ai-era",
+      "path": "output_frontmatter\\stay-relevant-ai-era.mdx",
+      "exams": [],
+      "findings": [],
+      "review_items": [],
+      "warnings": [],
+      "sources": [],
+      "applied": 0,
+      "unresolved": 0,
+      "has_changes": false,
+      "error": null
+    },
+    {
+      "slug": "study-hall-vs-examos-pmp-preparation",
+      "path": "output_frontmatter\\study-hall-vs-examos-pmp-preparation.mdx",
+      "exams": [
+        "PMP"
+      ],
+      "findings": [
+        {
+          "category": "out_of_scope",
+          "field": "out_of_scope_for_exam",
+          "find": "PMI Study Hall",
+          "replace": "",
+          "reason": "'PMI Study Hall' is out of scope for PMP: PMI Study Hall is an official exam preparation tool. While it is highly recommended for study, the PMP exam does not test candidates on the features, navigation, or metrics of the Study Hall platform itself.",
+          "source": "https://www.pmi.org/certifications/project-management-pmp",
+          "applied": false
+        }
+      ],
+      "review_items": [
+        "PMI Study Hall: 'PMI Study Hall' is out of scope for PMP: PMI Study Hall is an official exam preparation tool. While it is highly recommended for study, the PMP exam does not test candidates on the features, navigation, or metrics of the Study Hall platform itself."
+      ],
+      "warnings": [],
+      "sources": [
+        "https://www.pmi.org/certifications/project-management-pmp"
+      ],
+      "applied": 0,
+      "unresolved": 1,
+      "has_changes": false,
+      "error": null
+    },
+    {
+      "slug": "security-plus-vs-cc-vs-sc-900-which-first",
+      "path": "output_frontmatter\\security-plus-vs-cc-vs-sc-900-which-first.mdx",
+      "exams": [
+        "SY0-701",
+        "SC-900"
+      ],
+      "findings": [
+        {
+          "category": "price",
+          "field": "price_usd",
+          "find": "$50",
+          "replace": "$99",
+          "reason": "exam fee is $99 USD",
+          "source": "https://learn.microsoft.com/en-us/credentials/certifications/exams/sc-900",
+          "applied": false
+        }
+      ],
+      "review_items": [
+        "$50: exam fee is $99 USD"
+      ],
+      "warnings": [],
+      "sources": [
+        "https://learn.microsoft.com/en-us/credentials/certifications/exams/sc-900"
+      ],
+      "applied": 0,
+      "unresolved": 1,
+      "has_changes": false,
+      "error": null
+    },
+    {
+      "slug": "sustainable-project-management-what-it-is-and-why-it-matters",
+      "path": "output_frontmatter\\sustainable-project-management-what-it-is-and-why-it-matters.mdx",
+      "exams": [
+        "PMP"
+      ],
+      "findings": [],
+      "review_items": [],
+      "warnings": [],
+      "sources": [],
+      "applied": 0,
+      "unresolved": 0,
+      "has_changes": false,
+      "error": null
+    },
+    {
+      "slug": "top-aws-services-ranked",
+      "path": "output_frontmatter\\top-aws-services-ranked.mdx",
+      "exams": [
+        "SAP-C02",
+        "CLF-C02",
+        "DVA-C02"
+      ],
+      "findings": [],
+      "review_items": [],
+      "warnings": [],
+      "sources": [],
+      "applied": 0,
+      "unresolved": 0,
+      "has_changes": false,
+      "error": null
+    },
+    {
+      "slug": "top-7-faqs-aws-certifications-reddit",
+      "path": "output_frontmatter\\top-7-faqs-aws-certifications-reddit.mdx",
+      "exams": [
+        "CLF-C02",
+        "DVA-C02",
+        "SAA-C03"
+      ],
+      "findings": [
+        {
+          "category": "price",
+          "field": "price_usd",
+          "find": "$100",
+          "replace": "$150",
+          "reason": "exam fee is $150 USD",
+          "source": "https://aws.amazon.com/certification/certified-solutions-architect-associate/",
+          "applied": false
+        }
+      ],
+      "review_items": [
+        "$100: exam fee is $150 USD"
+      ],
+      "warnings": [],
+      "sources": [
+        "https://aws.amazon.com/certification/certified-solutions-architect-associate/"
+      ],
+      "applied": 0,
+      "unresolved": 1,
+      "has_changes": false,
+      "error": null
+    },
+    {
+      "slug": "top-7-pmp-questions-reddit-answered-honestly",
+      "path": "output_frontmatter\\top-7-pmp-questions-reddit-answered-honestly.mdx",
+      "exams": [
+        "PMP",
+        "CSM"
+      ],
+      "findings": [
+        {
+          "category": "questions",
+          "field": "scored_questions",
+          "find": "180 questions",
+          "replace": "170 questions",
+          "reason": "scored questions: 170",
+          "source": "https://www.pmi.org/certifications/project-management-pmp",
+          "applied": false
+        }
+      ],
+      "review_items": [
+        "180 questions: scored questions: 170"
+      ],
+      "warnings": [],
+      "sources": [
+        "https://www.pmi.org/certifications/project-management-pmp"
+      ],
+      "applied": 0,
+      "unresolved": 1,
+      "has_changes": false,
+      "error": null
+    },
+    {
+      "slug": "top-cloud-security-mistakes-ranked",
+      "path": "output_frontmatter\\top-cloud-security-mistakes-ranked.mdx",
+      "exams": [
+        "CCSP",
+        "SCS-C03"
+      ],
+      "findings": [
+        {
+          "category": "vendor_contamination",
+          "field": "allowed_services",
+          "find": "Azure Blob Storage",
+          "replace": "",
+          "reason": "'Azure Blob Storage' is a AZURE service; this is a AWS-vendor exam, so use the vendor's native service",
+          "source": "https://d1.awsstatic.com/training-and-certification/docs-security-specialty/AWS-Certified-Security-Specialty_Exam-Guide.pdf",
+          "applied": false
+        }
+      ],
+      "review_items": [
+        "Azure Blob Storage: 'Azure Blob Storage' is a AZURE service; this is a AWS-vendor exam, so use the vendor's native service"
+      ],
+      "warnings": [],
+      "sources": [
+        "https://d1.awsstatic.com/training-and-certification/docs-security-specialty/AWS-Certified-Security-Specialty_Exam-Guide.pdf"
+      ],
+      "applied": 0,
+      "unresolved": 1,
+      "has_changes": false,
+      "error": null
+    },
+    {
+      "slug": "top-azure-services-ranked",
+      "path": "output_frontmatter\\top-azure-services-ranked.mdx",
+      "exams": [
+        "AZ-305",
+        "AZ-900",
+        "AZ-104"
+      ],
+      "findings": [
+        {
+          "category": "out_of_scope",
+          "field": "out_of_scope_for_exam",
+          "find": "Azure SQL Database",
+          "replace": "",
+          "reason": "'Azure SQL Database' is out of scope for AZ-104: Database administration is out of scope for the general Azure Administrator exam and is covered in DP-300 and AZ-305.",
+          "source": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/az-104",
+          "applied": false
+        }
+      ],
+      "review_items": [
+        "Azure SQL Database: 'Azure SQL Database' is out of scope for AZ-104: Database administration is out of scope for the general Azure Administrator exam and is covered in DP-300 and AZ-305."
+      ],
+      "warnings": [],
+      "sources": [
+        "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/az-104"
+      ],
+      "applied": 0,
+      "unresolved": 1,
+      "has_changes": false,
+      "error": null
+    },
+    {
+      "slug": "top-cloud-certifications-ranked",
+      "path": "output_frontmatter\\top-cloud-certifications-ranked.mdx",
+      "exams": [
+        "AZ-900",
+        "SCS-C03",
+        "AZ-104"
+      ],
+      "findings": [],
+      "review_items": [],
+      "warnings": [],
+      "sources": [],
+      "applied": 0,
+      "unresolved": 0,
+      "has_changes": false,
+      "error": null
+    },
+    {
+      "slug": "top-devops-tools-ranked",
+      "path": "output_frontmatter\\top-devops-tools-ranked.mdx",
+      "exams": [
+        "AZ-400",
+        "DOP-C02",
+        "AZ-104"
+      ],
+      "findings": [
+        {
+          "category": "out_of_scope",
+          "field": "out_of_scope_for_exam",
+          "find": "Azure DevOps",
+          "replace": "",
+          "reason": "'Azure DevOps' is out of scope for AZ-104: DevOps pipeline and tool administration is out of scope and is covered in AZ-400.",
+          "source": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/az-104",
+          "applied": false
+        }
+      ],
+      "review_items": [
+        "Azure DevOps: 'Azure DevOps' is out of scope for AZ-104: DevOps pipeline and tool administration is out of scope and is covered in AZ-400."
+      ],
+      "warnings": [],
+      "sources": [
+        "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/az-104"
+      ],
+      "applied": 0,
+      "unresolved": 1,
+      "has_changes": false,
+      "error": null
+    },
+    {
+      "slug": "top-cybersecurity-certifications-ranked",
+      "path": "output_frontmatter\\top-cybersecurity-certifications-ranked.mdx",
+      "exams": [
+        "SY0-701",
+        "CISSP",
+        "SCS-C03"
+      ],
+      "findings": [],
+      "review_items": [],
+      "warnings": [],
+      "sources": [],
+      "applied": 0,
+      "unresolved": 0,
+      "has_changes": false,
+      "error": null
+    },
+    {
+      "slug": "top-five-ai-projects-beginners",
+      "path": "output_frontmatter\\top-five-ai-projects-beginners.mdx",
+      "exams": [],
+      "findings": [],
+      "review_items": [],
+      "warnings": [],
+      "sources": [],
+      "applied": 0,
+      "unresolved": 0,
+      "has_changes": false,
+      "error": null
+    },
+    {
+      "slug": "top-five-cloud-projects",
+      "path": "output_frontmatter\\top-five-cloud-projects.mdx",
+      "exams": [
+        "AZ-900",
+        "CLF-C02"
+      ],
+      "findings": [],
+      "review_items": [],
+      "warnings": [],
+      "sources": [],
+      "applied": 0,
+      "unresolved": 0,
+      "has_changes": false,
+      "error": null
+    },
+    {
+      "slug": "top-tech-management-skills",
+      "path": "output_frontmatter\\top-tech-management-skills.mdx",
+      "exams": [
+        "PMP",
+        "AZ-900",
+        "CLF-C02"
+      ],
+      "findings": [],
+      "review_items": [],
+      "warnings": [],
+      "sources": [],
+      "applied": 0,
+      "unresolved": 0,
+      "has_changes": false,
+      "error": null
+    },
+    {
+      "slug": "top-five-cybersecurity-projects",
+      "path": "output_frontmatter\\top-five-cybersecurity-projects.mdx",
+      "exams": [
+        "CISSP"
+      ],
+      "findings": [],
+      "review_items": [],
+      "warnings": [],
+      "sources": [],
+      "applied": 0,
+      "unresolved": 0,
+      "has_changes": false,
+      "error": null
+    },
+    {
+      "slug": "two-hour-weekend-building-plan",
+      "path": "output_frontmatter\\two-hour-weekend-building-plan.mdx",
+      "exams": [],
+      "findings": [],
+      "review_items": [],
+      "warnings": [],
+      "sources": [],
+      "applied": 0,
+      "unresolved": 0,
+      "has_changes": false,
+      "error": null
+    },
+    {
+      "slug": "top-gcp-services-ranked",
+      "path": "output_frontmatter\\top-gcp-services-ranked.mdx",
+      "exams": [
+        "GCP-PCA",
+        "GCP-ACE",
+        "GCP-PDE"
+      ],
+      "findings": [
+        {
+          "category": "rename",
+          "field": "renames",
+          "find": "Stackdriver",
+          "replace": "Google Cloud's operations suite",
+          "reason": "renamed to 'Google Cloud's operations suite' (not clearly tied to this exam; confirm before editing)",
+          "source": "https://services.google.com/fh/files/misc/v6.1_pca_professional_cloud_architect_exam_guide_english.pdf",
+          "applied": false
+        },
+        {
+          "category": "rename",
+          "field": "renames",
+          "find": "Stackdriver",
+          "replace": "Cloud Monitoring / Cloud Logging",
+          "reason": "renamed to 'Cloud Monitoring / Cloud Logging' (not clearly tied to this exam; confirm before editing)",
+          "source": "https://cloud.google.com/learn/certification/data-engineer",
+          "applied": false
+        },
+        {
+          "category": "out_of_scope",
+          "field": "out_of_scope_for_exam",
+          "find": "Compute Engine",
+          "replace": "",
+          "reason": "'Compute Engine' is out of scope for GCP-PDE: Detailed configuration and infrastructure management of virtual machines are out of scope for the modern data engineer role.",
+          "source": "https://cloud.google.com/learn/certification/data-engineer",
+          "applied": false
+        },
+        {
+          "category": "out_of_scope",
+          "field": "out_of_scope_for_exam",
+          "find": "Google Kubernetes Engine",
+          "replace": "",
+          "reason": "'Google Kubernetes Engine' is out of scope for GCP-PDE: Deep container orchestration and cluster management are excluded from the blueprint to focus on serverless data processing.",
+          "source": "https://cloud.google.com/learn/certification/data-engineer",
+          "applied": false
+        }
+      ],
+      "review_items": [
+        "Stackdriver: renamed to 'Google Cloud's operations suite' (not clearly tied to this exam; confirm before editing)",
+        "Stackdriver: renamed to 'Cloud Monitoring / Cloud Logging' (not clearly tied to this exam; confirm before editing)",
+        "Compute Engine: 'Compute Engine' is out of scope for GCP-PDE: Detailed configuration and infrastructure management of virtual machines are out of scope for the modern data engineer role.",
+        "Google Kubernetes Engine: 'Google Kubernetes Engine' is out of scope for GCP-PDE: Deep container orchestration and cluster management are excluded from the blueprint to focus on serverless data processing."
+      ],
+      "warnings": [],
+      "sources": [
+        "https://services.google.com/fh/files/misc/v6.1_pca_professional_cloud_architect_exam_guide_english.pdf",
+        "https://cloud.google.com/learn/certification/data-engineer"
+      ],
+      "applied": 0,
+      "unresolved": 4,
+      "has_changes": false,
+      "error": null
+    },
+    {
+      "slug": "wasting-time-ai-practice-tests",
+      "path": "output_frontmatter\\wasting-time-ai-practice-tests.mdx",
+      "exams": [
+        "AZ-104"
+      ],
+      "findings": [
+        {
+          "category": "rename",
+          "field": "renames",
+          "find": "Azure Active Directory",
+          "replace": "Microsoft Entra ID",
+          "reason": "renamed to 'Microsoft Entra ID' (appears in a rename discussion; confirm before editing)",
+          "source": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/az-104",
+          "applied": false
+        }
+      ],
+      "review_items": [
+        "Azure Active Directory: renamed to 'Microsoft Entra ID' (appears in a rename discussion; confirm before editing)"
+      ],
+      "warnings": [],
+      "sources": [
+        "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/az-104"
+      ],
+      "applied": 0,
+      "unresolved": 1,
+      "has_changes": false,
+      "error": null
+    },
+    {
+      "slug": "what-cissp-is-actually-testing-psychologically-operationally",
+      "path": "output_frontmatter\\what-cissp-is-actually-testing-psychologically-operationally.mdx",
+      "exams": [
+        "CISSP"
+      ],
+      "findings": [
+        {
+          "category": "questions",
+          "field": "scored_questions",
+          "find": "100-150 questions",
+          "replace": "75-125 questions",
+          "reason": "scored questions: 75-125 questions",
+          "source": "https://www.isc2.org/certifications/computerized-adaptive-testing",
+          "applied": false
+        }
+      ],
+      "review_items": [
+        "100-150 questions: scored questions: 75-125 questions"
+      ],
+      "warnings": [],
+      "sources": [
+        "https://www.isc2.org/certifications/computerized-adaptive-testing"
+      ],
+      "applied": 0,
+      "unresolved": 1,
+      "has_changes": false,
+      "error": null
+    },
+    {
+      "slug": "what-next-after-az-104",
+      "path": "output_frontmatter\\what-next-after-az-104.mdx",
+      "exams": [
+        "AZ-104",
+        "AZ-305",
+        "AZ-700"
+      ],
+      "findings": [],
+      "review_items": [],
+      "warnings": [],
+      "sources": [],
+      "applied": 0,
+      "unresolved": 0,
+      "has_changes": false,
+      "error": null
+    },
+    {
+      "slug": "why-cramming-fails-cloud-certification-exams",
+      "path": "output_frontmatter\\why-cramming-fails-cloud-certification-exams.mdx",
+      "exams": [
+        "AZ-104",
+        "SAA-C03",
+        "PMP"
+      ],
+      "findings": [],
+      "review_items": [],
+      "warnings": [],
+      "sources": [],
+      "applied": 0,
+      "unresolved": 0,
+      "has_changes": false,
+      "error": null
+    },
+    {
+      "slug": "what-next-after-saa",
+      "path": "output_frontmatter\\what-next-after-saa.mdx",
+      "exams": [
+        "SAP-C02",
+        "SAA-C03",
+        "SY0-701"
+      ],
+      "findings": [],
+      "review_items": [],
+      "warnings": [],
+      "sources": [],
+      "applied": 0,
+      "unresolved": 0,
+      "has_changes": false,
+      "error": null
+    },
+    {
+      "slug": "why-daily-practice-beats-cramming",
+      "path": "output_frontmatter\\why-daily-practice-beats-cramming.mdx",
+      "exams": [
+        "PMP",
+        "SAA-C03"
+      ],
+      "findings": [],
+      "review_items": [],
+      "warnings": [],
+      "sources": [],
+      "applied": 0,
+      "unresolved": 0,
+      "has_changes": false,
+      "error": null
+    },
+    {
+      "slug": "why-most-fail-az-305",
+      "path": "output_frontmatter\\why-most-fail-az-305.mdx",
+      "exams": [
+        "AZ-305",
+        "SAP-C02",
+        "AZ-104"
+      ],
+      "findings": [],
+      "review_items": [],
+      "warnings": [],
+      "sources": [],
+      "applied": 0,
+      "unresolved": 0,
+      "has_changes": false,
+      "error": null
+    },
+    {
+      "slug": "why-technical-experts-fail-cissp",
+      "path": "output_frontmatter\\why-technical-experts-fail-cissp.mdx",
+      "exams": [
+        "CISSP"
+      ],
+      "findings": [
+        {
+          "category": "questions",
+          "field": "scored_questions",
+          "find": "100 to 150 questions",
+          "replace": "75-125 questions",
+          "reason": "scored questions: 75-125 questions",
+          "source": "https://www.isc2.org/certifications/computerized-adaptive-testing",
+          "applied": false
+        }
+      ],
+      "review_items": [
+        "100 to 150 questions: scored questions: 75-125 questions"
+      ],
+      "warnings": [],
+      "sources": [
+        "https://www.isc2.org/certifications/computerized-adaptive-testing"
+      ],
+      "applied": 0,
+      "unresolved": 1,
+      "has_changes": false,
+      "error": null
+    },
+    {
+      "slug": "youtube-for-technical-learning",
+      "path": "output_frontmatter\\youtube-for-technical-learning.mdx",
+      "exams": [],
+      "findings": [],
+      "review_items": [],
+      "warnings": [],
+      "sources": [],
+      "applied": 0,
+      "unresolved": 0,
+      "has_changes": false,
+      "error": null
+    },
+    {
+      "slug": "why-sc-900-is-good-for-beginners",
+      "path": "output_frontmatter\\why-sc-900-is-good-for-beginners.mdx",
+      "exams": [
+        "SC-900"
+      ],
+      "findings": [],
+      "review_items": [],
+      "warnings": [],
+      "sources": [],
+      "applied": 0,
+      "unresolved": 0,
+      "has_changes": false,
+      "error": null
+    },
+    {
+      "slug": "why-scenario-based-tests-work",
+      "path": "output_frontmatter\\why-scenario-based-tests-work.mdx",
+      "exams": [
+        "AI-103",
+        "AZ-104",
+        "PMP"
+      ],
+      "findings": [],
+      "review_items": [],
+      "warnings": [],
+      "sources": [],
+      "applied": 0,
+      "unresolved": 0,
+      "has_changes": false,
+      "error": null
+    }
+  ]
+}

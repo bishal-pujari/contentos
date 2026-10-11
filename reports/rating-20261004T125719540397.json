@@ -1,0 +1,15 @@
+{
+  "agent": "rate_blogs",
+  "started_at": "2026-10-04T12:57:19.540397+00:00",
+  "input_dir": "output-plans-fact",
+  "rubric": "ExamOS Study Plan Rating",
+  "files_scanned": 0,
+  "files_rated": 0,
+  "average": 0.0,
+  "grade_counts": {},
+  "max_web_searches": 1500,
+  "search_calls": 0,
+  "web_searches": 0,
+  "ratings": [],
+  "errors": []
+}

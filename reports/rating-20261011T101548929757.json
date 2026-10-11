@@ -1,0 +1,180 @@
+{
+  "agent": "rate_blogs",
+  "started_at": "2026-10-11T10:15:48.929757+00:00",
+  "input_dir": "new-blogs",
+  "rubric": "ExamOS Blog Rating",
+  "files_scanned": 7,
+  "files_rated": 7,
+  "average": 4.75,
+  "grade_counts": {
+    "A+": 6,
+    "A-": 1
+  },
+  "max_web_searches": 1500,
+  "search_calls": 7,
+  "web_searches": 7,
+  "ratings": [
+    {
+      "slug": "aws-dva-c03-upcoming-changes",
+      "filename": "aws-dva-c03-upcoming-changes.mdx",
+      "grade": "A+",
+      "weighted": 105.5,
+      "average": 4.91,
+      "scores": {
+        "factual_correctness": 5.0,
+        "opening_strength": 5.0,
+        "length_depth": 5.0,
+        "mobile_scannability": 4.0,
+        "faq_quality": 5.0,
+        "seo_quality": 5.0,
+        "examos_callouts": 5.0,
+        "voice_ai_slop": 5.0,
+        "internal_linking": 5.0,
+        "reader_value": 5.0,
+        "structural_consistency": 5.0,
+        "sentence_grammar": 5.0
+      },
+      "searched": true,
+      "warnings": []
+    },
+    {
+      "slug": "aws-machine-learning-engineer-mla-c02-changes",
+      "filename": "aws-machine-learning-engineer-mla-c02-changes.mdx",
+      "grade": "A+",
+      "weighted": 103.5,
+      "average": 4.81,
+      "scores": {
+        "factual_correctness": 5.0,
+        "opening_strength": 5.0,
+        "length_depth": 5.0,
+        "mobile_scannability": 4.0,
+        "faq_quality": 5.0,
+        "seo_quality": 4.0,
+        "examos_callouts": 5.0,
+        "voice_ai_slop": 5.0,
+        "internal_linking": 5.0,
+        "reader_value": 5.0,
+        "structural_consistency": 5.0,
+        "sentence_grammar": 5.0
+      },
+      "searched": true,
+      "warnings": []
+    },
+    {
+      "slug": "dotnet-developer-to-ai-engineer-roadmap",
+      "filename": "dotnet-developer-to-ai-engineer-roadmap.mdx",
+      "grade": "A+",
+      "weighted": 101.5,
+      "average": 4.72,
+      "scores": {
+        "factual_correctness": 5.0,
+        "opening_strength": 5.0,
+        "length_depth": 5.0,
+        "mobile_scannability": 4.0,
+        "faq_quality": 5.0,
+        "seo_quality": 4.0,
+        "examos_callouts": 5.0,
+        "voice_ai_slop": 4.0,
+        "internal_linking": 5.0,
+        "reader_value": 5.0,
+        "structural_consistency": 5.0,
+        "sentence_grammar": 5.0
+      },
+      "searched": true,
+      "warnings": []
+    },
+    {
+      "slug": "ai-500-study-guide",
+      "filename": "ai-500-study-guide.mdx",
+      "grade": "A-",
+      "weighted": 86.5,
+      "average": 4.02,
+      "scores": {
+        "factual_correctness": 2.0,
+        "opening_strength": 3.0,
+        "length_depth": 5.0,
+        "mobile_scannability": 5.0,
+        "faq_quality": 5.0,
+        "seo_quality": 4.0,
+        "examos_callouts": 1.0,
+        "voice_ai_slop": 5.0,
+        "internal_linking": 5.0,
+        "reader_value": 5.0,
+        "structural_consistency": 5.0,
+        "sentence_grammar": 5.0
+      },
+      "searched": true,
+      "warnings": []
+    },
+    {
+      "slug": "why-ai-200-for-cloud-to-ai-engineering",
+      "filename": "why-ai-200-for-cloud-to-ai-engineering.mdx",
+      "grade": "A+",
+      "weighted": 102.5,
+      "average": 4.77,
+      "scores": {
+        "factual_correctness": 5.0,
+        "opening_strength": 5.0,
+        "length_depth": 5.0,
+        "mobile_scannability": 5.0,
+        "faq_quality": 5.0,
+        "seo_quality": 3.5,
+        "examos_callouts": 5.0,
+        "voice_ai_slop": 4.0,
+        "internal_linking": 5.0,
+        "reader_value": 5.0,
+        "structural_consistency": 5.0,
+        "sentence_grammar": 5.0
+      },
+      "searched": true,
+      "warnings": []
+    },
+    {
+      "slug": "why-sc-900-is-good-for-beginners",
+      "filename": "why-sc-900-is-good-for-beginners.mdx",
+      "grade": "A+",
+      "weighted": 107.5,
+      "average": 5.0,
+      "scores": {
+        "factual_correctness": 5.0,
+        "opening_strength": 5.0,
+        "length_depth": 5.0,
+        "mobile_scannability": 5.0,
+        "faq_quality": 5.0,
+        "seo_quality": 5.0,
+        "examos_callouts": 5.0,
+        "voice_ai_slop": 5.0,
+        "internal_linking": 5.0,
+        "reader_value": 5.0,
+        "structural_consistency": 5.0,
+        "sentence_grammar": 5.0
+      },
+      "searched": true,
+      "warnings": []
+    },
+    {
+      "slug": "security-plus-vs-cc-vs-sc-900-which-first",
+      "filename": "security-plus-vs-cc-vs-sc-900-which-first.mdx",
+      "grade": "A+",
+      "weighted": 107.5,
+      "average": 5.0,
+      "scores": {
+        "factual_correctness": 5.0,
+        "opening_strength": 5.0,
+        "length_depth": 5.0,
+        "mobile_scannability": 5.0,
+        "faq_quality": 5.0,
+        "seo_quality": 5.0,
+        "examos_callouts": 5.0,
+        "voice_ai_slop": 5.0,
+        "internal_linking": 5.0,
+        "reader_value": 5.0,
+        "structural_consistency": 5.0,
+        "sentence_grammar": 5.0
+      },
+      "searched": true,
+      "warnings": []
+    }
+  ],
+  "errors": []
+}

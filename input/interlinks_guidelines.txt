@@ -1,0 +1,44 @@
+interlinks.json maps a source content slug to links that should be injected when generated content is built.
+
+Each entry uses:
+
+```json
+{
+  "slug": "target-content-slug",
+  "text": "Link label shown to readers",
+  "position": "50%",
+  "type": "blog"
+}
+```
+
+Supported `position` values:
+
+| Position | Meaning |
+|---|---|
+| `"top"` | Inserts near the beginning—after the introductory content. |
+| `"20%"` | Inserts roughly one-fifth through the content. |
+| `"50%"` | Inserts roughly halfway through. |
+| `"75%"` | Inserts roughly three-quarters through. |
+| `"100%"` | Inserts at the end of the content. |
+| `"related"` | Adds the item to an appended **Related Reading** section rather than inline. |
+
+Any percentage from `"0%"` to `"100%"` is technically accepted, though the existing convention uses `20%`, `50%`, `75%`, and `100%`.
+
+Supported `type` values:
+
+| Type | Destination |
+|---|---|
+| `"blog"` | `/blog/{slug}` |
+| `"roadmap"` | `/roadmaps/{slug}` |
+| `"study-plan"` | `/study-plans/{slug}` |
+| `"exam"` | `/exams/{slug}` |
+| `"quiz"` | Inserts a practice-exam embed rather than a regular link. |
+
+A couple of useful implementation details:
+
+- Inline links display as a small `Related: [title]` callout.
+- `"related"` items become a bullet list at the bottom.
+- Only one inline insertion is retained per calculated paragraph location, so avoid assigning multiple items to exactly the same position. This does not apply for top and related.
+- At least one top and one related link should be specified for every content. Rest are optional
+
+

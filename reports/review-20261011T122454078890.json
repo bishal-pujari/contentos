@@ -1,0 +1,41 @@
+{
+  "agent": "review_interlinks",
+  "started_at": "2026-10-11T12:24:54.078890+00:00",
+  "mapping_path": "new-blogs/interlink.json",
+  "output_path": "new-blogs/interlink.json",
+  "sources_scanned": 86,
+  "incomplete_fixed": [
+    "ai-500-study-guide: defaulted position for ai-103-study-guide-foundry-agents-rag to related (was '70%')"
+  ],
+  "anchors_fixed": [],
+  "reciprocal_dropped": [
+    "reciprocal inline: kept ai-103-most-misunderstood-concepts -> how-to-know-if-youre-ready-for-ai-103, dropped how-to-know-if-youre-ready-for-ai-103 -> ai-103-most-misunderstood-concepts",
+    "reciprocal inline: kept ai-103-vs-ai-200-which-should-you-take -> why-ai-200-for-cloud-to-ai-engineering, dropped why-ai-200-for-cloud-to-ai-engineering -> ai-103-vs-ai-200-which-should-you-take",
+    "reciprocal inline: kept ai-200-study-guide-vector-search-managed-identity-observability-containers -> az-204-replacement-ai-200, dropped az-204-replacement-ai-200 -> ai-200-study-guide-vector-search-managed-identity-observability-containers",
+    "reciprocal inline: kept ai-300-study-guide-five-core-concepts -> ai-300-vs-dp-100-mlops-engineer-guide, dropped ai-300-vs-dp-100-mlops-engineer-guide -> ai-300-study-guide-five-core-concepts",
+    "reciprocal inline: kept ai-in-project-management-pmbok-8-what-every-pmp-candidate-must-know -> pmp-exam-changes-july-2026-faq, dropped pmp-exam-changes-july-2026-faq -> ai-in-project-management-pmbok-8-what-every-pmp-candidate-must-know",
+    "reciprocal inline: kept how-to-know-if-youre-ready-for-pmp -> ai-in-project-management-pmbok-8-what-every-pmp-candidate-must-know, dropped ai-in-project-management-pmbok-8-what-every-pmp-candidate-must-know -> how-to-know-if-youre-ready-for-pmp",
+    "reciprocal inline: kept are-exam-dumps-safe-hidden-risks -> aws-practice-exams-brain-dumps, dropped aws-practice-exams-brain-dumps -> are-exam-dumps-safe-hidden-risks",
+    "reciprocal inline: kept how-to-know-if-youre-ready-for-saa-c03-exam -> aws-exam-concepts-misunderstood, dropped aws-exam-concepts-misunderstood -> how-to-know-if-youre-ready-for-saa-c03-exam",
+    "reciprocal inline: kept cissp-ai-security-exam-guidance -> why-technical-experts-fail-cissp, dropped why-technical-experts-fail-cissp -> cissp-ai-security-exam-guidance",
+    "reciprocal inline: kept decoding-esg-questions-on-the-pmp-sample-scenarios-and-how-to-answer-them -> sustainable-project-management-what-it-is-and-why-it-matters, dropped sustainable-project-management-what-it-is-and-why-it-matters -> decoding-esg-questions-on-the-pmp-sample-scenarios-and-how-to-answer-them",
+    "reciprocal inline: kept do-practice-exams-work -> why-scenario-based-tests-work, dropped why-scenario-based-tests-work -> do-practice-exams-work",
+    "reciprocal inline: kept how-to-practice-with-examos -> do-practice-exams-work, dropped do-practice-exams-work -> how-to-practice-with-examos",
+    "reciprocal inline: kept five-prompts-for-it-certification -> wasting-time-ai-practice-tests, dropped wasting-time-ai-practice-tests -> five-prompts-for-it-certification",
+    "reciprocal inline: kept how-to-handle-ai-anxiety -> stay-relevant-ai-era, dropped stay-relevant-ai-era -> how-to-handle-ai-anxiety",
+    "reciprocal inline: kept how-to-know-if-youre-ready-for-security-plus-exam -> security-plus-pbq-deep-dive, dropped security-plus-pbq-deep-dive -> how-to-know-if-youre-ready-for-security-plus-exam",
+    "reciprocal inline: kept how-to-practice-with-examos -> why-daily-practice-beats-cramming, dropped why-daily-practice-beats-cramming -> how-to-practice-with-examos",
+    "reciprocal inline: kept one-hour-daily-learning-plan -> how-to-practice-with-examos, dropped how-to-practice-with-examos -> one-hour-daily-learning-plan",
+    "reciprocal inline: kept top-five-ai-projects-beginners -> learning-ai-engineering-mistakes, dropped learning-ai-engineering-mistakes -> top-five-ai-projects-beginners",
+    "reciprocal inline: kept why-daily-practice-beats-cramming -> one-hour-daily-learning-plan, dropped one-hour-daily-learning-plan -> why-daily-practice-beats-cramming",
+    "reciprocal inline: kept two-hour-weekend-building-plan -> one-hour-daily-learning-plan, dropped one-hour-daily-learning-plan -> two-hour-weekend-building-plan",
+    "reciprocal inline: kept security-plus-vs-cc-vs-sc-900-which-first -> why-sc-900-is-good-for-beginners, dropped why-sc-900-is-good-for-beginners -> security-plus-vs-cc-vs-sc-900-which-first",
+    "reciprocal inline: kept top-five-cloud-projects -> two-hour-weekend-building-plan, dropped two-hour-weekend-building-plan -> top-five-cloud-projects",
+    "reciprocal inline: kept wasting-time-ai-practice-tests -> why-scenario-based-tests-work, dropped why-scenario-based-tests-work -> wasting-time-ai-practice-tests",
+    "reciprocal inline: kept why-technical-experts-fail-cissp -> what-cissp-is-actually-testing-psychologically-operationally, dropped what-cissp-is-actually-testing-psychologically-operationally -> why-technical-experts-fail-cissp"
+  ],
+  "quizzes_fixed": [],
+  "promoted_to_related": [],
+  "redo_sources": [],
+  "redo_results": []
+}

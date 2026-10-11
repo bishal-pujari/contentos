@@ -1,0 +1,162 @@
+---
+slug: az-104-networking-concepts-difficult
+title: "The Networking Concepts That Make AZ-104 So Difficult"
+seoTitle: "AZ-104 Networking Concepts Explained: Why They're Hard and How to Master Them"
+seoDescription: "Azure networking is where most AZ-104 candidates lose points. Here's a clear breakdown of the concepts that cause the most confusion, from NSGs and UDRs to VNet peering and Private Endpoints."
+type: "post"
+imagePosition: "top"
+order: 440
+author: "Priya Krishnamurthy"
+categories: ["cloud", "administration", "azure"]
+examCodes: ["AZ-104"]
+---
+# The Networking Concepts That Make AZ-104 So Difficult
+
+Most AZ-104 candidates expect the exam to be hard on identity and governance. Those sections are manageable. Networking is where prepared candidates get surprised.
+
+The problem: several Azure networking features look similar, overlap in function, and the exam tests how they interact under specific conditions – not just what they are individually.
+
+Below are the concepts that produce the most exam mistakes, why they’re genuinely confusing, and what you need to understand to get them right consistently.
+
+Before you start:
+- Plan your exam with AZ-104 Study Plan
+- Read more about Azure Admnistrator Roadmap
+- How hard is AZ-104 
+
+---
+
+## 1. NSGs and Their Evaluation Order
+
+**Core behavior:** NSGs have rules with priority (100–4096). Lower numbers evaluated first. First match wins.
+
+**What candidates miss:**
+
+- NSGs can apply at **subnet** and **NIC** levels. For inbound traffic: subnet NSG → NIC NSG. For outbound: NIC NSG → subnet NSG. A rule that allows at subnet level can still be blocked at NIC level.
+- **Default rules** (cannot be deleted): allow VNet-to-VNet and load balancer probes; deny all other internet inbound (priority 65500). Custom rules with lower priority override them.
+
+Exam questions describing traffic allowed at subnet level but denied are often testing the two‑level evaluation.
+
+---
+
+## 2. User Defined Routes (UDRs) and System Routes
+
+**User Defined Routes (UDRs)** are a way to override the default routing decisions that Azure makes automatically. By default, Azure creates system routes that control how traffic flows — for example, sending internet-bound traffic directly out to the internet. UDRs let you say "no, don't use that default path, send the traffic here instead." Whenever a UDR exists for a destination, Azure uses it over the system default, giving you precise control over where your traffic goes.
+
+One important thing to understand is that UDRs are attached to **subnets**, not to the VNet as a whole. So if you have multiple subnets and you want all of them to route traffic through a specific device, you need to associate the UDR with each subnet individually — one UDR attachment per subnet. This is a detail that catches a lot of people off guard, and it comes up frequently in exams because it is easy to assume the route applies to the entire VNet when it does not.
+
+A very common real-world scenario (and a frequent exam question) is when a company wants all outbound internet traffic to pass through a **firewall or Network Virtual Appliance (NVA)** before it reaches the internet. The problem is that Azure's default system route sends that traffic straight out, bypassing your firewall entirely. To fix this, you create a UDR with a route for `0.0.0.0/0` — meaning "all traffic" — and point it to the **private IP address of your NVA**. Without that UDR in place, your firewall is essentially sitting there doing nothing for outbound traffic, because Azure's default route is happily sending packets to the internet without ever going through it.
+---
+
+## 3. VNet Peering: The Transitivity Problem
+
+**VNet peering is not transitive.** If A peers with B, and B peers with C, A cannot reach C through B.
+
+**Gateway transit:** If B has a VPN/ExpressRoute gateway, A can use B’s gateway if:
+- “Use remote gateways” on A’s peering
+- “Allow gateway transit” on B’s peering
+
+This applies only to gateways, not to other VNets behind B.
+
+---
+
+## 4. Azure DNS: Private Zones and Auto‑Registration
+
+**Azure‑provided DNS** (168.63.129.16) is default – resolves Azure public names and default internal names.
+
+**Azure Private DNS Zones** need **VNet links** to be usable by resources in that VNet. Auto‑registration automatically creates A records for VMs in that VNet. Only **one** private zone per VNet can have auto‑registration enabled.
+
+To resolve names across peered VNets, the private zone must be linked to both VNets.
+
+---
+
+## 5. Azure Load Balancer vs. Application Gateway (vs. Front Door / Traffic Manager)
+
+| Service | Layer | Use when |
+|---------|-------|-----------|
+| **Azure Load Balancer** | L4 (TCP/UDP) | Non‑HTTP workloads, simple port‑based distribution |
+| **Application Gateway** | L7 (HTTP/HTTPS) | Path‑based routing, SSL termination, WAF |
+| **Azure Front Door** | L7 (global) | Multi‑region HTTP routing with WAF |
+| **Traffic Manager** | DNS‑based | Global DNS‑level failover (not proxying) |
+
+> Exam signal: “path‑based routing” → Application Gateway. “DNS‑based failover” → Traffic Manager.
+
+---
+
+## 6. Service Endpoints vs. Private Endpoints
+
+| Feature | How it works | When to use |
+|---------|--------------|--------------|
+| **Service Endpoint** | Extends VNet identity to PaaS service; traffic stays on Azure backbone but service still has public IP. Free. | No on‑premises access requirement; cost‑sensitive. |
+| **Private Endpoint** | Places a private IP in your VNet mapped to the PaaS resource. True network isolation. Has hourly + per‑GB cost. | On‑premises access via VPN/ExpressRoute, or requirement that service not be reachable from public internet. |
+
+---
+
+## 7. ExpressRoute vs. VPN Gateway
+
+**VPN Gateway** – encrypted tunnel over public internet. Sufficient for moderate hybrid needs.
+
+**ExpressRoute** – private dedicated circuit. Required when:
+- Predictable latency / performance
+- Compliance prohibits data over public internet
+- Bandwidth exceeds VPN Gateway limits
+
+ExpressRoute Global Reach enables on‑premises sites to communicate via Azure backbone. ExpressRoute FastPath bypasses the gateway for lowest latency.
+
+---
+
+## 8. Azure Firewall vs. NSGs
+
+- **NSGs** – distributed, subnet/NIC level. Filter by IP, port, protocol.
+- **Azure Firewall** – centralized hub service. Adds FQDN filtering, threat intelligence, SNAT/DNAT, central logging. Deployed in `AzureFirewallSubnet` (/26).
+
+Use **both** together: Firewall for centralised inspection and FQDN filtering; NSGs for granular subnet/NIC filtering.
+
+Exam scenario with “centralised inspection across multiple VNets” or “FQDN filtering” → Azure Firewall.
+
+---
+
+## 9. Azure Bastion
+
+Managed jump host providing browser‑based RDP/SSH (port 443, TLS) without public IPs on target VMs. Deployed into **AzureBastionSubnet** (minimum /26).
+
+It does **not** replace VPN/ExpressRoute for application connectivity. It solves administrative access to VMs.
+
+If a Bastion deployment isn’t working, check the subnet name first.
+
+---
+
+## 10. Hub-and‑Spoke Topology
+
+Central hub VNet contains shared services (Firewall, VPN Gateway, Bastion). Spoke VNets peer to hub, not to each other.
+
+To make it work:
+- **VNet peering** between hub and each spoke (enable gateway transit if spokes need on‑premises access via hub’s gateway).
+- **UDRs** in spoke subnets: `0.0.0.0/0` → Azure Firewall (for internet inspection); also routes for inter‑spoke traffic → Azure Firewall.
+- **Azure Firewall rules** to permit allowed traffic.
+
+Common failures:
+- Spoke A cannot reach Spoke B → missing UDR or Firewall rule.
+- Spoke cannot reach on‑premises → gateway transit not enabled on peering.
+- Internet bypassing Firewall → missing UDR in spoke subnet.
+
+---
+
+## How to Actually Learn This Material
+
+- **Draw topologies** – if you can’t draw it, you don’t understand it.
+- **Practice diagnosis scenarios** – questions that describe broken connectivity force you to reason backward.
+- **Review wrong answers at concept level** – don’t just memorise the correct answer; revisit your understanding.
+
+Consistent daily scenario practice is what moves concepts from “I’ve read about this” to “I can apply it reliably”. 
+
+ExamOS offers scenario‑based AZ‑104 practice that combines multiple concepts in realistic questions.
+
+---
+
+## The Underlying Skill
+
+Azure networking rewards systematic thinking. Most exam mistakes come from applying a concept correctly in isolation but failing to account for how it interacts with adjacent features. Master the finite set of interactions that AZ‑104 tests, and the networking section stops being the one that surprises you.
+
+*Preparing for AZ‑104? Pressure‑test your networking knowledge with daily scenario practice on ExamOS.*
+
+👉 Other Related exams:

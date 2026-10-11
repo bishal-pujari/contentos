@@ -1,0 +1,102 @@
+---
+slug: ai-300-study-guide-five-core-concepts
+title: "AI-300 Study Guide: One Core Concept From Each of the Five Domains"
+seoTitle: "AI-300 Study Guide 2026: The 5 Concepts That Anchor Each Domain"
+seoDescription: "AI-300 has five domains, and each one has a single concept that most of its scenario questions orbit around. Here's what to know for MLOps infrastructure, model lifecycle, GenAIOps, generative AI evaluation, and system optimization."
+type: post
+categories: ["azure", "ai", "certifications", "ml", "preparation"]
+author: "Priya Krishnamurthy"
+order: 901
+imagePosition: "top"
+---
+# AI-300 Study Guide: One Core Concept From Each of the Five Domains
+
+AI-300 has five domains. Each one has a single concept that most of its scenario questions circle back to. Get those five concepts genuinely solid and the exam shifts from a recall test to a reasoning exercise. Each concept is a decision, not a service name, which is exactly what AI-300's scenario-based questions test.
+
+👉 Azure AI Engineer Roadmap
+
+The exam covers a wide surface: infrastructure as code, Azure Machine Learning pipelines, Microsoft Foundry, prompt management, Responsible AI dashboards, RAG optimization. Studying all of it at equal depth is how candidates run out of time before mastering any of it well. Studying the anchor concept in each domain first builds enough foundation to reason through the rest.
+
+| Domain and weight | The concept most questions orbit around |
+|:--- |:--- |
+| **Implement ML model lifecycle and operations** (25-30%) | Model registration, versioning, and managed endpoint deployment |
+| **Design and implement a GenAIOps infrastructure** (20-25%) | Foundry project configuration and prompt versioning |
+| **Design and implement a MLOps infrastructure** (15-20%) | Data assets and infrastructure as code for ML environments |
+| **Implement generative AI quality assurance and observability** (10-15%) | Distinguishing groundedness, relevance, and safety failures |
+| **Optimize generative AI systems and model performance** (10-15%) | RAG and fine-tuning trade-offs for cost and accuracy |
+
+## Model Lifecycle: Registration, Versioning, and Managed Endpoints
+
+The largest domain. The one where Azure Machine Learning experience carries over most directly. The anchor concept: how a trained model becomes a governed, versioned, deployable artifact.
+
+**The model registry is the checkpoint, not an afterthought.** Every model heading toward production gets a name, a version number, and metadata describing what it is and how it was trained. That registration is what makes rollback possible when a new version underperforms, and what lets a team answer which model is running in production without checking a spreadsheet.
+
+**Versioning exists because deployments need to be reversible.** A scenario describing a model that regresses after a new version deploys is testing whether you know the registry lets you redeploy the previous version without retraining. If your mental model is push the new model and hope, you are missing the safety mechanism the exam expects you to reach for.
+
+**Managed online endpoints handle real-time inference deployment.** Compute provisioning, scaling, and traffic routing are all managed for you. Know the difference between deploying a new model version to an existing endpoint versus creating a new one. Scenarios involving traffic splitting between two deployments on the same endpoint are common.
+
+**The trap:** treating this as DP-100 content with new branding. AI-300 tests these fundamentals through an operations lens. Not can you train a good model, but can you get it into production safely and roll it back cleanly when it regresses.
+
+## GenAIOps Infrastructure: Foundry Projects and Prompt Versioning
+
+No DP-100 precedent. The highest-leverage hands-on investment if your background is pure data science. The anchor concept: Foundry as the environment where generative AI deployments live, and prompts as artifacts that need the same versioning discipline as code.
+
+👉 How is AI-300 different from DP-100?
+
+**A Foundry project is where deployment, prompt management, and security converge.** Before studying individual capabilities, make sure you can describe what a project contains: data source connections, deployed foundation models, and the security boundary governing access. Scenario questions about isolated environments for development versus production are testing project-level separation.
+
+**Prompt versioning is what candidates most consistently underestimate.** A prompt driving a production feature is not a static string in application code. It changes over time, gets tested before rollout, and needs a rollback path. A scenario where a prompt change degraded output quality is testing whether you would catch it through version history and revert cleanly. Same reflex as model rollback in Domain 1.
+
+**Security settings here are Foundry-specific.** Not generic Azure RBAC. This is about who can deploy a model version, who can modify a production prompt, and how those permissions scope within a Foundry project specifically.
+
+**How to prepare:** stand up a Foundry project, deploy a foundation model, and change a prompt twice. Once as an improvement, once as a deliberate regression. See what version history and rollback actually look like in practice.
+
+👉 Top 5 AI Projects for Beginners
+
+## MLOps Infrastructure: Data Assets and Infrastructure as Code
+
+Easy to underweight because it sounds foundational rather than exciting. At 15-20% it is a meaningful chunk of the exam, and it is the domain most directly testing whether you can build environments rather than just use them.
+
+**Data assets are versioned, reusable references between raw data and everything downstream.** Not just a file in storage. A registered reference with a name and version that pipelines, training jobs, and teammates can consume consistently. Scenarios describing inconsistent results across pipeline runs are frequently testing whether you would register a proper data asset rather than letting everyone point at storage paths directly.
+
+**Infrastructure as code is the difference between a reproducible ML environment and one nobody can rebuild.** The exam expects you to provision workspaces, compute clusters, and networking through code: **GitHub Actions, Bicep, Azure CLI.** A scenario describing identical environments across dev, staging, and production is pointing directly at this domain.
+
+**Why this is separate from model lifecycle:** Domain 1 assumes the environment exists. This domain tests whether you can build it reproducibly and auditably, not as a one-off manual setup only one person understands.
+
+**The trap:** treating IaC as a checkbox you can tick without hands-on experience. If you have never written a Bicep template or GitHub Actions workflow that provisions Azure ML resources, that is a real gap.
+
+## Generative AI QA: Groundedness, Relevance, and Safety
+
+Traditional ML evaluation asks how accurate a prediction is. Generative AI evaluation asks a different set of questions entirely.
+
+**Groundedness and relevance are not the same failure mode.** Conflating them is the single most common mistake in this domain. Groundedness asks whether a response is supported by the data it was given. A model can be perfectly grounded and still miss the point of the question. Relevance asks whether the content actually addresses what was asked. A response can be relevant while fabricating details not present in any source. A system can fail on either dimension independently. A scenario describing a specific failure is testing whether you can diagnose which one.
+
+**Coherence is the third quality.** Is the response internally consistent and well-structured, regardless of groundedness or relevance? A response can be both grounded and relevant while being contradictory, which is its own problem worth catching.
+
+**Responsible AI dashboards catch bias and safety issues before they become production incidents.** This is new territory even for experienced data scientists. DP-100 evaluation never accounted for a generative system producing biased or unsafe content dynamically in response to untested inputs.
+
+**The exam pattern:** a scenario describes plausible-sounding output that is wrong in a specific way. The correct answer maps to groundedness, relevance, coherence, or safety. Not a generic instruction to add monitoring and hope.
+
+## Optimization: RAG and Fine-Tuning Trade-offs
+
+Smallest domain by weight. The one where the exam tests judgment most directly, because every question involves a trade-off between competing goals.
+
+**RAG and fine-tuning solve different problems, and picking the wrong one is the recurring mistake.** RAG is the answer when a system needs current or frequently changing information. Retrieval pulls fresh context at query time without retraining. Fine-tuning is the answer when a system needs consistent output in a specific style, format, or domain pattern that prompting alone does not reliably achieve. Scenarios about information that changes weekly point at RAG. Scenarios about consistent tone or terminology point at fine-tuning, or often both together.
+
+**Cost, latency, and accuracy pull against each other.** A larger context window improves accuracy but increases cost and latency. A smaller model reduces cost but may reduce quality. Optimization questions describe a specific constraint. The correct answer respects that constraint rather than maximizing every dimension, because that option is rarely available.
+
+**Fine-tuned models carry a maintenance cost that RAG mostly avoids.** A fine-tuned model needs retraining when underlying knowledge changes. A RAG system just needs its retrieval source updated. In scenarios about frequently changing information, even if fine-tuning could achieve the desired output style, the ongoing retraining burden makes it the wrong operational choice.
+
+## What to Deprioritize
+
+**Traditional ML model evaluation metrics and exploratory data analysis** carry the lowest preparation ROI. AI-300 assumes you can evaluate a standard model and explore a dataset. Spending study hours deepening those skills instead of building GenAIOps and observability knowledge is a misallocation.
+
+## What to Do This Week
+
+Take the AI-300 readiness test on ExamOS. For each question you get wrong, identify which of the five anchor concepts it was testing. Sort your misses by concept. The concept with the most wrong answers is where your preparation starts tomorrow. Everything else is secondary until that gap closes.
+
+---
+
+*Preparing for AI-300? ExamOS covers scenario-based practice across MLOps infrastructure, model lifecycle management, GenAIOps, generative AI evaluation, and system optimization, built around the decisions the exam actually tests.*
+
+👉 Related Exams

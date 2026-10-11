@@ -1,0 +1,180 @@
+--- a/ai-103-most-misunderstood-concepts.mdx
++++ b/ai-103-most-misunderstood-concepts.mdx
+@@ -116,7 +116,7 @@
+ | Service | Terminology |
+ |---------|-------------|
+ | **Semantic Kernel** | Plugins, kernel functions |
+-| **Azure AI Foundry Agent Service** | Tools |
++| **Microsoft Foundry Agent Service** | Tools |
+ 
+ These are conceptually the same idea: a defined capability the AI system can invoke. They are expressed through two different SDKs with two different vocabularies.
+ 
+--- a/how-to-know-if-youre-ready-for-az-104-exam.mdx
++++ b/how-to-know-if-youre-ready-for-az-104-exam.mdx
+@@ -187,7 +187,7 @@
+ 
+ ### How many questions are on the AZ-104 exam and how much time do you get?
+ 
+-The exam contains approximately 40 to 60 questions. You have 100 minutes of active exam time to complete them.
++The exam contains approximately 40 to 60 questions. You have 120 minutes of active exam time to complete them.
+ 
+ ### What are the main domains tested on the AZ-104 exam?
+ 
+--- a/how-to-know-if-youre-ready-for-ai-103.mdx
++++ b/how-to-know-if-youre-ready-for-ai-103.mdx
+@@ -91,7 +91,7 @@
+ 
+ ExamOS takes a different approach: original, scenario-based questions spanning every exam domain, delivered as the short Daily Sprint that builds a streak and the full-length Mock Exam that tests your coverage. Your Readiness Score tracks both across every domain, so you can see which concepts still need work instead of guessing from a single result.
+ 
+-No practice platform replaces hands-on experience. But combining Azure AI Foundry labs with the consistent Daily Sprint, the regular Mock Exam, and complete domain coverage is one of the best indicators that you're ready.
++No practice platform replaces hands-on experience. But combining Microsoft Foundry labs with the consistent Daily Sprint, the regular Mock Exam, and complete domain coverage is one of the best indicators that you're ready.
+ 
+ ## The Honest Final Test
+ 
+--- a/how-to-know-if-youre-ready-for-pmp.mdx
++++ b/how-to-know-if-youre-ready-for-pmp.mdx
+@@ -128,7 +128,7 @@
+ 
+ Effective July 9, 2026, aligned with the PMBOK Guide 8th Edition:
+ 
+-- The exam consists of 180 questions over 240 minutes.
++- The exam consists of 170 questions over 240 minutes.
+ - The People domain accounts for 33% of the exam.
+ - The Process domain accounts for 41% of the exam.
+ - The Business Environment domain accounts for 26% of the exam, which is up from 8%.
+@@ -172,7 +172,7 @@
+ 
+ ### How many questions are on the PMP exam and what is the time limit?
+ 
+-The PMP exam consists of 180 questions to be completed within 240 minutes. The exam includes two optional 10-minute breaks.
++The PMP exam consists of 170 questions to be completed within 240 minutes. The exam includes two optional 10-minute breaks.
+ 
+ ### What new topics were added to the PMP exam in the July 2026 update?
+ 
+--- a/pca-exam-case-study-guide.mdx
++++ b/pca-exam-case-study-guide.mdx
+@@ -13,7 +13,7 @@
+ ---
+ # Google PCA Exam: The Complete Case Study Guide
+ 
+-You're 30 minutes into the Professional Cloud Architect exam. The question on screen changes. A split panel opens: on the left, a detailed business scenario you've never seen before. On the right, a question that asks what you'd recommend as their architect. You have roughly 90 seconds before you need to move on.
++You're 120 minutes into the Professional Cloud Architect exam. The question on screen changes. A split panel opens: on the left, a detailed business scenario you've never seen before. On the right, a question that asks what you'd recommend as their architect. You have roughly 90 seconds before you need to move on.
+ 
+ This is the case study section of the PCA exam, and it's where most candidates either pull ahead or fall behind. This is not because the scenarios are harder than the rest of the exam, but because the format demands a different kind of thinking. You are not recalling a fact; instead, you are making a judgment call for a business you have been given five minutes to understand.
+ 
+@@ -55,9 +55,9 @@
+ 
+ **The scenario:** Altostrat Media is a media and content publishing company modernizing its GKE-based content platform using generative AI. The company wants automated content analysis, personalized recommendations, content moderation, and natural language interactions with its content library.
+ 
+-**What it tests:** This is a modernization and AI integration scenario built on top of an existing GKE deployment. You'll face questions about integrating Vertex AI or Gemini-based services into a containerized application, handling media-scale data pipelines, balancing cost with latency for real-time recommendation engines, and designing for content-heavy workloads with global audiences.
++**What it tests:** This is a modernization and AI integration scenario built on top of an existing GKE deployment. You'll face questions about integrating Gemini Enterprise Agent Platform or Gemini-based services into a containerized application, handling media-scale data pipelines, balancing cost with latency for real-time recommendation engines, and designing for content-heavy workloads with global audiences.
+ 
+-**Key GCP services likely involved:** GKE, Vertex AI, Gemini APIs, Cloud Storage, Pub/Sub, Dataflow, Cloud CDN, Memorystore.
++**Key GCP services likely involved:** GKE, Gemini Enterprise Agent Platform, Gemini APIs, Cloud Storage, Pub/Sub, Dataflow, Cloud CDN, Memorystore.
+ 
+ ### 3. Cymbal Retail
+ 
+@@ -67,7 +67,7 @@
+ 
+ **What it tests:** This scenario blends e-commerce infrastructure concerns with AI-driven product features. Expect questions about data pipeline design for catalog ingestion and enrichment, deploying conversational AI at scale, migrating legacy systems while maintaining uptime, and choosing between managed services versus custom-built solutions for retail workloads.
+ 
+-**Key GCP services likely involved:** Vertex AI Search, Vertex AI Conversation, Cloud Run, Cloud SQL, AlloyDB, BigQuery, Pub/Sub, Cloud Functions, Apigee.
++**Key GCP services likely involved:** Gemini Enterprise Agent Platform Search, Gemini Enterprise Agent Platform Conversation, Cloud Run, Cloud SQL, AlloyDB, BigQuery, Pub/Sub, Cloud Run functions, Apigee.
+ 
+ ### 4. KnightMotives Automotive
+ 
+@@ -75,9 +75,9 @@
+ 
+ **The scenario:** KnightMotives is a car manufacturer specializing in autonomous, self-driving vehicles, including Battery Electric Vehicles (BEVs), hybrids, and traditional internal combustion engine (ICE) vehicles. The company wants to shift from manufacturing cars to creating a complete automotive experience, modernizing the consumer experience across all vehicles within five years. KnightMotives also wants to improve their online ordering system, which is unreliable.
+ 
+-**What it tests:** This scenario covers AI in-vehicle UX, hybrid legacy modernization, EU data privacy requirements, and data monetization. Expect questions about deploying models on Vertex AI for personalized recommendations in the car configuration application, running stateful workloads on GKE, ingesting millions of telemetry data points per minute, and providing select vehicle data to external partners via APIs without exposing internal systems.
++**What it tests:** This scenario covers AI in-vehicle UX, hybrid legacy modernization, EU data privacy requirements, and data monetization. Expect questions about deploying models on Gemini Enterprise Agent Platform for personalized recommendations in the car configuration application, running stateful workloads on GKE, ingesting millions of telemetry data points per minute, and providing select vehicle data to external partners via APIs without exposing internal systems.
+ 
+-**Key GCP services likely involved:** Vertex AI, GKE, BigQuery, Pub/Sub, Cloud Run, Cloud SQL, Apigee, Dataflow.
++**Key GCP services likely involved:** Gemini Enterprise Agent Platform, GKE, BigQuery, Pub/Sub, Cloud Run, Cloud SQL, Apigee, Dataflow.
+ 
+ **Important note:** Legacy prep materials built around Mountkirk Games, TerramEarth, Helicopter Racing League, or Dress4Win describe **retired case studies** that no longer appear on the exam. Use them only as generic pattern practice, not as current exam content.
+ 
+@@ -87,7 +87,7 @@
+ 
+ Here's an illustrative example in the style of what you'd encounter:
+ 
+-> *Altostrat Media's content analysis pipeline currently processes 50,000 video assets per day. The pipeline runs on GKE and calls a Vertex AI model for each asset. Processing latency has increased from 2 seconds to 15 seconds per asset over the past month as the catalog grew. The business requires near-real-time analysis (under 5 seconds). What should you recommend?*
++> *Altostrat Media's content analysis pipeline currently processes 50,000 video assets per day. The pipeline runs on GKE and calls a Gemini Enterprise Agent Platform model for each asset. Processing latency has increased from 2 seconds to 15 seconds per asset over the past month as the catalog grew. The business requires near-real-time analysis (under 5 seconds). What should you recommend?*
+ >
+ > *A) Increase the GKE node pool size and add more replicas of the analysis service*
+ >
+@@ -95,13 +95,13 @@
+ >
+ > *C) Implement asynchronous processing with Pub/Sub, decouple the model inference from the ingestion pipeline, and add a caching layer for repeated asset types*
+ >
+-> *D) Switch to a smaller, faster Vertex AI model that trades accuracy for latency*
++> *D) Switch to a smaller, faster Gemini Enterprise Agent Platform model that trades accuracy for latency*
+ 
+ Notice what this question tests: it does not ask you to recall a fact about Altostrat Media. It's asking whether you understand the trade-off between scaling compute, re-architecting the pipeline, and changing the model. The case study gives you the context, but the reasoning is pure architecture.
+ 
+ **The case study text narrows the scenario. Your GCP knowledge answers the question.**
+ 
+-The correct answer in the above question is C) Implementing asynchronous processing with Pub/Sub, decoupling model inference from ingestion, and adding a caching layer is the optimal architectural choice to meet the sub-five-second latency requirement. This approach prevents synchronous bottlenecks between GKE and Vertex AI, while caching eliminates redundant model calls for duplicate assets. 
++The correct answer in the above question is C) Implementing asynchronous processing with Pub/Sub, decoupling model inference from ingestion, and adding a caching layer is the optimal architectural choice to meet the sub-five-second latency requirement. This approach prevents synchronous bottlenecks between GKE and Gemini Enterprise Agent Platform, while caching eliminates redundant model calls for duplicate assets. 
+ 
+ ## The Counterintuitive Study Strategy
+ 
+@@ -117,7 +117,7 @@
+ 
+ ### Week-by-Week Approach
+ 
+-**Weeks 1–2: Build GCP breadth first.** Before touching case studies, make sure you're solid on compute options (GKE, Cloud Run, Compute Engine), data services (BigQuery, Spanner, Cloud SQL, AlloyDB), networking (VPC, load balancing, Cloud Interconnect), security (IAM, VPC Service Controls, encryption), and AI/ML services (Vertex AI, Gemini APIs). These are the building blocks every case study question draws from.
++**Weeks 1–2: Build GCP breadth first.** Before touching case studies, make sure you're solid on compute options (GKE, Cloud Run, Compute Engine), data services (BigQuery, Spanner, Cloud SQL, AlloyDB), networking (VPC, load balancing, Cloud Interconnect), security (IAM, VPC Service Controls, encryption), and AI/ML services (Gemini Enterprise Agent Platform, Gemini APIs). These are the building blocks every case study question draws from.
+ 
+ **Week 3: Read the four case studies.** Download them from the official exam guide. Read each one once. For each, identify: What's the business goal? What are the technical constraints? What's the migration or modernization path? Don't take extensive notes. Just build familiarity.
+ 
+@@ -147,7 +147,7 @@
+ | Cost | $200 (plus tax) | $100 (plus tax) |
+ | Validity | 2 years | 2 years |
+ 
+-The renewal exam is almost entirely case-study-driven, and the case studies focus on generative AI solutions. If you're renewing, your preparation should lean heavily toward understanding how to architect GenAI workloads on Google Cloud: Vertex AI, Gemini, grounding, prompt design at scale, and cost management for inference-heavy applications.
++The renewal exam is almost entirely case-study-driven, and the case studies focus on generative AI solutions. If you're renewing, your preparation should lean heavily toward understanding how to architect GenAI workloads on Google Cloud: Gemini Enterprise Agent Platform, Gemini, grounding, prompt design at scale, and cost management for inference-heavy applications.
+ 
+ ## Frequently Asked Questions (FAQ)
+ 
+--- a/study-hall-vs-examos-pmp-preparation.mdx
++++ b/study-hall-vs-examos-pmp-preparation.mdx
+@@ -108,7 +108,7 @@
+ 
+ Regardless of platform, a few things hold:
+ 
+-- **Practice under time pressure.** The exam consists of 180 questions in 240 minutes, which allows about 80 seconds for each question. Untimed review mode does not prepare you for the cognitive load.
++- **Practice under time pressure.** The exam consists of 170 questions in 240 minutes, which allows about 80 seconds for each question. Untimed review mode does not prepare you for the cognitive load.
+ - **Review wrong answers at the reasoning level.** Knowing the correct answer is not useful. Understanding *why* your reasoning was wrong is what changes your next performance.
+ - **Consistency is more important than volume.** 30 minutes of daily focused practice over eight weeks beats a weekend cram. Memory consolidation requires spacing, and the PMP scenario format needs pattern recognition that develops over time.
+ - **Expose yourself to the new question formats.** The current exam includes case-study and graphic-based questions. Your prep should include these, not just standard multiple-choice items.
+@@ -123,7 +123,7 @@
+ 
+ They solve different parts of the same problem.
+ 
+-Candidates who struggle on the PMP® are not usually underprepared on content. They are underprepared on the specific thinking the exam demands: working through ambiguous project scenarios quickly, identifying the most defensible answer under realistic constraints, and maintaining that clarity across 180 questions.
++Candidates who struggle on the PMP® are not usually underprepared on content. They are underprepared on the specific thinking the exam demands: working through ambiguous project scenarios quickly, identifying the most defensible answer under realistic constraints, and maintaining that clarity across 170 questions.
+ 
+ That skill is built through practice, not reading, and it is built over weeks, not days.
+ 
+@@ -139,7 +139,7 @@
+ 
+ ### How many questions are on the PMP exam and how much time is allowed?
+ 
+-The exam consists of 180 questions to be completed in 240 minutes. This total includes 170 scored questions and 10 unscored pretest questions.
++The exam consists of 170 questions to be completed in 240 minutes. This total includes 170 scored questions and 10 unscored pretest questions.
+ 
+ ### What are the domain weightings for the 2026 PMP exam?
+ 
+--- a/top-7-pmp-questions-reddit-answered-honestly.mdx
++++ b/top-7-pmp-questions-reddit-answered-honestly.mdx
+@@ -120,7 +120,7 @@
+ What agile knowledge the exam requires:
+ 
+ - Candidates must understand the values and principles of the Agile Manifesto and why they exist.
+-- Candidates must understand the Scrum framework, including its roles (Product Owner, Scrum Master, Development Team), ceremonies (sprint planning, daily standup, sprint review, retrospective), and artifacts (product backlog, sprint backlog, increment).
++- Candidates must understand the Scrum framework, including its roles (Product Owner, Scrum Master, Developers), ceremonies (sprint planning, daily standup, sprint review, retrospective), and artifacts (product backlog, sprint backlog, increment).
+ - Candidates must understand Kanban principles and how flow-based management differs from iteration-based management.
+ - Candidates must know how servant leadership operates specifically in agile contexts.
+ - Candidates must know when to use agile, predictive, or hybrid approaches, and what factors in the scenario determine the right choice.

@@ -1,0 +1,290 @@
+--- a/aws-certified-generative-ai-developer-professional-aip-c01.mdx
++++ b/aws-certified-generative-ai-developer-professional-aip-c01.mdx
+@@ -37,12 +37,12 @@
+ | Foundation Model Integration, Data Management, and Compliance | 31% |
+ | Implementation and Integration | 26% |
+ | AI Safety, Security, and Governance | 20% |
+-| Operational Efficiency and Optimization | 12% |
++| Operational Efficiency and Optimization for GenAI Applications | 12% |
+ | Testing, Validation, and Troubleshooting | 11% |
+ 
+ The first two domains (FM integration and implementation) represent 57% of the exam. They cover Bedrock, RAG, agents, fine-tuning, and integration patterns. This is where most of your study time should go.
+ 
+-**Recommended experience:** 2+ years of hands-on AWS machine learning experience and 1+ year of generative AI implementation. Strong Python programming skills. Familiarity with LLM concepts, prompt engineering, and the AWS AI/ML service portfolio (Bedrock, SageMaker, and related services).
++**Recommended experience:** Candidates should have 2+ years of hands-on AWS machine learning experience and 1+ year of generative AI implementation. You need strong Python programming skills. You must have familiarity with LLM concepts, prompt engineering, and the AWS AI/ML service portfolio (Bedrock, SageMaker, and related services).
+ 
+ > **A note on prerequisites:** There are no formal prerequisites. AWS Certified AI Practitioner or equivalent knowledge is strongly recommended. If you are new to AWS AI/ML services, build foundational experience with SageMaker and Bedrock before starting this plan.
+ 
+@@ -54,11 +54,11 @@
+ 
+ ### Topics
+ 
+-- Generative AI fundamentals: LLMs and transformers
+-- Amazon Bedrock: model families and access
+-- AWS AI/ML ecosystem overview
+-- Responsible AI principles
+-- Exam structure and domain mapping
++- Study generative AI fundamentals, including LLMs and transformers.
++- Learn about Amazon Bedrock model families and access.
++- Review the AWS AI/ML ecosystem overview.
++- Understand responsible AI principles.
++- Analyze the exam structure and domain mapping.
+ 
+ ### Activities
+ 
+@@ -67,7 +67,7 @@
+ - [ ] Invoke a Bedrock model (Claude 3 Sonnet) via boto3 and inspect the response structure.
+ - [ ] Take one Mock Exam in Rookie mode. Flag any domain below 60%.
+ 
+-> **Goal:** A clear baseline score per domain and a working Bedrock API call you can reuse all week.
++> **Goal:** You will establish a clear baseline score per domain and a working Bedrock API call you can reuse all week.
+ 
+ ---
+ 
+@@ -77,11 +77,11 @@
+ 
+ ### Topics
+ 
+-- Bedrock API: invocation, streaming, response handling
+-- Model selection: cost, latency, task suitability
+-- Prompt techniques: zero-shot, few-shot, chain-of-thought
+-- System prompts and message roles
+-- Fine-tuning vs RAG vs prompt engineering
++- Learn the Bedrock API, including invocation, streaming, and response handling.
++- Understand model selection based on cost, latency, and task suitability.
++- Study prompt techniques such as zero-shot, few-shot, and chain-of-thought.
++- Master system prompts and message roles.
++- Compare fine-tuning, RAG, and prompt engineering.
+ 
+ ### Activities
+ 
+@@ -91,7 +91,7 @@
+ - [ ] Complete a Daily Sprint in Challenger mode each day this week.
+ - [ ] Take one Mock Exam in Challenger mode by end of week.
+ 
+-> **Goal:** Confidently invoke Bedrock models, compare outputs, and select the right model and prompting strategy for a given task.
++> **Goal:** You will confidently invoke Bedrock models, compare outputs, and select the right model and prompting strategy for a given task.
+ 
+ ---
+ 
+@@ -101,11 +101,11 @@
+ 
+ ### Topics
+ 
+-- RAG architecture: retrieve, augment, generate
+-- Embedding models: Titan Embeddings, Cohere
+-- Vector stores: OpenSearch Serverless, pgvector
+-- Knowledge Bases for Bedrock: ingestion, chunking, hybrid search
+-- Advanced RAG: query rewriting, reranking, metadata filtering
++- Study RAG architecture, including retrieve, augment, and generate phases.
++- Learn about embedding models like Titan Embeddings and Cohere.
++- Understand vector stores such as OpenSearch Serverless and pgvector.
++- Configure Knowledge Bases for Bedrock, including ingestion, chunking, and hybrid search.
++- Explore advanced RAG techniques like query rewriting, reranking, and metadata filtering.
+ 
+ ### Activities
+ 
+@@ -115,7 +115,7 @@
+ - [ ] Complete a Daily Sprint in Challenger mode each day this week.
+ - [ ] Take one Mock Exam in Challenger mode by end of week.
+ 
+-> **Goal:** Design and implement production-grade RAG systems on AWS with appropriate chunking, embedding, and retrieval strategies.
++> **Goal:** You will design and implement production-grade RAG systems on AWS with appropriate chunking, embedding, and retrieval strategies.
+ 
+ ---
+ 
+@@ -125,11 +125,11 @@
+ 
+ ### Topics
+ 
+-- Bedrock Agents: planning, orchestration, action groups
+-- Function calling and tool schemas
+-- Multi-agent patterns and delegation
+-- Model fine-tuning: SageMaker JumpStart, PEFT (LoRA, QLoRA)
+-- Integration: API Gateway, Lambda, Step Functions, streaming
++- Learn about Bedrock Agents, including planning, orchestration, and action groups.
++- Understand function calling and tool schemas.
++- Study multi-agent patterns and delegation.
++- Explore model fine-tuning using SageMaker JumpStart and PEFT, including LoRA and QLoRA.
++- Integrate services using API Gateway, Lambda, Step Functions, and streaming.
+ 
+ ### Activities
+ 
+@@ -140,7 +140,7 @@
+ - [ ] Complete a Daily Sprint in Challenger mode each day this week.
+ - [ ] Take one Mock Exam in Challenger mode by end of week.
+ 
+-> **Goal:** Design and deploy production GenAI applications that use agents for tool execution and integrate cleanly with AWS services.
++> **Goal:** You will design and deploy production GenAI applications that use agents for tool execution and integrate cleanly with AWS services.
+ 
+ ---
+ 
+@@ -150,11 +150,11 @@
+ 
+ ### Topics
+ 
+-- Bedrock Guardrails: content filters, denied topics, PII redaction
+-- Prompt injection: direct and indirect, mitigation strategies
+-- Encryption: KMS, VPC endpoints for Bedrock
+-- Auditing: CloudTrail, Config, compliance frameworks
+-- Responsible AI: bias detection, explainability, model cards
++- Configure Bedrock Guardrails, including content filters, denied topics, and PII redaction.
++- Understand direct and indirect prompt injection and their mitigation strategies.
++- Implement encryption using KMS and VPC endpoints for Bedrock.
++- Perform auditing using CloudTrail, Config, and compliance frameworks.
++- Apply responsible AI practices, including bias detection, explainability, and model cards.
+ 
+ ### Activities
+ 
+@@ -164,7 +164,7 @@
+ - [ ] Complete a Daily Sprint in Challenger mode each day this week.
+ - [ ] Take one Mock Exam in Challenger mode by end of week.
+ 
+-> **Goal:** Secure GenAI applications against prompt injection, data leakage, and adversarial attacks while meeting compliance requirements.
++> **Goal:** You will secure GenAI applications against prompt injection, data leakage, and adversarial attacks while meeting compliance requirements.
+ 
+ ---
+ 
+@@ -174,11 +174,11 @@
+ 
+ ### Topics
+ 
+-- Cost management: token usage, prompt compression, model routing
+-- Provisioned throughput: on-demand vs reserved
+-- Evaluation metrics: ROUGE, BERTScore, groundedness, relevance
+-- A/B testing: comparing models, prompts, and configurations
+-- Monitoring: CloudWatch metrics, drift detection, quality dashboards
++- Manage costs through token usage, prompt compression, and model routing.
++- Compare provisioned throughput options, including on-demand and reserved.
++- Use evaluation metrics such as ROUGE, BERTScore, groundedness, and relevance.
++- Perform A/B testing to compare models, prompts, and configurations.
++- Monitor systems using CloudWatch metrics, drift detection, and quality dashboards.
+ 
+ ### Activities
+ 
+@@ -189,7 +189,7 @@
+ - [ ] Complete a Daily Sprint in Challenger mode each day this week.
+ - [ ] Take one Mock Exam in Challenger mode by end of week.
+ 
+-> **Goal:** Optimize GenAI workloads for cost and latency, validate output quality, and monitor production systems effectively.
++> **Goal:** You will optimize GenAI workloads for cost and latency, validate output quality, and monitor production systems effectively.
+ 
+ ---
+ 
+@@ -199,43 +199,43 @@
+ 
+ ### Topics
+ 
+-- Multi-modal models: vision, image generation
+-- MLOps for GenAI: CI/CD, Model Registry, versioning
+-- Distributed training and inference optimization
+-- Emerging patterns: MCP, agentic workflows
+-- Cross-domain architecture scenarios
++- Work with multi-modal models for vision and image generation.
++- Implement MLOps for GenAI, including CI/CD, Model Registry, and versioning.
++- Optimize distributed training and inference.
++- Explore emerging patterns like MCP and agentic workflows.
++- Analyze cross-domain architecture scenarios.
+ 
+ ### Activities
+ 
+ - [ ] Build a multi-modal prompt (image + text) using a vision-capable Bedrock model. Test with 3 different image types (document, photo, diagram).
+ - [ ] Solve 5 cross-domain architecture scenarios via Mock Exams in Challenger mode. For each missed question, write the domain it tested and the principle you missed.
+ - [ ] Take 3 Mock Exams in Challenger mode. Review every incorrect answer and log recurring weak areas.
+-- [ ] Check your readiness score. If any domain shows no coverage, run a Bonus Quest on that domain.
+-
+-> **Goal:** Consistent above 70% on Mock Exams in Challenger mode with no domain below 60%.
++- [ ] Check your Readiness Score. Focus your Daily Sprint practice on your weak areas.
++
++> **Goal:** You should achieve a consistent score above 70% on Mock Exams in Challenger mode with no domain below 60%.
+ 
+ ---
+ 
+ ## Week 8: Exam Simulation and Booking
+ 
+-Your final push. Fill remaining gaps and build the confidence to schedule the exam.
+-
+-### Topics
+-
+-- Full syllabus review across all five domains
+-- Time management (180 minutes for 75 questions)
+-- Scenario reasoning under time pressure
+-- Distractor elimination for professional-level questions
++This is your final push. Fill remaining gaps and build the confidence to schedule the exam.
++
++### Topics
++
++- Perform a full syllabus review across all five domains.
++- Practice time management for 180 minutes and 75 questions.
++- Develop scenario reasoning under time pressure.
++- Apply distractor elimination for professional-level questions.
+ 
+ ### Activities
+ 
+ - [ ] Take 3 Mock Exams in Legend mode. For every missed question, write one sentence explaining the principle behind the correct answer.
+-- [ ] Maintain your Daily Sprint streak through exam day.
++- [ ] Maintain your Daily Sprint practice through exam day.
+ - [ ] Simulate real exam conditions once: no phone, no breaks, 180 minutes, same time of day as your scheduled exam.
+-- [ ] Review your readiness score breakdown. Run a Bonus Quest on any domain still below 70%.
+-- [ ] Book your exam when your readiness score is stable and above 80, with every domain covered.
+-
+-> **Goal:** A stable readiness score above 80 and the confidence to schedule the exam.
++- [ ] Review your Readiness Score. Focus your Daily Sprint practice on any weak areas.
++- [ ] Book your exam when your Readiness Score is stable and above 80, with every domain covered.
++
++> **Goal:** You will achieve a stable Readiness Score above 80 and the confidence to schedule the exam.
+ 
+ ---
+ 
+@@ -246,7 +246,7 @@
+ | 15 min | Review yesterday's wrong answers. Identify the principle you missed for each. |
+ | 30 min | Read AWS documentation for this week's topic |
+ | 30 min | Hands-on lab (Bedrock, SageMaker, or related services) |
+-| 30 min | Complete a Daily Sprint, then optionally a Mock Exam or Bonus Quest |
++| 30 min | Complete a Daily Sprint, then optionally a Mock Exam |
+ | 15 min | Log missed concepts in a running doc. Review them the next morning. |
+ 
+ Aim for consistency. Four solid study days a week will get you there.
+@@ -261,19 +261,19 @@
+ 
+ ### How many practice questions should I aim for?
+ 
+-Aim for at least 800 unique questions across all domains, prioritizing quality over quantity. ExamOS provides scenario-based practice questions across every domain, designed to explain the rationale behind both correct and incorrect answers. Your readiness score tracks volume and coverage so you know when you have done enough.
++Aim for at least 800 unique questions across all domains, prioritizing quality over quantity. ExamOS provides scenario-based practice questions across every domain, designed to explain the rationale behind both correct and incorrect answers. Your Readiness Score tracks your exam readiness so you know when you are prepared.
+ 
+ ### When should I book the exam?
+ 
+-Book when your readiness score is stable and above 80, and you have covered every domain at least once. Consistent strong performance under timed conditions is a better signal than one high score.
++Book when your Readiness Score is stable and above 80, and you have covered every domain at least once. Consistent strong performance under timed conditions is a better signal than one high score.
+ 
+ ### How long is the exam?
+ 
+-**180 minutes** for 75 questions (65 scored, 10 unscored). That averages to roughly 2 minutes and 16 seconds per question. Scenario-heavy questions with long context may take longer, so keep an eye on the clock. Answer every question; the unscored ones are indistinguishable from scored ones.
++The exam duration is **180 minutes** for 75 questions (65 scored, 10 unscored). That averages to roughly 2 minutes and 16 seconds per question. Scenario-heavy questions with long context may take longer, so keep an eye on the clock. Answer every question; the unscored ones are indistinguishable from scored ones.
+ 
+ ### What is the passing score?
+ 
+-**750 out of 1000.** AWS uses scaled scoring. The raw number of correct answers needed varies slightly between exam versions. Do not try to calculate how many questions you can afford to miss.
++The passing score is **750 out of 1000.** AWS uses scaled scoring. The raw number of correct answers needed varies slightly between exam versions. Do not try to calculate how many questions you can afford to miss.
+ 
+ ### Can I use reference materials during the exam?
+ 
+@@ -299,12 +299,12 @@
+ 
+ ### What are the most common ways people fail?
+ 
+-- **Treating every AI question as a Bedrock question.** Some scenarios require SageMaker for fine-tuning or custom training. Knowing when Bedrock is not enough is essential.
+-- **Not understanding RAG depth.** The exam goes beyond basic retrieve-and-generate. You need to understand chunking strategies, embedding model selection, hybrid search, query rewriting, and reranking.
+-- **Ignoring AI safety.** At 20% of the exam, safety and governance are not a footnote. Bedrock Guardrails, prompt injection defenses, and compliance frameworks show up regularly.
+-- **Confusing on-demand and provisioned throughput.** Know the cost and latency trade-offs and when each model is justified.
+-- **Not practicing agent design.** Bedrock Agents with action groups, function calling, and multi-agent orchestration are core topics. If you have not built one, you will struggle with these questions.
+-- **Not practicing under time pressure.** 75 questions in 180 minutes is generous, but scenario-heavy questions consume more time than you expect. Practice timed quizzes to build pacing.
++- **Candidates often treat every AI question as a Bedrock question.** Some scenarios require SageMaker for fine-tuning or custom training. Knowing when Bedrock is not enough is essential.
++- **Candidates fail by not understanding RAG depth.** The exam goes beyond basic retrieve-and-generate. You need to understand chunking strategies, embedding model selection, hybrid search, query rewriting, and reranking.
++- **Candidates fail by ignoring AI safety.** At 20% of the exam, safety and governance are not a footnote. Bedrock Guardrails, prompt injection defenses, and compliance frameworks show up regularly.
++- **Candidates fail by confusing on-demand and provisioned throughput.** Know the cost and latency trade-offs and when each model is justified.
++- **Candidates fail by not practicing agent design.** Bedrock Agents with action groups, function calling, and multi-agent orchestration are core topics. If you have not built one, you will struggle with these questions.
++- **Candidates fail by not practicing under time pressure.** 75 questions in 180 minutes is generous, but scenario-heavy questions consume more time than you expect. Practice timed quizzes to build pacing.
+ 
+ ### Is there a renewal option?
+ 

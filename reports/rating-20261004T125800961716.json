@@ -1,0 +1,63 @@
+{
+  "agent": "rate_blogs",
+  "started_at": "2026-10-04T12:58:00.961716+00:00",
+  "input_dir": "output-plans-fact",
+  "rubric": "ExamOS Study Plan Rating",
+  "files_scanned": 20,
+  "files_rated": 2,
+  "average": 4.37,
+  "grade_counts": {
+    "A-": 1,
+    "A": 1
+  },
+  "max_web_searches": 1500,
+  "search_calls": 5,
+  "web_searches": 2,
+  "ratings": [
+    {
+      "slug": "aws-certified-solutions-architect-professional-sap-c02",
+      "filename": "aws-certified-solutions-architect-professional-sap-c02.mdx",
+      "grade": "A-",
+      "weighted": 87.5,
+      "average": 4.27,
+      "scores": {
+        "factual_correctness": 2.0,
+        "plan_structure": 5.0,
+        "domain_coverage": 5.0,
+        "actionability": 5.0,
+        "practice_integration": 5.0,
+        "seo_quality": 3.0,
+        "faq_quality": 5.0,
+        "voice_ai_slop": 4.0,
+        "mobile_scannability": 5.0,
+        "reader_value": 5.0,
+        "sentence_grammar": 5.0
+      },
+      "searched": true,
+      "warnings": []
+    },
+    {
+      "slug": "aws-devops-engineer-professional-dop-c02",
+      "filename": "aws-devops-engineer-professional-dop-c02.mdx",
+      "grade": "A",
+      "weighted": 91.5,
+      "average": 4.46,
+      "scores": {
+        "factual_correctness": 2.0,
+        "plan_structure": 5.0,
+        "domain_coverage": 5.0,
+        "actionability": 5.0,
+        "practice_integration": 5.0,
+        "seo_quality": 4.0,
+        "faq_quality": 5.0,
+        "voice_ai_slop": 5.0,
+        "mobile_scannability": 5.0,
+        "reader_value": 5.0,
+        "sentence_grammar": 5.0
+      },
+      "searched": true,
+      "warnings": []
+    }
+  ],
+  "errors": []
+}

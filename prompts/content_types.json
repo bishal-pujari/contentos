@@ -1,0 +1,143 @@
+{
+  "version": 1,
+  "families": {
+    "learn": {
+      "root": "learn",
+      "layout": "<exam>/<subtype>",
+      "subtypes": ["concept", "eli10", "blueprint"]
+    }
+  },
+  "types": {
+    "blog": {
+      "dir": "blogs",
+      "rating_prompt": "prompts/examos-blog-rating.md",
+      "corrections_prompt": "prompts/examos-blog-corrections.md",
+      "frontmatter_prompt": "prompts/examos-blog-frontmatter.md",
+      "facts_prompt": "prompts/examos-content-facts.md",
+      "seo_prompt": "prompts/examos_blog_seo_rewritre.md",
+      "exam_binding": ["examCodes"],
+      "ground": "auto",
+      "frontmatter": "normalize",
+      "faq": {
+        "applies": true,
+        "heading": "## Frequently Asked Questions (FAQ)",
+        "questions": 4,
+        "question_style": "h3"
+      },
+      "strip_links": true,
+      "vendor_contamination": true,
+      "nested_preserve": []
+    },
+    "study-plan": {
+      "dir": "study-plans",
+      "rating_prompt": "prompts/examos-study-plan-rating.md",
+      "corrections_prompt": "prompts/examos-study-plan-corrections.md",
+      "frontmatter_prompt": "prompts/examos-study-plan-frontmatter.md",
+      "facts_prompt": "prompts/examos-content-facts.md",
+      "seo_prompt": "prompts/examos-study-plan-seo.md",
+      "exam_binding": ["examCode"],
+      "ground": "always",
+      "frontmatter": "normalize",
+      "faq": {
+        "applies": true,
+        "heading": "## Frequently Asked Questions (FAQ)",
+        "questions": 4,
+        "question_style": "h3"
+      },
+      "strip_links": true,
+      "vendor_contamination": true,
+      "nested_preserve": []
+    },
+    "roadmap": {
+      "dir": "roadmaps",
+      "rating_prompt": "prompts/examos-roadmap-rating.md",
+      "corrections_prompt": "prompts/examos-roadmap-corrections.md",
+      "frontmatter_prompt": "prompts/examos-roadmap-frontmatter.md",
+      "facts_prompt": "prompts/examos-content-facts.md",
+      "seo_prompt": "prompts/examos-roadmap-seo.md",
+      "exam_binding": [],
+      "ground": "auto",
+      "frontmatter": "normalize",
+      "faq": { "applies": false },
+      "strip_links": true,
+      "vendor_contamination": false,
+      "nested_preserve": [
+        "skills",
+        "certificationPath",
+        "milestones",
+        "steps",
+        "finalCerts",
+        "timeline",
+        "honestTimeline",
+        "finalSectionTitle",
+        "finalSectionBody"
+      ]
+    },
+    "exam-faq": {
+      "dir": "exam-faq",
+      "rating_prompt": "prompts/examos-exam-faq-rating.md",
+      "corrections_prompt": "prompts/examos-exam-faq-corrections.md",
+      "frontmatter_prompt": null,
+      "facts_prompt": "prompts/examos-content-facts.md",
+      "seo_prompt": null,
+      "exam_binding": ["filename_slug"],
+      "ground": "always",
+      "frontmatter": "skip",
+      "faq": { "applies": false, "document_is_faq": true },
+      "strip_links": false,
+      "vendor_contamination": true,
+      "nested_preserve": []
+    },
+    "concept": {
+      "dir": "concept",
+      "family": "learn",
+      "ground": "always",
+      "exam_binding": ["exam_folder", "categories"],
+      "rating_prompt": "prompts/examos-concept-rating.md",
+      "corrections_prompt": "prompts/examos-concept-corrections.md",
+      "frontmatter_prompt": "prompts/examos-concept-frontmatter.md",
+      "facts_prompt": "prompts/examos-content-facts.md",
+      "seo_prompt": null,
+      "faq": { "applies": false },
+      "frontmatter": "normalize",
+      "strip_links": false,
+      "vendor_contamination": false,
+      "nested_preserve": []
+    },
+    "eli10": {
+      "dir": "eli10",
+      "family": "learn",
+      "ground": "always",
+      "exam_binding": ["exam_folder", "categories"],
+      "rating_prompt": "prompts/examos-eli10-rating.md",
+      "corrections_prompt": "prompts/examos-eli10-corrections.md",
+      "frontmatter_prompt": "prompts/examos-eli10-frontmatter.md",
+      "facts_prompt": "prompts/examos-content-facts.md",
+      "seo_prompt": null,
+      "faq": { "applies": false },
+      "frontmatter": "generate",
+      "link_field": "parentConcept",
+      "link_source": "matching_concept_slug",
+      "strip_links": false,
+      "vendor_contamination": false,
+      "nested_preserve": []
+    },
+    "blueprint": {
+      "dir": "blueprint",
+      "family": "learn",
+      "ground": "always",
+      "exam_binding": ["exam_folder", "exam_id"],
+      "rating_prompt": "prompts/examos-blueprint-rating.md",
+      "corrections_prompt": "prompts/examos-blueprint-corrections.md",
+      "frontmatter_prompt": "prompts/examos-blueprint-frontmatter.md",
+      "facts_prompt": "prompts/examos-content-facts.md",
+      "seo_prompt": null,
+      "faq": { "applies": false },
+      "frontmatter": "seo_only",
+      "exclude_fields": ["exam_id", "content_domain", "learning_order", "is_anchor", "parentConcept"],
+      "strip_links": false,
+      "vendor_contamination": false,
+      "nested_preserve": []
+    }
+  }
+}

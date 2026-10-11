@@ -1,0 +1,117 @@
+---
+slug: az-204-replacement-ai-200
+title: "AZ-204 Has Retired: What AI-200 Actually Changes and How to Prepare"
+seoTitle: "AZ-204 Retired, Replaced by AI-200: What's Different and How to Prepare"
+seoDescription: "AZ-204 retired July 31, 2026. AI-200 is its replacement, but it's not a renamed exam — roughly half the syllabus is gone. Here's exactly what changed, what survived, and how to prepare for the new domains."
+type: post
+categories: ["azure", "ai", "certifications", "developer"]
+order: 905
+---
+# AZ-204 Has Retired: What AI-200 Actually Changes and How to Prepare
+
+AZ-204 retired on July 31, 2026. If you were holding off on that exam, the decision has already been made for you. AI-200, Developing AI Cloud Solutions on Azure, is now the only path to a Microsoft Azure developer credential.
+
+Most retirement announcements are version bumps. Security+ SY0-601 became SY0-701 — the underlying discipline didn't change shape. This one is different. Microsoft didn't refresh AZ-204's content and give it a new number. It renamed the role. "Azure Developer Associate" became "Azure AI Cloud Developer Associate." Roughly half the old syllabus didn't survive the transition. If you were mid-preparation when AZ-204 retired, some work carries over. A meaningful chunk doesn't.
+
+Here's what changed, what to salvage from old preparation, and how to approach the new domains.
+
+---
+
+## What AI-200 Is
+
+AI-200 leads to the Microsoft Certified: Azure AI Cloud Developer Associate credential. 120 minutes, 700/1000 to pass. No formal prerequisite — though the audience profile assumes Azure SDK familiarity, comfort with containers, and working Python from the first line.
+
+Four domains. The weighting is unusually flat. No domain falls below 20%, which means there's no single section you can deprioritize and still pass comfortably.
+
+| Domain | Weight | What It Covers |
+|---|---|---|
+| Develop AI solutions using Azure data management services | 25-30% | Vector-enabled data stores — Cosmos DB vector search, pgvector on Azure Database for PostgreSQL, Azure Managed Redis for caching and vector search |
+| Develop containerized solutions on Azure | 20-25% | Azure Container Registry, ACR Tasks, deploying to Container Apps and AKS |
+| Connect to and consume Azure services | 20-25% | Event-driven and message-driven architecture — Service Bus, Event Grid, Azure Functions |
+| Secure, monitor, and troubleshoot Azure solutions | 20-25% | Key Vault, managed identity patterns, distributed tracing with OpenTelemetry, KQL for diagnostics |
+
+The heaviest domain — data management with vector search — has no AZ-204 equivalent. This is the clearest signal of what Microsoft did here. It didn't add an AI module onto an existing developer exam. It rebuilt the developer exam around the assumption that Azure applications are AI applications by default.
+
+---
+
+## What Got Cut
+
+This matters if you have existing AZ-204 study material. Using it uncritically will waste real time.
+
+**Gone entirely:** Azure App Service Web Apps as a standalone domain. Creating web apps, diagnostics and logging for them, TLS configuration, autoscaling rules, deployment slots — all absent from the AI-200 skills outline. Of AZ-204's compute domain, only container deployment survived. It survived because containers are how AI-200 expects you to package and run workloads, not for continuity's sake.
+
+**Also gone:** Identity, blob storage as a standalone topic, and API Management in their AZ-204 form. Some content resurfaces in a different shape. Identity shows up again, reframed specifically around managed identity patterns for connecting to AI services — not general Azure AD app registration content.
+
+**What carries over:** Azure Functions and event-driven design patterns, core container fundamentals, and general Azure SDK usage patterns. If your AZ-204 prep was strong here, that knowledge transfers almost directly.
+
+---
+
+## What Survived
+
+| Topic | Status | Notes |
+|-------|--------|-------|
+| Azure Functions | **Carries over** | Event-driven patterns are largely unchanged |
+| Event Grid, Service Bus | **Carries over** | Message-driven architecture remains core |
+| Container fundamentals | **Carries over** | ACR, Docker basics, Container Apps deployment |
+| Azure SDK usage patterns | **Carries over** | General client library patterns transfer |
+| App Service Web Apps | **Cut** | No longer a standalone domain |
+| Deployment slots | **Cut** | Not in AI-200 scope |
+| API Management | **Cut** | Not tested in AI-200 |
+| General Azure AD app registration | **Cut/Reframed** | Now appears only as managed identity for AI services |
+| Blob storage as standalone | **Cut** | Now appears only in AI workload context |
+| Vector search | **New** | The heaviest domain — no AZ-204 equivalent |
+| OpenTelemetry | **New** | Distributed tracing depth beyond Application Insights |
+
+---
+
+## The Pattern Early Candidates Report
+
+A consistent theme shows up across people who have already sat AI-200: **connection strings are almost always the wrong answer.**
+
+AZ-204 tested plenty of scenarios where a connection string with an access key was acceptable. AI-200 is built around a different default. When a scenario describes an application connecting to Cosmos DB, Azure OpenAI, or any other service, the exam consistently rewards **managed identity and Entra ID-based authentication** over anything involving a stored key or connection string. Even when a key-based option is sitting right there in the answer choices.
+
+This is not a minor implementation detail. It's a philosophy the exam is testing directly. Get comfortable with managed identity configuration specifically — not just as a concept you can define, but as something you have actually wired up between an App Service or Container App and a downstream Azure resource.
+
+---
+
+## Vector Search: The New Center of Gravity
+
+The heaviest domain on AI-200 is data management. The reason is vector search. This is genuinely new territory for most developers coming from a traditional Azure background, regardless of how strong their AZ-204 knowledge was.
+
+Three services matter here. The exam expects you to reason about which one fits a given scenario, not just recognize that vector search exists.
+
+**Cosmos DB with vector search** — the answer when a scenario already involves document-style data and needs vector similarity search layered on top without introducing a separate database.
+
+**pgvector on Azure Database for PostgreSQL** — the answer when the scenario involves an existing relational PostgreSQL workload that needs vector capability added, or when the team's SQL background makes a PostgreSQL-native extension the more natural fit.
+
+**Azure Managed Redis** — the answer when the scenario emphasizes low-latency caching alongside vector search, since Redis's in-memory model serves both purposes well.
+
+The exam consistently punishes candidates who default to the vector store they are personally most familiar with rather than the one the scenario's constraints actually point to. Build hands-on familiarity with more than one of these before your exam. Reading about the differences is not the same as having configured them.
+
+---
+
+## How to Actually Prepare for AI-200
+
+**Treat vector search as a first-class topic, not an add-on.** Given its domain weight, this is where a disproportionate share of study time should go. Deploy a small application using at least two of the three vector-capable data stores above. Run actual similarity queries against real data.
+
+**Build the managed identity habit early.** Every lab exercise you do, connect using managed identity from the start. Do not default to a connection string and plan to "fix it properly later." The exam tests whether this is your default instinct, not whether you can explain the concept if asked.
+
+**Do not skip containers assuming AZ-204 knowledge covers you.** Container deployment survived the transition, but AI-200 tests it specifically in the context of AI workloads — deploying models, agents, and vector-search-backed services in containers. The scenario framing is different even where the underlying service knowledge overlaps.
+
+**Get comfortable with OpenTelemetry and KQL for diagnostics.** The monitoring and troubleshooting domain sits at 20-25% and leans on distributed tracing concepts that AZ-204 touched only lightly. If your observability experience is limited to basic Application Insights dashboards, budget real time here.
+
+**Do not assume prerequisite exams cover the gap.** AZ-900 and AI-901 give conceptual vocabulary, but neither is enforced. Neither substitutes for the hands-on Azure SDK and container experience the exam's audience profile assumes. If you are coming without that background, expect a longer runway than someone with existing production Azure development experience.
+
+---
+
+## The Signal Underneath the Exam Change
+
+Retiring AZ-204 in favor of an exam that assumes vector databases and AI service integration by default is Microsoft stating plainly that it no longer considers "general Azure developer" and "AI-aware Azure developer" to be different roles. For a certification this widely held, that is a significant statement about where the baseline expectation for the job has moved.
+
+If you are building a Microsoft developer credential from here, AI-200 is not an optional AI specialization sitting alongside a general-purpose path. It is the general-purpose path now.
+
+---
+
+*Preparing for AI-200? ExamOS covers scenario-based practice across all four domains, including the vector search and managed identity patterns that early candidates consistently flag as the areas where preparation makes the biggest difference.*
+
+👉 Related Exams

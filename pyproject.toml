@@ -1,0 +1,43 @@
+[project]
+name = "contentos"
+version = "0.1.0"
+description = "Agent-based content pipeline for SEO-optimized writing, reviewing and interlinking"
+requires-python = ">=3.11"
+dependencies = [
+    "langchain>=0.3.0",
+    "langchain-openai>=0.2.0",       # DeepSeek fallback (OpenAI-compatible)
+    "langchain-google-genai>=2.0",   # Gemini Developer API backend
+    "langchain-google-vertexai>=2.0",  # Vertex AI backend (google-cloud-aiplatform)
+    "google-cloud-aiplatform>=1.60",   # Vertex AI SDK
+    "pydantic>=2.0",
+    "python-dotenv>=1.0",
+    "pyyaml>=6.0",
+    "typer>=0.12",
+    "rich>=13.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.0",
+    "ruff>=0.5",
+]
+
+[project.scripts]
+contentos = "contentos.cli:app"
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.ruff]
+line-length = 110
+target-version = "py311"
+
+[tool.pytest.ini_options]
+# langsmith ships a pytest plugin that imports a native extension which a Windows
+# Application Control policy can block, aborting pytest before it starts. The plugin is
+# irrelevant here, so disable it (see src/contentos/core/compat.py for the runtime shim).
+addopts = "-p no:langsmith_plugin"

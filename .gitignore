@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+dist/
+build/
+
+# Env
+.env
+
+# Credentials (never commit)
+application_default_credentials.json
+*service-account*.json
+*service_account*.json
+*-credentials.json
+
+# Generated outputs
+blogs/
+exam-faq/
+exam_database.txt
+facts/
+learn/
+new-blogs/
+output-faqs/
+output-plans-fact/
+output-plans/
+output_corrected/
+output_factchecked/
+output_frontmatter/
+reports-faq/
+reports-plan/
+reports-roadmap/
+roadmaps-stripped/
+roadmaps-stripped2/
+roadmaps/
+study-plans/
+
+# Tooling
+.ruff_cache/
+.pytest_cache/

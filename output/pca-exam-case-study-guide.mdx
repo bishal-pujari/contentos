@@ -1,0 +1,172 @@
+---
+slug: pca-exam-case-study-guide
+date: "2026-09-12"
+title: "Google PCA Exam: The Complete Case Study Guide"
+seoTitle: "Google Cloud PCA Case Study Guide 2026 | What to Expect & How to Prepare"
+seoDescription: "Case studies make up 20-30% of the Google Professional Cloud Architect exam. Here's how the format works, what the four current case studies cover, and how to prepare."
+type: post
+order: 160
+author: "Javier Rodriguez"
+categories: ["certifications", "gcp", "architecture"]
+---
+# Google PCA Exam: The Complete Case Study Guide
+
+You're 30 minutes into the Professional Cloud Architect exam. The question on screen changes. A split panel opens: on the left, a detailed business scenario you've never seen before. On the right, a question that asks what you'd recommend as their architect. You have roughly 90 seconds before you need to move on.
+
+This is the case study section of the PCA exam, and it's where most candidates either pull ahead or fall behind. Not because the scenarios are harder than the rest of the exam, but because the format demands a different kind of thinking. You're not recalling a fact, you're making a judgment call for a business you've been given five minutes to understand.
+
+**Case study questions test whether you can think like a consulting architect. Read a business situation quickly, identify the real constraints, and recommend a solution that serves the business, not just the technology. The split screen is there so you don't have to memorize the scenario. Use it.**
+
+## How the Case Study Section Works
+
+The basics, straight from Google's official exam page:
+
+| Detail | What to Expect |
+|---|---|
+| Case studies per exam | 2 (randomly selected from a pool of 4) |
+| Percentage of exam | 20–30% of total questions |
+| On a 50–60 question exam | Roughly 10–18 questions tied to case studies |
+| Format | Split-screen viewer: case study on the left, question and answer options on the right |
+| Case study access | Viewable throughout the questions that reference it; you can scroll back and forth |
+
+The split-screen viewer is the detail most candidates underestimate. You're not expected to memorize the case study before answering questions about it. The scenario stays visible on the left side of your screen while you answer on the right. This changes how you should prepare. The skill being tested is not recall, it's rapid comprehension and applied judgment.
+
+You don't get to choose which two case studies you receive. Google assigns them randomly at exam time. This means all four are fair game, and you should be familiar with each one before test day.
+
+## The Four Current Case Studies
+
+Google refreshed the PCA exam on October 30, 2025, introducing new case studies alongside a carried-over one. Here are the four currently in the pool. Your exam will include 2 of these 4.
+
+### 1. EHR Healthcare
+
+This case study has carried over from the previous exam version.
+
+**The scenario:** EHR Healthcare is a healthcare SaaS provider that has been running its electronic health records platform from colocation facilities. One data center lease is expiring, and Google Cloud has been chosen to replace the colos. The company serves multinational medical offices, hospitals, and insurance providers, and must maintain HIPAA compliance and a minimum of 99.9% availability for customer-facing systems.
+
+**What it tests:** This is a hybrid migration and modernization scenario. You'll be asked about designing a target architecture on Google Cloud that handles healthcare-specific compliance requirements, container orchestration, multi-region availability, and operational continuity during migration. Expect questions that pit a faster migration approach against a more compliant one.
+
+**Key GCP services likely involved:** GKE, Cloud SQL, Cloud Spanner, Cloud Load Balancing, Cloud Interconnect, VPC design, IAM, Cloud Audit Logs, Secret Manager.
+
+### 2. Altostrat Media
+
+New in the October 2025 exam refresh.
+
+**The scenario:** Altostrat Media is a media and content publishing company modernizing its GKE-based content platform using generative AI. The company wants automated content analysis, personalized recommendations, content moderation, and natural language interactions with its content library.
+
+**What it tests:** This is a modernization and AI integration scenario built on top of an existing GKE deployment. You'll face questions about integrating Vertex AI or Gemini-based services into a containerized application, handling media-scale data pipelines, balancing cost with latency for real-time recommendation engines, and designing for content-heavy workloads with global audiences.
+
+**Key GCP services likely involved:** GKE, Vertex AI, Gemini APIs, Cloud Storage, Pub/Sub, Dataflow, Cloud CDN, Memorystore.
+
+### 3. Cymbal Retail
+
+New in the October 2025 exam refresh.
+
+**The scenario:** Cymbal Retail is an online retailer modernizing its operations with generative AI. The company is focused on automated catalog management, conversational commerce (AI-powered customer interactions), and technical stack upgrades across its e-commerce platform.
+
+**What it tests:** This scenario blends e-commerce infrastructure concerns with AI-driven product features. Expect questions about data pipeline design for catalog ingestion and enrichment, deploying conversational AI at scale, migrating legacy systems while maintaining uptime, and choosing between managed services versus custom-built solutions for retail workloads.
+
+**Key GCP services likely involved:** Vertex AI Search, Vertex AI Conversation, Cloud Run, Cloud SQL, AlloyDB, BigQuery, Pub/Sub, Cloud Functions, Apigee.
+
+### 4. KnightMotives Automotive
+
+New in the October 2025 exam refresh.
+
+**The scenario:** KnightMotives is a car manufacturer specializing in autonomous, self-driving vehicles, including Battery Electric Vehicles (BEVs), hybrids, and traditional internal combustion engine (ICE) vehicles. The company wants to shift from manufacturing cars to creating a complete automotive experience, modernizing the consumer experience across all vehicles within five years. KnightMotives also wants to improve their online ordering system, which is unreliable.
+
+**What it tests:** This scenario covers AI in-vehicle UX, hybrid legacy modernization, EU data privacy requirements, and data monetization. Expect questions about deploying models on Vertex AI for personalized recommendations in the car configuration application, running stateful workloads on GKE, ingesting millions of telemetry data points per minute, and providing select vehicle data to external partners via APIs without exposing internal systems.
+
+**Key GCP services likely involved:** Vertex AI, GKE, BigQuery, Pub/Sub, Cloud Run, Cloud SQL, Apigee, Dataflow.
+
+**Important note:** Legacy prep materials built around Mountkirk Games, TerramEarth, Helicopter Racing League, or Dress4Win describe **retired case studies** that no longer appear on the exam. Use them only as generic pattern practice, not as current exam content.
+
+## What Case Study Questions Actually Look Like
+
+Case study questions aren't reading comprehension tests. They give you a realistic business problem and ask what you'd recommend as the architect. The case study text is there for reference, but most questions test your understanding of GCP services and architectural principles. The scenario provides context, not the answer.
+
+Here's an illustrative example in the style of what you'd encounter:
+
+> *Altostrat Media's content analysis pipeline currently processes 50,000 video assets per day. The pipeline runs on GKE and calls a Vertex AI model for each asset. Processing latency has increased from 2 seconds to 15 seconds per asset over the past month as the catalog grew. The business requires near-real-time analysis (under 5 seconds). What should you recommend?*
+>
+> *A) Increase the GKE node pool size and add more replicas of the analysis service*
+>
+> *B) Migrate the pipeline to use batch processing with Dataflow and process assets in bulk overnight*
+>
+> *C) Implement asynchronous processing with Pub/Sub, decouple the model inference from the ingestion pipeline, and add a caching layer for repeated asset types*
+>
+> *D) Switch to a smaller, faster Vertex AI model that trades accuracy for latency*
+
+Notice what this question is actually testing: it's not asking you to recall a fact about Altostrat Media. It's asking whether you understand the trade-off between scaling compute, re-architecting the pipeline, and changing the model. The case study gives you the context, but the reasoning is pure architecture.
+
+**The case study text narrows the scenario. Your GCP knowledge answers the question.**
+
+The correct answer in the above question is C) Implementing asynchronous processing with Pub/Sub, decoupling model inference from ingestion, and adding a caching layer is the optimal architectural choice to meet the sub-five-second latency requirement. This approach prevents synchronous bottlenecks between GKE and Vertex AI, while caching eliminates redundant model calls for duplicate assets. 
+
+## The Counterintuitive Study Strategy
+
+Here's advice that sounds wrong but is consistently validated by people who've passed the exam: **you don't need to memorize the case studies.**
+
+Almost all case study questions can be answered without deep knowledge of the case study itself. They test whether you understand GCP services and architectural principles, not whether you've memorized a company's background. The case study provides a business frame. The question tests your technical judgment within it.
+
+This means the most effective preparation isn't re-reading the case studies ten times. It's building strong architectural knowledge across Google Cloud services so that when you see a question about EHR Healthcare's migration, you can evaluate the answer options on their technical merits regardless of which company name is attached.
+
+That said, you should still read all four case studies at least once before the exam. Not to memorize them, but so that the business context is familiar when it appears on your split screen. Spending 30 seconds orienting yourself to a scenario you've already seen is better than spending two minutes reading it cold. On a timed exam, those minutes add up.
+
+## How to Study for the Case Study Section
+
+### Week-by-Week Approach
+
+**Weeks 1–2: Build GCP breadth first.** Before touching case studies, make sure you're solid on compute options (GKE, Cloud Run, Compute Engine), data services (BigQuery, Spanner, Cloud SQL, AlloyDB), networking (VPC, load balancing, Cloud Interconnect), security (IAM, VPC Service Controls, encryption), and AI/ML services (Vertex AI, Gemini APIs). These are the building blocks every case study question draws from.
+
+**Week 3: Read the four case studies.** Download them from the official exam guide. Read each one once. For each, identify: What's the business goal? What are the technical constraints? What's the migration or modernization path? Don't take extensive notes. Just build familiarity.
+
+**Week 4: Practice applying, not recalling.** Work through practice questions that combine GCP service knowledge with scenario-based reasoning. The goal isn't "what does the case study say." It's "given this situation, what's the right architectural decision and why."
+
+👉 Google Cloud Professional Cloud Architect Study Plan
+
+### Three Tips That Make a Difference
+
+**1. Read the case studies on the split screen strategically.** You don't have to read the entire case study before answering the first question about it. Skim the executive summary and technical requirements, then dive into details as individual questions demand them. The split screen lets you go back and forth. Use that to your advantage.
+
+**2. Watch for constraint language in questions.** Phrases like "with minimal downtime," "while maintaining compliance," "at the lowest cost," or "without re-architecting" are the real question. The case study tells you the business. The question's constraint language tells you the trade-off.
+
+**3. Eliminate answers that ignore the stated constraints.** If the scenario specifies HIPAA compliance and an answer option stores data in a service without encryption at rest, eliminate it, even if it's technically the cheapest option. Case study questions reward architects who respect requirements, not just those who know the most services.
+
+## What About the Renewal Exam?
+
+If you're renewing an existing PCA certification, the renewal exam has a different case study structure:
+
+| Detail | Standard Exam | Renewal Exam |
+|---|---|---|
+| Length | 2 hours | 1 hour |
+| Questions | 50–60 multiple choice and multiple select | 25 multiple choice and multiple select |
+| Case studies | 2 (from a pool of 4) | 1 (from a pool of 2) |
+| Case study question weight | 20–30% of exam | 90–100% of exam |
+| Available case studies | EHR Healthcare, Altostrat Media, Cymbal Retail, KnightMotives Automotive | Cymbal Retail, Altostrat Media |
+| Cost | $200 (plus tax) | $100 (plus tax) |
+| Validity | 2 years | 2 years |
+
+The renewal exam is almost entirely case-study-driven, and the case studies are specifically focused on generative AI solutions. If you're renewing, your preparation should lean heavily toward understanding how to architect GenAI workloads on Google Cloud: Vertex AI, Gemini, grounding, prompt design at scale, and cost management for inference-heavy applications.
+
+## FAQ
+
+### Can I skip the case study questions and come back to them?
+
+Yes. The PCA exam lets you navigate between questions during the allotted time. Some candidates prefer to answer the standalone questions first and return to case study questions with whatever time remains. Others prefer to tackle case studies while the scenario context is fresh. Try both approaches in your practice sessions and see which feels more natural.
+
+### How long should I spend on each case study question?
+
+With 50–60 questions in 120 minutes, you have roughly two minutes per question on average. Case study questions sometimes take slightly longer because you need to cross-reference the scenario. Budget 2–2.5 minutes for case study questions and compensate on shorter standalone questions. Running out of time before you've attempted every question is more costly than spending an extra 20 seconds on a case study question.
+
+### Do I need to study the case studies if I already have hands-on GCP experience?
+
+Yes, but briefly. Read all four once so the business contexts aren't unfamiliar on exam day. If you have strong hands-on experience, the case study questions will largely feel like the kind of decisions you make at work, just wrapped in a fictional company name. The risk for experienced practitioners isn't the case studies themselves. It's overthinking questions by bringing in real-world complexity that the exam scenario doesn't include.
+
+### What if the case studies change between now and my exam date?
+
+Google updates exam content periodically, including case studies. The four listed here reflect the current exam guide as of September 2026. Always check the current exam guide on Google's certification page before your exam date. It contains the authoritative, up-to-date list of case studies and will flag any recent changes.
+
+---
+
+ExamOS offers scenario-based practice that mirrors the applied reasoning the PCA case study section demands. Questions that ask what you'd recommend, not what you'd recall. Start with Challenger mode on the Google Cloud track to build the architectural judgment the exam actually tests.
+
+👉 Related Exams

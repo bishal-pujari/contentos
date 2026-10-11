@@ -1,0 +1,84 @@
+{
+  "agent": "rate_blogs",
+  "started_at": "2026-10-04T06:05:31.108088+00:00",
+  "input_dir": "output-plans",
+  "rubric": "ExamOS Study Plan Rating",
+  "files_scanned": 3,
+  "files_rated": 3,
+  "average": 4.85,
+  "grade_counts": {
+    "A+": 3
+  },
+  "max_web_searches": 1500,
+  "search_calls": 3,
+  "web_searches": 3,
+  "ratings": [
+    {
+      "slug": "aws-certified-generative-ai-developer-professional-aip-c01",
+      "filename": "aws-certified-generative-ai-developer-professional-aip-c01.mdx",
+      "grade": "A+",
+      "weighted": 98.5,
+      "average": 4.8,
+      "scores": {
+        "factual_correctness": 5.0,
+        "plan_structure": 5.0,
+        "domain_coverage": 5.0,
+        "actionability": 5.0,
+        "practice_integration": 5.0,
+        "seo_quality": 4.0,
+        "faq_quality": 5.0,
+        "voice_ai_slop": 4.0,
+        "mobile_scannability": 5.0,
+        "reader_value": 5.0,
+        "sentence_grammar": 5.0
+      },
+      "searched": true,
+      "warnings": []
+    },
+    {
+      "slug": "google-cloud-professional-cloud-architect-gcp-pca",
+      "filename": "google-cloud-professional-cloud-architect-gcp-pca.mdx",
+      "grade": "A+",
+      "weighted": 97.5,
+      "average": 4.76,
+      "scores": {
+        "factual_correctness": 5.0,
+        "plan_structure": 5.0,
+        "domain_coverage": 5.0,
+        "actionability": 5.0,
+        "practice_integration": 5.0,
+        "seo_quality": 3.0,
+        "faq_quality": 5.0,
+        "voice_ai_slop": 5.0,
+        "mobile_scannability": 5.0,
+        "reader_value": 5.0,
+        "sentence_grammar": 4.0
+      },
+      "searched": true,
+      "warnings": []
+    },
+    {
+      "slug": "comptia-security-sy0-701",
+      "filename": "comptia-security-sy0-701.mdx",
+      "grade": "A+",
+      "weighted": 102.5,
+      "average": 5.0,
+      "scores": {
+        "factual_correctness": 5.0,
+        "plan_structure": 5.0,
+        "domain_coverage": 5.0,
+        "actionability": 5.0,
+        "practice_integration": 5.0,
+        "seo_quality": 5.0,
+        "faq_quality": 5.0,
+        "voice_ai_slop": 5.0,
+        "mobile_scannability": 5.0,
+        "reader_value": 5.0,
+        "sentence_grammar": 5.0
+      },
+      "searched": true,
+      "warnings": []
+    }
+  ],
+  "errors": []
+}

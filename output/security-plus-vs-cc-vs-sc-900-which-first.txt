@@ -1,0 +1,149 @@
+---
+slug: security-plus-vs-cc-vs-sc-900-which-first
+title: "SC-900 vs CC vs Security+: Which Entry-Level Security Certification First?"
+seoTitle: "SC-900 vs ISC2 CC vs Security+ 2026: Which First?"
+seoDescription: "Comparing SC-900, ISC2 CC, and CompTIA Security+ for beginners. See what each costs, what it covers, and which one matches your background and budget."
+type: post
+date: "2026-09-13"
+author: "Sarah Chen"
+order: 30
+imagePosition: "top"
+categories: ["security", "certifications", "beginner"]
+---
+# SC-900 vs CC vs Security+: Which Entry-Level Security Certification First?
+
+Three certifications come up every time a beginner asks where to start in security: Microsoft SC-900, ISC2 CC, and CompTIA Security+. They are all marketed as entry points. They are not interchangeable.
+
+**The right first certification depends on three things: your current IT background, how committed you already are to cybersecurity, and your budget. Get those wrong, and you either overspend on an exam you were not ready for or waste weeks on a credential that does not match your target role.**
+
+Here is how each one actually differs, and how to pick.
+
+## What Each Certification Covers
+
+**Microsoft SC-900 (Security, Compliance, and Identity Fundamentals)** is Microsoft's entry-level security exam. It covers four domains: security and compliance concepts, Microsoft Entra capabilities, Microsoft security solutions, and Microsoft compliance solutions. It is vendor-specific. It assumes no hands-on background.
+
+**ISC2 CC (Certified in Cybersecurity)** is a vendor-neutral credential launched in 2022. It covers five domains: security principles, business continuity, access controls, network security, and security operations. It was free for two years and moved to a paid model in 2026. It assumes no hands-on background.
+
+**CompTIA Security+ (SY0-701)** is the most widely recognized entry-level security certification. It covers five domains: threats and vulnerabilities, architecture, implementation, operations, and governance. It assumes some networking knowledge, though there are no formal prerequisites.
+
+## What Each One Costs
+
+| Certification | Exam fee | Renewal |
+|---------------|----------|---------|
+| SC-900 | $99 | None (lifetime) |
+| ISC2 CC | $199 (first year AMF included) | $50/year starting Year 2 |
+| Security+ | Starting at $425 | Every 3 years via CEUs |
+
+Budget matters more than most guides admit. A beginner testing the field should not spend $425 to find out whether security interests them.
+
+**Cheapest to start:** SC-900 at $99 with no ongoing fees.
+
+**Cheapest long-term:** SC-900. The ISC2 CC's $50 annual maintenance fee starts in Year 2, adding $150 over three years on top of the $199 exam fee. Security+ also requires renewal every three years.
+
+One clarification worth noting: ISC2 includes the first year's Annual Maintenance Fee (AMF) with your exam pass. Your year-one total is $199. The $50/year charge begins at the start of Year 2.
+
+## How Each One Is Recognized
+
+Security+ is the most recognized of the three in job postings. It appears in five to eight times as many US listings as the ISC2 CC. It is also DoD 8140 compliant, which matters for government and defense roles.
+
+The ISC2 CC has growing recognition but is not yet equivalent to Security+ in employer preference. It signals commitment to security as a field, and it carries ISC2 membership, which is a path to SSCP or CISSP later.
+
+SC-900 is recognized primarily within the Microsoft ecosystem. If you work in a Microsoft 365 environment or plan to pursue SC-200, SC-300, or SC-400, it carries real weight. Outside that ecosystem, its recognition is limited.
+
+## How Long Each One Takes
+
+| Certification | Typical study time |
+|---------------|--------------------|
+| SC-900 | 2-3 weeks |
+| ISC2 CC | 4-6 weeks |
+| Security+ | 6-10 weeks |
+
+These assume one to two hours of focused study per day. Background matters. A candidate with networking experience can compress Security+ into four weeks. A career changer with no IT background should plan for the longer end of each range.
+
+## Which One Should You Take First?
+
+### Start With SC-900 If:
+
+- You are new to security and want a low-risk entry point
+- You work in or near a Microsoft environment
+- You are considering SC-200, SC-300, or SC-400 later
+- Budget is a real constraint
+- You want a credential that never expires
+
+SC-900 is the cheapest and fastest of the three. It is a legitimate credential, not a participation trophy. But it is vendor-specific, so it is not the right choice if your target employers are not Microsoft shops.
+
+### Start With ISC2 CC If:
+
+- You are committed to cybersecurity as a career
+- You want a vendor-neutral foundation
+- You plan to pursue SSCP or CISSP later
+- You value ISC2 membership and the path it opens
+- You are willing to pay the $50 annual maintenance fee starting in Year 2
+
+The CC is not free anymore, which changes the calculation. But if you are serious about security as a career, the cost is reasonable and the ISC2 pathway is well-defined.
+
+### Start With Security+ If:
+
+- You have networking experience or already hold Network+
+- You are certain you want to work in cybersecurity
+- Your target roles list Security+ in job postings
+- You are targeting government, defense, or DoD-contracted roles
+- You want the strongest single resume signal at entry level
+
+Security+ is the most expensive and longest to prepare for. It is also the one that carries the most weight in hiring. If you already have the background and the commitment, it is the strongest first step.
+
+## What About AWS and Google?
+
+Beginners often ask whether AWS or Google offer a comparable entry-level security certification. Neither does, in the same sense. Both offer foundational learning paths, but neither has a dedicated beginner security exam that competes directly with SC-900, CC, or Security+.
+
+**AWS** does not have a dedicated beginner security certification. AWS Certified Cloud Practitioner (CLF-C02) covers foundational security concepts alongside general cloud topics, including the Shared Responsibility Model, IAM basics, and security groups. It is a cloud certification, not a security certification. The dedicated AWS Certified Security Specialty (SCS-C02) is an advanced exam that expects hands-on AWS experience. AWS does offer a Security Essentials course through CISA's NICCS program, but this is training, not a certification exam.
+
+**Google Cloud** offers a Google Cloud Cybersecurity Certificate through Coursera. This is a training program (3-6 months) rather than a certification exam. It covers security principles, risk management, and cloud security operations through interactive labs. The formal Google Professional Cloud Security Engineer is a professional-level exam suited for experienced engineers, not beginners.
+
+Neither platform offers a beginner security certification equivalent to SC-900, CC, or Security+. Both expect you to build cloud fundamentals first and specialize later.
+
+## A Note on Stacking Beginner Certifications
+
+Do not collect all three. SC-900, CC, and Security+ overlap heavily in foundational concepts. Once you hold one, move to an intermediate certification (SC-200, CySA+, or SSCP) rather than adding another beginner credential to your resume.
+
+The exception: if you work in a Microsoft shop and plan to pursue the SC-200 path, SC-900 followed by Security+ can make sense as a way to combine vendor-specific and vendor-neutral foundations.
+
+## How to Prepare
+
+Whichever you choose, the approach is similar:
+
+1. **Use the official learning path.** Microsoft Learn for SC-900, ISC2's self-paced training for CC, and Professor Messer or CompTIA CertMaster for Security+.
+2. **Start practice questions early.** Do not wait until you finish all the reading. Test yourself immediately after learning a topic.
+3. **Build a daily habit.** Short sessions of 30 to 45 minutes beat weekend cramming.
+
+If you are not sure which exam fits you best, preview all three on ExamOS. The free preview quizzes let you see the difficulty and style of each exam before you commit to a study plan. Once you pick, a Daily Sprint keeps you consistent, a Mock Exam tests you under pressure, and your readiness score shows when you are prepared to book.
+
+## FAQ
+
+### Can I skip SC-900 and go straight to Security+?
+
+Yes, if you have networking experience or already hold a certification like Network+. Security+ assumes some foundational knowledge, but there are no formal prerequisites. Beginners without IT background will find Security+ harder without a prior certification.
+
+### Is the ISC2 CC still worth it now that it is not free?
+
+It depends on your goal. If you want a vendor-neutral foundation and plan to pursue SSCP or CISSP, yes. The $199 exam fee includes the first year's AMF, and the $50 annual fee starts in Year 2. If you are just exploring security, SC-900 is a cheaper starting point.
+
+### Which one expires?
+
+SC-900 does not expire. The ISC2 CC requires an annual maintenance fee starting in Year 2 and continuing professional education credits. Security+ requires renewal every three years through continuing education units.
+
+### Which one is best for government or defense jobs?
+
+Security+. It is DoD 8140 compliant, which is often a hard requirement for government and defense roles. SC-900 and CC are not.
+
+### Which one is best for Microsoft-focused careers?
+
+SC-900. It is the natural first step toward SC-200, SC-300, and SC-400. If your target employers run Microsoft 365 and Azure, SC-900 gives you the vocabulary and the pathway.
+
+### Can I take two of these?
+
+Yes, but avoid stacking beginner certifications. If you complete SC-900, move to an intermediate Microsoft security certification or to Security+ if you need vendor-neutral recognition. Do not add CC on top of SC-900 unless you specifically want ISC2 membership.
+
+---
+
+*Not sure which exam fits you best? Preview SC-900, ISC2 CC, and Security+ for free on ExamOS and see the difficulty and question style before you commit.*

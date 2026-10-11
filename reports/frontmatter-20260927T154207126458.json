@@ -1,0 +1,4542 @@
+{
+  "agent": "fix_frontmatter",
+  "started_at": "2026-09-27T15:42:07.126458+00:00",
+  "input_dir": "output_corrected",
+  "output_dir": "output_frontmatter",
+  "schema": "examos-blog-frontmatter",
+  "order_file": "prompts/examos-blog-order.json",
+  "only_order": false,
+  "files_scanned": 81,
+  "files_changed": 81,
+  "files_flagged": 44,
+  "files_failed": 0,
+  "changes": [
+    {
+      "slug": "ai-103-vs-ai-200-which-should-you-take",
+      "path": "output_corrected\\ai-103-vs-ai-200-which-should-you-take.mdx",
+      "notes": [
+        "detected examCodes: AI-901, AI-103, AI-200, DVA-C02, AZ-204",
+        "rewrote title (75 -> 54 chars)",
+        "rewrote seoTitle (84 -> 64 chars)",
+        "rewrote seoDescription (203 -> 150 chars)"
+      ],
+      "warnings": [],
+      "review_items": [],
+      "field_changes": [
+        {
+          "field": "examCodes",
+          "before": "(missing)",
+          "after": "AI-901, AI-103, AI-200, DVA-C02, AZ-204",
+          "reason": "exam codes detected in the content"
+        },
+        {
+          "field": "title",
+          "before": "AI-103 vs AI-200: Which Microsoft Azure AI Certification Should You Go For?",
+          "after": "AI-103 vs AI-200: Which Azure AI Exam Should You Take?",
+          "reason": "LLM SEO rewrite (out of range)"
+        },
+        {
+          "field": "seoTitle",
+          "before": "AI-103 vs AI-200 Microsoft Azure AI Certification (2026): Which One Should You Take?",
+          "after": "AI-103 vs AI-200: Which Azure AI Certification to Choose in 2026",
+          "reason": "LLM SEO rewrite (out of range)"
+        },
+        {
+          "field": "seoDescription",
+          "before": "Microsoft launched two new Azure AI certifications in 2026 : AI-103 and AI-200. Here's a clear breakdown of what each one tests, who it's for, and how to decide which fits your role and career direction.",
+          "after": "Comparing AI-103 vs AI-200? Learn the differences between these Azure AI exams, what each one tests, and how to choose the right path for your career.",
+          "reason": "LLM SEO rewrite (out of range)"
+        },
+        {
+          "field": "order",
+          "before": "15",
+          "after": "130",
+          "reason": "order file"
+        },
+        {
+          "field": "categories",
+          "before": "ai, azure, cloud, certifications",
+          "after": "ai, azure, certifications, cloud",
+          "reason": "normalized categories"
+        },
+        {
+          "field": "(order)",
+          "before": "slug, title, seoTitle, seoDescription, type, date, imagePosition, order, author, categories, examCodes",
+          "after": "slug, title, seoTitle, seoDescription, type, imagePosition, order, author, categories, examCodes, date",
+          "reason": "fields reordered to the schema sequence"
+        }
+      ],
+      "has_changes": true,
+      "error": null
+    },
+    {
+      "slug": "ai-103-study-guide-foundry-agents-rag",
+      "path": "output_corrected\\ai-103-study-guide-foundry-agents-rag.mdx",
+      "notes": [
+        "detected examCodes: AI-103",
+        "rewrote title (71 -> 54 chars)",
+        "rewrote seoTitle (72 -> 58 chars)"
+      ],
+      "warnings": [],
+      "review_items": [],
+      "field_changes": [
+        {
+          "field": "examCodes",
+          "before": "(missing)",
+          "after": "AI-103",
+          "reason": "exam codes detected in the content"
+        },
+        {
+          "field": "title",
+          "before": "AI-103 Study Guide: Microsoft Foundry, Agents, and RAG Explained (2026)",
+          "after": "AI-103 Study Guide: Microsoft Foundry, Agents, and RAG",
+          "reason": "LLM SEO rewrite (out of range)"
+        },
+        {
+          "field": "seoTitle",
+          "before": "AI-103 Study Guide 2026: Microsoft Foundry, AI Agents, and RAG Explained",
+          "after": "AI-103 Study Guide (2026): Master Foundry, Agents, and RAG",
+          "reason": "LLM SEO rewrite (out of range)"
+        },
+        {
+          "field": "order",
+          "before": "27",
+          "after": "400",
+          "reason": "order file"
+        },
+        {
+          "field": "categories",
+          "before": "azure, ai, certifications, preparation",
+          "after": "ai, azure, certifications, preparation",
+          "reason": "normalized categories"
+        },
+        {
+          "field": "(order)",
+          "before": "slug, title, seoTitle, seoDescription, type, categories, author, order, imagePosition, date, examCodes",
+          "after": "slug, title, seoTitle, seoDescription, type, imagePosition, order, author, categories, examCodes, date",
+          "reason": "fields reordered to the schema sequence"
+        }
+      ],
+      "has_changes": true,
+      "error": null
+    },
+    {
+      "slug": "ai-103-most-misunderstood-concepts",
+      "path": "output_corrected\\ai-103-most-misunderstood-concepts.mdx",
+      "notes": [
+        "detected examCodes: AI-103",
+        "rewrote seoTitle (66 -> 57 chars)",
+        "rewrote seoDescription (230 -> 147 chars)"
+      ],
+      "warnings": [],
+      "review_items": [],
+      "field_changes": [
+        {
+          "field": "examCodes",
+          "before": "(missing)",
+          "after": "AI-103",
+          "reason": "exam codes detected in the content"
+        },
+        {
+          "field": "seoTitle",
+          "before": "AI-103 Exam: 8 Most Misunderstood Concepts That Trip Up Candidates",
+          "after": "AI-103 Misunderstood Concepts: 8 Common Mistakes to Avoid",
+          "reason": "LLM SEO rewrite (out of range)"
+        },
+        {
+          "field": "seoDescription",
+          "before": "AI-103 candidates consistently miss the same handful of concepts — not because they're obscure, but because the obvious answer is usually wrong. Here are the eight distinctions that cause the most exam mistakes, explained clearly.",
+          "after": "Master these misunderstood AI-103 concepts to avoid common exam traps. Learn the key distinctions between agents, tools, and RAG to pass your exam.",
+          "reason": "LLM SEO rewrite (out of range)"
+        },
+        {
+          "field": "order",
+          "before": "37",
+          "after": "410",
+          "reason": "order file"
+        },
+        {
+          "field": "categories",
+          "before": "azure, ai, certifications, preparation",
+          "after": "ai, azure, certifications, preparation",
+          "reason": "normalized categories"
+        },
+        {
+          "field": "(order)",
+          "before": "slug, title, seoTitle, seoDescription, type, categories, order, author, imagePosition, date, examCodes",
+          "after": "slug, title, seoTitle, seoDescription, type, imagePosition, order, author, categories, examCodes, date",
+          "reason": "fields reordered to the schema sequence"
+        }
+      ],
+      "has_changes": true,
+      "error": null
+    },
+    {
+      "slug": "ai-200-study-guide-vector-search-managed-identity-observability-containers",
+      "path": "output_corrected\\ai-200-study-guide-vector-search-managed-identity-observability-containers.mdx",
+      "notes": [
+        "detected examCodes: AI-200, AZ-204",
+        "rewrote title (82 -> 62 chars)",
+        "rewrote seoDescription (224 -> 160 chars)",
+        "added required field 'imagePosition'"
+      ],
+      "warnings": [],
+      "review_items": [
+        "'imagePosition' was missing and was inferred; verify it"
+      ],
+      "field_changes": [
+        {
+          "field": "examCodes",
+          "before": "(missing)",
+          "after": "AI-200, AZ-204",
+          "reason": "exam codes detected in the content"
+        },
+        {
+          "field": "title",
+          "before": "AI-200 Study Guide: Vector Search, Managed Identity, Observability, and Containers",
+          "after": "AI-200 Study Guide: Vector Search, Identity, and Observability",
+          "reason": "LLM SEO rewrite (out of range)"
+        },
+        {
+          "field": "seoDescription",
+          "before": "AI-200 has flat domain weighting, but four concepts show up across nearly every domain — vector search, managed identity, OpenTelemetry/KQL observability, and containerized AI workloads. Here's exactly what to know for each.",
+          "after": "Use this AI-200 study guide to master vector search, managed identity, observability, and containerized workloads. Learn how to pass the exam on your first try.",
+          "reason": "LLM SEO rewrite (out of range)"
+        },
+        {
+          "field": "imagePosition",
+          "before": "(missing)",
+          "after": "top",
+          "reason": "missing required field"
+        },
+        {
+          "field": "order",
+          "before": "900",
+          "after": "480",
+          "reason": "order file"
+        },
+        {
+          "field": "categories",
+          "before": "azure, ai, certifications, developer, preparation",
+          "after": "ai, azure, certifications, developer, preparation",
+          "reason": "normalized categories"
+        },
+        {
+          "field": "(order)",
+          "before": "slug, title, seoTitle, seoDescription, type, categories, author, date, order, examCodes",
+          "after": "slug, title, seoTitle, seoDescription, type, imagePosition, order, author, categories, examCodes, date",
+          "reason": "fields reordered to the schema sequence"
+        }
+      ],
+      "has_changes": true,
+      "error": null
+    },
+    {
+      "slug": "ai-300-study-guide-five-core-concepts",
+      "path": "output_corrected\\ai-300-study-guide-five-core-concepts.mdx",
+      "notes": [
+        "detected examCodes: AI-300",
+        "rewrote title (66 -> 54 chars)",
+        "rewrote seoDescription (232 -> 149 chars)",
+        "added required field 'date'"
+      ],
+      "warnings": [],
+      "review_items": [
+        "category 'ml' mapped to 'mlops'",
+        "'date' was missing and was inferred; verify it"
+      ],
+      "field_changes": [
+        {
+          "field": "examCodes",
+          "before": "(missing)",
+          "after": "AI-300",
+          "reason": "exam codes detected in the content"
+        },
+        {
+          "field": "title",
+          "before": "AI-300 Study Guide: One Core Concept From Each of the Five Domains",
+          "after": "AI-300 Study Guide: Five Core Concepts You Must Master",
+          "reason": "LLM SEO rewrite (out of range)"
+        },
+        {
+          "field": "seoDescription",
+          "before": "AI-300 has five domains, and each one has a single concept that most of its scenario questions orbit around. Here's what to know for MLOps infrastructure, model lifecycle, GenAIOps, generative AI evaluation, and system optimization.",
+          "after": "Use this AI-300 study guide to master the five core concepts behind the exam domains. Learn key strategies for MLOps, GenAIOps, and model evaluation.",
+          "reason": "LLM SEO rewrite (out of range)"
+        },
+        {
+          "field": "order",
+          "before": "901",
+          "after": "490",
+          "reason": "order file"
+        },
+        {
+          "field": "categories",
+          "before": "azure, ai, certifications, ml, preparation",
+          "after": "ai, azure, certifications, mlops, preparation",
+          "reason": "normalized categories"
+        },
+        {
+          "field": "date",
+          "before": "(missing)",
+          "after": "2026-09-27",
+          "reason": "missing required field"
+        },
+        {
+          "field": "(order)",
+          "before": "slug, title, seoTitle, seoDescription, type, categories, author, order, imagePosition, examCodes",
+          "after": "slug, title, seoTitle, seoDescription, type, imagePosition, order, author, categories, examCodes, date",
+          "reason": "fields reordered to the schema sequence"
+        }
+      ],
+      "has_changes": true,
+      "error": null
+    },
+    {
+      "slug": "ai-300-vs-dp-100-mlops-engineer-guide",
+      "path": "output_corrected\\ai-300-vs-dp-100-mlops-engineer-guide.mdx",
+      "notes": [
+        "detected examCodes: AI-300",
+        "rewrote title (72 -> 55 chars)",
+        "rewrote seoDescription (197 -> 152 chars)",
+        "added required field 'imagePosition'"
+      ],
+      "warnings": [],
+      "review_items": [
+        "'imagePosition' was missing and was inferred; verify it",
+        "category 'ml' mapped to 'mlops'"
+      ],
+      "field_changes": [
+        {
+          "field": "examCodes",
+          "before": "(missing)",
+          "after": "AI-300",
+          "reason": "exam codes detected in the content"
+        },
+        {
+          "field": "title",
+          "before": "AI-300 vs DP-100: What Changed and How to Prepare for the New MLOps Exam",
+          "after": "AI-300 vs DP-100: How to Prepare for the New MLOps Exam",
+          "reason": "LLM SEO rewrite (out of range)"
+        },
+        {
+          "field": "seoDescription",
+          "before": "DP-100 retired June 1, 2026. AI-300 is its replacement, but the shift is bigger than a rename. It moves from building models to operating them in production. Here's what changed and how to prepare.",
+          "after": "Comparing AI-300 vs DP-100 for MLOps engineers. Learn what changed with the 2026 retirement of DP-100 and how to transition your skills to the new exam.",
+          "reason": "LLM SEO rewrite (out of range)"
+        },
+        {
+          "field": "imagePosition",
+          "before": "(missing)",
+          "after": "top",
+          "reason": "missing required field"
+        },
+        {
+          "field": "order",
+          "before": "902",
+          "after": "360",
+          "reason": "order file"
+        },
+        {
+          "field": "categories",
+          "before": "azure, ai, certifications, ml",
+          "after": "ai, azure, certifications, mlops",
+          "reason": "normalized categories"
+        },
+        {
+          "field": "(order)",
+          "before": "slug, title, seoTitle, seoDescription, type, categories, author, date, order, examCodes",
+          "after": "slug, title, seoTitle, seoDescription, type, imagePosition, order, author, categories, examCodes, date",
+          "reason": "fields reordered to the schema sequence"
+        }
+      ],
+      "has_changes": true,
+      "error": null
+    },
+    {
+      "slug": "are-exam-dumps-safe-hidden-risks",
+      "path": "output_corrected\\are-exam-dumps-safe-hidden-risks.mdx",
+      "notes": [
+        "detected examCodes: SY0-701, PMP",
+        "rewrote seoDescription (201 -> 148 chars)",
+        "added required field 'date'"
+      ],
+      "warnings": [],
+      "review_items": [
+        "'date' was missing and was inferred; verify it"
+      ],
+      "field_changes": [
+        {
+          "field": "examCodes",
+          "before": "(missing)",
+          "after": "SY0-701, PMP",
+          "reason": "exam codes detected in the content"
+        },
+        {
+          "field": "seoDescription",
+          "before": "Exam dumps seem like a shortcut, but the risks go beyond getting caught. Here is what actually happens when you use brain dumps for IT certifications, and why scenario-based practice is the safer path.",
+          "after": "Are exam dumps safe? Discover the hidden risks of using brain dumps for IT certifications, from revoked credentials to failing technical interviews.",
+          "reason": "LLM SEO rewrite (out of range)"
+        },
+        {
+          "field": "order",
+          "before": "110",
+          "after": "280",
+          "reason": "order file"
+        },
+        {
+          "field": "date",
+          "before": "(missing)",
+          "after": "2026-09-27",
+          "reason": "missing required field"
+        },
+        {
+          "field": "(order)",
+          "before": "slug, title, seoTitle, seoDescription, type, author, order, imagePosition, categories, examCodes",
+          "after": "slug, title, seoTitle, seoDescription, type, imagePosition, order, author, categories, examCodes, date",
+          "reason": "fields reordered to the schema sequence"
+        }
+      ],
+      "has_changes": true,
+      "error": null
+    },
+    {
+      "slug": "ai-empowered-safe-agilist",
+      "path": "output_corrected\\ai-empowered-safe-agilist.mdx",
+      "notes": [
+        "detected examCodes: SA_6",
+        "rewrote title (72 -> 51 chars)",
+        "rewrote seoTitle (68 -> 57 chars)",
+        "rewrote seoDescription (226 -> 145 chars)",
+        "added required field 'imagePosition'",
+        "added required field 'author'",
+        "added required field 'date'"
+      ],
+      "warnings": [],
+      "review_items": [
+        "'imagePosition' was missing and was inferred; verify it",
+        "'author' was missing and was inferred; verify it",
+        "category 'safe' mapped to 'project-management'",
+        "category 'agile' mapped to 'project-management'",
+        "'date' was missing and was inferred; verify it"
+      ],
+      "field_changes": [
+        {
+          "field": "examCodes",
+          "before": "(missing)",
+          "after": "SA_6",
+          "reason": "exam codes detected in the content"
+        },
+        {
+          "field": "title",
+          "before": "AI-Empowered SAFe® Agilist: What Changed and What It Means for Your Exam",
+          "after": "AI-Empowered SAFe Agilist: What Changed on the Exam",
+          "reason": "LLM SEO rewrite (out of range)"
+        },
+        {
+          "field": "seoTitle",
+          "before": "AI-Empowered SAFe Agilist 2026: What Changed in the SA Certification",
+          "after": "AI-Empowered SAFe Agilist: 2026 Exam Guide & Upgrade Path",
+          "reason": "LLM SEO rewrite (out of range)"
+        },
+        {
+          "field": "seoDescription",
+          "before": "SAFe Agilist quietly became AI-Empowered SAFe Agilist in 2026. Here's what actually changed in the exam, what AI-Native SAFe means in practice, and how to prepare for the new content without wasting time on outdated materials.",
+          "after": "Prepare for the AI-Empowered SAFe Agilist exam. Learn about the 2026 updates, new AI-Native SAFe topics, scenario questions, and retake policies.",
+          "reason": "LLM SEO rewrite (out of range)"
+        },
+        {
+          "field": "imagePosition",
+          "before": "(missing)",
+          "after": "top",
+          "reason": "missing required field"
+        },
+        {
+          "field": "order",
+          "before": "904",
+          "after": "810",
+          "reason": "order file"
+        },
+        {
+          "field": "author",
+          "before": "(missing)",
+          "after": "Pradeep Sharma",
+          "reason": "missing required field"
+        },
+        {
+          "field": "categories",
+          "before": "safe, agile, project-management, certifications",
+          "after": "certifications, project-management",
+          "reason": "normalized categories"
+        },
+        {
+          "field": "date",
+          "before": "(missing)",
+          "after": "2026-09-27",
+          "reason": "missing required field"
+        },
+        {
+          "field": "(order)",
+          "before": "slug, title, seoTitle, seoDescription, type, categories, order, examCodes",
+          "after": "slug, title, seoTitle, seoDescription, type, imagePosition, order, author, categories, examCodes, date",
+          "reason": "fields reordered to the schema sequence"
+        }
+      ],
+      "has_changes": true,
+      "error": null
+    },
+    {
+      "slug": "ai-in-project-management-pmbok-8-what-every-pmp-candidate-must-know",
+      "path": "output_corrected\\ai-in-project-management-pmbok-8-what-every-pmp-candidate-must-know.mdx",
+      "notes": [
+        "detected examCodes: PMP",
+        "rewrote title (76 -> 55 chars)",
+        "rewrote seoTitle (82 -> 59 chars)",
+        "rewrote seoDescription (161 -> 150 chars)",
+        "added required field 'date'"
+      ],
+      "warnings": [],
+      "review_items": [
+        "author 'Praveen Sharma' is not approved; replaced with closest match 'Pradeep Sharma'",
+        "'date' was missing and was inferred; verify it"
+      ],
+      "field_changes": [
+        {
+          "field": "examCodes",
+          "before": "(missing)",
+          "after": "PMP",
+          "reason": "exam codes detected in the content"
+        },
+        {
+          "field": "title",
+          "before": "AI in Project Management: What Every PMP® Candidate Must Know About PMBOK® 8",
+          "after": "AI in Project Management: What PMP Candidates Must Know",
+          "reason": "LLM SEO rewrite (out of range)"
+        },
+        {
+          "field": "seoTitle",
+          "before": "AI in Project Management: PMBOK 8, PMI Standard, and What PMP Candidates Must Know",
+          "after": "AI in Project Management: PMBOK 8 and PMP Exam Guide (2026)",
+          "reason": "LLM SEO rewrite (out of range)"
+        },
+        {
+          "field": "seoDescription",
+          "before": "PMI's official stance on AI in project management: Automation, Assistance, and Augmentation. Learn how AI appears on the PMP exam and what PMBOK 8 says about it.",
+          "after": "Learn how AI in project management is tested on the PMP exam. Understand PMBOK 8 standards, the three levels of AI adoption, and key governance rules.",
+          "reason": "LLM SEO rewrite (out of range)"
+        },
+        {
+          "field": "order",
+          "before": "398",
+          "after": "820",
+          "reason": "order file"
+        },
+        {
+          "field": "author",
+          "before": "Praveen Sharma",
+          "after": "Pradeep Sharma",
+          "reason": "author not approved"
+        },
+        {
+          "field": "date",
+          "before": "(missing)",
+          "after": "2026-09-27",
+          "reason": "missing required field"
+        },
+        {
+          "field": "(order)",
+          "before": "slug, title, seoTitle, seoDescription, type, categories, order, imagePosition, author, examCodes",
+          "after": "slug, title, seoTitle, seoDescription, type, imagePosition, order, author, categories, examCodes, date",
+          "reason": "fields reordered to the schema sequence"
+        }
+      ],
+      "has_changes": true,
+      "error": null
+    },
+    {
+      "slug": "aws-practice-exams-brain-dumps",
+      "path": "output_corrected\\aws-practice-exams-brain-dumps.mdx",
+      "notes": [
+        "rewrote title (66 -> 61 chars)",
+        "rewrote seoDescription (171 -> 144 chars)"
+      ],
+      "warnings": [],
+      "review_items": [],
+      "field_changes": [
+        {
+          "field": "title",
+          "before": "Practice Exams Are Lying to You: How to Spot and Avoid Brain Dumps",
+          "after": "AWS Practice Exams vs Brain Dumps: How to Spot the Difference",
+          "reason": "LLM SEO rewrite (out of range)"
+        },
+        {
+          "field": "seoDescription",
+          "before": "Many AWS practice exams are disguised brain dumps or outdated question banks. Learn how to identify low-quality resources and prepare with scenario-based practice instead.",
+          "after": "Are your AWS practice exams actually illegal brain dumps? Learn how to spot low-quality questions and build real architectural reasoning skills.",
+          "reason": "LLM SEO rewrite (out of range)"
+        },
+        {
+          "field": "order",
+          "before": "130",
+          "after": "260",
+          "reason": "order file"
+        },
+        {
+          "field": "categories",
+          "before": "cloud, strategy, aws, beginner",
+          "after": "aws, beginner, cloud, strategy",
+          "reason": "normalized categories"
+        }
+      ],
+      "has_changes": true,
+      "error": null
+    },
+    {
+      "slug": "aws-exam-concepts-misunderstood",
+      "path": "output_corrected\\aws-exam-concepts-misunderstood.mdx",
+      "notes": [
+        "rewrote title (79 -> 60 chars)",
+        "rewrote seoTitle (67 -> 59 chars)",
+        "rewrote seoDescription (198 -> 152 chars)"
+      ],
+      "warnings": [],
+      "review_items": [],
+      "field_changes": [
+        {
+          "field": "title",
+          "before": "The 10 Most Misunderstood AWS Exam Concepts – And How to Finally Get Them Right",
+          "after": "10 Misunderstood AWS Exam Concepts and How to Get Them Right",
+          "reason": "LLM SEO rewrite (out of range)"
+        },
+        {
+          "field": "seoTitle",
+          "before": "10 Most Misunderstood AWS Exam Concepts (And How to Get Them Right)",
+          "after": "AWS Exam Concepts: 10 Misunderstood Topics to Master (2026)",
+          "reason": "LLM SEO rewrite (out of range)"
+        },
+        {
+          "field": "seoDescription",
+          "before": "Struggling with AWS exam questions on IAM, VPCs, S3 consistency, or RDS failover? Here are the 10 concepts that trip up even experienced engineers, explained clearly with real architectural context.",
+          "after": "Master these 10 misunderstood AWS exam concepts to pass your certification. Learn the key differences in IAM, VPC, S3, and RDS to avoid common mistakes.",
+          "reason": "LLM SEO rewrite (out of range)"
+        },
+        {
+          "field": "order",
+          "before": "320",
+          "after": "830",
+          "reason": "order file"
+        },
+        {
+          "field": "categories",
+          "before": "cloud, aws, certifications, strategy, beginner",
+          "after": "aws, beginner, certifications, cloud, strategy",
+          "reason": "normalized categories"
+        },
+        {
+          "field": "(order)",
+          "before": "slug, date, title, seoTitle, seoDescription, type, imagePosition, order, author, categories",
+          "after": "slug, title, seoTitle, seoDescription, type, imagePosition, order, author, categories, date",
+          "reason": "fields reordered to the schema sequence"
+        }
+      ],
+      "has_changes": true,
+      "error": null
+    },
+    {
+      "slug": "aws-sap-c03-upcoming-changes",
+      "path": "output_corrected\\aws-sap-c03-upcoming-changes.mdx",
+      "notes": [
+        "detected examCodes: SAP-C02, SAA-C03",
+        "rewrote title (80 -> 59 chars)",
+        "rewrote seoTitle (93 -> 61 chars)",
+        "rewrote seoDescription (198 -> 149 chars)",
+        "added required field 'imagePosition'"
+      ],
+      "warnings": [],
+      "review_items": [
+        "'imagePosition' was missing and was inferred; verify it"
+      ],
+      "field_changes": [
+        {
+          "field": "examCodes",
+          "before": "(missing)",
+          "after": "SAP-C02, SAA-C03",
+          "reason": "exam codes detected in the content"
+        },
+        {
+          "field": "title",
+          "before": "AWS Solutions Architect Professional SAP-C03 Changes: What to Expect in Nov 2026",
+          "after": "AWS SAP-C03 Exam Changes: What to Expect and How to Prepare",
+          "reason": "LLM SEO rewrite (out of range)"
+        },
+        {
+          "field": "seoTitle",
+          "before": "AWS SAP-C03 Coming In 2026 | AWS SAP-C02 Retires in 2026 | What's Changing & Should You Wait?",
+          "after": "AWS SAP-C03 Changes: Should You Take SAP-C02 or Wait in 2026?",
+          "reason": "LLM SEO rewrite (out of range)"
+        },
+        {
+          "field": "seoDescription",
+          "before": "AWS is replacing its Solutions Architect Professional (SAP-C02) with new SAP-C03 on November 17, 2026. Here's what's confirmed, what's changing, and whether you should wait or take the current exam.",
+          "after": "Understand the upcoming AWS SAP-C03 changes, including new AI topics and domain updates. Learn how to decide whether to take the SAP-C02 now or wait.",
+          "reason": "LLM SEO rewrite (out of range)"
+        },
+        {
+          "field": "imagePosition",
+          "before": "(missing)",
+          "after": "top",
+          "reason": "missing required field"
+        },
+        {
+          "field": "order",
+          "before": "165",
+          "after": "140",
+          "reason": "order file"
+        },
+        {
+          "field": "categories",
+          "before": "cloud, architecture, aws",
+          "after": "architecture, aws, cloud",
+          "reason": "normalized categories"
+        },
+        {
+          "field": "(order)",
+          "before": "slug, date, title, seoTitle, seoDescription, type, order, author, categories, examCodes",
+          "after": "slug, title, seoTitle, seoDescription, type, imagePosition, order, author, categories, examCodes, date",
+          "reason": "fields reordered to the schema sequence"
+        }
+      ],
+      "has_changes": true,
+      "error": null
+    },
+    {
+      "slug": "az-204-replacement-ai-200",
+      "path": "output_corrected\\az-204-replacement-ai-200.mdx",
+      "notes": [
+        "detected examCodes: AI-200, AZ-204, AI-901, SY0-701, AZ-900, DVA-C02",
+        "rewrote title (67 -> 54 chars)",
+        "rewrote seoTitle (71 -> 60 chars)",
+        "rewrote seoDescription (205 -> 148 chars)",
+        "added required field 'imagePosition'",
+        "added required field 'author'",
+        "added required field 'date'"
+      ],
+      "warnings": [],
+      "review_items": [
+        "'imagePosition' was missing and was inferred; verify it",
+        "'author' was missing and was inferred; verify it",
+        "'date' was missing and was inferred; verify it"
+      ],
+      "field_changes": [
+        {
+          "field": "examCodes",
+          "before": "(missing)",
+          "after": "AI-200, AZ-204, AI-901, SY0-701, AZ-900, DVA-C02",
+          "reason": "exam codes detected in the content"
+        },
+        {
+          "field": "title",
+          "before": "AZ-204 Has Retired: What AI-200 Actually Changes and How to Prepare",
+          "after": "AZ-204 Retired: What AI-200 Changes and How to Prepare",
+          "reason": "LLM SEO rewrite (out of range)"
+        },
+        {
+          "field": "seoTitle",
+          "before": "AZ-204 Retired, Replaced by AI-200: What's Different and How to Prepare",
+          "after": "AZ-204 Retired: Preparing for the AI-200 Replacement in 2026",
+          "reason": "LLM SEO rewrite (out of range)"
+        },
+        {
+          "field": "seoDescription",
+          "before": "AZ-204 retired July 31, 2026. AI-200 is its replacement, but it's not a renamed exam — roughly half the syllabus is gone. Here's exactly what changed, what survived, and how to prepare for the new domains.",
+          "after": "As the AZ-204 replacement, AI-200 brings major changes. Learn which developer topics survived, what got cut, and how to prepare for the new domains.",
+          "reason": "LLM SEO rewrite (out of range)"
+        },
+        {
+          "field": "imagePosition",
+          "before": "(missing)",
+          "after": "top",
+          "reason": "missing required field"
+        },
+        {
+          "field": "order",
+          "before": "905",
+          "after": "470",
+          "reason": "order file"
+        },
+        {
+          "field": "author",
+          "before": "(missing)",
+          "after": "Alex Morgan",
+          "reason": "missing required field"
+        },
+        {
+          "field": "categories",
+          "before": "azure, ai, certifications, developer",
+          "after": "ai, azure, certifications, developer",
+          "reason": "normalized categories"
+        },
+        {
+          "field": "date",
+          "before": "(missing)",
+          "after": "2026-09-27",
+          "reason": "missing required field"
+        },
+        {
+          "field": "(order)",
+          "before": "slug, title, seoTitle, seoDescription, type, categories, order, examCodes",
+          "after": "slug, title, seoTitle, seoDescription, type, imagePosition, order, author, categories, examCodes, date",
+          "reason": "fields reordered to the schema sequence"
+        }
+      ],
+      "has_changes": true,
+      "error": null
+    },
+    {
+      "slug": "aws-solutions-architect-associate-vs-professional",
+      "path": "output_corrected\\aws-solutions-architect-associate-vs-professional.mdx",
+      "notes": [
+        "detected examCodes: SAP-C02, SAA-C03",
+        "rewrote title (73 -> 65 chars)",
+        "rewrote seoTitle (76 -> 61 chars)",
+        "rewrote seoDescription (177 -> 153 chars)"
+      ],
+      "warnings": [],
+      "review_items": [],
+      "field_changes": [
+        {
+          "field": "examCodes",
+          "before": "(missing)",
+          "after": "SAP-C02, SAA-C03",
+          "reason": "exam codes detected in the content"
+        },
+        {
+          "field": "title",
+          "before": "AWS Solutions Architect Associate vs Professional: What Actually Changes?",
+          "after": "AWS Solutions Architect Associate vs Professional: Which to Take?",
+          "reason": "LLM SEO rewrite (out of range)"
+        },
+        {
+          "field": "seoTitle",
+          "before": "AWS Solutions Architect Associate vs Professional: Key Differences Explained",
+          "after": "AWS Solutions Architect Associate vs Professional: SAA vs SAP",
+          "reason": "LLM SEO rewrite (out of range)"
+        },
+        {
+          "field": "seoDescription",
+          "before": "Trying to decide between AWS Solutions Architect Associate and Professional? Learn how the exams differ in difficulty, architecture depth, scenario complexity, and career value.",
+          "after": "Compare AWS Solutions Architect Associate vs Professional. Learn the key differences in exam difficulty, scenario complexity, and career value to decide.",
+          "reason": "LLM SEO rewrite (out of range)"
+        },
+        {
+          "field": "order",
+          "before": "450",
+          "after": "390",
+          "reason": "order file"
+        },
+        {
+          "field": "categories",
+          "before": "cloud, architecture, aws",
+          "after": "architecture, aws, cloud",
+          "reason": "normalized categories"
+        },
+        {
+          "field": "(order)",
+          "before": "slug, date, title, seoTitle, seoDescription, type, imagePosition, order, author, categories, examCodes",
+          "after": "slug, title, seoTitle, seoDescription, type, imagePosition, order, author, categories, examCodes, date",
+          "reason": "fields reordered to the schema sequence"
+        }
+      ],
+      "has_changes": true,
+      "error": null
+    },
+    {
+      "slug": "azure-vs-aws-vs-gcp",
+      "path": "output_corrected\\azure-vs-aws-vs-gcp.mdx",
+      "notes": [
+        "rewrote seoTitle (67 -> 57 chars)"
+      ],
+      "warnings": [],
+      "review_items": [],
+      "field_changes": [
+        {
+          "field": "seoTitle",
+          "before": "Azure vs AWS vs GCP: Which Cloud Should You Learn in 2026? | ExamOS",
+          "after": "Azure vs AWS vs GCP: Choosing the Best Cloud Path in 2026",
+          "reason": "LLM SEO rewrite (out of range)"
+        },
+        {
+          "field": "imagePosition",
+          "before": "middle",
+          "after": "top",
+          "reason": "field must be a fixed value"
+        },
+        {
+          "field": "order",
+          "before": "80",
+          "after": "240",
+          "reason": "order file"
+        },
+        {
+          "field": "categories",
+          "before": "cloud, career, aws, azure, gcp",
+          "after": "aws, azure, career, cloud, gcp",
+          "reason": "normalized categories"
+        },
+        {
+          "field": "(order)",
+          "before": "slug, date, title, seoTitle, seoDescription, type, author, order, imagePosition, categories",
+          "after": "slug, title, seoTitle, seoDescription, type, imagePosition, order, author, categories, date",
+          "reason": "fields reordered to the schema sequence"
+        }
+      ],
+      "has_changes": true,
+      "error": null
+    },
+    {
+      "slug": "az-104-networking-concepts-difficult",
+      "path": "output_corrected\\az-104-networking-concepts-difficult.mdx",
+      "notes": [
+        "rewrote seoTitle (77 -> 58 chars)",
+        "rewrote seoDescription (191 -> 146 chars)",
+        "added required field 'date'"
+      ],
+      "warnings": [],
+      "review_items": [
+        "dropped unapproved category 'administration'",
+        "'date' was missing and was inferred; verify it"
+      ],
+      "field_changes": [
+        {
+          "field": "seoTitle",
+          "before": "AZ-104 Networking Concepts Explained: Why They're Hard and How to Master Them",
+          "after": "AZ-104 Networking Concepts: Master the Hardest Exam Topics",
+          "reason": "LLM SEO rewrite (out of range)"
+        },
+        {
+          "field": "seoDescription",
+          "before": "Azure networking is where most AZ-104 candidates lose points. Here's a clear breakdown of the concepts that cause the most confusion, from NSGs and UDRs to VNet peering and Private Endpoints.",
+          "after": "Master the most difficult AZ-104 networking concepts. Learn how NSGs, UDRs, VNet peering, and private endpoints interact so you can pass the exam.",
+          "reason": "LLM SEO rewrite (out of range)"
+        },
+        {
+          "field": "order",
+          "before": "440",
+          "after": "460",
+          "reason": "order file"
+        },
+        {
+          "field": "categories",
+          "before": "cloud, administration, azure",
+          "after": "azure, cloud",
+          "reason": "normalized categories"
+        },
+        {
+          "field": "date",
+          "before": "(missing)",
+          "after": "2026-09-27",
+          "reason": "missing required field"
+        },
+        {
+          "field": "(order)",
+          "before": "slug, title, seoTitle, seoDescription, type, imagePosition, order, author, categories, examCodes",
+          "after": "slug, title, seoTitle, seoDescription, type, imagePosition, order, author, categories, examCodes, date",
+          "reason": "fields reordered to the schema sequence"
+        }
+      ],
+      "has_changes": true,
+      "error": null
+    },
+    {
+      "slug": "cissp-ai-security-exam-guidance",
+      "path": "output_corrected\\cissp-ai-security-exam-guidance.mdx",
+      "notes": [
+        "detected examCodes: CISSP",
+        "rewrote title (101 -> 59 chars)",
+        "rewrote seoTitle (70 -> 56 chars)",
+        "rewrote seoDescription (192 -> 149 chars)"
+      ],
+      "warnings": [],
+      "review_items": [],
+      "field_changes": [
+        {
+          "field": "examCodes",
+          "before": "(missing)",
+          "after": "CISSP",
+          "reason": "exam codes detected in the content"
+        },
+        {
+          "field": "title",
+          "before": "ISC2 Adds AI Security to All CISSP Domains — How the April 2026 Exam Guidance Changes Your Study Plan",
+          "after": "How CISSP AI Security Exam Guidance Changes Your Study Plan",
+          "reason": "LLM SEO rewrite (out of range)"
+        },
+        {
+          "field": "seoTitle",
+          "before": "CISSP AI Security Update April 2026: What It Means for Your Study Plan",
+          "after": "CISSP AI Security Exam Guidance: 2026 Study Plan Updates",
+          "reason": "LLM SEO rewrite (out of range)"
+        },
+        {
+          "field": "seoDescription",
+          "before": "ISC2's April 2026 Exam Guidance confirms AI security is already embedded across all CISSP domains. Here's a domain-by-domain breakdown of what's changed and how to adjust your preparation now.",
+          "after": "The new CISSP AI security exam guidance integrates AI across all domains. Learn how to update your study plan and master these new 2026 requirements.",
+          "reason": "LLM SEO rewrite (out of range)"
+        },
+        {
+          "field": "order",
+          "before": "120",
+          "after": "250",
+          "reason": "order file"
+        },
+        {
+          "field": "categories",
+          "before": "security, certifications, ai, strategy",
+          "after": "ai, certifications, security, strategy",
+          "reason": "normalized categories"
+        },
+        {
+          "field": "(order)",
+          "before": "slug, title, seoTitle, seoDescription, type, date, imagePosition, author, order, categories, examCodes",
+          "after": "slug, title, seoTitle, seoDescription, type, imagePosition, order, author, categories, examCodes, date",
+          "reason": "fields reordered to the schema sequence"
+        }
+      ],
+      "has_changes": true,
+      "error": null
+    },
+    {
+      "slug": "certifications-worth-it-ai-era",
+      "path": "output_corrected\\certifications-worth-it-ai-era.mdx",
+      "notes": [
+        "detected examCodes: AZ-104, SAA-C03, CKA",
+        "rewrote seoDescription (182 -> 151 chars)",
+        "added required field 'date'"
+      ],
+      "warnings": [],
+      "review_items": [
+        "'date' was missing and was inferred; verify it"
+      ],
+      "field_changes": [
+        {
+          "field": "examCodes",
+          "before": "(missing)",
+          "after": "AZ-104, SAA-C03, CKA",
+          "reason": "exam codes detected in the content"
+        },
+        {
+          "field": "seoDescription",
+          "before": "AI can write code and diagnose errors in seconds. Do IT certifications still matter? Here is what the data says about certification value, hiring signals, and the skills gap in 2026.",
+          "after": "Are IT certifications worth it in the AI era? Discover what the 2026 data says about certification value, hiring trends, and the skills employers need.",
+          "reason": "LLM SEO rewrite (out of range)"
+        },
+        {
+          "field": "order",
+          "before": "470",
+          "after": "500",
+          "reason": "order file"
+        },
+        {
+          "field": "categories",
+          "before": "ai, career, strategy, cloud, beginner",
+          "after": "ai, beginner, career, cloud, strategy",
+          "reason": "normalized categories"
+        },
+        {
+          "field": "date",
+          "before": "(missing)",
+          "after": "2026-09-27",
+          "reason": "missing required field"
+        },
+        {
+          "field": "(order)",
+          "before": "slug, title, seoTitle, seoDescription, type, author, order, imagePosition, categories, examCodes",
+          "after": "slug, title, seoTitle, seoDescription, type, imagePosition, order, author, categories, examCodes, date",
+          "reason": "fields reordered to the schema sequence"
+        }
+      ],
+      "has_changes": true,
+      "error": null
+    },
+    {
+      "slug": "daily-practice-key-to-devops-certification",
+      "path": "output_corrected\\daily-practice-key-to-devops-certification.mdx",
+      "notes": [
+        "detected examCodes: AZ-400, DOP-C02, CKA, CKS",
+        "rewrote seoTitle (85 -> 55 chars)",
+        "rewrote seoDescription (196 -> 154 chars)",
+        "added required field 'date'"
+      ],
+      "warnings": [],
+      "review_items": [
+        "'date' was missing and was inferred; verify it"
+      ],
+      "field_changes": [
+        {
+          "field": "examCodes",
+          "before": "(missing)",
+          "after": "AZ-400, DOP-C02, CKA, CKS",
+          "reason": "exam codes detected in the content"
+        },
+        {
+          "field": "seoTitle",
+          "before": "Why Daily Practice Beats Cramming for DevOps Certifications (CKA, AWS DevOps, AZ-400)",
+          "after": "DevOps Certification: Why Daily Practice Beats Cramming",
+          "reason": "LLM SEO rewrite (out of range)"
+        },
+        {
+          "field": "seoDescription",
+          "before": "DevOps certifications like CKA, AWS DevOps Engineer, and AZ-400 cannot be crammed. Here is why daily practice is the only preparation approach that works for hands-on, scenario-heavy DevOps exams.",
+          "after": "Learn why DevOps certification daily practice is essential for passing hands-on exams like CKA and AZ-400. Discover how to build a consistent study habit.",
+          "reason": "LLM SEO rewrite (out of range)"
+        },
+        {
+          "field": "order",
+          "before": "420",
+          "after": "550",
+          "reason": "order file"
+        },
+        {
+          "field": "categories",
+          "before": "devops, cloud, strategy, certifications",
+          "after": "certifications, cloud, devops, strategy",
+          "reason": "normalized categories"
+        },
+        {
+          "field": "date",
+          "before": "(missing)",
+          "after": "2026-09-27",
+          "reason": "missing required field"
+        },
+        {
+          "field": "(order)",
+          "before": "slug, title, seoTitle, seoDescription, type, order, imagePosition, categories, author, examCodes",
+          "after": "slug, title, seoTitle, seoDescription, type, imagePosition, order, author, categories, examCodes, date",
+          "reason": "fields reordered to the schema sequence"
+        }
+      ],
+      "has_changes": true,
+      "error": null
+    },
+    {
+      "slug": "cloud-security-roles-guide-beginners",
+      "path": "output_corrected\\cloud-security-roles-guide-beginners.mdx",
+      "notes": [
+        "detected examCodes: CCSP, AZ-400, SC-500, SC-200, SCS-C03, DOP-C02, AZ-104, SAA-C03, CKA, CISM, CSSLP, CKS, CISA, TA-004, GCP-ACE, AZ-500",
+        "rewrote title (81 -> 60 chars)",
+        "rewrote seoTitle (83 -> 59 chars)",
+        "rewrote seoDescription (240 -> 156 chars)",
+        "added required field 'imagePosition'"
+      ],
+      "warnings": [],
+      "review_items": [
+        "'imagePosition' was missing and was inferred; verify it"
+      ],
+      "field_changes": [
+        {
+          "field": "examCodes",
+          "before": "(missing)",
+          "after": "CCSP, AZ-400, SC-500, SC-200, SCS-C03, DOP-C02, AZ-104, SAA-C03, CKA, CISM, CSSLP, CKS, CISA, TA-004, GCP-ACE, AZ-500",
+          "reason": "exam codes detected in the content"
+        },
+        {
+          "field": "title",
+          "before": "Cloud Security, AppSec, DevSecOps, SOC or GRC : Choosing Your First Security Role",
+          "after": "Cloud Security Roles: How to Choose Your First Security Path",
+          "reason": "LLM SEO rewrite (out of range)"
+        },
+        {
+          "field": "seoTitle",
+          "before": "Cloud Security vs AppSec vs DevSecOps: A Beginner's Guide to Security Roles in 2026",
+          "after": "Cloud Security Roles Guide: How to Choose Your Path in 2026",
+          "reason": "LLM SEO rewrite (out of range)"
+        },
+        {
+          "field": "seoDescription",
+          "before": "Not sure which security role to pursue? Here's an honest breakdown of cloud security engineer, application security engineer, DevSecOps engineer, and related roles — what each does daily, how they differ, and which one fits your background.",
+          "after": "Compare cloud security roles like AppSec, DevSecOps, SOC, and GRC. Learn what each role does daily, the skills you need, and how to choose your career path.",
+          "reason": "LLM SEO rewrite (out of range)"
+        },
+        {
+          "field": "imagePosition",
+          "before": "(missing)",
+          "after": "top",
+          "reason": "missing required field"
+        },
+        {
+          "field": "order",
+          "before": "37",
+          "after": "340",
+          "reason": "order file"
+        },
+        {
+          "field": "categories",
+          "before": "security, cloud",
+          "after": "cloud, security",
+          "reason": "normalized categories"
+        },
+        {
+          "field": "(order)",
+          "before": "slug, title, seoTitle, seoDescription, categories, author, type, order, date, examCodes",
+          "after": "slug, title, seoTitle, seoDescription, type, imagePosition, order, author, categories, examCodes, date",
+          "reason": "fields reordered to the schema sequence"
+        }
+      ],
+      "has_changes": true,
+      "error": null
+    },
+    {
+      "slug": "comptia-trifecta-guide",
+      "path": "output_corrected\\comptia-trifecta-guide.mdx",
+      "notes": [
+        "detected examCodes: SY0-701, N10-009, 220-1201, 220-1202",
+        "rewrote title (68 -> 61 chars)",
+        "rewrote seoTitle (71 -> 59 chars)",
+        "rewrote seoDescription (200 -> 154 chars)",
+        "added required field 'imagePosition'",
+        "added required field 'date'"
+      ],
+      "warnings": [],
+      "review_items": [
+        "'imagePosition' was missing and was inferred; verify it",
+        "'date' was missing and was inferred; verify it"
+      ],
+      "field_changes": [
+        {
+          "field": "examCodes",
+          "before": "(missing)",
+          "after": "SY0-701, N10-009, 220-1201, 220-1202",
+          "reason": "exam codes detected in the content"
+        },
+        {
+          "field": "title",
+          "before": "The CompTIA Trifecta: What It Is, Why It Matters, and How to Earn It",
+          "after": "How to Earn the CompTIA Trifecta: A+, Network+, and Security+",
+          "reason": "LLM SEO rewrite (out of range)"
+        },
+        {
+          "field": "seoTitle",
+          "before": "CompTIA Trifecta Guide: A+, Network+, Security+ — How to Earn All Three",
+          "after": "CompTIA Trifecta Guide: Career Benefits and Exam Sequencing",
+          "reason": "LLM SEO rewrite (out of range)"
+        },
+        {
+          "field": "seoDescription",
+          "before": "The CompTIA Trifecta means earning A+, Network+, and Security+ in sequence. Here's what each exam covers, why the combination matters for IT careers, and how to plan your preparation across all three.",
+          "after": "Learn how the CompTIA Trifecta of A+, Network+, and Security+ builds your IT career. Discover the ideal exam order, preparation timelines, and study tips.",
+          "reason": "LLM SEO rewrite (out of range)"
+        },
+        {
+          "field": "imagePosition",
+          "before": "(missing)",
+          "after": "top",
+          "reason": "missing required field"
+        },
+        {
+          "field": "order",
+          "before": "170",
+          "after": "740",
+          "reason": "order file"
+        },
+        {
+          "field": "categories",
+          "before": "security, beginner",
+          "after": "beginner, security",
+          "reason": "normalized categories"
+        },
+        {
+          "field": "date",
+          "before": "(missing)",
+          "after": "2026-09-27",
+          "reason": "missing required field"
+        },
+        {
+          "field": "(order)",
+          "before": "categories, author, slug, title, seoTitle, seoDescription, type, order, examCodes",
+          "after": "slug, title, seoTitle, seoDescription, type, imagePosition, order, author, categories, examCodes, date",
+          "reason": "fields reordered to the schema sequence"
+        }
+      ],
+      "has_changes": true,
+      "error": null
+    },
+    {
+      "slug": "cissp-vs-cism-vs-ccsp-which-to-pursue-first",
+      "path": "output_corrected\\cissp-vs-cism-vs-ccsp-which-to-pursue-first.mdx",
+      "notes": [
+        "detected examCodes: CISSP, CISM, CCSP",
+        "rewrote seoTitle (72 -> 58 chars)",
+        "rewrote seoDescription (183 -> 143 chars)"
+      ],
+      "warnings": [],
+      "review_items": [],
+      "field_changes": [
+        {
+          "field": "examCodes",
+          "before": "(missing)",
+          "after": "CISSP, CISM, CCSP",
+          "reason": "exam codes detected in the content"
+        },
+        {
+          "field": "seoTitle",
+          "before": "CISSP vs CISM vs CCSP: Which Security Certification Should You Do First?",
+          "after": "CISSP vs CISM vs CCSP: Which Should You Take First? (2026)",
+          "reason": "LLM SEO rewrite (out of range)"
+        },
+        {
+          "field": "seoDescription",
+          "before": "Comparing CISSP, CISM, and CCSP? Here's an honest breakdown of what each certification tests, who it's built for, and how to decide which one fits your career stage and goals in 2026.",
+          "after": "Compare CISSP vs CISM vs CCSP. Learn the key differences in scope, experience requirements, and career paths to decide which one to take first.",
+          "reason": "LLM SEO rewrite (out of range)"
+        },
+        {
+          "field": "order",
+          "before": "500",
+          "after": "750",
+          "reason": "order file"
+        },
+        {
+          "field": "categories",
+          "before": "security, certifications",
+          "after": "certifications, security",
+          "reason": "normalized categories"
+        },
+        {
+          "field": "(order)",
+          "before": "slug, title, seoTitle, seoDescription, type, date, imagePosition, author, order, categories, examCodes",
+          "after": "slug, title, seoTitle, seoDescription, type, imagePosition, order, author, categories, examCodes, date",
+          "reason": "fields reordered to the schema sequence"
+        }
+      ],
+      "has_changes": true,
+      "error": null
+    },
+    {
+      "slug": "decoding-esg-questions-on-the-pmp-sample-scenarios-and-how-to-answer-them",
+      "path": "output_corrected\\decoding-esg-questions-on-the-pmp-sample-scenarios-and-how-to-answer-them.mdx",
+      "notes": [
+        "detected examCodes: PMP",
+        "rewrote title (75 -> 56 chars)",
+        "rewrote seoTitle (73 -> 58 chars)",
+        "rewrote seoDescription (171 -> 147 chars)",
+        "added required field 'author'",
+        "added required field 'date'"
+      ],
+      "warnings": [],
+      "review_items": [
+        "'author' was missing and was inferred; verify it",
+        "'date' was missing and was inferred; verify it"
+      ],
+      "field_changes": [
+        {
+          "field": "examCodes",
+          "before": "(missing)",
+          "after": "PMP",
+          "reason": "exam codes detected in the content"
+        },
+        {
+          "field": "title",
+          "before": "Decoding ESG Questions on the PMP®: Sample Scenarios and How to Answer Them",
+          "after": "Decoding ESG Questions on the PMP: Scenarios and Answers",
+          "reason": "LLM SEO rewrite (out of range)"
+        },
+        {
+          "field": "seoTitle",
+          "before": "ESG Questions on the PMP® Exam: 5 Sample Scenarios and How to Answer Them",
+          "after": "PMP ESG Questions: 5 Practice Scenarios and Answers (2026)",
+          "reason": "LLM SEO rewrite (out of range)"
+        },
+        {
+          "field": "seoDescription",
+          "before": "Master ESG questions on the PMP exam with 5 original scenario-based questions. Learn how to apply PMI's sustainability framework to planning, procurement, and social risk.",
+          "after": "Prepare for ESG questions on the PMP exam with five realistic scenario-based practice questions. Learn how to apply PMI's sustainability framework.",
+          "reason": "LLM SEO rewrite (out of range)"
+        },
+        {
+          "field": "order",
+          "before": "396",
+          "after": "380",
+          "reason": "order file"
+        },
+        {
+          "field": "author",
+          "before": "(missing)",
+          "after": "Pradeep Sharma",
+          "reason": "missing required field"
+        },
+        {
+          "field": "date",
+          "before": "(missing)",
+          "after": "2026-09-27",
+          "reason": "missing required field"
+        },
+        {
+          "field": "(order)",
+          "before": "slug, title, seoTitle, seoDescription, type, categories, order, imagePosition, examCodes",
+          "after": "slug, title, seoTitle, seoDescription, type, imagePosition, order, author, categories, examCodes, date",
+          "reason": "fields reordered to the schema sequence"
+        }
+      ],
+      "has_changes": true,
+      "error": null
+    },
+    {
+      "slug": "devsecops-what-it-means-for-security-professionals",
+      "path": "output_corrected\\devsecops-what-it-means-for-security-professionals.mdx",
+      "notes": [
+        "detected examCodes: SY0-701, SC-100, SCS-C03, CKA, CKS",
+        "rewrote title (68 -> 59 chars)",
+        "rewrote seoTitle (79 -> 55 chars)",
+        "rewrote seoDescription (219 -> 152 chars)",
+        "added required field 'imagePosition'",
+        "added required field 'date'"
+      ],
+      "warnings": [],
+      "review_items": [
+        "'imagePosition' was missing and was inferred; verify it",
+        "'date' was missing and was inferred; verify it"
+      ],
+      "field_changes": [
+        {
+          "field": "examCodes",
+          "before": "(missing)",
+          "after": "SY0-701, SC-100, SCS-C03, CKA, CKS",
+          "reason": "exam codes detected in the content"
+        },
+        {
+          "field": "title",
+          "before": "DevSecOps: What It Actually Means for Security Professionals in 2026",
+          "after": "DevSecOps for Security Professionals: What It Means in 2026",
+          "reason": "LLM SEO rewrite (out of range)"
+        },
+        {
+          "field": "seoTitle",
+          "before": "DevSecOps Explained: What It Means for Security Professionals and Their Careers",
+          "after": "DevSecOps for Security Professionals: 2026 Career Guide",
+          "reason": "LLM SEO rewrite (out of range)"
+        },
+        {
+          "field": "seoDescription",
+          "before": "DevSecOps is reshaping what security professionals need to know and do. Here's what the shift actually means for your skills, your role, and how to position yourself in a world where security is built into the pipeline.",
+          "after": "How does DevSecOps for security professionals change your daily role? Learn the essential pipeline, IaC, and container security skills you need in 2026.",
+          "reason": "LLM SEO rewrite (out of range)"
+        },
+        {
+          "field": "imagePosition",
+          "before": "(missing)",
+          "after": "top",
+          "reason": "missing required field"
+        },
+        {
+          "field": "order",
+          "before": "380",
+          "after": "800",
+          "reason": "order file"
+        },
+        {
+          "field": "date",
+          "before": "(missing)",
+          "after": "2026-09-27",
+          "reason": "missing required field"
+        },
+        {
+          "field": "(order)",
+          "before": "categories, author, slug, title, seoTitle, seoDescription, type, order, examCodes",
+          "after": "slug, title, seoTitle, seoDescription, type, imagePosition, order, author, categories, examCodes, date",
+          "reason": "fields reordered to the schema sequence"
+        }
+      ],
+      "has_changes": true,
+      "error": null
+    },
+    {
+      "slug": "do-practice-exams-work",
+      "path": "output_corrected\\do-practice-exams-work.mdx",
+      "notes": [
+        "detected examCodes: PMP",
+        "rewrote seoTitle (68 -> 61 chars)",
+        "rewrote seoDescription (176 -> 150 chars)",
+        "added required field 'date'"
+      ],
+      "warnings": [],
+      "review_items": [
+        "'date' was missing and was inferred; verify it"
+      ],
+      "field_changes": [
+        {
+          "field": "examCodes",
+          "before": "(missing)",
+          "after": "PMP",
+          "reason": "exam codes detected in the content"
+        },
+        {
+          "field": "seoTitle",
+          "before": "Do Practice Exams Really Work? Benefits, Science & Best Use | ExamOS",
+          "after": "Do Practice Exams Work? Science-Backed Benefits of Mock Tests",
+          "reason": "LLM SEO rewrite (out of range)"
+        },
+        {
+          "field": "seoDescription",
+          "before": "Do practice exams actually help you pass certification tests? Here is what research and real-world experience say about mock exams, retrieval practice, and smarter preparation.",
+          "after": "Do practice exams work? Discover what learning science says about mock tests, retrieval practice, and how to use them to pass your next certification.",
+          "reason": "LLM SEO rewrite (out of range)"
+        },
+        {
+          "field": "order",
+          "before": "10",
+          "after": "510",
+          "reason": "order file"
+        },
+        {
+          "field": "date",
+          "before": "(missing)",
+          "after": "2026-09-27",
+          "reason": "missing required field"
+        },
+        {
+          "field": "(order)",
+          "before": "slug, title, seoTitle, seoDescription, type, author, order, imagePosition, categories, examCodes",
+          "after": "slug, title, seoTitle, seoDescription, type, imagePosition, order, author, categories, examCodes, date",
+          "reason": "fields reordered to the schema sequence"
+        }
+      ],
+      "has_changes": true,
+      "error": null
+    },
+    {
+      "slug": "google-ace-exam-june-2026-refresh",
+      "path": "output_corrected\\google-ace-exam-june-2026-refresh.mdx",
+      "notes": [
+        "detected examCodes: GCP-ACE",
+        "added required field 'imagePosition'"
+      ],
+      "warnings": [],
+      "review_items": [
+        "'imagePosition' was missing and was inferred; verify it"
+      ],
+      "field_changes": [
+        {
+          "field": "examCodes",
+          "before": "(missing)",
+          "after": "GCP-ACE",
+          "reason": "exam codes detected in the content"
+        },
+        {
+          "field": "imagePosition",
+          "before": "(missing)",
+          "after": "top",
+          "reason": "missing required field"
+        },
+        {
+          "field": "order",
+          "before": "155",
+          "after": "160",
+          "reason": "order file"
+        },
+        {
+          "field": "(order)",
+          "before": "slug, date, title, seoTitle, seoDescription, type, order, author, categories, examCodes",
+          "after": "slug, title, seoTitle, seoDescription, type, imagePosition, order, author, categories, examCodes, date",
+          "reason": "fields reordered to the schema sequence"
+        }
+      ],
+      "has_changes": true,
+      "error": null
+    },
+    {
+      "slug": "feeling-stuck-in-it-role",
+      "path": "output_corrected\\feeling-stuck-in-it-role.mdx",
+      "notes": [
+        "detected examCodes: AZ-104, SAA-C03",
+        "rewrote title (68 -> 62 chars)",
+        "rewrote seoTitle (52 -> 59 chars)",
+        "rewrote seoDescription (124 -> 151 chars)"
+      ],
+      "warnings": [],
+      "review_items": [],
+      "field_changes": [
+        {
+          "field": "examCodes",
+          "before": "(missing)",
+          "after": "AZ-104, SAA-C03",
+          "reason": "exam codes detected in the content"
+        },
+        {
+          "field": "title",
+          "before": "Feeling Stuck in Your IT Role? How to Actually Move Forward | ExamOS",
+          "after": "Feeling Stuck in Your IT Role? How to Move Your Career Forward",
+          "reason": "LLM SEO rewrite (out of range)"
+        },
+        {
+          "field": "seoTitle",
+          "before": "Feeling Stuck in Your IT Career? How to Move Forward",
+          "after": "Stuck in an IT Career? How to Break Out and Advance in 2026",
+          "reason": "LLM SEO rewrite (out of range)"
+        },
+        {
+          "field": "seoDescription",
+          "before": "Feeling stuck as a developer, sysadmin, or PM? A practical guide to breaking out of a career rut and moving forward in tech.",
+          "after": "If you are feeling stuck in your IT role, this guide helps you diagnose the cause, build a consistent upskilling habit, and make your progress visible.",
+          "reason": "LLM SEO rewrite (out of range)"
+        },
+        {
+          "field": "imagePosition",
+          "before": "middle",
+          "after": "top",
+          "reason": "field must be a fixed value"
+        },
+        {
+          "field": "order",
+          "before": "540",
+          "after": "870",
+          "reason": "order file"
+        },
+        {
+          "field": "categories",
+          "before": "career, strategy, beginner",
+          "after": "beginner, career, strategy",
+          "reason": "normalized categories"
+        },
+        {
+          "field": "(order)",
+          "before": "slug, date, title, seoTitle, seoDescription, type, author, order, imagePosition, categories, examCodes",
+          "after": "slug, title, seoTitle, seoDescription, type, imagePosition, order, author, categories, examCodes, date",
+          "reason": "fields reordered to the schema sequence"
+        }
+      ],
+      "has_changes": true,
+      "error": null
+    },
+    {
+      "slug": "how-hard-is-security-plus",
+      "path": "output_corrected\\how-hard-is-security-plus.mdx",
+      "notes": [
+        "detected examCodes: SY0-701, AZ-104, N10-009"
+      ],
+      "warnings": [],
+      "review_items": [
+        "unrecognized field 'description' preserved; review the schema",
+        "unrecognized field 'readingTime' preserved; review the schema"
+      ],
+      "field_changes": [
+        {
+          "field": "examCodes",
+          "before": "(missing)",
+          "after": "SY0-701, AZ-104, N10-009",
+          "reason": "exam codes detected in the content"
+        },
+        {
+          "field": "imagePosition",
+          "before": "middle",
+          "after": "top",
+          "reason": "field must be a fixed value"
+        },
+        {
+          "field": "order",
+          "before": "190",
+          "after": "730",
+          "reason": "order file"
+        },
+        {
+          "field": "categories",
+          "before": "security, beginner",
+          "after": "beginner, security",
+          "reason": "normalized categories"
+        },
+        {
+          "field": "(order)",
+          "before": "slug, title, seoTitle, seoDescription, date, type, author, order, imagePosition, categories, examCodes",
+          "after": "slug, title, seoTitle, seoDescription, type, imagePosition, order, author, categories, examCodes, date",
+          "reason": "fields reordered to the schema sequence"
+        }
+      ],
+      "has_changes": true,
+      "error": null
+    },
+    {
+      "slug": "five-prompts-for-it-certification",
+      "path": "output_corrected\\five-prompts-for-it-certification.mdx",
+      "notes": [
+        "rewrote title (67 -> 54 chars)",
+        "rewrote seoTitle (79 -> 62 chars)",
+        "rewrote seoDescription (129 -> 156 chars)"
+      ],
+      "warnings": [],
+      "review_items": [],
+      "field_changes": [
+        {
+          "field": "title",
+          "before": "5 AI Prompts That Will Speed Up Your Learning for IT Certifications",
+          "after": "5 AI Prompts to Accelerate Your IT Certification Study",
+          "reason": "LLM SEO rewrite (out of range)"
+        },
+        {
+          "field": "seoTitle",
+          "before": "5 AI Prompts to Study Faster for AWS, Azure, DevOps and Security Certifications",
+          "after": "5 AI Prompts for IT Certification Study to Learn Faster (2026)",
+          "reason": "LLM SEO rewrite (out of range)"
+        },
+        {
+          "field": "seoDescription",
+          "before": "Use these 5 practical AI prompts to understand cloud, DevOps, and security concepts faster while preparing for IT certifications.",
+          "after": "Use these 5 practical AI prompts for IT certification study to simplify complex cloud concepts, debug lab errors faster, and analyze practice exam mistakes.",
+          "reason": "LLM SEO rewrite (out of range)"
+        },
+        {
+          "field": "order",
+          "before": "530",
+          "after": "590",
+          "reason": "order file"
+        },
+        {
+          "field": "categories",
+          "before": "ai, career, strategy, cloud, certifications",
+          "after": "ai, career, certifications, cloud, strategy",
+          "reason": "normalized categories"
+        },
+        {
+          "field": "(order)",
+          "before": "slug, date, title, seoTitle, seoDescription, type, author, order, imagePosition, categories",
+          "after": "slug, title, seoTitle, seoDescription, type, imagePosition, order, author, categories, date",
+          "reason": "fields reordered to the schema sequence"
+        }
+      ],
+      "has_changes": true,
+      "error": null
+    },
+    {
+      "slug": "generalist-to-cloud-native-security-specialist",
+      "path": "output_corrected\\generalist-to-cloud-native-security-specialist.mdx",
+      "notes": [
+        "detected examCodes: CISSP, SC-300, SC-200, SC-100, SCS-C03, AZ-104, CKA, CCSP, CKS, AZ-500",
+        "rewrote seoTitle (81 -> 56 chars)",
+        "rewrote seoDescription (250 -> 143 chars)",
+        "added required field 'imagePosition'",
+        "added required field 'date'"
+      ],
+      "warnings": [],
+      "review_items": [
+        "'imagePosition' was missing and was inferred; verify it",
+        "'date' was missing and was inferred; verify it"
+      ],
+      "field_changes": [
+        {
+          "field": "examCodes",
+          "before": "(missing)",
+          "after": "CISSP, SC-300, SC-200, SC-100, SCS-C03, AZ-104, CKA, CCSP, CKS, AZ-500",
+          "reason": "exam codes detected in the content"
+        },
+        {
+          "field": "seoTitle",
+          "before": "From Security Generalist to Cloud-Native Security Specialist: Career Roadmap 2026",
+          "after": "Cloud-Native Security Specialist: 2026 Career Transition",
+          "reason": "LLM SEO rewrite (out of range)"
+        },
+        {
+          "field": "seoDescription",
+          "before": "Security generalists are finding it harder to stay relevant as cloud-native environments demand deeper specialization. Here's what the shift looks like, which specializations have the most career leverage, and how to make the transition deliberately.",
+          "after": "Transition to a cloud-native security specialist role. Discover the key certifications, career paths, and practical skills you need to succeed.",
+          "reason": "LLM SEO rewrite (out of range)"
+        },
+        {
+          "field": "imagePosition",
+          "before": "(missing)",
+          "after": "top",
+          "reason": "missing required field"
+        },
+        {
+          "field": "order",
+          "before": "280",
+          "after": "860",
+          "reason": "order file"
+        },
+        {
+          "field": "categories",
+          "before": "security, cloud",
+          "after": "cloud, security",
+          "reason": "normalized categories"
+        },
+        {
+          "field": "date",
+          "before": "(missing)",
+          "after": "2026-09-27",
+          "reason": "missing required field"
+        },
+        {
+          "field": "(order)",
+          "before": "categories, author, slug, title, seoTitle, seoDescription, type, order, examCodes",
+          "after": "slug, title, seoTitle, seoDescription, type, imagePosition, order, author, categories, examCodes, date",
+          "reason": "fields reordered to the schema sequence"
+        }
+      ],
+      "has_changes": true,
+      "error": null
+    },
+    {
+      "slug": "how-hard-is-ai-103",
+      "path": "output_corrected\\how-hard-is-ai-103.mdx",
+      "notes": [
+        "detected examCodes: AI-901, AI-103, AZ-104, DVA-C02",
+        "rewrote seoTitle (54 -> 61 chars)",
+        "rewrote seoDescription (204 -> 155 chars)"
+      ],
+      "warnings": [],
+      "review_items": [],
+      "field_changes": [
+        {
+          "field": "examCodes",
+          "before": "(missing)",
+          "after": "AI-901, AI-103, AZ-104, DVA-C02",
+          "reason": "exam codes detected in the content"
+        },
+        {
+          "field": "seoTitle",
+          "before": "How Hard Is AI-103? Real Difficulty Breakdown for 2026",
+          "after": "AI-103 Difficulty: How Hard Is the New Azure AI Exam in 2026?",
+          "reason": "LLM SEO rewrite (out of range)"
+        },
+        {
+          "field": "seoDescription",
+          "before": "Is AI-103 hard? Here's an honest, domain-by-domain difficulty breakdown of Microsoft's new Azure AI Apps and Agents Developer exam, who will find it easy, who will struggle, and how it compares to AI-102.",
+          "after": "Wondering about the AI-103 difficulty? Learn which domains are the hardest, how it compares to AI-102, and get a realistic study timeline to pass the exam.",
+          "reason": "LLM SEO rewrite (out of range)"
+        },
+        {
+          "field": "order",
+          "before": "58",
+          "after": "100",
+          "reason": "order file"
+        },
+        {
+          "field": "categories",
+          "before": "azure, ai, certifications",
+          "after": "ai, azure, certifications",
+          "reason": "normalized categories"
+        },
+        {
+          "field": "(order)",
+          "before": "slug, title, seoTitle, seoDescription, type, categories, order, author, imagePosition, date, examCodes",
+          "after": "slug, title, seoTitle, seoDescription, type, imagePosition, order, author, categories, examCodes, date",
+          "reason": "fields reordered to the schema sequence"
+        }
+      ],
+      "has_changes": true,
+      "error": null
+    },
+    {
+      "slug": "how-to-handle-ai-anxiety",
+      "path": "output_corrected\\how-to-handle-ai-anxiety.mdx",
+      "notes": [
+        "rewrote title (76 -> 53 chars)"
+      ],
+      "warnings": [],
+      "review_items": [],
+      "field_changes": [
+        {
+          "field": "title",
+          "before": "What Actually Helps When You Feel Behind in Technology (Handling AI Anxiety)",
+          "after": "How to Handle AI Anxiety When You Feel Behind in Tech",
+          "reason": "LLM SEO rewrite (out of range)"
+        },
+        {
+          "field": "imagePosition",
+          "before": "middle",
+          "after": "top",
+          "reason": "field must be a fixed value"
+        },
+        {
+          "field": "order",
+          "before": "590",
+          "after": "880",
+          "reason": "order file"
+        },
+        {
+          "field": "categories",
+          "before": "career, ai",
+          "after": "ai, career",
+          "reason": "normalized categories"
+        },
+        {
+          "field": "(order)",
+          "before": "slug, date, title, seoTitle, seoDescription, type, author, order, imagePosition, categories",
+          "after": "slug, title, seoTitle, seoDescription, type, imagePosition, order, author, categories, date",
+          "reason": "fields reordered to the schema sequence"
+        }
+      ],
+      "has_changes": true,
+      "error": null
+    },
+    {
+      "slug": "how-to-become-forward-deployed-engineer-certifications",
+      "path": "output_corrected\\how-to-become-forward-deployed-engineer-certifications.mdx",
+      "notes": [
+        "detected examCodes: SY0-701, AZ-400, AZ-305, AI-103, SC-100, SAP-C02, SCS-C03, DOP-C02, AZ-104, DVA-C02, SAA-C03, CKA, TA-004, GCP-PCA, DEA-C01, PMP",
+        "rewrote seoTitle (78 -> 56 chars)",
+        "rewrote seoDescription (196 -> 154 chars)",
+        "added required field 'imagePosition'",
+        "added required field 'date'"
+      ],
+      "warnings": [],
+      "review_items": [
+        "'imagePosition' was missing and was inferred; verify it",
+        "'date' was missing and was inferred; verify it"
+      ],
+      "field_changes": [
+        {
+          "field": "examCodes",
+          "before": "(missing)",
+          "after": "SY0-701, AZ-400, AZ-305, AI-103, SC-100, SAP-C02, SCS-C03, DOP-C02, AZ-104, DVA-C02, SAA-C03, CKA, TA-004, GCP-PCA, DEA-C01, PMP",
+          "reason": "exam codes detected in the content"
+        },
+        {
+          "field": "seoTitle",
+          "before": "How to Become a Forward Deployed Engineer: Certification + Soft Skills Roadmap",
+          "after": "Forward Deployed Engineer Certifications: Career Roadmap",
+          "reason": "LLM SEO rewrite (out of range)"
+        },
+        {
+          "field": "seoDescription",
+          "before": "Forward Deployed Engineers need technical depth plus stakeholder handling, simplification, and influencing skills. Here's how certifications build credibility — and what really differentiates you.",
+          "after": "Learn how to use a Forward Deployed Engineer certification path to build technical credibility. Discover the best cloud, DevOps, and security credentials.",
+          "reason": "LLM SEO rewrite (out of range)"
+        },
+        {
+          "field": "imagePosition",
+          "before": "(missing)",
+          "after": "top",
+          "reason": "missing required field"
+        },
+        {
+          "field": "order",
+          "before": "40",
+          "after": "190",
+          "reason": "order file"
+        },
+        {
+          "field": "categories",
+          "before": "cloud, certifications, beginner",
+          "after": "beginner, certifications, cloud",
+          "reason": "normalized categories"
+        },
+        {
+          "field": "date",
+          "before": "(missing)",
+          "after": "2026-09-27",
+          "reason": "missing required field"
+        },
+        {
+          "field": "(order)",
+          "before": "categories, author, slug, title, seoTitle, seoDescription, type, order, examCodes",
+          "after": "slug, title, seoTitle, seoDescription, type, imagePosition, order, author, categories, examCodes, date",
+          "reason": "fields reordered to the schema sequence"
+        }
+      ],
+      "has_changes": true,
+      "error": null
+    },
+    {
+      "slug": "how-to-know-if-youre-ready-for-az-104-exam",
+      "path": "output_corrected\\how-to-know-if-youre-ready-for-az-104-exam.mdx",
+      "notes": [
+        "rewrote seoDescription (197 -> 154 chars)",
+        "added required field 'date'"
+      ],
+      "warnings": [],
+      "review_items": [
+        "'date' was missing and was inferred; verify it"
+      ],
+      "field_changes": [
+        {
+          "field": "seoDescription",
+          "before": "Not sure whether to book the AZ-104 exam? Here's a practical readiness framework covering practice scores, scenario reasoning, and the specific signals that matter for the Azure Administrator exam.",
+          "after": "Evaluate your AZ-104 readiness with this practical framework. Learn the five key signals that prove you are prepared to pass the Azure Administrator exam.",
+          "reason": "LLM SEO rewrite (out of range)"
+        },
+        {
+          "field": "order",
+          "before": "200",
+          "after": "370",
+          "reason": "order file"
+        },
+        {
+          "field": "categories",
+          "before": "strategy, azure, beginner",
+          "after": "azure, beginner, strategy",
+          "reason": "normalized categories"
+        },
+        {
+          "field": "date",
+          "before": "(missing)",
+          "after": "2026-09-27",
+          "reason": "missing required field"
+        },
+        {
+          "field": "(order)",
+          "before": "slug, title, seoTitle, seoDescription, type, author, imagePosition, categories, examCodes, order",
+          "after": "slug, title, seoTitle, seoDescription, type, imagePosition, order, author, categories, examCodes, date",
+          "reason": "fields reordered to the schema sequence"
+        }
+      ],
+      "has_changes": true,
+      "error": null
+    },
+    {
+      "slug": "how-to-know-if-youre-ready-for-ai-103",
+      "path": "output_corrected\\how-to-know-if-youre-ready-for-ai-103.mdx",
+      "notes": [
+        "detected examCodes: AI-103",
+        "rewrote seoTitle (67 -> 60 chars)",
+        "rewrote seoDescription (199 -> 152 chars)"
+      ],
+      "warnings": [],
+      "review_items": [],
+      "field_changes": [
+        {
+          "field": "examCodes",
+          "before": "(missing)",
+          "after": "AI-103",
+          "reason": "exam codes detected in the content"
+        },
+        {
+          "field": "seoTitle",
+          "before": "Am I Ready for AI-103? Real Readiness Signs for Microsoft's AI Exam",
+          "after": "AI-103 Exam Readiness: 5 Signs You Are Ready to Pass in 2026",
+          "reason": "LLM SEO rewrite (out of range)"
+        },
+        {
+          "field": "seoDescription",
+          "before": "Not sure if you're ready to sit AI-103? Here's a practical readiness framework covering agentic reasoning, RAG design, Foundry hands-on experience, and the specific signals that predict exam success.",
+          "after": "Determine if you are ready for the AI-103 exam. Learn the five critical readiness signals, from Azure AI Foundry hands-on skills to agentic AI concepts.",
+          "reason": "LLM SEO rewrite (out of range)"
+        },
+        {
+          "field": "order",
+          "before": "65",
+          "after": "430",
+          "reason": "order file"
+        },
+        {
+          "field": "categories",
+          "before": "azure, ai, certifications",
+          "after": "ai, azure, certifications",
+          "reason": "normalized categories"
+        },
+        {
+          "field": "(order)",
+          "before": "slug, title, seoTitle, seoDescription, type, categories, order, imagePosition, author, date, examCodes",
+          "after": "slug, title, seoTitle, seoDescription, type, imagePosition, order, author, categories, examCodes, date",
+          "reason": "fields reordered to the schema sequence"
+        }
+      ],
+      "has_changes": true,
+      "error": null
+    },
+    {
+      "slug": "how-to-know-if-youre-ready-for-certification-exam",
+      "path": "output_corrected\\how-to-know-if-youre-ready-for-certification-exam.mdx",
+      "notes": [
+        "detected examCodes: SY0-701, AZ-104, PMP",
+        "rewrote seoTitle (84 -> 59 chars)",
+        "rewrote seoDescription (161 -> 155 chars)",
+        "added required field 'date'"
+      ],
+      "warnings": [],
+      "review_items": [
+        "'date' was missing and was inferred; verify it"
+      ],
+      "field_changes": [
+        {
+          "field": "examCodes",
+          "before": "(missing)",
+          "after": "SY0-701, AZ-104, PMP",
+          "reason": "exam codes detected in the content"
+        },
+        {
+          "field": "seoTitle",
+          "before": "How to Know If You're Ready for Any Certification Exam (SAA, AZ-104, PMP, Security+)",
+          "after": "Ready for Your Certification Exam? 4 Signs You Are Prepared",
+          "reason": "LLM SEO rewrite (out of range)"
+        },
+        {
+          "field": "seoDescription",
+          "before": "Feeling unsure whether to book your certification exam? Here's a practical, honest framework for knowing when you're genuinely prepared — not just feeling ready.",
+          "after": "Wondering if you are ready for your certification exam? Use this practical framework to evaluate your practice scores, knowledge depth, and exam readiness.",
+          "reason": "LLM SEO rewrite (out of range)"
+        },
+        {
+          "field": "imagePosition",
+          "before": "middle",
+          "after": "top",
+          "reason": "field must be a fixed value"
+        },
+        {
+          "field": "order",
+          "before": "230",
+          "after": "420",
+          "reason": "order file"
+        },
+        {
+          "field": "categories",
+          "before": "certifications, preparation, cloud, strategy, beginner",
+          "after": "beginner, certifications, cloud, preparation, strategy",
+          "reason": "normalized categories"
+        },
+        {
+          "field": "date",
+          "before": "(missing)",
+          "after": "2026-09-27",
+          "reason": "missing required field"
+        },
+        {
+          "field": "(order)",
+          "before": "slug, title, seoTitle, seoDescription, type, author, order, imagePosition, categories, examCodes",
+          "after": "slug, title, seoTitle, seoDescription, type, imagePosition, order, author, categories, examCodes, date",
+          "reason": "fields reordered to the schema sequence"
+        }
+      ],
+      "has_changes": true,
+      "error": null
+    },
+    {
+      "slug": "how-to-know-if-youre-ready-for-pmp",
+      "path": "output_corrected\\how-to-know-if-youre-ready-for-pmp.mdx",
+      "notes": [
+        "detected examCodes: PMP",
+        "rewrote seoDescription (179 -> 150 chars)",
+        "added required field 'date'"
+      ],
+      "warnings": [],
+      "review_items": [
+        "'date' was missing and was inferred; verify it"
+      ],
+      "field_changes": [
+        {
+          "field": "examCodes",
+          "before": "(missing)",
+          "after": "PMP",
+          "reason": "exam codes detected in the content"
+        },
+        {
+          "field": "seoDescription",
+          "before": "Not sure if you're ready for the PMP exam? Practical signs of PMP readiness, how PMI-style reasoning actually works, and what the July 2026 exam update means for your preparation.",
+          "after": "Assess your PMP exam readiness with these four practical signals. Learn how the July 2026 update changes the exam and how to calibrate your reasoning.",
+          "reason": "LLM SEO rewrite (out of range)"
+        },
+        {
+          "field": "order",
+          "before": "390",
+          "after": "440",
+          "reason": "order file"
+        },
+        {
+          "field": "categories",
+          "before": "strategy, beginner, project-management",
+          "after": "beginner, project-management, strategy",
+          "reason": "normalized categories"
+        },
+        {
+          "field": "date",
+          "before": "(missing)",
+          "after": "2026-09-27",
+          "reason": "missing required field"
+        },
+        {
+          "field": "(order)",
+          "before": "slug, title, seoTitle, seoDescription, type, categories, author, order, imagePosition, examCodes",
+          "after": "slug, title, seoTitle, seoDescription, type, imagePosition, order, author, categories, examCodes, date",
+          "reason": "fields reordered to the schema sequence"
+        }
+      ],
+      "has_changes": true,
+      "error": null
+    },
+    {
+      "slug": "how-to-practice-with-examos",
+      "path": "output_corrected\\how-to-practice-with-examos.mdx",
+      "notes": [
+        "rewrote title (47 -> 52 chars)",
+        "rewrote seoDescription (204 -> 153 chars)",
+        "added required field 'imagePosition'"
+      ],
+      "warnings": [],
+      "review_items": [
+        "'imagePosition' was missing and was inferred; verify it"
+      ],
+      "field_changes": [
+        {
+          "field": "title",
+          "before": "How to Practice for IT Certifications on ExamOS",
+          "after": "How to Practice for Your IT Certifications on ExamOS",
+          "reason": "LLM SEO rewrite (out of range)"
+        },
+        {
+          "field": "seoDescription",
+          "before": "A complete guide to practicing on ExamOS: Daily Sprints, Bonus Quests, Mock Exams, Rookie/Challenger/Legend modes, how the readiness score is calculated, plus streaks, rest days, timezones, and reminders.",
+          "after": "Learn how to practice on ExamOS to pass your IT exams. Master Daily Sprints, Mock Exams, and difficulty modes to build your personalized Readiness Score.",
+          "reason": "LLM SEO rewrite (out of range)"
+        },
+        {
+          "field": "imagePosition",
+          "before": "(missing)",
+          "after": "top",
+          "reason": "missing required field"
+        },
+        {
+          "field": "order",
+          "before": "1",
+          "after": "560",
+          "reason": "order file"
+        },
+        {
+          "field": "categories",
+          "before": "certifications, preparation, strategy, beginner",
+          "after": "beginner, certifications, preparation, strategy",
+          "reason": "normalized categories"
+        },
+        {
+          "field": "(order)",
+          "before": "slug, date, title, seoTitle, seoDescription, type, order, author, categories",
+          "after": "slug, title, seoTitle, seoDescription, type, imagePosition, order, author, categories, date",
+          "reason": "fields reordered to the schema sequence"
+        }
+      ],
+      "has_changes": true,
+      "error": null
+    },
+    {
+      "slug": "is-ai-901-mandatory-for-ai-103",
+      "path": "output_corrected\\is-ai-901-mandatory-for-ai-103.mdx",
+      "notes": [
+        "detected examCodes: AI-901, AI-103, DVA-C02",
+        "rewrote title (31 -> 61 chars)",
+        "rewrote seoTitle (72 -> 63 chars)",
+        "rewrote seoDescription (199 -> 148 chars)"
+      ],
+      "warnings": [],
+      "review_items": [],
+      "field_changes": [
+        {
+          "field": "examCodes",
+          "before": "(missing)",
+          "after": "AI-901, AI-103, DVA-C02",
+          "reason": "exam codes detected in the content"
+        },
+        {
+          "field": "title",
+          "before": "Is AI-901 Mandatory for AI-103?",
+          "after": "Is AI-901 Mandatory for AI-103? Prerequisites and Skipping It",
+          "reason": "LLM SEO rewrite (out of range)"
+        },
+        {
+          "field": "seoTitle",
+          "before": "Is AI-901 Mandatory for AI-103? Prerequisites, Vouchers, and Skipping It",
+          "after": "Is AI-901 Mandatory for AI-103? Microsoft Requirements for 2026",
+          "reason": "LLM SEO rewrite (out of range)"
+        },
+        {
+          "field": "seoDescription",
+          "before": "Is AI-901 required before AI-103? No. Here's what Microsoft actually says about prerequisites, whether you can skip it, how to get 50% exam vouchers, and how to test your Python readiness for AI-103.",
+          "after": "Is AI-901 mandatory for AI-103? Learn Microsoft's official prerequisite rules, when to skip the fundamentals, and how to test your Python readiness.",
+          "reason": "LLM SEO rewrite (out of range)"
+        },
+        {
+          "field": "order",
+          "before": "7",
+          "after": "230",
+          "reason": "order file"
+        },
+        {
+          "field": "categories",
+          "before": "azure, ai, certifications",
+          "after": "ai, azure, certifications",
+          "reason": "normalized categories"
+        },
+        {
+          "field": "(order)",
+          "before": "slug, title, seoTitle, seoDescription, type, categories, order, author, imagePosition, date, examCodes",
+          "after": "slug, title, seoTitle, seoDescription, type, imagePosition, order, author, categories, examCodes, date",
+          "reason": "fields reordered to the schema sequence"
+        }
+      ],
+      "has_changes": true,
+      "error": null
+    },
+    {
+      "slug": "how-to-know-if-youre-ready-for-security-plus-exam",
+      "path": "output_corrected\\how-to-know-if-youre-ready-for-security-plus-exam.mdx",
+      "notes": [
+        "detected examCodes: SY0-701",
+        "rewrote title (67 -> 59 chars)",
+        "rewrote seoTitle (73 -> 55 chars)",
+        "rewrote seoDescription (196 -> 152 chars)",
+        "added required field 'imagePosition'",
+        "added required field 'date'"
+      ],
+      "warnings": [],
+      "review_items": [
+        "'imagePosition' was missing and was inferred; verify it",
+        "'date' was missing and was inferred; verify it"
+      ],
+      "field_changes": [
+        {
+          "field": "examCodes",
+          "before": "(missing)",
+          "after": "SY0-701",
+          "reason": "exam codes detected in the content"
+        },
+        {
+          "field": "title",
+          "before": "How to Know If You're Actually Ready for the CompTIA Security+ Exam",
+          "after": "How to Know If You Are Ready for the CompTIA Security+ Exam",
+          "reason": "LLM SEO rewrite (out of range)"
+        },
+        {
+          "field": "seoTitle",
+          "before": "Am I Ready for the CompTIA Security+ Exam? Signs You're Actually Prepared",
+          "after": "Security+ Exam Readiness: 5 Signs You Are Ready to Pass",
+          "reason": "LLM SEO rewrite (out of range)"
+        },
+        {
+          "field": "seoDescription",
+          "before": "Not sure whether to book the Security+ exam? Here's a practical readiness framework covering practice scores, PBQ preparation, scenario reasoning, and the specific signals that matter for SY0-701.",
+          "after": "Wondering if you are ready for the Security+ exam? Learn the five key readiness signals, how to approach PBQs, and how to evaluate your practice scores.",
+          "reason": "LLM SEO rewrite (out of range)"
+        },
+        {
+          "field": "imagePosition",
+          "before": "(missing)",
+          "after": "top",
+          "reason": "missing required field"
+        },
+        {
+          "field": "order",
+          "before": "70",
+          "after": "200",
+          "reason": "order file"
+        },
+        {
+          "field": "categories",
+          "before": "security, strategy, beginner",
+          "after": "beginner, security, strategy",
+          "reason": "normalized categories"
+        },
+        {
+          "field": "date",
+          "before": "(missing)",
+          "after": "2026-09-27",
+          "reason": "missing required field"
+        },
+        {
+          "field": "(order)",
+          "before": "categories, author, slug, title, seoTitle, seoDescription, type, order, examCodes",
+          "after": "slug, title, seoTitle, seoDescription, type, imagePosition, order, author, categories, examCodes, date",
+          "reason": "fields reordered to the schema sequence"
+        }
+      ],
+      "has_changes": true,
+      "error": null
+    },
+    {
+      "slug": "how-to-know-if-youre-ready-for-saa-c03-exam",
+      "path": "output_corrected\\how-to-know-if-youre-ready-for-saa-c03-exam.mdx",
+      "notes": [
+        "detected examCodes: SAP-C02, SAA-C03",
+        "rewrote title (83 -> 53 chars)",
+        "rewrote seoTitle (67 -> 59 chars)",
+        "rewrote seoDescription (210 -> 149 chars)",
+        "added required field 'imagePosition'",
+        "added required field 'date'"
+      ],
+      "warnings": [],
+      "review_items": [
+        "'imagePosition' was missing and was inferred; verify it",
+        "'date' was missing and was inferred; verify it"
+      ],
+      "field_changes": [
+        {
+          "field": "examCodes",
+          "before": "(missing)",
+          "after": "SAP-C02, SAA-C03",
+          "reason": "exam codes detected in the content"
+        },
+        {
+          "field": "title",
+          "before": "How to Know If You're Actually Ready for the AWS Solutions Architect Associate Exam",
+          "after": "How to Know If You Are Ready for the AWS SAA-C03 Exam",
+          "reason": "LLM SEO rewrite (out of range)"
+        },
+        {
+          "field": "seoTitle",
+          "before": "Am I Ready for the AWS SAA-C03 Exam? Signs You're Actually Prepared",
+          "after": "AWS SAA-C03 Exam Readiness: How to Know If You Are Prepared",
+          "reason": "LLM SEO rewrite (out of range)"
+        },
+        {
+          "field": "seoDescription",
+          "before": "Not sure if you're ready to sit the AWS Solutions Architect Associate exam? Here's a practical readiness framework covering practice scores, scenario reasoning, and the specific signals that matter for SAA-C03.",
+          "after": "Wondering if you are ready for the SAA-C03 exam? Learn how to evaluate your practice scores, scenario reasoning, and key AWS architectural knowledge.",
+          "reason": "LLM SEO rewrite (out of range)"
+        },
+        {
+          "field": "imagePosition",
+          "before": "(missing)",
+          "after": "top",
+          "reason": "missing required field"
+        },
+        {
+          "field": "order",
+          "before": "250",
+          "after": "450",
+          "reason": "order file"
+        },
+        {
+          "field": "categories",
+          "before": "aws, strategy, beginner",
+          "after": "aws, beginner, strategy",
+          "reason": "normalized categories"
+        },
+        {
+          "field": "date",
+          "before": "(missing)",
+          "after": "2026-09-27",
+          "reason": "missing required field"
+        },
+        {
+          "field": "(order)",
+          "before": "categories, author, slug, title, seoTitle, seoDescription, type, order, examCodes",
+          "after": "slug, title, seoTitle, seoDescription, type, imagePosition, order, author, categories, examCodes, date",
+          "reason": "fields reordered to the schema sequence"
+        }
+      ],
+      "has_changes": true,
+      "error": null
+    },
+    {
+      "slug": "jobs-and-salary-after-ai-103",
+      "path": "output_corrected\\jobs-and-salary-after-ai-103.mdx",
+      "notes": [
+        "detected examCodes: AI-901, AI-103, AZ-900",
+        "rewrote seoDescription (161 -> 149 chars)"
+      ],
+      "warnings": [],
+      "review_items": [],
+      "field_changes": [
+        {
+          "field": "examCodes",
+          "before": "(missing)",
+          "after": "AI-901, AI-103, AZ-900",
+          "reason": "exam codes detected in the content"
+        },
+        {
+          "field": "seoDescription",
+          "before": "Wondering if AI-103 is worth it? Learn what jobs it prepares you for, expected salary ranges, who should take it, and how it can accelerate your Azure AI career.",
+          "after": "Explore AI-103 jobs and salary expectations. Learn what roles this Azure AI certification prepares you for and whether it is worth your time in 2026.",
+          "reason": "LLM SEO rewrite (out of range)"
+        },
+        {
+          "field": "order",
+          "before": "11",
+          "after": "210",
+          "reason": "order file"
+        },
+        {
+          "field": "categories",
+          "before": "azure, ai, certifications, career",
+          "after": "ai, azure, career, certifications",
+          "reason": "normalized categories"
+        },
+        {
+          "field": "(order)",
+          "before": "slug, title, seoTitle, seoDescription, type, categories, author, order, imagePosition, date, examCodes",
+          "after": "slug, title, seoTitle, seoDescription, type, imagePosition, order, author, categories, examCodes, date",
+          "reason": "fields reordered to the schema sequence"
+        }
+      ],
+      "has_changes": true,
+      "error": null
+    },
+    {
+      "slug": "levels-of-ai-engineering",
+      "path": "output_corrected\\levels-of-ai-engineering.mdx",
+      "notes": [
+        "detected examCodes: AI-103, AIP-C01"
+      ],
+      "warnings": [],
+      "review_items": [],
+      "field_changes": [
+        {
+          "field": "examCodes",
+          "before": "(missing)",
+          "after": "AI-103, AIP-C01",
+          "reason": "exam codes detected in the content"
+        },
+        {
+          "field": "type",
+          "before": "ranking",
+          "after": "post",
+          "reason": "field must be a fixed value"
+        },
+        {
+          "field": "order",
+          "before": "150",
+          "after": "270",
+          "reason": "order file"
+        },
+        {
+          "field": "categories",
+          "before": "ai, career, beginner",
+          "after": "ai, beginner, career",
+          "reason": "normalized categories"
+        },
+        {
+          "field": "(order)",
+          "before": "slug, date, title, seoTitle, seoDescription, type, author, order, imagePosition, categories, examCodes",
+          "after": "slug, title, seoTitle, seoDescription, type, imagePosition, order, author, categories, examCodes, date",
+          "reason": "fields reordered to the schema sequence"
+        }
+      ],
+      "has_changes": true,
+      "error": null
+    },
+    {
+      "slug": "is-az-104-hard",
+      "path": "output_corrected\\is-az-104-hard.mdx",
+      "notes": [
+        "detected examCodes: AZ-900, SAA-C03",
+        "rewrote seoDescription (190 -> 153 chars)"
+      ],
+      "warnings": [],
+      "review_items": [],
+      "field_changes": [
+        {
+          "field": "examCodes",
+          "before": "AZ-104",
+          "after": "AZ-104, AZ-900, SAA-C03",
+          "reason": "exam codes detected in the content"
+        },
+        {
+          "field": "seoDescription",
+          "before": "The AZ-104 Microsoft Azure Administrator exam is often underestimated. This guide covers its difficulty, structure, common mistakes, and preparation strategies based on practical experience.",
+          "after": "Wondering about the AZ-104 difficulty? Learn why candidates struggle with this Azure administrator exam, key topics to study, and how to prepare to pass.",
+          "reason": "LLM SEO rewrite (out of range)"
+        },
+        {
+          "field": "imagePosition",
+          "before": "middle",
+          "after": "top",
+          "reason": "field must be a fixed value"
+        },
+        {
+          "field": "order",
+          "before": "30",
+          "after": "110",
+          "reason": "order file"
+        },
+        {
+          "field": "categories",
+          "before": "strategy, azure",
+          "after": "azure, strategy",
+          "reason": "normalized categories"
+        },
+        {
+          "field": "(order)",
+          "before": "slug, date, title, seoTitle, seoDescription, type, author, imagePosition, categories, examCodes, order",
+          "after": "slug, title, seoTitle, seoDescription, type, imagePosition, order, author, categories, examCodes, date",
+          "reason": "fields reordered to the schema sequence"
+        }
+      ],
+      "has_changes": true,
+      "error": null
+    },
+    {
+      "slug": "is-ai-901-worth-it",
+      "path": "output_corrected\\is-ai-901-worth-it.mdx",
+      "notes": [
+        "detected examCodes: AI-901, AB-731, AZ-900, AB-730, AI-103, DVA-C02",
+        "rewrote title (69 -> 59 chars)",
+        "rewrote seoTitle (79 -> 56 chars)"
+      ],
+      "warnings": [],
+      "review_items": [],
+      "field_changes": [
+        {
+          "field": "examCodes",
+          "before": "(missing)",
+          "after": "AI-901, AB-731, AZ-900, AB-730, AI-103, DVA-C02",
+          "reason": "exam codes detected in the content"
+        },
+        {
+          "field": "title",
+          "before": "Is AI-901 Worth It? Who Should Take It and Realistic Career Prospects",
+          "after": "Is AI-901 Worth It? Career Prospects and Who Should Take It",
+          "reason": "LLM SEO rewrite (out of range)"
+        },
+        {
+          "field": "seoTitle",
+          "before": "Is AI-901 Worth It In 2026? | Who Should Take It and Realistic Career Prospects",
+          "after": "Is AI-901 Worth It? 2026 Career Value and Exam Breakdown",
+          "reason": "LLM SEO rewrite (out of range)"
+        },
+        {
+          "field": "order",
+          "before": "5",
+          "after": "170",
+          "reason": "order file"
+        },
+        {
+          "field": "categories",
+          "before": "certifications, azure, ai",
+          "after": "ai, azure, certifications",
+          "reason": "normalized categories"
+        },
+        {
+          "field": "(order)",
+          "before": "slug, date, title, seoTitle, seoDescription, type, order, author, imagePosition, categories, examCodes",
+          "after": "slug, title, seoTitle, seoDescription, type, imagePosition, order, author, categories, examCodes, date",
+          "reason": "fields reordered to the schema sequence"
+        }
+      ],
+      "has_changes": true,
+      "error": null
+    },
+    {
+      "slug": "learning-ai-engineering-mistakes",
+      "path": "output_corrected\\learning-ai-engineering-mistakes.mdx",
+      "notes": [
+        "rewrote title (47 -> 57 chars)",
+        "rewrote seoTitle (53 -> 59 chars)"
+      ],
+      "warnings": [],
+      "review_items": [],
+      "field_changes": [
+        {
+          "field": "title",
+          "before": "Why Most People Fail at Learning AI Engineering",
+          "after": "How to Avoid the Biggest AI Engineering Learning Mistakes",
+          "reason": "LLM SEO rewrite (out of range)"
+        },
+        {
+          "field": "seoTitle",
+          "before": "How to Learn AI Engineering and Avoid Common Mistakes",
+          "after": "AI Engineering Mistakes: How to Learn the Right Way in 2026",
+          "reason": "LLM SEO rewrite (out of range)"
+        },
+        {
+          "field": "imagePosition",
+          "before": "middle",
+          "after": "top",
+          "reason": "field must be a fixed value"
+        },
+        {
+          "field": "order",
+          "before": "330",
+          "after": "620",
+          "reason": "order file"
+        },
+        {
+          "field": "categories",
+          "before": "ai, career, strategy, beginner",
+          "after": "ai, beginner, career, strategy",
+          "reason": "normalized categories"
+        },
+        {
+          "field": "(order)",
+          "before": "slug, date, title, seoTitle, seoDescription, type, author, order, imagePosition, categories",
+          "after": "slug, title, seoTitle, seoDescription, type, imagePosition, order, author, categories, date",
+          "reason": "fields reordered to the schema sequence"
+        }
+      ],
+      "has_changes": true,
+      "error": null
+    },
+    {
+      "slug": "one-hour-daily-learning-plan",
+      "path": "output_corrected\\one-hour-daily-learning-plan.mdx",
+      "notes": [
+        "rewrote seoTitle (69 -> 58 chars)",
+        "rewrote seoDescription (131 -> 157 chars)"
+      ],
+      "warnings": [],
+      "review_items": [],
+      "field_changes": [
+        {
+          "field": "seoTitle",
+          "before": "The 1-Hour IT Learning Plan: Go From Beginner to Expert While Working",
+          "after": "1-Hour Daily Learning Plan: Pass IT Certifications in 2026",
+          "reason": "LLM SEO rewrite (out of range)"
+        },
+        {
+          "field": "seoDescription",
+          "before": "A practical 1-hour daily learning plan for busy professionals. Learn how to build real IT skills using AI and daily practice tests.",
+          "after": "Use this 1-hour daily learning plan to build durable IT skills and pass your next certification exam. Learn how to combine active recall with practice tests.",
+          "reason": "LLM SEO rewrite (out of range)"
+        },
+        {
+          "field": "imagePosition",
+          "before": "middle",
+          "after": "top",
+          "reason": "field must be a fixed value"
+        },
+        {
+          "field": "order",
+          "before": "510",
+          "after": "570",
+          "reason": "order file"
+        },
+        {
+          "field": "categories",
+          "before": "ai, career, strategy, beginner",
+          "after": "ai, beginner, career, strategy",
+          "reason": "normalized categories"
+        },
+        {
+          "field": "(order)",
+          "before": "slug, date, title, seoTitle, seoDescription, type, author, order, imagePosition, categories",
+          "after": "slug, title, seoTitle, seoDescription, type, imagePosition, order, author, categories, date",
+          "reason": "fields reordered to the schema sequence"
+        }
+      ],
+      "has_changes": true,
+      "error": null
+    },
+    {
+      "slug": "pmp-exam-changes-july-2026-faq",
+      "path": "output_corrected\\pmp-exam-changes-july-2026-faq.mdx",
+      "notes": [
+        "detected examCodes: PMP",
+        "rewrote title (50 -> 52 chars)",
+        "rewrote seoTitle (86 -> 56 chars)",
+        "rewrote seoDescription (175 -> 146 chars)",
+        "added required field 'date'"
+      ],
+      "warnings": [],
+      "review_items": [
+        "'date' was missing and was inferred; verify it"
+      ],
+      "field_changes": [
+        {
+          "field": "examCodes",
+          "before": "(missing)",
+          "after": "PMP",
+          "reason": "exam codes detected in the content"
+        },
+        {
+          "field": "title",
+          "before": "PMP Exam Changes July 2026 — What Actually Changed",
+          "after": "PMP Exam Changes in July 2026: What Actually Changed",
+          "reason": "LLM SEO rewrite (out of range)"
+        },
+        {
+          "field": "seoTitle",
+          "before": "PMP Exam Changes July 2026: PMBOK 8, New Domains, and What Candidates Need to Know Now",
+          "after": "PMP Exam Changes July 2026: PMBOK 8 & New Domain Weights",
+          "reason": "LLM SEO rewrite (out of range)"
+        },
+        {
+          "field": "seoDescription",
+          "before": "The PMP exam changed on July 9, 2026, aligning with PMBOK 8. Here is what actually changed, the new domain weightings, updated terminology, and how the current exam works now.",
+          "after": "Learn how the PMP exam changes in July 2026 affect you. Find out about the PMBOK 8 alignment, new domain weightings, and updated question formats.",
+          "reason": "LLM SEO rewrite (out of range)"
+        },
+        {
+          "field": "imagePosition",
+          "before": "middle",
+          "after": "top",
+          "reason": "field must be a fixed value"
+        },
+        {
+          "field": "order",
+          "before": "140",
+          "after": "150",
+          "reason": "order file"
+        },
+        {
+          "field": "date",
+          "before": "(missing)",
+          "after": "2026-09-27",
+          "reason": "missing required field"
+        },
+        {
+          "field": "(order)",
+          "before": "slug, title, seoTitle, seoDescription, type, order, imagePosition, categories, author, examCodes",
+          "after": "slug, title, seoTitle, seoDescription, type, imagePosition, order, author, categories, examCodes, date",
+          "reason": "fields reordered to the schema sequence"
+        }
+      ],
+      "has_changes": true,
+      "error": null
+    },
+    {
+      "slug": "platform-engineering-shift-devops-professionals",
+      "path": "output_corrected\\platform-engineering-shift-devops-professionals.mdx",
+      "notes": [
+        "detected examCodes: AZ-400, DOP-C02, CKA, CKS, TA-004",
+        "rewrote title (70 -> 55 chars)",
+        "rewrote seoTitle (76 -> 59 chars)",
+        "rewrote seoDescription (201 -> 145 chars)",
+        "added required field 'imagePosition'",
+        "added required field 'date'"
+      ],
+      "warnings": [],
+      "review_items": [
+        "'imagePosition' was missing and was inferred; verify it",
+        "'date' was missing and was inferred; verify it"
+      ],
+      "field_changes": [
+        {
+          "field": "examCodes",
+          "before": "(missing)",
+          "after": "AZ-400, DOP-C02, CKA, CKS, TA-004",
+          "reason": "exam codes detected in the content"
+        },
+        {
+          "field": "title",
+          "before": "The Platform Engineering Shift: What It Means for DevOps Professionals",
+          "after": "The Platform Engineering Shift for DevOps Professionals",
+          "reason": "LLM SEO rewrite (out of range)"
+        },
+        {
+          "field": "seoTitle",
+          "before": "Platform Engineering vs DevOps: What the Shift Means for Your Career in 2026",
+          "after": "Platform Engineering vs DevOps: Career Shift Guide for 2026",
+          "reason": "LLM SEO rewrite (out of range)"
+        },
+        {
+          "field": "seoDescription",
+          "before": "Platform engineering is reshaping how organizations think about DevOps. Here's what the shift actually means for DevOps professionals, which skills matter now, and how to position yourself ahead of it.",
+          "after": "How will the platform engineering shift affect your DevOps career? Learn the key skills, certifications, and trajectories you need to stay ahead.",
+          "reason": "LLM SEO rewrite (out of range)"
+        },
+        {
+          "field": "imagePosition",
+          "before": "(missing)",
+          "after": "top",
+          "reason": "missing required field"
+        },
+        {
+          "field": "order",
+          "before": "400",
+          "after": "840",
+          "reason": "order file"
+        },
+        {
+          "field": "date",
+          "before": "(missing)",
+          "after": "2026-09-27",
+          "reason": "missing required field"
+        },
+        {
+          "field": "(order)",
+          "before": "categories, author, slug, title, seoTitle, seoDescription, type, order, examCodes",
+          "after": "slug, title, seoTitle, seoDescription, type, imagePosition, order, author, categories, examCodes, date",
+          "reason": "fields reordered to the schema sequence"
+        }
+      ],
+      "has_changes": true,
+      "error": null
+    },
+    {
+      "slug": "pca-exam-case-study-guide",
+      "path": "output_corrected\\pca-exam-case-study-guide.mdx",
+      "notes": [
+        "detected examCodes: GCP-PCA",
+        "rewrote title (46 -> 51 chars)",
+        "rewrote seoTitle (72 -> 57 chars)",
+        "rewrote seoDescription (167 -> 156 chars)",
+        "added required field 'imagePosition'"
+      ],
+      "warnings": [],
+      "review_items": [
+        "'imagePosition' was missing and was inferred; verify it"
+      ],
+      "field_changes": [
+        {
+          "field": "examCodes",
+          "before": "(missing)",
+          "after": "GCP-PCA",
+          "reason": "exam codes detected in the content"
+        },
+        {
+          "field": "title",
+          "before": "Google PCA Exam: The Complete Case Study Guide",
+          "after": "Google Cloud PCA Exam Case Study Guide and Strategy",
+          "reason": "LLM SEO rewrite (out of range)"
+        },
+        {
+          "field": "seoTitle",
+          "before": "Google Cloud PCA Case Study Guide 2026 | What to Expect & How to Prepare",
+          "after": "Google PCA Case Study Guide: Pass the 2026 Architect Exam",
+          "reason": "LLM SEO rewrite (out of range)"
+        },
+        {
+          "field": "seoDescription",
+          "before": "Case studies make up 20-30% of the Google Professional Cloud Architect exam. Here's how the format works, what the four current case studies cover, and how to prepare.",
+          "after": "Master the Google PCA case study section with this guide. Learn how the format works, analyze the four current scenarios, and get practical prep strategies.",
+          "reason": "LLM SEO rewrite (out of range)"
+        },
+        {
+          "field": "imagePosition",
+          "before": "(missing)",
+          "after": "top",
+          "reason": "missing required field"
+        },
+        {
+          "field": "order",
+          "before": "160",
+          "after": "120",
+          "reason": "order file"
+        },
+        {
+          "field": "categories",
+          "before": "certifications, gcp, architecture",
+          "after": "architecture, certifications, gcp",
+          "reason": "normalized categories"
+        },
+        {
+          "field": "(order)",
+          "before": "slug, date, title, seoTitle, seoDescription, type, order, author, categories, examCodes",
+          "after": "slug, title, seoTitle, seoDescription, type, imagePosition, order, author, categories, examCodes, date",
+          "reason": "fields reordered to the schema sequence"
+        }
+      ],
+      "has_changes": true,
+      "error": null
+    },
+    {
+      "slug": "security-plus-pbq-deep-dive",
+      "path": "output_corrected\\security-plus-pbq-deep-dive.mdx",
+      "notes": [
+        "detected examCodes: SY0-701",
+        "rewrote title (70 -> 56 chars)",
+        "rewrote seoTitle (82 -> 61 chars)",
+        "rewrote seoDescription (196 -> 149 chars)"
+      ],
+      "warnings": [],
+      "review_items": [],
+      "field_changes": [
+        {
+          "field": "examCodes",
+          "before": "(missing)",
+          "after": "SY0-701",
+          "reason": "exam codes detected in the content"
+        },
+        {
+          "field": "title",
+          "before": "Security+ PBQ Deep Dive: Firewall Configuration, Log Analysis and More",
+          "after": "Security+ PBQ Guide: Firewall and Log Analysis Scenarios",
+          "reason": "LLM SEO rewrite (out of range)"
+        },
+        {
+          "field": "seoTitle",
+          "before": "Security+ Performance-Based Questions: Firewall, Log Analysis and How to Pass Them",
+          "after": "Security+ PBQ Practice: How to Solve SY0-701 Scenarios (2026)",
+          "reason": "LLM SEO rewrite (out of range)"
+        },
+        {
+          "field": "seoDescription",
+          "before": "Performance-based questions (PBQ) are where most Security+ candidates lose points. Here's a practical breakdown of firewall configuration, log analysis, and other PBQ scenarios you need to master.",
+          "after": "Master Security+ PBQ scenarios with this practical guide. Learn how to configure firewalls, analyze logs, and avoid common traps on the SY0-701 exam.",
+          "reason": "LLM SEO rewrite (out of range)"
+        },
+        {
+          "field": "order",
+          "before": "210",
+          "after": "300",
+          "reason": "order file"
+        },
+        {
+          "field": "categories",
+          "before": "security, certifications, beginner",
+          "after": "beginner, certifications, security",
+          "reason": "normalized categories"
+        },
+        {
+          "field": "(order)",
+          "before": "slug, title, seoTitle, seoDescription, type, date, author, order, imagePosition, categories, examCodes",
+          "after": "slug, title, seoTitle, seoDescription, type, imagePosition, order, author, categories, examCodes, date",
+          "reason": "fields reordered to the schema sequence"
+        }
+      ],
+      "has_changes": true,
+      "error": null
+    },
+    {
+      "slug": "stay-relevant-ai-era",
+      "path": "output_corrected\\stay-relevant-ai-era.mdx",
+      "notes": [
+        "rewrote seoTitle (75 -> 57 chars)"
+      ],
+      "warnings": [],
+      "review_items": [],
+      "field_changes": [
+        {
+          "field": "seoTitle",
+          "before": "How to Stay Relevant in the AI Era for Senior to Mid professionals | ExamOS",
+          "after": "Stay Relevant in the AI Era: 2026 Guide for Professionals",
+          "reason": "LLM SEO rewrite (out of range)"
+        },
+        {
+          "field": "imagePosition",
+          "before": "middle",
+          "after": "top",
+          "reason": "field must be a fixed value"
+        },
+        {
+          "field": "order",
+          "before": "570",
+          "after": "890",
+          "reason": "order file"
+        },
+        {
+          "field": "categories",
+          "before": "ai, career, strategy, beginner",
+          "after": "ai, beginner, career, strategy",
+          "reason": "normalized categories"
+        },
+        {
+          "field": "(order)",
+          "before": "slug, date, title, seoTitle, seoDescription, type, author, order, imagePosition, categories",
+          "after": "slug, title, seoTitle, seoDescription, type, imagePosition, order, author, categories, date",
+          "reason": "fields reordered to the schema sequence"
+        }
+      ],
+      "has_changes": true,
+      "error": null
+    },
+    {
+      "slug": "should-non-technical-roles-take-ai-901",
+      "path": "output_corrected\\should-non-technical-roles-take-ai-901.mdx",
+      "notes": [
+        "detected examCodes: AI-901, AI-103",
+        "rewrote seoTitle (67 -> 55 chars)",
+        "rewrote seoDescription (186 -> 145 chars)"
+      ],
+      "warnings": [],
+      "review_items": [],
+      "field_changes": [
+        {
+          "field": "examCodes",
+          "before": "(missing)",
+          "after": "AI-901, AI-103",
+          "reason": "exam codes detected in the content"
+        },
+        {
+          "field": "seoTitle",
+          "before": "AI-901 for Non-Technical Roles: Should PMs, BAs, and Sales Take It?",
+          "after": "AI-901 for Non-Technical Roles: Is It Worth It in 2026?",
+          "reason": "LLM SEO rewrite (out of range)"
+        },
+        {
+          "field": "seoDescription",
+          "before": "Should project managers, business analysts, sales, and operations professionals take AI-901? Here's a realistic look at the benefits, what you'll learn, and whether it's worth your time.",
+          "after": "Should non-technical roles take AI-901? Learn how this Azure certification benefits project managers, business analysts, and sales teams in 2026.",
+          "reason": "LLM SEO rewrite (out of range)"
+        },
+        {
+          "field": "order",
+          "before": "52",
+          "after": "320",
+          "reason": "order file"
+        },
+        {
+          "field": "categories",
+          "before": "azure, ai, certifications, career",
+          "after": "ai, azure, career, certifications",
+          "reason": "normalized categories"
+        },
+        {
+          "field": "(order)",
+          "before": "slug, title, seoTitle, seoDescription, type, categories, order, author, imagePosition, date, examCodes",
+          "after": "slug, title, seoTitle, seoDescription, type, imagePosition, order, author, categories, examCodes, date",
+          "reason": "fields reordered to the schema sequence"
+        }
+      ],
+      "has_changes": true,
+      "error": null
+    },
+    {
+      "slug": "study-hall-vs-examos-pmp-preparation",
+      "path": "output_corrected\\study-hall-vs-examos-pmp-preparation.mdx",
+      "notes": [
+        "detected examCodes: PMP",
+        "rewrote seoDescription (188 -> 156 chars)",
+        "added required field 'date'"
+      ],
+      "warnings": [],
+      "review_items": [
+        "'date' was missing and was inferred; verify it"
+      ],
+      "field_changes": [
+        {
+          "field": "examCodes",
+          "before": "(missing)",
+          "after": "PMP",
+          "reason": "exam codes detected in the content"
+        },
+        {
+          "field": "seoDescription",
+          "before": "Comparing Study Hall and ExamOS for PMP exam preparation? Here's an honest breakdown of both approaches, what each does well, and how to decide which fits your learning style and schedule.",
+          "after": "Comparing Study Hall vs ExamOS PMP preparation? Discover how each platform handles the 2026 PMBOK 8th Edition updates, AI governance, and scenario practice.",
+          "reason": "LLM SEO rewrite (out of range)"
+        },
+        {
+          "field": "imagePosition",
+          "before": "middle",
+          "after": "top",
+          "reason": "field must be a fixed value"
+        },
+        {
+          "field": "order",
+          "before": "160",
+          "after": "290",
+          "reason": "order file"
+        },
+        {
+          "field": "date",
+          "before": "(missing)",
+          "after": "2026-09-27",
+          "reason": "missing required field"
+        },
+        {
+          "field": "(order)",
+          "before": "slug, title, seoTitle, seoDescription, type, categories, order, author, imagePosition, examCodes",
+          "after": "slug, title, seoTitle, seoDescription, type, imagePosition, order, author, categories, examCodes, date",
+          "reason": "fields reordered to the schema sequence"
+        }
+      ],
+      "has_changes": true,
+      "error": null
+    },
+    {
+      "slug": "security-plus-vs-cc-vs-sc-900-which-first",
+      "path": "output_corrected\\security-plus-vs-cc-vs-sc-900-which-first.txt",
+      "notes": [
+        "detected examCodes: SY0-701, SC-900, CISSP, SC-300, SC-200, SCS-C03, CLF-C02, CISA",
+        "rewrote title (74 -> 61 chars)",
+        "rewrote seoTitle (49 -> 63 chars)"
+      ],
+      "warnings": [],
+      "review_items": [],
+      "field_changes": [
+        {
+          "field": "examCodes",
+          "before": "(missing)",
+          "after": "SY0-701, SC-900, CISSP, SC-300, SC-200, SCS-C03, CLF-C02, CISA",
+          "reason": "exam codes detected in the content"
+        },
+        {
+          "field": "title",
+          "before": "SC-900 vs CC vs Security+: Which Entry-Level Security Certification First?",
+          "after": "SC-900 vs CC vs Security+: Which Certification to Take First?",
+          "reason": "LLM SEO rewrite (out of range)"
+        },
+        {
+          "field": "seoTitle",
+          "before": "SC-900 vs ISC2 CC vs Security+ 2026: Which First?",
+          "after": "Security+ vs CC vs SC-900: Which Should You Take First in 2026?",
+          "reason": "LLM SEO rewrite (out of range)"
+        },
+        {
+          "field": "categories",
+          "before": "security, certifications, beginner",
+          "after": "beginner, certifications, security",
+          "reason": "normalized categories"
+        },
+        {
+          "field": "(order)",
+          "before": "slug, title, seoTitle, seoDescription, type, date, author, order, imagePosition, categories, examCodes",
+          "after": "slug, title, seoTitle, seoDescription, type, imagePosition, order, author, categories, examCodes, date",
+          "reason": "fields reordered to the schema sequence"
+        }
+      ],
+      "has_changes": true,
+      "error": null
+    },
+    {
+      "slug": "top-aws-services-ranked",
+      "path": "output_corrected\\top-aws-services-ranked.mdx",
+      "notes": [
+        "detected examCodes: SAP-C02, CLF-C02, DVA-C02, SAA-C03"
+      ],
+      "warnings": [],
+      "review_items": [],
+      "field_changes": [
+        {
+          "field": "examCodes",
+          "before": "(missing)",
+          "after": "SAP-C02, CLF-C02, DVA-C02, SAA-C03",
+          "reason": "exam codes detected in the content"
+        },
+        {
+          "field": "type",
+          "before": "ranking",
+          "after": "post",
+          "reason": "field must be a fixed value"
+        },
+        {
+          "field": "order",
+          "before": "100",
+          "after": "650",
+          "reason": "order file"
+        },
+        {
+          "field": "(order)",
+          "before": "slug, date, title, seoTitle, seoDescription, type, author, order, imagePosition, categories, examCodes",
+          "after": "slug, title, seoTitle, seoDescription, type, imagePosition, order, author, categories, examCodes, date",
+          "reason": "fields reordered to the schema sequence"
+        }
+      ],
+      "has_changes": true,
+      "error": null
+    },
+    {
+      "slug": "sustainable-project-management-what-it-is-and-why-it-matters",
+      "path": "output_corrected\\sustainable-project-management-what-it-is-and-why-it-matters.mdx",
+      "notes": [
+        "detected examCodes: PMP",
+        "rewrote seoTitle (81 -> 59 chars)",
+        "rewrote seoDescription (175 -> 154 chars)",
+        "added required field 'date'"
+      ],
+      "warnings": [],
+      "review_items": [
+        "'date' was missing and was inferred; verify it"
+      ],
+      "field_changes": [
+        {
+          "field": "examCodes",
+          "before": "(missing)",
+          "after": "PMP",
+          "reason": "exam codes detected in the content"
+        },
+        {
+          "field": "seoTitle",
+          "before": "Sustainable Project Management: PMI Definition, Three Pillars, and Why It Matters",
+          "after": "Sustainable Project Management: PMI Pillars and P5 Standard",
+          "reason": "LLM SEO rewrite (out of range)"
+        },
+        {
+          "field": "seoDescription",
+          "before": "Sustainable project management defined. Learn PMI's three pillars of sustainability, the P5 Standard, and why sustainability is now the strongest predictor of project success.",
+          "after": "Learn the core principles of sustainable project management. Understand PMI's three pillars, the P5 Standard, and how sustainability impacts the PMP exam.",
+          "reason": "LLM SEO rewrite (out of range)"
+        },
+        {
+          "field": "order",
+          "before": "395",
+          "after": "850",
+          "reason": "order file"
+        },
+        {
+          "field": "date",
+          "before": "(missing)",
+          "after": "2026-09-27",
+          "reason": "missing required field"
+        },
+        {
+          "field": "(order)",
+          "before": "slug, title, seoTitle, seoDescription, type, categories, order, imagePosition, author, examCodes",
+          "after": "slug, title, seoTitle, seoDescription, type, imagePosition, order, author, categories, examCodes, date",
+          "reason": "fields reordered to the schema sequence"
+        }
+      ],
+      "has_changes": true,
+      "error": null
+    },
+    {
+      "slug": "top-cloud-certifications-ranked",
+      "path": "output_corrected\\top-cloud-certifications-ranked.mdx",
+      "notes": [
+        "detected examCodes: AZ-900, SCS-C03, AZ-104, CLF-C02, SAA-C03, CKA, TA-004, GCP-PCA"
+      ],
+      "warnings": [],
+      "review_items": [],
+      "field_changes": [
+        {
+          "field": "examCodes",
+          "before": "(missing)",
+          "after": "AZ-900, SCS-C03, AZ-104, CLF-C02, SAA-C03, CKA, TA-004, GCP-PCA",
+          "reason": "exam codes detected in the content"
+        },
+        {
+          "field": "type",
+          "before": "ranking",
+          "after": "post",
+          "reason": "field must be a fixed value"
+        },
+        {
+          "field": "order",
+          "before": "90",
+          "after": "670",
+          "reason": "order file"
+        },
+        {
+          "field": "categories",
+          "before": "cloud, certifications, career",
+          "after": "career, certifications, cloud",
+          "reason": "normalized categories"
+        },
+        {
+          "field": "(order)",
+          "before": "slug, date, title, seoTitle, seoDescription, type, author, order, imagePosition, categories, examCodes",
+          "after": "slug, title, seoTitle, seoDescription, type, imagePosition, order, author, categories, examCodes, date",
+          "reason": "fields reordered to the schema sequence"
+        }
+      ],
+      "has_changes": true,
+      "error": null
+    },
+    {
+      "slug": "top-cloud-security-mistakes-ranked",
+      "path": "output_corrected\\top-cloud-security-mistakes-ranked.mdx",
+      "notes": [
+        "detected examCodes: CCSP, SCS-C03, AZ-500"
+      ],
+      "warnings": [],
+      "review_items": [],
+      "field_changes": [
+        {
+          "field": "examCodes",
+          "before": "(missing)",
+          "after": "CCSP, SCS-C03, AZ-500",
+          "reason": "exam codes detected in the content"
+        },
+        {
+          "field": "type",
+          "before": "ranking",
+          "after": "post",
+          "reason": "field must be a fixed value"
+        },
+        {
+          "field": "order",
+          "before": "550",
+          "after": "700",
+          "reason": "order file"
+        },
+        {
+          "field": "(order)",
+          "before": "slug, date, title, seoTitle, seoDescription, type, author, order, imagePosition, categories, examCodes",
+          "after": "slug, title, seoTitle, seoDescription, type, imagePosition, order, author, categories, examCodes, date",
+          "reason": "fields reordered to the schema sequence"
+        }
+      ],
+      "has_changes": true,
+      "error": null
+    },
+    {
+      "slug": "top-7-pmp-questions-reddit-answered-honestly",
+      "path": "output_corrected\\top-7-pmp-questions-reddit-answered-honestly.mdx",
+      "notes": [
+        "detected examCodes: PMP, CSM",
+        "rewrote title (40 -> 54 chars)",
+        "rewrote seoTitle (73 -> 59 chars)",
+        "rewrote seoDescription (195 -> 153 chars)",
+        "added required field 'date'"
+      ],
+      "warnings": [],
+      "review_items": [
+        "'date' was missing and was inferred; verify it"
+      ],
+      "field_changes": [
+        {
+          "field": "examCodes",
+          "before": "(missing)",
+          "after": "PMP, CSM",
+          "reason": "exam codes detected in the content"
+        },
+        {
+          "field": "title",
+          "before": "Top 7 PMP Questions From Reddit Answered",
+          "after": "Top 7 PMP Exam Questions From Reddit Answered Honestly",
+          "reason": "LLM SEO rewrite (out of range)"
+        },
+        {
+          "field": "seoTitle",
+          "before": "Top 7 PMP Certification Questions From Reddit (Answered Honestly in 2026)",
+          "after": "PMP Questions on Reddit: Honest Answers for 2026 Candidates",
+          "reason": "LLM SEO rewrite (out of range)"
+        },
+        {
+          "field": "seoDescription",
+          "before": "The same PMP questions come up on Reddit every week. Here are honest, nuanced answers to the seven most common ones — from experience hours and audits to whether the credential is still worth it.",
+          "after": "Get honest answers to the top PMP questions on Reddit. Learn about the 2026 exam changes, experience requirements, agile weightings, and study resources.",
+          "reason": "LLM SEO rewrite (out of range)"
+        },
+        {
+          "field": "order",
+          "before": "60",
+          "after": "310",
+          "reason": "order file"
+        },
+        {
+          "field": "date",
+          "before": "(missing)",
+          "after": "2026-09-27",
+          "reason": "missing required field"
+        },
+        {
+          "field": "(order)",
+          "before": "slug, title, seoTitle, seoDescription, type, order, categories, imagePosition, author, examCodes",
+          "after": "slug, title, seoTitle, seoDescription, type, imagePosition, order, author, categories, examCodes, date",
+          "reason": "fields reordered to the schema sequence"
+        }
+      ],
+      "has_changes": true,
+      "error": null
+    },
+    {
+      "slug": "top-azure-services-ranked",
+      "path": "output_corrected\\top-azure-services-ranked.mdx",
+      "notes": [
+        "detected examCodes: AZ-305, AZ-900, AZ-104, AZ-204",
+        "rewrote seoTitle (54 -> 62 chars)",
+        "rewrote seoDescription (135 -> 154 chars)"
+      ],
+      "warnings": [],
+      "review_items": [],
+      "field_changes": [
+        {
+          "field": "examCodes",
+          "before": "(missing)",
+          "after": "AZ-305, AZ-900, AZ-104, AZ-204",
+          "reason": "exam codes detected in the content"
+        },
+        {
+          "field": "seoTitle",
+          "before": "Top Azure Services Ranked for Real-World Jobs | ExamOS",
+          "after": "Top Azure Services Ranked: Core Components for Real-World Jobs",
+          "reason": "LLM SEO rewrite (out of range)"
+        },
+        {
+          "field": "seoDescription",
+          "before": "Learn the essential Azure services used in real-world jobs. Master these core components to pass your AZ-900, AZ-104, and AZ-305 exams.",
+          "after": "Discover the top Azure services ranked by real-world importance. Master these core components to pass your AZ-900, AZ-104, and AZ-305 certification exams.",
+          "reason": "LLM SEO rewrite (out of range)"
+        },
+        {
+          "field": "type",
+          "before": "ranking",
+          "after": "post",
+          "reason": "field must be a fixed value"
+        },
+        {
+          "field": "order",
+          "before": "180",
+          "after": "660",
+          "reason": "order file"
+        },
+        {
+          "field": "(order)",
+          "before": "slug, date, title, seoTitle, seoDescription, type, author, order, imagePosition, categories, examCodes",
+          "after": "slug, title, seoTitle, seoDescription, type, imagePosition, order, author, categories, examCodes, date",
+          "reason": "fields reordered to the schema sequence"
+        }
+      ],
+      "has_changes": true,
+      "error": null
+    },
+    {
+      "slug": "top-7-faqs-aws-certifications-reddit",
+      "path": "output_corrected\\top-7-faqs-aws-certifications-reddit.mdx",
+      "notes": [
+        "detected examCodes: CLF-C02, DVA-C02, SAA-C03",
+        "rewrote seoDescription (186 -> 146 chars)",
+        "added required field 'imagePosition'",
+        "added required field 'date'"
+      ],
+      "warnings": [],
+      "review_items": [
+        "'imagePosition' was missing and was inferred; verify it",
+        "'date' was missing and was inferred; verify it"
+      ],
+      "field_changes": [
+        {
+          "field": "examCodes",
+          "before": "(missing)",
+          "after": "CLF-C02, DVA-C02, SAA-C03",
+          "reason": "exam codes detected in the content"
+        },
+        {
+          "field": "seoDescription",
+          "before": "The same questions come up on r/AWSCertifications every week. Here are honest, nuanced answers to the seven most common ones — from whether to skip CLF to how long SAA prep really takes.",
+          "after": "Get answers to the top AWS certification Reddit FAQs. Learn whether to skip CLF, how long SAA prep takes, and which study resources actually work.",
+          "reason": "LLM SEO rewrite (out of range)"
+        },
+        {
+          "field": "imagePosition",
+          "before": "(missing)",
+          "after": "top",
+          "reason": "missing required field"
+        },
+        {
+          "field": "order",
+          "before": "410",
+          "after": "790",
+          "reason": "order file"
+        },
+        {
+          "field": "categories",
+          "before": "aws, cloud, certifications",
+          "after": "aws, certifications, cloud",
+          "reason": "normalized categories"
+        },
+        {
+          "field": "date",
+          "before": "(missing)",
+          "after": "2026-09-27",
+          "reason": "missing required field"
+        },
+        {
+          "field": "(order)",
+          "before": "categories, author, slug, title, seoTitle, seoDescription, type, order, examCodes",
+          "after": "slug, title, seoTitle, seoDescription, type, imagePosition, order, author, categories, examCodes, date",
+          "reason": "fields reordered to the schema sequence"
+        }
+      ],
+      "has_changes": true,
+      "error": null
+    },
+    {
+      "slug": "top-cybersecurity-certifications-ranked",
+      "path": "output_corrected\\top-cybersecurity-certifications-ranked.mdx",
+      "notes": [
+        "detected examCodes: SY0-701, CISSP, SCS-C03, CS0-003, AZ-500",
+        "rewrote seoDescription (132 -> 152 chars)"
+      ],
+      "warnings": [],
+      "review_items": [],
+      "field_changes": [
+        {
+          "field": "examCodes",
+          "before": "(missing)",
+          "after": "SY0-701, CISSP, SCS-C03, CS0-003, AZ-500",
+          "reason": "exam codes detected in the content"
+        },
+        {
+          "field": "seoDescription",
+          "before": "Cybersecurity has too many certs. Cut through the noise. Here are the top 5 cybersecurity certifications ranked by their actual ROI.",
+          "after": "Compare the top cybersecurity certifications ranked by real job market value. Learn which credentials HR filters actually look for and how to pass them.",
+          "reason": "LLM SEO rewrite (out of range)"
+        },
+        {
+          "field": "type",
+          "before": "ranking",
+          "after": "post",
+          "reason": "field must be a fixed value"
+        },
+        {
+          "field": "order",
+          "before": "20",
+          "after": "680",
+          "reason": "order file"
+        },
+        {
+          "field": "categories",
+          "before": "security, certifications, career, cloud",
+          "after": "career, certifications, cloud, security",
+          "reason": "normalized categories"
+        },
+        {
+          "field": "(order)",
+          "before": "slug, date, title, seoTitle, seoDescription, type, author, order, imagePosition, categories, examCodes",
+          "after": "slug, title, seoTitle, seoDescription, type, imagePosition, order, author, categories, examCodes, date",
+          "reason": "fields reordered to the schema sequence"
+        }
+      ],
+      "has_changes": true,
+      "error": null
+    },
+    {
+      "slug": "top-five-cybersecurity-projects",
+      "path": "output_corrected\\top-five-cybersecurity-projects.mdx",
+      "notes": [
+        "detected examCodes: CISSP"
+      ],
+      "warnings": [],
+      "review_items": [
+        "dropped unapproved category 'projects'"
+      ],
+      "field_changes": [
+        {
+          "field": "examCodes",
+          "before": "(missing)",
+          "after": "CISSP",
+          "reason": "exam codes detected in the content"
+        },
+        {
+          "field": "type",
+          "before": "project",
+          "after": "post",
+          "reason": "field must be a fixed value"
+        },
+        {
+          "field": "order",
+          "before": "360",
+          "after": "640",
+          "reason": "order file"
+        },
+        {
+          "field": "categories",
+          "before": "security, projects, beginner",
+          "after": "beginner, security",
+          "reason": "normalized categories"
+        },
+        {
+          "field": "(order)",
+          "before": "slug, date, title, seoTitle, seoDescription, type, author, order, imagePosition, categories, examCodes",
+          "after": "slug, title, seoTitle, seoDescription, type, imagePosition, order, author, categories, examCodes, date",
+          "reason": "fields reordered to the schema sequence"
+        }
+      ],
+      "has_changes": true,
+      "error": null
+    },
+    {
+      "slug": "top-five-ai-projects-beginners",
+      "path": "output_corrected\\top-five-ai-projects-beginners.mdx",
+      "notes": [
+        "rewrote seoTitle (70 -> 60 chars)",
+        "rewrote seoDescription (118 -> 148 chars)"
+      ],
+      "warnings": [],
+      "review_items": [
+        "dropped unapproved category 'projects'"
+      ],
+      "field_changes": [
+        {
+          "field": "seoTitle",
+          "before": "Top AI Engineer Projects for Beginners | Build Real AI Skills | ExamOS",
+          "after": "Top AI Projects for Beginners: Build Real Engineering Skills",
+          "reason": "LLM SEO rewrite (out of range)"
+        },
+        {
+          "field": "seoDescription",
+          "before": "Stop watching AI tutorials. Build these 5 practical projects to become an AI engineer and understand how systems work.",
+          "after": "Looking for practical AI projects for beginners? Build these five structured projects in order to learn APIs, RAG systems, and multi-step workflows.",
+          "reason": "LLM SEO rewrite (out of range)"
+        },
+        {
+          "field": "type",
+          "before": "project",
+          "after": "post",
+          "reason": "field must be a fixed value"
+        },
+        {
+          "field": "order",
+          "before": "240",
+          "after": "630",
+          "reason": "order file"
+        },
+        {
+          "field": "categories",
+          "before": "ai, projects, beginner",
+          "after": "ai, beginner",
+          "reason": "normalized categories"
+        },
+        {
+          "field": "(order)",
+          "before": "slug, date, title, seoTitle, seoDescription, type, author, order, imagePosition, categories",
+          "after": "slug, title, seoTitle, seoDescription, type, imagePosition, order, author, categories, date",
+          "reason": "fields reordered to the schema sequence"
+        }
+      ],
+      "has_changes": true,
+      "error": null
+    },
+    {
+      "slug": "top-tech-management-skills",
+      "path": "output_corrected\\top-tech-management-skills.mdx",
+      "notes": [
+        "detected examCodes: PMP, AZ-900, CLF-C02"
+      ],
+      "warnings": [],
+      "review_items": [
+        "dropped unapproved category 'projects'"
+      ],
+      "field_changes": [
+        {
+          "field": "examCodes",
+          "before": "(missing)",
+          "after": "PMP, AZ-900, CLF-C02",
+          "reason": "exam codes detected in the content"
+        },
+        {
+          "field": "type",
+          "before": "ranking",
+          "after": "post",
+          "reason": "field must be a fixed value"
+        },
+        {
+          "field": "order",
+          "before": "560",
+          "after": "720",
+          "reason": "order file"
+        },
+        {
+          "field": "categories",
+          "before": "career, strategy, projects",
+          "after": "career, strategy",
+          "reason": "normalized categories"
+        },
+        {
+          "field": "(order)",
+          "before": "slug, date, title, seoTitle, seoDescription, type, author, order, imagePosition, categories, examCodes",
+          "after": "slug, title, seoTitle, seoDescription, type, imagePosition, order, author, categories, examCodes, date",
+          "reason": "fields reordered to the schema sequence"
+        }
+      ],
+      "has_changes": true,
+      "error": null
+    },
+    {
+      "slug": "top-devops-tools-ranked",
+      "path": "output_corrected\\top-devops-tools-ranked.mdx",
+      "notes": [
+        "detected examCodes: AZ-400, DOP-C02, AZ-104, DVA-C02, AZ-204",
+        "rewrote title (69 -> 57 chars)",
+        "rewrote seoDescription (122 -> 149 chars)"
+      ],
+      "warnings": [],
+      "review_items": [],
+      "field_changes": [
+        {
+          "field": "examCodes",
+          "before": "(missing)",
+          "after": "AZ-400, DOP-C02, AZ-104, DVA-C02, AZ-204",
+          "reason": "exam codes detected in the content"
+        },
+        {
+          "field": "title",
+          "before": "Top 7 DevOps Tools You Must Know in 2026 (Ranked by Real-World Usage)",
+          "after": "Top 7 DevOps Tools Ranked by Real-World Necessity in 2026",
+          "reason": "LLM SEO rewrite (out of range)"
+        },
+        {
+          "field": "seoDescription",
+          "before": "The DevOps landscape is a mess of logos. Cut through the noise with the top 7 DevOps tools you need to learn to get hired.",
+          "after": "See the top DevOps tools ranked by real-world necessity. Learn which core technologies you need to master to build automated pipelines and get hired.",
+          "reason": "LLM SEO rewrite (out of range)"
+        },
+        {
+          "field": "type",
+          "before": "ranking",
+          "after": "post",
+          "reason": "field must be a fixed value"
+        },
+        {
+          "field": "order",
+          "before": "270",
+          "after": "690",
+          "reason": "order file"
+        },
+        {
+          "field": "categories",
+          "before": "devops, cloud, career",
+          "after": "career, cloud, devops",
+          "reason": "normalized categories"
+        },
+        {
+          "field": "(order)",
+          "before": "slug, date, title, seoTitle, seoDescription, type, author, order, imagePosition, categories, examCodes",
+          "after": "slug, title, seoTitle, seoDescription, type, imagePosition, order, author, categories, examCodes, date",
+          "reason": "fields reordered to the schema sequence"
+        }
+      ],
+      "has_changes": true,
+      "error": null
+    },
+    {
+      "slug": "top-gcp-services-ranked",
+      "path": "output_corrected\\top-gcp-services-ranked.mdx",
+      "notes": [
+        "detected examCodes: GCP-PCA, GCP-ACE, GCP-PDE",
+        "rewrote title (68 -> 54 chars)",
+        "rewrote seoTitle (73 -> 58 chars)",
+        "rewrote seoDescription (129 -> 158 chars)"
+      ],
+      "warnings": [],
+      "review_items": [],
+      "field_changes": [
+        {
+          "field": "examCodes",
+          "before": "(missing)",
+          "after": "GCP-PCA, GCP-ACE, GCP-PDE",
+          "reason": "exam codes detected in the content"
+        },
+        {
+          "field": "title",
+          "before": "Top 10 GCP Services You Will Actually Use (Ranked by Real-World Use)",
+          "after": "Top 10 GCP Services You Will Actually Use in Real Jobs",
+          "reason": "LLM SEO rewrite (out of range)"
+        },
+        {
+          "field": "seoTitle",
+          "before": "Top Google Cloud Services Ranked | What You Actually Use in Jobs | ExamOS",
+          "after": "Top GCP Services Ranked: 10 Essential Tools for Cloud Jobs",
+          "reason": "LLM SEO rewrite (out of range)"
+        },
+        {
+          "field": "seoDescription",
+          "before": "Skip the noise. These are the top Google Cloud (GCP) services you will actually use in real jobs, ranked with practical insights.",
+          "after": "See the top GCP services ranked by real-world utility. Learn which ten Google Cloud tools you actually need to master for your career and certification exams.",
+          "reason": "LLM SEO rewrite (out of range)"
+        },
+        {
+          "field": "type",
+          "before": "ranking",
+          "after": "post",
+          "reason": "field must be a fixed value"
+        },
+        {
+          "field": "order",
+          "before": "50",
+          "after": "220",
+          "reason": "order file"
+        },
+        {
+          "field": "categories",
+          "before": "gcp, cloud",
+          "after": "cloud, gcp",
+          "reason": "normalized categories"
+        },
+        {
+          "field": "(order)",
+          "before": "slug, date, title, seoTitle, seoDescription, type, author, order, imagePosition, categories, examCodes",
+          "after": "slug, title, seoTitle, seoDescription, type, imagePosition, order, author, categories, examCodes, date",
+          "reason": "fields reordered to the schema sequence"
+        }
+      ],
+      "has_changes": true,
+      "error": null
+    },
+    {
+      "slug": "top-five-cloud-projects",
+      "path": "output_corrected\\top-five-cloud-projects.mdx",
+      "notes": [
+        "detected examCodes: AZ-900, CLF-C02",
+        "rewrote title (43 -> 51 chars)",
+        "rewrote seoDescription (124 -> 153 chars)"
+      ],
+      "warnings": [],
+      "review_items": [
+        "dropped unapproved category 'projects'"
+      ],
+      "field_changes": [
+        {
+          "field": "examCodes",
+          "before": "(missing)",
+          "after": "AZ-900, CLF-C02",
+          "reason": "exam codes detected in the content"
+        },
+        {
+          "field": "title",
+          "before": "Top 5 Projects for Learning Cloud Computing",
+          "after": "Top 5 Cloud Projects to Build Real Practical Skills",
+          "reason": "LLM SEO rewrite (out of range)"
+        },
+        {
+          "field": "seoDescription",
+          "before": "Stop watching tutorials. Build these 5 real cloud projects to learn Azure or AWS properly. And get ready for certifications.",
+          "after": "Build these top cloud projects to gain hands-on experience with AWS and Azure. Learn how to deploy virtual machines, use IaC, and set up CI/CD pipelines.",
+          "reason": "LLM SEO rewrite (out of range)"
+        },
+        {
+          "field": "type",
+          "before": "project",
+          "after": "post",
+          "reason": "field must be a fixed value"
+        },
+        {
+          "field": "order",
+          "before": "300",
+          "after": "350",
+          "reason": "order file"
+        },
+        {
+          "field": "categories",
+          "before": "cloud, projects",
+          "after": "cloud",
+          "reason": "normalized categories"
+        },
+        {
+          "field": "(order)",
+          "before": "slug, date, title, seoTitle, seoDescription, type, author, order, imagePosition, categories, examCodes",
+          "after": "slug, title, seoTitle, seoDescription, type, imagePosition, order, author, categories, examCodes, date",
+          "reason": "fields reordered to the schema sequence"
+        }
+      ],
+      "has_changes": true,
+      "error": null
+    },
+    {
+      "slug": "wasting-time-ai-practice-tests",
+      "path": "output_corrected\\wasting-time-ai-practice-tests.mdx",
+      "notes": [
+        "detected examCodes: AZ-104",
+        "rewrote seoDescription (127 -> 152 chars)"
+      ],
+      "warnings": [],
+      "review_items": [],
+      "field_changes": [
+        {
+          "field": "examCodes",
+          "before": "(missing)",
+          "after": "AZ-104",
+          "reason": "exam codes detected in the content"
+        },
+        {
+          "field": "seoDescription",
+          "before": "Using ChatGPT for Azure or AWS exam prep? Here’s why AI-generated practice tests can hurt your chances and what actually works.",
+          "after": "Using AI practice tests for AWS or Azure prep? Learn why AI-generated questions fail to prepare you for real exams and how to study effectively instead.",
+          "reason": "LLM SEO rewrite (out of range)"
+        },
+        {
+          "field": "imagePosition",
+          "before": "middle",
+          "after": "top",
+          "reason": "field must be a fixed value"
+        },
+        {
+          "field": "order",
+          "before": "350",
+          "after": "600",
+          "reason": "order file"
+        },
+        {
+          "field": "categories",
+          "before": "ai, certifications, career, strategy",
+          "after": "ai, career, certifications, strategy",
+          "reason": "normalized categories"
+        },
+        {
+          "field": "(order)",
+          "before": "slug, date, title, seoTitle, seoDescription, type, author, order, imagePosition, categories, examCodes",
+          "after": "slug, title, seoTitle, seoDescription, type, imagePosition, order, author, categories, examCodes, date",
+          "reason": "fields reordered to the schema sequence"
+        }
+      ],
+      "has_changes": true,
+      "error": null
+    },
+    {
+      "slug": "two-hour-weekend-building-plan",
+      "path": "output_corrected\\two-hour-weekend-building-plan.mdx",
+      "notes": [
+        "rewrote seoTitle (67 -> 58 chars)",
+        "rewrote seoDescription (130 -> 155 chars)"
+      ],
+      "warnings": [],
+      "review_items": [
+        "dropped unapproved category 'projects'"
+      ],
+      "field_changes": [
+        {
+          "field": "seoTitle",
+          "before": "2-Hour Weekend IT Practice Plan | Build Real Skills Alongside Study",
+          "after": "Weekend Building Plan: How to Build Real IT Skills in 2026",
+          "reason": "LLM SEO rewrite (out of range)"
+        },
+        {
+          "field": "seoDescription",
+          "before": "A simple 2-hour weekend plan to reinforce your IT learning by building small projects alongside your daily study routine on ExamOS",
+          "after": "Use this 2-hour weekend building plan to turn your IT study into practical skills. Learn how to select, build, and debug small projects to pass your exams.",
+          "reason": "LLM SEO rewrite (out of range)"
+        },
+        {
+          "field": "imagePosition",
+          "before": "middle",
+          "after": "top",
+          "reason": "field must be a fixed value"
+        },
+        {
+          "field": "order",
+          "before": "520",
+          "after": "580",
+          "reason": "order file"
+        },
+        {
+          "field": "categories",
+          "before": "ai, career, strategy, projects",
+          "after": "ai, career, strategy",
+          "reason": "normalized categories"
+        },
+        {
+          "field": "(order)",
+          "before": "slug, date, title, seoTitle, seoDescription, type, author, order, imagePosition, categories",
+          "after": "slug, title, seoTitle, seoDescription, type, imagePosition, order, author, categories, date",
+          "reason": "fields reordered to the schema sequence"
+        }
+      ],
+      "has_changes": true,
+      "error": null
+    },
+    {
+      "slug": "what-cissp-is-actually-testing-psychologically-operationally",
+      "path": "output_corrected\\what-cissp-is-actually-testing-psychologically-operationally.mdx",
+      "notes": [
+        "detected examCodes: CISSP",
+        "rewrote title (68 -> 58 chars)",
+        "rewrote seoDescription (174 -> 154 chars)",
+        "added required field 'imagePosition'",
+        "added required field 'date'"
+      ],
+      "warnings": [],
+      "review_items": [
+        "'imagePosition' was missing and was inferred; verify it",
+        "'date' was missing and was inferred; verify it"
+      ],
+      "field_changes": [
+        {
+          "field": "examCodes",
+          "before": "(missing)",
+          "after": "CISSP",
+          "reason": "exam codes detected in the content"
+        },
+        {
+          "field": "title",
+          "before": "What the CISSP Is ACTUALLY Testing Psychologically and Operationally",
+          "after": "What the CISSP Exam Actually Tests: Mindset and Operations",
+          "reason": "LLM SEO rewrite (out of range)"
+        },
+        {
+          "field": "seoDescription",
+          "before": "The CISSP isn't just about 'thinking like a manager.' It tests specific psychological shifts and operational disciplines. Here's what actually separates passing from failing.",
+          "after": "Master the CISSP exam mindset by understanding what the test actually evaluates psychologically and operationally. Learn how you can think like a manager.",
+          "reason": "LLM SEO rewrite (out of range)"
+        },
+        {
+          "field": "imagePosition",
+          "before": "(missing)",
+          "after": "top",
+          "reason": "missing required field"
+        },
+        {
+          "field": "order",
+          "before": "220",
+          "after": "770",
+          "reason": "order file"
+        },
+        {
+          "field": "date",
+          "before": "(missing)",
+          "after": "2026-09-27",
+          "reason": "missing required field"
+        },
+        {
+          "field": "(order)",
+          "before": "categories, author, slug, title, seoTitle, seoDescription, type, order, examCodes",
+          "after": "slug, title, seoTitle, seoDescription, type, imagePosition, order, author, categories, examCodes, date",
+          "reason": "fields reordered to the schema sequence"
+        }
+      ],
+      "has_changes": true,
+      "error": null
+    },
+    {
+      "slug": "why-cramming-fails-cloud-certification-exams",
+      "path": "output_corrected\\why-cramming-fails-cloud-certification-exams.mdx",
+      "notes": [
+        "detected examCodes: AZ-104, SAA-C03, PMP",
+        "rewrote title (48 -> 63 chars)",
+        "rewrote seoDescription (181 -> 152 chars)",
+        "added required field 'imagePosition'",
+        "added required field 'date'"
+      ],
+      "warnings": [],
+      "review_items": [
+        "'imagePosition' was missing and was inferred; verify it",
+        "'date' was missing and was inferred; verify it"
+      ],
+      "field_changes": [
+        {
+          "field": "examCodes",
+          "before": "(missing)",
+          "after": "AZ-104, SAA-C03, PMP",
+          "reason": "exam codes detected in the content"
+        },
+        {
+          "field": "title",
+          "before": "Why Cramming Fails for Cloud Certification Exams",
+          "after": "Why Cramming Fails for Cloud Certification Exams and What Works",
+          "reason": "LLM SEO rewrite (out of range)"
+        },
+        {
+          "field": "seoDescription",
+          "before": "Cramming for cloud certification exams like AWS SAA-C03, Azure AZ-104, and others creates brittle knowledge that doesn't transfer to the job. Here's why daily practice works better.",
+          "after": "Why cramming fails cloud exams and how to build durable knowledge. Learn why daily scenario practice is the key to passing AWS and Azure certifications.",
+          "reason": "LLM SEO rewrite (out of range)"
+        },
+        {
+          "field": "imagePosition",
+          "before": "(missing)",
+          "after": "top",
+          "reason": "missing required field"
+        },
+        {
+          "field": "order",
+          "before": "310",
+          "after": "540",
+          "reason": "order file"
+        },
+        {
+          "field": "categories",
+          "before": "cloud, strategy, certifications",
+          "after": "certifications, cloud, strategy",
+          "reason": "normalized categories"
+        },
+        {
+          "field": "date",
+          "before": "(missing)",
+          "after": "2026-09-27",
+          "reason": "missing required field"
+        },
+        {
+          "field": "(order)",
+          "before": "categories, author, slug, title, seoTitle, seoDescription, type, order, examCodes",
+          "after": "slug, title, seoTitle, seoDescription, type, imagePosition, order, author, categories, examCodes, date",
+          "reason": "fields reordered to the schema sequence"
+        }
+      ],
+      "has_changes": true,
+      "error": null
+    },
+    {
+      "slug": "what-next-after-az-104",
+      "path": "output_corrected\\what-next-after-az-104.mdx",
+      "notes": [
+        "detected examCodes: AZ-305, AZ-700, SAA-C03, AZ-500",
+        "rewrote title (31 -> 61 chars)",
+        "rewrote seoDescription (171 -> 151 chars)",
+        "added required field 'imagePosition'"
+      ],
+      "warnings": [],
+      "review_items": [
+        "'imagePosition' was missing and was inferred; verify it"
+      ],
+      "field_changes": [
+        {
+          "field": "examCodes",
+          "before": "AZ-104",
+          "after": "AZ-104, AZ-305, AZ-700, SAA-C03, AZ-500",
+          "reason": "exam codes detected in the content"
+        },
+        {
+          "field": "title",
+          "before": "What Next After Passing AZ-104?",
+          "after": "What Next After Passing AZ-104? Choosing Your Next Azure Path",
+          "reason": "LLM SEO rewrite (out of range)"
+        },
+        {
+          "field": "seoDescription",
+          "before": "Passed AZ-104? Here's an honest breakdown of where to go next — whether that's specialising, going enterprise-scale with AZ-305, or branching into security and networking.",
+          "after": "Wondering what next after passing AZ-104? Compare the best Azure certification paths including AZ-305, AZ-500, and AZ-700 to advance your cloud career.",
+          "reason": "LLM SEO rewrite (out of range)"
+        },
+        {
+          "field": "imagePosition",
+          "before": "(missing)",
+          "after": "top",
+          "reason": "missing required field"
+        },
+        {
+          "field": "order",
+          "before": "460",
+          "after": "180",
+          "reason": "order file"
+        },
+        {
+          "field": "categories",
+          "before": "cloud, azure, strategy",
+          "after": "azure, cloud, strategy",
+          "reason": "normalized categories"
+        },
+        {
+          "field": "(order)",
+          "before": "slug, date, title, seoTitle, seoDescription, type, order, author, categories, examCodes",
+          "after": "slug, title, seoTitle, seoDescription, type, imagePosition, order, author, categories, examCodes, date",
+          "reason": "fields reordered to the schema sequence"
+        }
+      ],
+      "has_changes": true,
+      "error": null
+    },
+    {
+      "slug": "what-next-after-saa",
+      "path": "output_corrected\\what-next-after-saa.mdx",
+      "notes": [
+        "detected examCodes: SAP-C02, SAA-C03, SY0-701, SCS-C03, ANS-C01, DOP-C02, AZ-104, CKA, CKS, TA-004, GCP-PCA",
+        "rewrote seoDescription (178 -> 142 chars)",
+        "added required field 'imagePosition'"
+      ],
+      "warnings": [],
+      "review_items": [
+        "'imagePosition' was missing and was inferred; verify it"
+      ],
+      "field_changes": [
+        {
+          "field": "examCodes",
+          "before": "(missing)",
+          "after": "SAP-C02, SAA-C03, SY0-701, SCS-C03, ANS-C01, DOP-C02, AZ-104, CKA, CKS, TA-004, GCP-PCA",
+          "reason": "exam codes detected in the content"
+        },
+        {
+          "field": "seoDescription",
+          "before": "Passed your AWS Solutions Architect Associate? Here's how to decide what certification or skill to pursue next, based on your actual career goals and where the market is heading.",
+          "after": "Passed the AWS Solutions Architect Associate? Learn how to choose your next certification, from SAP-C02 to DevOps, based on your career goals.",
+          "reason": "LLM SEO rewrite (out of range)"
+        },
+        {
+          "field": "imagePosition",
+          "before": "(missing)",
+          "after": "top",
+          "reason": "missing required field"
+        },
+        {
+          "field": "order",
+          "before": "490",
+          "after": "780",
+          "reason": "order file"
+        },
+        {
+          "field": "categories",
+          "before": "cloud, strategy, certifications, aws",
+          "after": "aws, certifications, cloud, strategy",
+          "reason": "normalized categories"
+        },
+        {
+          "field": "(order)",
+          "before": "slug, date, title, seoTitle, seoDescription, type, order, author, categories, examCodes",
+          "after": "slug, title, seoTitle, seoDescription, type, imagePosition, order, author, categories, examCodes, date",
+          "reason": "fields reordered to the schema sequence"
+        }
+      ],
+      "has_changes": true,
+      "error": null
+    },
+    {
+      "slug": "why-daily-practice-beats-cramming",
+      "path": "output_corrected\\why-daily-practice-beats-cramming.mdx",
+      "notes": [
+        "detected examCodes: PMP, SAA-C03",
+        "rewrote seoTitle (69 -> 56 chars)",
+        "rewrote seoDescription (185 -> 157 chars)",
+        "added required field 'imagePosition'",
+        "added required field 'date'"
+      ],
+      "warnings": [],
+      "review_items": [
+        "'imagePosition' was missing and was inferred; verify it",
+        "'date' was missing and was inferred; verify it"
+      ],
+      "field_changes": [
+        {
+          "field": "examCodes",
+          "before": "(missing)",
+          "after": "PMP, SAA-C03",
+          "reason": "exam codes detected in the content"
+        },
+        {
+          "field": "seoTitle",
+          "before": "Daily Practice vs Cramming for Cloud Certifications (AWS, Azure, PMP)",
+          "after": "Daily Practice vs Cramming for IT Certifications in 2026",
+          "reason": "LLM SEO rewrite (out of range)"
+        },
+        {
+          "field": "seoDescription",
+          "before": "Cramming for certification exams creates brittle knowledge that evaporates quickly. Here's why daily scenario-based practice – even with pause-and-resume – builds durable understanding.",
+          "after": "When looking at daily practice vs cramming for IT exams, consistency wins. Learn how daily scenario-based practice builds durable knowledge to help you pass.",
+          "reason": "LLM SEO rewrite (out of range)"
+        },
+        {
+          "field": "imagePosition",
+          "before": "(missing)",
+          "after": "top",
+          "reason": "missing required field"
+        },
+        {
+          "field": "order",
+          "before": "290",
+          "after": "530",
+          "reason": "order file"
+        },
+        {
+          "field": "categories",
+          "before": "cloud, strategy, certifications",
+          "after": "certifications, cloud, strategy",
+          "reason": "normalized categories"
+        },
+        {
+          "field": "date",
+          "before": "(missing)",
+          "after": "2026-09-27",
+          "reason": "missing required field"
+        },
+        {
+          "field": "(order)",
+          "before": "categories, author, slug, title, seoTitle, seoDescription, type, order, examCodes",
+          "after": "slug, title, seoTitle, seoDescription, type, imagePosition, order, author, categories, examCodes, date",
+          "reason": "fields reordered to the schema sequence"
+        }
+      ],
+      "has_changes": true,
+      "error": null
+    },
+    {
+      "slug": "why-most-fail-az-305",
+      "path": "output_corrected\\why-most-fail-az-305.mdx",
+      "notes": [
+        "detected examCodes: AZ-305, SAP-C02, AZ-104, SAA-C03",
+        "rewrote seoTitle (53 -> 63 chars)",
+        "rewrote seoDescription (186 -> 145 chars)",
+        "added required field 'imagePosition'",
+        "added required field 'date'"
+      ],
+      "warnings": [],
+      "review_items": [
+        "'imagePosition' was missing and was inferred; verify it",
+        "category 'certification' mapped to 'certifications'",
+        "'date' was missing and was inferred; verify it"
+      ],
+      "field_changes": [
+        {
+          "field": "examCodes",
+          "before": "(missing)",
+          "after": "AZ-305, SAP-C02, AZ-104, SAA-C03",
+          "reason": "exam codes detected in the content"
+        },
+        {
+          "field": "seoTitle",
+          "before": "Why Most People Fail AZ-305 Even After Passing AZ-104",
+          "after": "AZ-305 Difficulty: Why Candidates Fail the Azure Architect Exam",
+          "reason": "LLM SEO rewrite (out of range)"
+        },
+        {
+          "field": "seoDescription",
+          "before": "Passing AZ-104 doesn't prepare you for AZ-305 the way most candidates expect. Here's why the Azure Solutions Architect Expert exam trips up experienced engineers and what actually works.",
+          "after": "Understand why candidates fail AZ-305 and how to bridge the gap from AZ-104. Learn the key architectural design concepts needed to pass the exam.",
+          "reason": "LLM SEO rewrite (out of range)"
+        },
+        {
+          "field": "imagePosition",
+          "before": "(missing)",
+          "after": "top",
+          "reason": "missing required field"
+        },
+        {
+          "field": "order",
+          "before": "260",
+          "after": "760",
+          "reason": "order file"
+        },
+        {
+          "field": "categories",
+          "before": "cloud, azure, certification",
+          "after": "azure, certifications, cloud",
+          "reason": "normalized categories"
+        },
+        {
+          "field": "date",
+          "before": "(missing)",
+          "after": "2026-09-27",
+          "reason": "missing required field"
+        },
+        {
+          "field": "(order)",
+          "before": "slug, title, seoTitle, seoDescription, type, order, author, categories, examCodes",
+          "after": "slug, title, seoTitle, seoDescription, type, imagePosition, order, author, categories, examCodes, date",
+          "reason": "fields reordered to the schema sequence"
+        }
+      ],
+      "has_changes": true,
+      "error": null
+    },
+    {
+      "slug": "youtube-for-technical-learning",
+      "path": "output_corrected\\youtube-for-technical-learning.mdx",
+      "notes": [],
+      "warnings": [],
+      "review_items": [],
+      "field_changes": [
+        {
+          "field": "imagePosition",
+          "before": "middle",
+          "after": "top",
+          "reason": "field must be a fixed value"
+        },
+        {
+          "field": "order",
+          "before": "580",
+          "after": "610",
+          "reason": "order file"
+        },
+        {
+          "field": "categories",
+          "before": "career, strategy, beginner",
+          "after": "beginner, career, strategy",
+          "reason": "normalized categories"
+        },
+        {
+          "field": "(order)",
+          "before": "slug, date, title, seoTitle, seoDescription, type, author, order, imagePosition, categories",
+          "after": "slug, title, seoTitle, seoDescription, type, imagePosition, order, author, categories, date",
+          "reason": "fields reordered to the schema sequence"
+        }
+      ],
+      "has_changes": true,
+      "error": null
+    },
+    {
+      "slug": "why-scenario-based-tests-work",
+      "path": "output_corrected\\why-scenario-based-tests-work.mdx",
+      "notes": [
+        "detected examCodes: AI-103, AZ-104, PMP, AI-200",
+        "rewrote title (69 -> 51 chars)",
+        "rewrote seoTitle (69 -> 57 chars)"
+      ],
+      "warnings": [],
+      "review_items": [],
+      "field_changes": [
+        {
+          "field": "examCodes",
+          "before": "(missing)",
+          "after": "AI-103, AZ-104, PMP, AI-200",
+          "reason": "exam codes detected in the content"
+        },
+        {
+          "field": "title",
+          "before": "Why Scenario-Based Practice Tests Work (And Why Memorization Doesn’t)",
+          "after": "Why Scenario-Based Practice Tests Beat Memorization",
+          "reason": "LLM SEO rewrite (out of range)"
+        },
+        {
+          "field": "seoTitle",
+          "before": "Why Scenario-Based Practice Tests Are Best for IT Certification Exams",
+          "after": "Scenario-Based Practice Tests: Pass Your IT Exams in 2026",
+          "reason": "LLM SEO rewrite (out of range)"
+        },
+        {
+          "field": "imagePosition",
+          "before": "middle",
+          "after": "top",
+          "reason": "field must be a fixed value"
+        },
+        {
+          "field": "order",
+          "before": "340",
+          "after": "520",
+          "reason": "order file"
+        },
+        {
+          "field": "(order)",
+          "before": "slug, date, title, seoTitle, seoDescription, type, author, order, imagePosition, categories, examCodes",
+          "after": "slug, title, seoTitle, seoDescription, type, imagePosition, order, author, categories, examCodes, date",
+          "reason": "fields reordered to the schema sequence"
+        }
+      ],
+      "has_changes": true,
+      "error": null
+    },
+    {
+      "slug": "why-sc-900-is-good-for-beginners",
+      "path": "output_corrected\\why-sc-900-is-good-for-beginners.mdx",
+      "notes": [
+        "detected examCodes: SC-900, CISSP, SC-300, SC-200",
+        "rewrote title (68 -> 56 chars)",
+        "rewrote seoDescription (162 -> 154 chars)"
+      ],
+      "warnings": [],
+      "review_items": [],
+      "field_changes": [
+        {
+          "field": "examCodes",
+          "before": "(missing)",
+          "after": "SC-900, CISSP, SC-300, SC-200",
+          "reason": "exam codes detected in the content"
+        },
+        {
+          "field": "title",
+          "before": "Why SC-900 Is a Good First Certification for Cybersecurity Beginners",
+          "after": "Why SC-900 Is the Best First Cybersecurity Certification",
+          "reason": "LLM SEO rewrite (out of range)"
+        },
+        {
+          "field": "seoDescription",
+          "before": "SC-900 is a low-cost, no-prerequisite certification that builds real security vocabulary. Here is what it covers, who it suits, and how to prepare in three weeks.",
+          "after": "Is SC-900 for beginners worth it? Learn why this low-cost, no-prerequisite certification is the perfect first step to build your cybersecurity vocabulary.",
+          "reason": "LLM SEO rewrite (out of range)"
+        },
+        {
+          "field": "order",
+          "before": "25",
+          "after": "710",
+          "reason": "order file"
+        },
+        {
+          "field": "categories",
+          "before": "security, certifications, beginner",
+          "after": "beginner, certifications, security",
+          "reason": "normalized categories"
+        },
+        {
+          "field": "(order)",
+          "before": "slug, title, seoTitle, seoDescription, type, date, author, order, imagePosition, categories, examCodes",
+          "after": "slug, title, seoTitle, seoDescription, type, imagePosition, order, author, categories, examCodes, date",
+          "reason": "fields reordered to the schema sequence"
+        }
+      ],
+      "has_changes": true,
+      "error": null
+    },
+    {
+      "slug": "why-technical-experts-fail-cissp",
+      "path": "output_corrected\\why-technical-experts-fail-cissp.mdx",
+      "notes": [
+        "detected examCodes: CISSP",
+        "rewrote seoTitle (75 -> 61 chars)",
+        "rewrote seoDescription (204 -> 144 chars)"
+      ],
+      "warnings": [],
+      "review_items": [],
+      "field_changes": [
+        {
+          "field": "examCodes",
+          "before": "(missing)",
+          "after": "CISSP",
+          "reason": "exam codes detected in the content"
+        },
+        {
+          "field": "seoTitle",
+          "before": "Why Technical Experts Fail the CISSP Exam (And How to Think Like a Manager)",
+          "after": "Why Technical Experts Fail CISSP: How to Think Like a Manager",
+          "reason": "LLM SEO rewrite (out of range)"
+        },
+        {
+          "field": "seoDescription",
+          "before": "Strong security engineers regularly fail the CISSP on their first attempt. The reason isn't technical knowledge. It's a thinking style mismatch that most candidates don't see coming. Here's how to fix it.",
+          "after": "Learn why technical experts fail the CISSP exam and how to avoid the trap. Master the managerial mindset needed to pass your ISC2 certification.",
+          "reason": "LLM SEO rewrite (out of range)"
+        },
+        {
+          "field": "order",
+          "before": "480",
+          "after": "330",
+          "reason": "order file"
+        },
+        {
+          "field": "categories",
+          "before": "security, certifications",
+          "after": "certifications, security",
+          "reason": "normalized categories"
+        },
+        {
+          "field": "(order)",
+          "before": "slug, title, seoTitle, seoDescription, type, date, imagePosition, author, order, categories, examCodes",
+          "after": "slug, title, seoTitle, seoDescription, type, imagePosition, order, author, categories, examCodes, date",
+          "reason": "fields reordered to the schema sequence"
+        }
+      ],
+      "has_changes": true,
+      "error": null
+    }
+  ]
+}

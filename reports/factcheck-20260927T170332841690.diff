@@ -1,0 +1,11 @@
+--- a/should-non-technical-roles-take-ai-901.mdx
++++ b/should-non-technical-roles-take-ai-901.mdx
+@@ -103,7 +103,7 @@
+ - Understand what data is needed for different AI workloads
+ - Evaluate AI vendor solutions and services
+ 
+-AI-901 covers how Azure AI services solve different business challenges. You will learn about customer support automation with generative AI, text analysis for sentiment detection, and computer vision for document processing.
++AI-901 covers how Foundry Tools solve different business challenges. You will learn about customer support automation with generative AI, text analysis for sentiment detection, and computer vision for document processing.
+ 
+ **The value:** You will be more effective at gathering requirements for AI projects and evaluating AI solutions against business needs.
+ 

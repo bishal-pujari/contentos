@@ -1,0 +1,63 @@
+---
+slug: "top-cloud-security-mistakes-ranked"
+date: "2026-03-28"
+title: "Top 8 Cloud Security Mistakes Companies Actually Make (Ranked by Danger)"
+seoTitle: "Top Cloud Security Mistakes | What Actually Causes Breaches | ExamOS"
+seoDescription: "Stop worrying about zero-days. Here are the top 8 cloud security mistakes that actually cause data breaches, and how to fix them."
+type: "ranking"
+author: "Sarah Chen"
+order: 550
+imagePosition: "top"
+categories: ["cloud", "security"]
+---
+When people think about cloud security, they imagine sophisticated, hooded hackers deploying complex zero-day exploits. 
+
+The reality of cloud security is much more boring. Data breaches rarely happen because an adversary "hacked the mainframe." They happen because a tired engineer left a database completely open to the public internet.
+
+If you want to be a cloud engineer or a security professional, stop worrying about advanced persistent threats and focus on the fundamentals. 
+
+Here are the top 8 cloud security mistakes companies *actually* make, ranked by how dangerous they are to an organization.
+
+---
+
+## 1. Hardcoded Credentials in Source Code
+This is the absolute fastest way to get breached. A developer hardcodes an AWS Access Key or Azure Service Principal secret directly into a script to make testing easier. They accidentally push that script to a public GitHub repository. Within seconds, automated bots scrape the key and spin up thousands of dollars in crypto-mining servers.
+* **The Fix:** Never hardcode secrets. Use AWS Secrets Manager, Azure Key Vault, or GitHub environment variables.
+
+## 2. Publicly Exposed Storage Buckets
+This mistake is responsible for some of the largest data leaks in history. An engineer creates an S3 Bucket or Azure Blob Storage container to hold customer data, but accidentally misconfigures the permissions, allowing anonymous read access to the entire internet.
+* **The Fix:** Enable "Block Public Access" at the account/subscription level. Use strictly controlled IAM policies for data access.
+
+## 3. Overly Permissive IAM Roles (The Wildcard `*`)
+When engineers get frustrated trying to figure out which specific permission a service needs, they often just grant admin rights (using the `*` wildcard in JSON policies) just to "make it work." If that specific service is ever compromised, the attacker now has the keys to the entire cloud environment.
+* **The Fix:** Strictly enforce the Principle of Least Privilege (PoLP). Only grant the exact permissions required for a task, and nothing more.
+
+## 4. Leaving Default Network Security Settings
+Many engineers deploy Virtual Machines into a default Virtual Private Cloud (VPC) or VNet without configuring firewalls. They leave highly sensitive administrative ports (like SSH port 22 or RDP port 3389) open to the entire internet `0.0.0.0/0`.
+* **The Fix:** Use Network Security Groups (NSGs) or Security Groups to restrict access. Better yet, use services like AWS Systems Manager or Azure Bastion to connect to VMs securely without opening public ports.
+
+## 5. No MFA for Root/Admin Accounts
+It is staggering how many companies do not enforce Multi-Factor Authentication (MFA) on their highest-level cloud accounts. If a root account password is compromised in a phishing attack, the attacker can literally delete the entire company's infrastructure.
+* **The Fix:** Enforce MFA for every single user, and completely lock away the Root account credentials.
+
+## 6. Ignoring the Shared Responsibility Model
+Many companies move a legacy server to an AWS EC2 instance or Azure VM and assume the cloud provider will keep it secure. The cloud provider only secures the *hardware*. The customer is still responsible for patching the operating system and updating the software running on it.
+* **The Fix:** Implement automated OS patching and vulnerability scanning using native cloud tools.
+
+## 7. Blind Spots in Logging and Alerting
+A breach is bad. A breach that goes unnoticed for six months is fatal. Many companies fail to enable central logging, meaning when an attacker does get in, there is no alarm bell and no audit trail to figure out what they stole.
+* **The Fix:** Enable AWS CloudTrail or Azure Monitor by default. Send alerts to a SIEM or a Slack channel when high-risk actions (like deleting a database) occur.
+
+## 8. Unencrypted Data at Rest
+While cloud providers encrypt a lot of data by default now, companies still fail to properly manage their own encryption keys for highly sensitive databases. If a physical drive or a snapshot is somehow accessed, the raw data is exposed.
+* **The Fix:** Always toggle "Encryption at Rest" on databases and storage volumes using AWS KMS or Azure Key Vault.
+
+---
+
+## How to Test Your Security Knowledge
+
+Security in the cloud is not about memorizing attack types; it is about recognizing bad architectural decisions. 
+
+If you are preparing for a security-focused certification (like AWS Security Specialty or Azure AZ-500), you must train yourself to spot these misconfigurations under pressure. 
+
+This is exactly where **ExamOS** accelerates your learning. Instead of asking you simple vocabulary questions, ExamOS presents you with real-world scenarios. It will show you a JSON IAM policy and ask you to identify *why* it poses a security risk. By regularly testing your knowledge in **Challenger** or **Legend mode**, you build the muscle memory required to stop these 8 mistakes before they ever hit production.

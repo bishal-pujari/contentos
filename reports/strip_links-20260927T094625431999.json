@@ -1,0 +1,1227 @@
+{
+  "agent": "strip_links",
+  "started_at": "2026-09-27T09:46:25.431999+00:00",
+  "files_scanned": 81,
+  "files_changed": 79,
+  "changes": [
+    {
+      "path": "blogs\\ai-103-most-misunderstood-concepts.mdx",
+      "removed_lines": 7,
+      "modified_lines": 202,
+      "notes": [
+        "L10: removed embed component: <PracticeExamEmbed examSlug=\"microsoft-certified-azure-ai-ap",
+        "L207: removed embed component: <PracticeExamEmbed examSlug=\"microsoft-certified-azure-ai-ap",
+        "L211: removed standalone link line: [Exam Overview : AI-103](/exams/microsoft-certified-azure-ai",
+        "unlinked inline: 👉 Follow the [full 6-week AI-103 study plan](/study-plans/mi",
+        "unlinked inline: *Want to pressure-test these exact distinctions before your "
+      ]
+    },
+    {
+      "path": "blogs\\ai-103-study-guide-foundry-agents-rag.mdx",
+      "removed_lines": 9,
+      "modified_lines": 134,
+      "notes": [
+        "L10: removed embed component: <PracticeExamEmbed examSlug=\"microsoft-certified-azure-ai-ap",
+        "L94: removed embed component: <PracticeExamEmbed examSlug=\"microsoft-certified-azure-ai-ap",
+        "L162: removed embed component: <PracticeExamEmbed examSlug=\"microsoft-certified-azure-ai-ap",
+        "L166: removed standalone link line: [Exam Overview : AI-103](/exams/microsoft-certified-azure-ai",
+        "unlinked inline: 👉 Follow the [full 6-week AI-103 study plan](/study-plans/mi",
+        "unlinked inline: 👉 [Top 5 AI Projects for Beginners](/blogs/top-five-ai-proje",
+        "unlinked inline: *Want to pressure-test your understanding with scenario-base"
+      ]
+    },
+    {
+      "path": "blogs\\ai-103-vs-ai-200-which-should-you-take.mdx",
+      "removed_lines": 10,
+      "modified_lines": 112,
+      "notes": [
+        "L34: removed embed component: <PracticeExamEmbed examSlug=\"microsoft-certified-azure-ai-ap",
+        "L61: removed embed component: <PracticeExamEmbed examSlug=\"microsoft-certified-azure-ai-cl",
+        "L123: removed standalone link line: [Exam Overview : AI-103](/exams/microsoft-certified-azure-ai",
+        "L125: removed standalone link line: [Exam Overview : AI-200](/exams/microsoft-certified-azure-ai",
+        "unlinked inline: 👉 [Study Plan for AI-103](/study-plans/microsoft-certified-a",
+        "unlinked inline: 👉 [Learn more about AI-103](/exams/microsoft-certified-azure",
+        "unlinked inline: 👉 [Learn more about AI-200](/exams/microsoft-certified-azure",
+        "unlinked inline: 👉 [Azure AI Engineer Roadmap](/roadmaps/azure-ai-engineer)",
+        "unlinked inline: **What's your existing credential history?**",
+        "unlinked inline: **For both:** Scenario‑based practice that forces you to app",
+        "unlinked inline: *Preparing for AI‑103, AI‑200, or other new Microsoft certif"
+      ]
+    },
+    {
+      "path": "blogs\\ai-200-study-guide-vector-search-managed-identity-observability-containers.mdx",
+      "removed_lines": 7,
+      "modified_lines": 159,
+      "notes": [
+        "L14: removed embed component: <PracticeExamEmbed examSlug=\"microsoft-certified-azure-ai-cl",
+        "L147: removed embed component: <PracticeExamEmbed examSlug=\"microsoft-certified-azure-ai-cl",
+        "L166: removed standalone link line: [Exam Overview : AI-200](exams/microsoft-certified-azure-ai-",
+        "unlinked inline: *Preparing for AI-200? [ExamOS](/exams/microsoft-certified-a"
+      ]
+    },
+    {
+      "path": "blogs\\ai-300-study-guide-five-core-concepts.mdx",
+      "removed_lines": 6,
+      "modified_lines": 91,
+      "notes": [
+        "L88: removed embed component: <PracticeExamEmbed examSlug=\"microsoft-machine-learning-oper",
+        "L97: removed standalone link line: [Exam Overview : AI-300](/exams/microsoft-machine-learning-o",
+        "unlinked inline: 👉 [Azure AI Engineer Roadmap](/roadmaps/azure-ai-engineer)",
+        "unlinked inline: | :--- | :--- |",
+        "unlinked inline: 👉 [How is AI-300 different from DP-100?](/blogs/ai-300-vs-dp",
+        "unlinked inline: 👉 [Top 5 AI Projects for Beginners](/blogs/top-five-ai-proje",
+        "unlinked inline: *Preparing for AI-300? [ExamOS](/exams/microsoft-certified-a"
+      ]
+    },
+    {
+      "path": "blogs\\ai-300-vs-dp-100-mlops-engineer-guide.mdx",
+      "removed_lines": 6,
+      "modified_lines": 98,
+      "notes": [
+        "L95: removed embed component: <PracticeExamEmbed examSlug=\"microsoft-machine-learning-oper",
+        "L104: removed standalone link line: [Exam Overview : AI-300](/exams/microsoft-machine-learning-o",
+        "unlinked inline: 👉 [Azure AI Engineer Roadmap](/roadmaps/azure-ai-engineer)",
+        "unlinked inline: | :--- | :--- |",
+        "unlinked inline: 👉 [AI-300 Study Guide: One Core Concept From Each of the Fiv",
+        "unlinked inline: | :--- | :--- |",
+        "unlinked inline: | :--- | :--- |",
+        "unlinked inline: *Preparing for AI-300? [ExamOS](/exams/microsoft-machine-lea"
+      ]
+    },
+    {
+      "path": "blogs\\ai-empowered-safe-agilist.mdx",
+      "removed_lines": 7,
+      "modified_lines": 63,
+      "notes": [
+        "L10: removed embed component: <PracticeExamEmbed examSlug=\"safe-agilist-6-0-sa-6\"/>",
+        "L87: removed embed component: <PracticeExamEmbed examSlug=\"safe-agilist-6-0-sa-6\"/>",
+        "L106: removed standalone link line: [Exam Overview : SAFe Agilist](/exams/safe-agilist-6-0-sa-6)",
+        "unlinked inline: *Preparing for the current AI-Empowered SAFe Agilist exam? ["
+      ]
+    },
+    {
+      "path": "blogs\\ai-in-project-management-pmbok-8-what-every-pmp-candidate-must-know.mdx",
+      "removed_lines": 17,
+      "modified_lines": 199,
+      "notes": [
+        "L202: removed link-block label: **Related Links:**",
+        "L204: removed link line under label: [PMP Certification Study Plan PMBOK 8th Edition](/study-plan",
+        "L206: removed link line under label: [Project Manager Roadmap](/roadmaps/future-project-manager)",
+        "L208: removed link line under label: [Top 5 Project Management Skills](/blog/top-tech-management-",
+        "L210: removed link line under label: [Study Hall vs ExamOS: Different Approaches to PMP Preparati",
+        "L212: removed link line under label: [Sustainable Project Management: What It Is and Why It Matte",
+        "L214: removed link line under label: [Decoding ESG Questions on the PMP: Sample Scenarios and How",
+        "L216: removed link line under label: [PMI's Value Delivery System: Why Scope and Budget Are No Lo",
+        "unlinked inline: *Want to build AI reasoning into your PMP® preparation? [Exa"
+      ]
+    },
+    {
+      "path": "blogs\\are-exam-dumps-safe-hidden-risks.mdx",
+      "removed_lines": 7,
+      "modified_lines": 103,
+      "notes": [
+        "L106: removed standalone link line: [How to Know If You're Actually Ready for Your Certification",
+        "L108: removed standalone link line: [Do Practice Exams Really Work? What the Data and Experience",
+        "L110: removed standalone link line: [Why Scenario-Based Practice Tests Work (And Why Memorizatio",
+        "unlinked inline: 👉 [How to Spot and Avoid Brain Dumps](/blog/aws-practice-exa",
+        "unlinked inline: 👉 [How to Actually Study for IT Certifications](/roadmap/how",
+        "unlinked inline: On [ExamOS](/), your readiness score is built from daily pra",
+        "unlinked inline: 👉 [Why Daily Practice Beats Cramming for Certification Exams",
+        "unlinked inline: *ExamOS is concept-focused certification practice, not a que"
+      ]
+    },
+    {
+      "path": "blogs\\aws-exam-concepts-misunderstood.mdx",
+      "removed_lines": 14,
+      "modified_lines": 138,
+      "notes": [
+        "L111: removed standalone link line: [Start Practice Test SAA-C03](/exams/aws-certified-solutions",
+        "L145: removed standalone link line: [AWS Solutions Architect Associate : SAA-C03](/exams/aws-cer",
+        "L147: removed standalone link line: [AWS Solutions Architect Professional : SAP-C02](/exams/aws-",
+        "L149: removed standalone link line: [AWS Developer Associate : DVA-C02](/exams/aws-certified-dev",
+        "L151: removed standalone link line: [AWS CloudOps Engineer Associate : SOA-C03](/exams/aws-certi",
+        "L153: removed standalone link line: [AWS DevOps Engineer Professional : DOP-C02](/exams/aws-cert",
+        "unlinked inline: **Identity‑based policies** attach to IAM principals (users,",
+        "unlinked inline: **Multi‑AZ** = high availability. Synchronous standby in ano",
+        "unlinked inline: **Security Groups** are stateful. Allow inbound = return tra",
+        "unlinked inline: **VPC Peering** – direct, non‑transitive connection between ",
+        "unlinked inline: **Reserved concurrency** caps a function’s maximum concurren",
+        "unlinked inline: Aurora advantages: storage autoscaling (128 TB), 15 read rep",
+        "unlinked inline: The most effective reinforcement is **scenario‑based practic",
+        "unlinked inline: | Topic                                      | Archictect   ",
+        "unlinked inline: | IAM: Identity vs Resource Policies         | High         ",
+        "unlinked inline: | S3 Strong Consistency                      | Medium       ",
+        "unlinked inline: | RDS Multi-AZ vs Read Replicas              | High         ",
+        "unlinked inline: | Security Groups vs NACLs                   | High         ",
+        "unlinked inline: | SQS Visibility Timeout                     | Medium       ",
+        "unlinked inline: | VPC Peering vs Transit Gateway             | High         ",
+        "unlinked inline: | CloudFront Invalidation vs TTL             | Medium       ",
+        "unlinked inline: | Lambda Reserved vs Provisioned Concurrency | Medium       ",
+        "unlinked inline: | Aurora vs RDS Tradeoffs                    | High         ",
+        "unlinked inline: | Shared Responsibility Model                | Medium       "
+      ]
+    },
+    {
+      "path": "blogs\\aws-practice-exams-brain-dumps.mdx",
+      "removed_lines": 9,
+      "modified_lines": 107,
+      "notes": [
+        "L110: removed standalone link line: [AWS Cloud Practitioner: CLF-C02](/exams/aws-certified-cloud",
+        "L112: removed standalone link line: [AWS Solutions Architect Associate: SAA-C03](/exams/aws-cert",
+        "L114: removed standalone link line: [AWS Solutions Architect Professional: SAP-C02](/exams/aws-c",
+        "L116: removed standalone link line: [AWS Developer Associate: DVA-C02](/exams/aws-certified-deve",
+        "unlinked inline: Related: [The Hidden Risks of Exam Dumps](/blog/are-exam-dum",
+        "unlinked inline: [ExamOS](/exams/aws) is built around short daily sessions, s",
+        "unlinked inline: For daily practice with regular mock exams, [ExamOS](/exams/"
+      ]
+    },
+    {
+      "path": "blogs\\aws-sap-c03-upcoming-changes.mdx",
+      "removed_lines": 9,
+      "modified_lines": 146,
+      "notes": [
+        "L8: removed embed component: <PracticeExamEmbed examSlug=\"aws-certified-solutions-archite",
+        "L75: removed embed component: <PracticeExamEmbed examSlug=\"aws-certified-solutions-archite",
+        "L125: removed embed component: <PracticeExamEmbed examSlug=\"aws-certified-solutions-archite",
+        "L155: removed standalone link line: [Exam Overview : AWS SAP-C02](/exams/aws-certified-solutions",
+        "unlinked inline: 👉 [AWS Solutions Architect Professional SAP-C02 Study Plan](",
+        "unlinked inline: 👉 [AWS Solutions Architect roadmap](/roadmaps/aws-solutions-",
+        "unlinked inline: 👉 [AWS Solution Architect vs Associate](/blog/aws-solutions-",
+        "unlinked inline: On [ExamOS](/), you can practice daily with Daily Sprint: 7 "
+      ]
+    },
+    {
+      "path": "blogs\\aws-solutions-architect-associate-vs-professional.mdx",
+      "removed_lines": 13,
+      "modified_lines": 117,
+      "notes": [
+        "L118: removed standalone link line: [Start Practice Test SAA-C03](/exams/aws-certified-solutions",
+        "L122: removed standalone link line: [AWS Solutions Architect Associate : SAA-C03](/exams/aws-cer",
+        "L124: removed standalone link line: [AWS Solutions Architect Professional : SAP-C02](/exams/aws-",
+        "L126: removed standalone link line: [AWS Developer Associate : DVA-C02](/exams/aws-certified-dev",
+        "L128: removed standalone link line: [AWS CloudOps Engineer Associate : SOA-C03](/exams/aws-certi",
+        "L130: removed standalone link line: [AWS DevOps Engineer Professional : DOP-C02](/exams/aws-cert",
+        "unlinked inline: **Associate: Breadth + baseline judgment.**",
+        "unlinked inline: Scenarios are contained. You get a workload description, a f",
+        "unlinked inline: 👉 [AWS Solutions Architect Associate : SAA-C03](/exams/aws-c",
+        "unlinked inline: **Professional: Trade‑offs at scale.**",
+        "unlinked inline: 👉 [AWS Solutions Architect Professional : SAP-C02](/exams/aw",
+        "unlinked inline: Both are scenario‑based.",
+        "unlinked inline: Daily scenario practice closes that gap fastest. Platforms l",
+        "unlinked inline: | Experience    | Recommendation |",
+        "unlinked inline: | :---  | :--- |",
+        "unlinked inline: | New to cloud, < 1 year    | Associate first |",
+        "unlinked inline: | 1‑2 years, building breadth   | Associate → Professional i",
+        "unlinked inline: | 2‑3 years, mostly one domain  | Associate (to verify bread",
+        "unlinked inline: | 3+ years, regular architecture involvement    | Go straigh",
+        "unlinked inline: | Senior architect, needs credential    | Professional only ",
+        "unlinked inline: 👉  [AWS Solutions Architect Associate : SAA-C03](/exams/aws-",
+        "unlinked inline: 👉  [AWS Solutions Architect Professional : SAP-C02](/exams/a",
+        "unlinked inline: **2. Build service fluency** – Focus on what problem a servi",
+        "unlinked inline: If you want structured daily practice for Associate or Profe"
+      ]
+    },
+    {
+      "path": "blogs\\az-104-networking-concepts-difficult.mdx",
+      "removed_lines": 13,
+      "modified_lines": 150,
+      "notes": [
+        "L151: removed standalone link line: [Start Practice Test AZ-104](/exams/azure-administrator-asso",
+        "L155: removed standalone link line: [Azure Fundamentas :AZ-900](/exams/azure-fundamentals-az-900",
+        "L157: removed standalone link line: [Security Engineer Associate : AZ-500](/exams/azure-security",
+        "L159: removed standalone link line: [Network Engineer Associate : AZ-700](/exams/azure-network-e",
+        "L161: removed standalone link line: [DevOps Engineer Expert : AZ-400](/exams/azure-devops-engine",
+        "L163: removed standalone link line: [Solutions Architect Expert: AZ- 305](/exams/azure-solutions",
+        "unlinked inline: - [Plan your exam with AZ-104 Study Plan](/study-plans/azure",
+        "unlinked inline: - [Read more about Azure Admnistrator Roadmap](/roadmaps/azu",
+        "unlinked inline: - [How hard is AZ-104](/blog/is-az-104-hard)",
+        "unlinked inline: [ExamOS](/exams/azure-administrator-associate-az-104) offers"
+      ]
+    },
+    {
+      "path": "blogs\\az-204-replacement-ai-200.mdx",
+      "removed_lines": 8,
+      "modified_lines": 108,
+      "notes": [
+        "L27: removed embed component: <PracticeExamEmbed examSlug=\"microsoft-certified-azure-ai-cl",
+        "L99: removed embed component: <PracticeExamEmbed examSlug=\"microsoft-certified-azure-ai-cl",
+        "L116: removed standalone link line: [Exam Overview : AI-200](exams/microsoft-certified-azure-ai-",
+        "unlinked inline: *Preparing for AI-200? [ExamOS](/exams/microsoft-certified-a"
+      ]
+    },
+    {
+      "path": "blogs\\azure-vs-aws-vs-gcp.mdx",
+      "removed_lines": 0,
+      "modified_lines": 4,
+      "notes": [
+        "unlinked inline: ### 1. Audit Your Local Job Market",
+        "unlinked inline: ### 2. Leverage Your Existing Background",
+        "unlinked inline: ### 3. Set a Strict Time Boundary",
+        "unlinked inline: → Read: [Top 5 Cloud Projects for Learning Cloud Computing]("
+      ]
+    },
+    {
+      "path": "blogs\\certifications-worth-it-ai-era.mdx",
+      "removed_lines": 1,
+      "modified_lines": 133,
+      "notes": [
+        "unlinked inline: 👉 [Which Certification Should You Start With?](/roadmaps/whi",
+        "unlinked inline: 👉 [Top Cloud Certifications Ranked](/blog/top-cloud-certific",
+        "unlinked inline: 👉 [Top Cybersecurity Certifications Ranked](/blog/top-cybers",
+        "unlinked inline: 👉 [Azure vs AWS vs GCP](/blog/azure-vs-aws-vs-gcp)",
+        "unlinked inline: Use it as a tutor, not a test engine. AI is excellent for ex",
+        "unlinked inline: Build your foundation on [ExamOS](/) with Daily Sprints, reg"
+      ]
+    },
+    {
+      "path": "blogs\\cissp-ai-security-exam-guidance.mdx",
+      "removed_lines": 1,
+      "modified_lines": 107,
+      "notes": [
+        "unlinked inline: 👉 [Learn more about CISSP](/exams/certified-information-syst",
+        "unlinked inline: 👉 [ICS2 Exam Guidance for Artificial Intelligence](https://e",
+        "unlinked inline: Daily practice with scenarios that include AI context builds",
+        "unlinked inline: *Preparing for the CISSP? Build daily scenario practice that"
+      ]
+    },
+    {
+      "path": "blogs\\cissp-vs-cism-vs-ccsp-which-to-pursue-first.mdx",
+      "removed_lines": 8,
+      "modified_lines": 129,
+      "notes": [
+        "L133: removed standalone link line: [Exam Overview : CISSP](/exams/certified-information-systems",
+        "L135: removed standalone link line: [Exam Overview - CISM](/exams/certified-information-security",
+        "L137: removed standalone link line: [ExamOS Cybersecurity Practice Exam Hub](/exams/cybersecurit",
+        "unlinked inline: 👉 [Exam Overview : CISSP](/exams/certified-information-syste",
+        "unlinked inline: 👉[Exam Overview : CISM](/exams/certified-information-securit",
+        "unlinked inline: Daily practice on [ExamOS](/exams/cybersecurity) is built ar",
+        "unlinked inline: *Exploring CISSP, CISM, or CCSP? Build daily scenario reason"
+      ]
+    },
+    {
+      "path": "blogs\\cloud-security-roles-guide-beginners.mdx",
+      "removed_lines": 33,
+      "modified_lines": 284,
+      "notes": [
+        "L56: removed embed component: <PracticeExamEmbed examSlug=\"comptia-security-sy0-701\"/>",
+        "L96: removed embed component: <PracticeExamEmbed examSlug=\"certified-secure-software-lifec",
+        "L144: removed embed component: <PracticeExamEmbed examSlug=\"certified-kubernetes-administra",
+        "L188: removed embed component: <PracticeExamEmbed examSlug=\"microsoft-certified-security-op",
+        "L226: removed embed component: <PracticeExamEmbed examSlug=\"certified-information-security-",
+        "L275: removed embed component: <PracticeExamEmbed examSlug=\"comptia-security-sy0-701\"/>",
+        "L303: removed standalone link line: [SY0-701 : CompTIA Security+](/exams/comptia-security-sy0-70",
+        "L305: removed standalone link line: [SC-900 : Microsoft Security, Compliance and Identity Fundam",
+        "L307: removed standalone link line: [SC-500 : Azure Cloud and AI Security Engineer Associate](/e",
+        "L309: removed standalone link line: [SC-200 : Microsoft Certified Security Operations Analyst As",
+        "L311: removed standalone link line: [SCS-C03 : AWS Certified Security Specialist](/exams/aws-cer",
+        "L313: removed standalone link line: [CKS : Certified Kubernetes Security Specialist](/exams/cert",
+        "L315: removed standalone link line: [CCSP : Certified Cloud Security Professional](/exams/certif",
+        "L317: removed standalone link line: [CISA : Certified Information Security Auditor](exams/isaca-",
+        "L319: removed standalone link line: [CISM : Certified Information Security Manager](/exams/certi",
+        "L321: removed standalone link line: [CISSP : Certified Information Systems Security Professional",
+        "unlinked inline: 👉 [Learn more about Cybersecurity Specailist Roadmap](/roadm",
+        "unlinked inline: 👉 [Cloud Security Engineer Roadmap](/roadmaps/cloud-security",
+        "unlinked inline: 👉 [Application Security Engineer Roadmap](roadmaps/applicati",
+        "unlinked inline: 👉 [DevSecOps Engineer](roadmaps/devsecops-engineer)",
+        "unlinked inline: 👉 [SOC Analyst Roadmap](/roadmaps/soc-analyst)",
+        "unlinked inline: 👉 [Top 5 Cybersecurity Projects](/blog/top-five-cybersecurit",
+        "unlinked inline: *Preparing for Security+, cloud security credentials, or Dev"
+      ]
+    },
+    {
+      "path": "blogs\\comptia-trifecta-guide.mdx",
+      "removed_lines": 1,
+      "modified_lines": 125,
+      "notes": [
+        "unlinked inline: [ExamOS](/exams/security-plus) offers scenario‑based Securit",
+        "unlinked inline: *Ready to start or continue your Trifecta journey? Explore d"
+      ]
+    },
+    {
+      "path": "blogs\\daily-practice-key-to-devops-certification.mdx",
+      "removed_lines": 13,
+      "modified_lines": 135,
+      "notes": [
+        "L52: removed embed component: <PracticeExamEmbed examSlug=\"aws-certified-devops-engineer-p",
+        "L74: removed embed component: <PracticeExamEmbed examSlug=\"azure-devops-engineer-expert-az",
+        "L142: removed standalone link line: [Exam Overview: Azure DevOps Engineer Expert (AZ-400)](/exam",
+        "L144: removed standalone link line: [Exam Overview: AWS Certified DevOps Engineer - Professional",
+        "L146: removed standalone link line: [Exam Overview: Certified Kubernetes Security Specialist (CK",
+        "L148: removed standalone link line: [Exam Overview: Certified Kubernetes Administrator (CKA)](/e",
+        "unlinked inline: 👉 [What Science & Data Says on Practice Exams](/blog/do-prac",
+        "unlinked inline: 👉 [Kubernetes Administrator Roadmap](/roadmaps/kubernetes-ad",
+        "unlinked inline: 👉 [Azure DevOps Engineer Roadmap](/roadmaps/azure-devops-eng",
+        "unlinked inline: 👉 [AWS DevOps Engineer Roadmap](/roadmaps/aws-devops-enginee",
+        "unlinked inline: [ExamOS](/exams/devops) is built around this model. A short ",
+        "unlinked inline: 👉 [How to Practice Daily With ExamOS](/blog/how-to-practice-",
+        "unlinked inline: 👉 [Study Plan: AWS DevOps Engineer Professional (DOP-C02)](/",
+        "unlinked inline: Explore Daily Sprints, Mock Exams, and readiness tracking on"
+      ]
+    },
+    {
+      "path": "blogs\\decoding-esg-questions-on-the-pmp-sample-scenarios-and-how-to-answer-them.mdx",
+      "removed_lines": 15,
+      "modified_lines": 266,
+      "notes": [
+        "L273: removed link-block label: **Related Links:**",
+        "L275: removed link line under label: [PMP Certification Study Plan PMBOK 8th Edition](/study-plan",
+        "L277: removed link line under label: [Project Manager Roadmap](/roadmaps/future-project-manager)",
+        "L279: removed link line under label: [Top 5 Project Management Skills](/blog/top-tech-management-",
+        "L281: removed link line under label: [Study Hall vs ExamOS: Different Approaches to PMP Preparati",
+        "L283: removed link line under label: [Sustainable Project Management: What It Is and Why It Matte",
+        "unlinked inline: 👉[Learn more about Sustainability in Project Management](/bl",
+        "unlinked inline: *Want to build sustainability reasoning into your PMP® prepa"
+      ]
+    },
+    {
+      "path": "blogs\\devsecops-what-it-means-for-security-professionals.mdx",
+      "removed_lines": 2,
+      "modified_lines": 123,
+      "notes": [
+        "unlinked inline: Daily scenario practice across security and DevOps domains m",
+        "unlinked inline: *Preparing for CKS, AWS Security Specialty, SC-100, or other"
+      ]
+    },
+    {
+      "path": "blogs\\do-practice-exams-work.mdx",
+      "removed_lines": 1,
+      "modified_lines": 149,
+      "notes": [
+        "unlinked inline: 👉 [Hidden Risks of Exam Dumps](/blog/are-exam-dumps-safe-hid",
+        "unlinked inline: Consistent strong performance under timed conditions is a be",
+        "unlinked inline: 👉 [How to Practice Daily With ExamOS](/blog/how-to-practice-",
+        "unlinked inline: 👉 [Top Cloud Certifications Ranked](/blog/top-cloud-certific",
+        "unlinked inline: 👉 [Top Cybersecurity Certifications Ranked](/blog/top-cybers",
+        "unlinked inline: 👉 [Azure vs AWS vs GCP](/blog/azure-vs-aws-vs-gcp)"
+      ]
+    },
+    {
+      "path": "blogs\\feeling-stuck-in-it-role.mdx",
+      "removed_lines": 3,
+      "modified_lines": 125,
+      "notes": [
+        "L86: removed standalone link line: [The 1-Hour Daily Learning Plan](./one-hour-daily-learning-p",
+        "L159: removed standalone link line: [What Actually Helps When You Feel Behind in Technology](./h",
+        "unlinked inline: - What technologies keep showing up?",
+        "unlinked inline: - What kind of problems are they solving?",
+        "unlinked inline: - learn a concept",
+        "unlinked inline: - try something small",
+        "unlinked inline: - test your understanding",
+        "unlinked inline: 👉 If you want a clear way to structure that time:",
+        "unlinked inline: - in team discussions",
+        "unlinked inline: - during 1:1 meetings",
+        "unlinked inline: - when relevant topics come up",
+        "unlinked inline: - one skill at a time",
+        "unlinked inline: - one routine you can maintain",
+        "unlinked inline: - one clear direction"
+      ]
+    },
+    {
+      "path": "blogs\\five-prompts-for-it-certification.mdx",
+      "removed_lines": 4,
+      "modified_lines": 163,
+      "notes": [
+        "L97: removed standalone link line: [Two hour weekend building plan](./two-hour-weekend-building",
+        "L163: removed standalone link line: [One-Hour daily learning habit](./one-hour-daily-learning-pl",
+        "L170: removed standalone link line: [Do practice exams really work?](./do-practice-exams-work)"
+      ]
+    },
+    {
+      "path": "blogs\\generalist-to-cloud-native-security-specialist.mdx",
+      "removed_lines": 1,
+      "modified_lines": 119,
+      "notes": [
+        "unlinked inline: Daily scenario practice across these domains keeps knowledge",
+        "unlinked inline: *Preparing for AWS Security Specialty, CKS, CCSP, SC‑100, or"
+      ]
+    },
+    {
+      "path": "blogs\\google-ace-exam-june-2026-refresh.mdx",
+      "removed_lines": 8,
+      "modified_lines": 150,
+      "notes": [
+        "L10: removed embed component: <PracticeExamEmbed examSlug=\"google-cloud-associate-cloud-en",
+        "L131: removed embed component: <PracticeExamEmbed examSlug=\"google-cloud-associate-cloud-en",
+        "L158: removed standalone link line: [Exam Overview : Google Cloud ACE](/exams/google-cloud-assoc",
+        "unlinked inline: 👉 [Top Google Cloud Services Ranked](/blog/top-gcp-services-",
+        "unlinked inline: On [ExamOS](/), this means working through scenario-based qu"
+      ]
+    },
+    {
+      "path": "blogs\\how-hard-is-ai-103.mdx",
+      "removed_lines": 9,
+      "modified_lines": 145,
+      "notes": [
+        "L8: removed embed component: <PracticeExamEmbed examSlug=\"microsoft-certified-azure-ai-ap",
+        "L80: removed embed component: <PracticeExamEmbed examSlug=\"microsoft-certified-azure-ai-ap",
+        "L153: removed standalone link line: [Exam Overview : AI-103](/exams/microsoft-certified-azure-ai",
+        "unlinked inline: 👉 Follow the [full 6-week AI-103 study plan](/study-plans/mi",
+        "unlinked inline: 👉 [Read More: Is AI-901 Mandatory for AI-103?](/blog/is-ai-9"
+      ]
+    },
+    {
+      "path": "blogs\\how-hard-is-security-plus.mdx",
+      "removed_lines": 11,
+      "modified_lines": 169,
+      "notes": [
+        "L172: removed standalone link line: [Top 5 cybersecurity certificationsTop](/blog/top-cybersecur",
+        "L174: removed standalone link line: [PBQ Deep Dive for Security+](/blog/security-plus-pbq-deep-d",
+        "L176: removed standalone link line: [Exam Overview : Security+](/exams/comptia-security-sy0-701)",
+        "L178: removed standalone link line: [Roadmap : Zero to Hero Cybersecurity Specialist](/roadmaps/",
+        "L180: removed standalone link line: [ExamOS Security Practice Exam Hub](/exams/cybersecurity)",
+        "unlinked inline: 👉 [Learn more about CompTIA Security+](/exams/comptia-securi",
+        "unlinked inline: 👉 [Learn more about PBQ](/blog/security-plus-pbq-deep-dive)",
+        "unlinked inline: [ExamOS](/exams) structures this well with daily 30-minute s",
+        "unlinked inline: 👉 [Top 5 cybersecurity certificationsTop](/blog/top-cybersec",
+        "unlinked inline: *Starting your Security+ preparation? Work through the CompT"
+      ]
+    },
+    {
+      "path": "blogs\\how-to-become-forward-deployed-engineer-certifications.mdx",
+      "removed_lines": 1,
+      "modified_lines": 169,
+      "notes": [
+        "unlinked inline: [ExamOS](/) is built around this: short daily scenario pract",
+        "unlinked inline: *Building toward an FDE role? Keep your technical knowledge "
+      ]
+    },
+    {
+      "path": "blogs\\how-to-handle-ai-anxiety.mdx",
+      "removed_lines": 6,
+      "modified_lines": 124,
+      "notes": [
+        "L114: removed standalone link line: [The 1-Hour Daily Learning Plan](./one-hour-daily-learning-p",
+        "L138: removed standalone link line: [Feeling stuck in your IT Role ? And how to move forward](./",
+        "unlinked inline: - how to use tools safely",
+        "unlinked inline: - how to integrate them into existing systems",
+        "unlinked inline: - how to avoid breaking things",
+        "unlinked inline: - storage",
+        "unlinked inline: - networking",
+        "unlinked inline: - identity and access control",
+        "unlinked inline: - compute resources",
+        "unlinked inline: - ChatGPT",
+        "unlinked inline: - Microsoft Copilot",
+        "unlinked inline: - or any similar assistant",
+        "unlinked inline: - ask it to explain a concept you’re studying",
+        "unlinked inline: - use it to debug a script",
+        "unlinked inline: - have it walk you through a configuration",
+        "unlinked inline: 👉 If you need a starting point, this helps:",
+        "unlinked inline: 👉 [The 2-Hour Weekend Building Plan](./two-hour-weekend-buil"
+      ]
+    },
+    {
+      "path": "blogs\\how-to-know-if-youre-ready-for-ai-103.mdx",
+      "removed_lines": 5,
+      "modified_lines": 115,
+      "notes": [
+        "L26: removed embed component: <PracticeExamEmbed examSlug=\"microsoft-certified-azure-ai-ap",
+        "L86: removed embed component: <PracticeExamEmbed examSlug=\"microsoft-certified-azure-ai-ap",
+        "unlinked inline: On [ExamOS](/), the signal to watch is your readiness score.",
+        "unlinked inline: See also: [Top 5 AI Projects for Beginners](/top-five-ai-pro",
+        "unlinked inline: > On [ExamOS](/exams/microsoft-certified-azure-ai-apps-and-a",
+        "unlinked inline: [ExamOS](/exams/microsoft-certified-azure-ai-apps-and-agents",
+        "unlinked inline: *Want to build and verify AI-103 readiness? [ExamOS](/exams/"
+      ]
+    },
+    {
+      "path": "blogs\\how-to-know-if-youre-ready-for-az-104-exam.mdx",
+      "removed_lines": 11,
+      "modified_lines": 166,
+      "notes": [
+        "L6: removed standalone link line: [How Hard is AZ-104?](/blog/is-az-104-hard)",
+        "L170: removed standalone link line: [Start Practice Test AZ-104](/exams/azure-administrator-asso",
+        "L174: removed standalone link line: [What next after AZ-104?](/blog/what-next-after-az-104)",
+        "L176: removed standalone link line: [How to practice with ExamOS : Quiz Formats and Modes Explai",
+        "L178: removed standalone link line: [Why Scenario-Based Practice Tests Are Best for IT Certifica",
+        "unlinked inline: > **Consistently scoring 80% or above on Legend mode on [Exa",
+        "unlinked inline: *Build operational reasoning for AZ‑104 with daily scenario "
+      ]
+    },
+    {
+      "path": "blogs\\how-to-know-if-youre-ready-for-certification-exam.mdx",
+      "removed_lines": 5,
+      "modified_lines": 118,
+      "notes": [
+        "L121: removed standalone link line: [Why Scenario-Based Practice Tests Work (And Why Memorizatio",
+        "L123: removed standalone link line: [Do Practice Exams Really Work? What the Data and Experience",
+        "unlinked inline: 👉 [How to Actually Study for IT Certifications?](/roadmap/ho",
+        "unlinked inline: 👉 [One Hour Daily Learning Plan](/blog/one-hour-daily-learni",
+        "unlinked inline: 👉 [Why Daily Practice Beats Cramming for Certification Exams",
+        "unlinked inline: *Looking for a structured way to measure readiness through d"
+      ]
+    },
+    {
+      "path": "blogs\\how-to-know-if-youre-ready-for-pmp.mdx",
+      "removed_lines": 1,
+      "modified_lines": 152,
+      "notes": [
+        "unlinked inline: *Want to build that calibration through daily scenario pract",
+        "unlinked inline: - [PMP Study Plan (PMBOK 8th Edition)](/study-plans/project-",
+        "unlinked inline: - [Modern Technical Project Manager roadmap](/roadmaps/futur",
+        "unlinked inline: - [Top Technical Project Management Skills](/blog/top-tech-m",
+        "unlinked inline: - [Study Hall vs ExamOS: Different Approaches to PMP Prepara"
+      ]
+    },
+    {
+      "path": "blogs\\how-to-know-if-youre-ready-for-saa-c03-exam.mdx",
+      "removed_lines": 11,
+      "modified_lines": 160,
+      "notes": [
+        "L163: removed standalone link line: [Exam Overview SAA-C03](./exams/aws-certified-solutions-arch",
+        "L165: removed standalone link line: [AWS Solutions Architect: Zero to Hero Roadmap](./roadmaps/a",
+        "L167: removed standalone link line: [Study Plan for AWS Solutions Architec](./study-plans/aws-ce",
+        "L169: removed standalone link line: [What Next After Solutionns Architect](blog/what-next-after-",
+        "unlinked inline: > **Consistently scoring 80% or above on Legend mode on [Exa"
+      ]
+    },
+    {
+      "path": "blogs\\how-to-know-if-youre-ready-for-security-plus-exam.mdx",
+      "removed_lines": 1,
+      "modified_lines": 139,
+      "notes": [
+        "unlinked inline: > **Consistently scoring 80% or above on Legend mode on [Exa",
+        "unlinked inline: *Build applied security reasoning for Security+ with daily s"
+      ]
+    },
+    {
+      "path": "blogs\\how-to-practice-with-examos.mdx",
+      "removed_lines": 1,
+      "modified_lines": 171,
+      "notes": [
+        "unlinked inline: *Ready to start? [Browse exams on ExamOS](/exams), activate "
+      ]
+    },
+    {
+      "path": "blogs\\is-ai-901-mandatory-for-ai-103.mdx",
+      "removed_lines": 12,
+      "modified_lines": 139,
+      "notes": [
+        "L12: removed embed component: <PracticeExamEmbed examSlug=\"microsoft-certified-azure-ai-ap",
+        "L69: removed embed component: <PracticeExamEmbed examSlug=\"microsoft-azure-ai-fundamentals",
+        "L75: removed embed component: <PracticeExamEmbed examSlug=\"microsoft-certified-azure-ai-ap",
+        "L151: removed standalone link line: [Exam Overview : AI-901](/exams/microsoft-azure-ai-fundament",
+        "L153: removed standalone link line: [Exam Overview : AI-103](/exams/microsoft-certified-azure-ai",
+        "unlinked inline: 👉 [Is AI-901 Worth It?](/blog/is-ai-901-worth-it)",
+        "unlinked inline: 👉 [Should non-technical roles take AI-901](/blog/should-non-",
+        "unlinked inline: ExamOS provide a condensed six-week [AI-103 Study Plan](/stu",
+        "unlinked inline: 👉 [Top 5 AI Projects for Beginners](/blogs/top-five-ai-proje"
+      ]
+    },
+    {
+      "path": "blogs\\is-ai-901-worth-it.mdx",
+      "removed_lines": 11,
+      "modified_lines": 119,
+      "notes": [
+        "L25: removed embed component: <PracticeExamEmbed examSlug=\"microsoft-azure-ai-fundamentals",
+        "L101: removed embed component: <PracticeExamEmbed examSlug=\"microsoft-azure-ai-fundamentals",
+        "L127: removed standalone link line: [Exam Overview : Microsoft Azure AI Fundamentals (AI-901)](/",
+        "L129: removed standalone link line: [Exam Overview : Azure AI Apps and Agents Developer Associat",
+        "L131: removed standalone link line: [Exam Overview : Microsoft Certified AI Transformation Leade",
+        "unlinked inline: 👉 [Read More: Are Certifications Worth It in AI Era?](/blog/",
+        "unlinked inline: 👉 [Which Certification to Start with?](/blog/which-certifica",
+        "unlinked inline: For a broader view of where AI-901 fits in the certification",
+        "unlinked inline: On [ExamOS](/), look for Daily Sprint: 7 questions in 7 minu"
+      ]
+    },
+    {
+      "path": "blogs\\is-az-104-hard.mdx",
+      "removed_lines": 17,
+      "modified_lines": 79,
+      "notes": [
+        "L78: removed standalone link line: [Start Practice Test AZ-104](/exams/azure-administrator-asso",
+        "L84: removed standalone link line: [Top 10 Difficult Networking Concepts for Azure](/blog/az-10",
+        "L132: removed standalone link line: [Start Practice Test AZ-104](/exams/azure-administrator-asso",
+        "L135: removed standalone link line: [Azure Fundamentas :AZ-900](/exams/azure-fundamentals-az-900",
+        "L137: removed standalone link line: [Security Engineer Associate : AZ-500](/exams/exams/azure-se",
+        "L139: removed standalone link line: [Network Engineer Associate : AZ-700](/exams/azure-network-e",
+        "L141: removed standalone link line: [DevOps Engineer Expert : AZ-400](/exams/azure-devops-engine",
+        "L143: removed standalone link line: [Solutions Architect Expert: AZ- 305](/exams/azure-solutions",
+        "unlinked inline: 👉 [Exam Overview : AZ-104](/exams/azure-administrator-associ",
+        "unlinked inline: **Myth 1:** \"I passed AZ-900, so AZ-104 should be manageable",
+        "unlinked inline: **Myth 2:** \"Practice tests alone are enough to pass.\"",
+        "unlinked inline: **Myth 3:** \"It is mainly about knowing Azure services.\"",
+        "unlinked inline: 👉 [Study Plan for AZ-104](/study-plans/azure-administrator-a",
+        "unlinked inline: 👉 [Official Microsoft Learn Website -->](https://learn.micro",
+        "unlinked inline: 👉 [Top 5 cloud projects](/blog/top-five-cloud-projects)"
+      ]
+    },
+    {
+      "path": "blogs\\jobs-and-salary-after-ai-103.mdx",
+      "removed_lines": 5,
+      "modified_lines": 200,
+      "notes": [
+        "L31: removed embed component: <PracticeExamEmbed examSlug=\"microsoft-certified-azure-ai-ap",
+        "L198: removed embed component: <PracticeExamEmbed examSlug=\"microsoft-certified-azure-ai-ap",
+        "unlinked inline: 👉 [Study Plan for AI-103](/study-plans/microsoft-certified-a",
+        "unlinked inline: 👉 [Is AI-901 Mandatory for AI-103?](/blog/is-ai-901-mandator",
+        "unlinked inline: 👉 [Azure AI Engineer Roadmap](/roadmaps/azure-ai-engineer)",
+        "unlinked inline: 👉 [Top 5 AI Projects for Beginners](/blogs/top-five-ai-proje",
+        "unlinked inline: 👉 [Generative AI Engineer Roadmap](/roadmaps/generative-ai-e",
+        "unlinked inline: 👉 [Certifications for Forward Deployed Engineer](blog/how-to",
+        "unlinked inline: - [AI-103 Exam Overview](/exams/microsoft-certified-azure-ai",
+        "unlinked inline: - [Are IT Certifications Still Worth It in AI Era?](/blog/ce"
+      ]
+    },
+    {
+      "path": "blogs\\learning-ai-engineering-mistakes.mdx",
+      "removed_lines": 0,
+      "modified_lines": 1,
+      "notes": [
+        "unlinked inline: → Read: [Top 5 AI Projects for beginners](/blog/top-ai-proje"
+      ]
+    },
+    {
+      "path": "blogs\\levels-of-ai-engineering.mdx",
+      "removed_lines": 0,
+      "modified_lines": 0,
+      "notes": []
+    },
+    {
+      "path": "blogs\\one-hour-daily-learning-plan.mdx",
+      "removed_lines": 5,
+      "modified_lines": 76,
+      "notes": [
+        "L35: removed standalone link line: [Five prompts to speed-up your learning](./five-prompts-for-",
+        "L50: removed standalone link line: [Do practice exams really work?](./do-practice-exams-work)",
+        "L53: removed standalone link line: [Why AI practice tests don't work](./wasting-time-ai-practic",
+        "L84: removed standalone link line: [The 2-Hour Weekend Building Plan](./two-hour-weekend-buildi",
+        "unlinked inline: 👉 Learn more to get best results :",
+        "unlinked inline: 👉 You can follow this here:",
+        "unlinked inline: - [Azure Administrator roadmap](/roadmaps/azure-administrato",
+        "unlinked inline: - [AWS Solutions Architect roadmap](/roadmaps/aws-solutions-",
+        "unlinked inline: - [Azure DevOps roadmap](/roadmaps/azure-devops-engineer)"
+      ]
+    },
+    {
+      "path": "blogs\\pca-exam-case-study-guide.mdx",
+      "removed_lines": 7,
+      "modified_lines": 161,
+      "notes": [
+        "L10: removed embed component: <PracticeExamEmbed examSlug=\"google-cloud-professional-cloud",
+        "L126: removed embed component: <PracticeExamEmbed examSlug=\"google-cloud-professional-cloud",
+        "L168: removed standalone link line: [Exam Overview : Google Cloud PCA](/exams/google-cloud-profe",
+        "unlinked inline: 👉 [Google Cloud Professional Cloud Architect Study Plan](stu"
+      ]
+    },
+    {
+      "path": "blogs\\platform-engineering-shift-devops-professionals.mdx",
+      "removed_lines": 1,
+      "modified_lines": 106,
+      "notes": [
+        "unlinked inline: Daily scenario practice across Kubernetes, cloud infra, and ",
+        "unlinked inline: *Preparing for CKA, AWS DevOps Engineer Pro, AZ-400, or othe"
+      ]
+    },
+    {
+      "path": "blogs\\pmp-exam-changes-july-2026-faq.mdx",
+      "removed_lines": 1,
+      "modified_lines": 172,
+      "notes": [
+        "unlinked inline: [ExamOS](/exams/pmp) builds its PMP® scenario library around",
+        "unlinked inline: *Preparing for the PMP® under the current exam format? Explo"
+      ]
+    },
+    {
+      "path": "blogs\\security-plus-pbq-deep-dive.mdx",
+      "removed_lines": 11,
+      "modified_lines": 139,
+      "notes": [
+        "L142: removed standalone link line: [Top 5 cybersecurity certificationsTop](/blog/top-cybersecur",
+        "L144: removed standalone link line: [How hard is CompTIA Security+](/blog/how-hard-is-security-p",
+        "L146: removed standalone link line: [Exam Overview : Security+](/exams/comptia-security-sy0-701)",
+        "L148: removed standalone link line: [Roadmap : Zero to Hero Cybersecurity Specialist](/roadmaps/",
+        "L150: removed standalone link line: [ExamOS Security Practice Exam Hub](/exams/cybersecurity)",
+        "unlinked inline: 👉[Learn more about CompTIA Security+](/exams/comptia-securit",
+        "unlinked inline: 👉[Know how hard is CompTIA Security+](/blog/how-hard-is-secu",
+        "unlinked inline: Scenario-based practice that forces you to apply concepts ra",
+        "unlinked inline: *Preparing for Security+ and want scenario-based practice th"
+      ]
+    },
+    {
+      "path": "blogs\\security-plus-vs-cc-vs-sc-900-which-first.txt",
+      "removed_lines": 0,
+      "modified_lines": 0,
+      "notes": []
+    },
+    {
+      "path": "blogs\\should-non-technical-roles-take-ai-901.mdx",
+      "removed_lines": 7,
+      "modified_lines": 192,
+      "notes": [
+        "L39: removed embed component: <PracticeExamEmbed examSlug=\"microsoft-azure-ai-fundamentals",
+        "L191: removed embed component: <PracticeExamEmbed examSlug=\"microsoft-azure-ai-fundamentals",
+        "L199: removed standalone link line: [Exam Overview : AI-901](/exams/microsoft-azure-ai-fundament",
+        "unlinked inline: 👉 [Exam Overview : AI-901](/exams/microsoft-azure-ai-fundame",
+        "unlinked inline: 👉 [Roadmap for Technical Project Managers](/roadmaps/future-",
+        "unlinked inline: 👉 [Read More: Is AI-901 Mandatory for AI-103?](/blog/is-ai-9",
+        "unlinked inline: *Ready to build your AI foundation? [ExamOS](/exams/microsof"
+      ]
+    },
+    {
+      "path": "blogs\\stay-relevant-ai-era.mdx",
+      "removed_lines": 5,
+      "modified_lines": 123,
+      "notes": [
+        "L75: removed standalone link line: [**One hour daily learning plan →**](/one-hour-daily-learnin",
+        "L94: removed standalone link line: [**Are certifications worth it in the AI era →**](/certifica",
+        "L113: removed standalone link line: [**Why scenario-based tests work →**](/why-scenario-based-te",
+        "L144: removed standalone link line: [**How to handle AI anxiety →**](/how-to-handle-ai-anxiety)",
+        "unlinked inline: 👉 If you need a structure for that, this is a good place to ",
+        "unlinked inline: 👉 If you’re unsure whether they’re still worth it, this brea",
+        "unlinked inline: - which approach to take",
+        "unlinked inline: - what trade-offs matter",
+        "unlinked inline: - what could go wrong",
+        "unlinked inline: 👉 This is why scenario-based learning is becoming more impor",
+        "unlinked inline: - Pick one topic",
+        "unlinked inline: - Work through a few scenario-based questions",
+        "unlinked inline: - Review your answers carefully",
+        "unlinked inline: 👉 If you’re feeling that pressure, this might help:"
+      ]
+    },
+    {
+      "path": "blogs\\study-hall-vs-examos-pmp-preparation.mdx",
+      "removed_lines": 15,
+      "modified_lines": 119,
+      "notes": [
+        "L122: removed standalone link line: [Why Scenario based tests are the best](/blog/why-scenario-b",
+        "L124: removed standalone link line: [Do Practice Exams work](/blog/do-practice-exams-work)",
+        "L126: removed standalone link line: [Why you are wasting time with AI Practice Tests](/blog/wast",
+        "L128: removed standalone link line: [How to Spot and Avoid Brain Dumps](/blog/aws-practice-exams",
+        "L130: removed standalone link line: [ExamOS Project Management Practice Exam Hub](/exams/project",
+        "L132: removed standalone link line: [Exam Overview: PMP](/exams/project-management-professional-",
+        "L134: removed standalone link line: [Roadmap : Project Manager](/roadmaps/future-project-manager",
+        "unlinked inline: 👉[Learn more about Project Management Professional](/exams/p",
+        "unlinked inline: [PMI Study Hall®](https://www.pmi.org/shop/us/p-/digital-pro",
+        "unlinked inline: 👉[Learn more about One hour learning plan](/blog/one-hour-da",
+        "unlinked inline: **1. How much project management experience do you have?**",
+        "unlinked inline: **2. How much time do you have before your exam?**",
+        "unlinked inline: **3. Where are you losing points in practice?**",
+        "unlinked inline: [ExamOS](/exams) is built on this: daily scenario‑based PMP®",
+        "unlinked inline: *Preparing for the PMP®? Build scenario reasoning alongside "
+      ]
+    },
+    {
+      "path": "blogs\\sustainable-project-management-what-it-is-and-why-it-matters.mdx",
+      "removed_lines": 12,
+      "modified_lines": 145,
+      "notes": [
+        "L208: removed link-block label: **Related Links:**",
+        "L210: removed link line under label: [PMP Certification Study Plan PMBOK 8th Edition](/study-plan",
+        "L212: removed link line under label: [Project Manager Roadmap](/roadmaps/future-project-manager)",
+        "L214: removed link line under label: [Top 5 Project Management Skills](/blog/top-tech-management-",
+        "L216: removed link line under label: [Study Hall vs ExamOS: Different Approaches to PMP Preparati",
+        "unlinked inline: 👉[Decoding ESG Questions on the PMP®: Sample Scenarios and H",
+        "unlinked inline: 2. **Develop a Sustainability Management Plan (SMP)** . Docu",
+        "unlinked inline: *Want to build sustainability reasoning into your project ma"
+      ]
+    },
+    {
+      "path": "blogs\\top-7-faqs-aws-certifications-reddit.mdx",
+      "removed_lines": 1,
+      "modified_lines": 147,
+      "notes": [
+        "unlinked inline: One practical benchmark: if you're consistently clearing 80%",
+        "unlinked inline: [ExamOS](/exams/aws-solutions-architect-associate) is built ",
+        "unlinked inline: *Looking for daily scenario-based AWS practice that builds t"
+      ]
+    },
+    {
+      "path": "blogs\\top-7-pmp-questions-reddit-answered-honestly.mdx",
+      "removed_lines": 1,
+      "modified_lines": 178,
+      "notes": [
+        "unlinked inline: [ExamOS](/exams/project-management) is built around this sec",
+        "unlinked inline: > Consistently scoring 80% or above on Legend mode on [ExamO",
+        "unlinked inline: *Preparing for the PMP® and want daily scenario practice tha"
+      ]
+    },
+    {
+      "path": "blogs\\top-aws-services-ranked.mdx",
+      "removed_lines": 0,
+      "modified_lines": 1,
+      "notes": [
+        "unlinked inline: → [Top 5 Cloud Projects for Learning Cloud Computing](/top-f"
+      ]
+    },
+    {
+      "path": "blogs\\top-azure-services-ranked.mdx",
+      "removed_lines": 0,
+      "modified_lines": 1,
+      "notes": [
+        "unlinked inline: → [Top 5 Cloud Projects for Learning Cloud Computing](/top-f"
+      ]
+    },
+    {
+      "path": "blogs\\top-cloud-certifications-ranked.mdx",
+      "removed_lines": 0,
+      "modified_lines": 0,
+      "notes": []
+    },
+    {
+      "path": "blogs\\top-cloud-security-mistakes-ranked.mdx",
+      "removed_lines": 0,
+      "modified_lines": 0,
+      "notes": []
+    },
+    {
+      "path": "blogs\\top-cybersecurity-certifications-ranked.mdx",
+      "removed_lines": 0,
+      "modified_lines": 0,
+      "notes": []
+    },
+    {
+      "path": "blogs\\top-devops-tools-ranked.mdx",
+      "removed_lines": 0,
+      "modified_lines": 0,
+      "notes": []
+    },
+    {
+      "path": "blogs\\top-five-ai-projects-beginners.mdx",
+      "removed_lines": 0,
+      "modified_lines": 57,
+      "notes": [
+        "unlinked inline: → [Why Most People Fail at Learning AI Engineering](/learnin",
+        "unlinked inline: - Watch tutorials",
+        "unlinked inline: - Copy projects",
+        "unlinked inline: - Learn tools",
+        "unlinked inline: 1. **Do not copy blindly**",
+        "unlinked inline: Use tutorials as guidance, not as scripts",
+        "unlinked inline: 2. **Break your own projects**",
+        "unlinked inline: If nothing fails, you are not learning enough",
+        "unlinked inline: - Takes user input",
+        "unlinked inline: - Sends it to an LLM (like OpenAI API)",
+        "unlinked inline: - Displays the response",
+        "unlinked inline: - Text summarizer",
+        "unlinked inline: - Email rewriter",
+        "unlinked inline: - Blog idea generator",
+        "unlinked inline: - API calls",
+        "unlinked inline: - Prompt structure",
+        "unlinked inline: - Token usage basics",
+        "unlinked inline: - Embeddings",
+        "unlinked inline: - Vector databases",
+        "unlinked inline: - Retrieval-Augmented Generation (RAG)",
+        "unlinked inline: - Why models need external knowledge",
+        "unlinked inline: - How retrieval improves accuracy",
+        "unlinked inline: - Basic system flow (input → retrieve → generate)",
+        "unlinked inline: - Wrong answers",
+        "unlinked inline: - Irrelevant retrieval",
+        "unlinked inline: - Slow responses",
+        "unlinked inline: - Better chunking",
+        "unlinked inline: - Filtering",
+        "unlinked inline: - Prompt improvements",
+        "unlinked inline: - Can I explain how my system works end-to-end?",
+        "unlinked inline: - Can I debug when it fails?",
+        "unlinked inline: - Do I understand *why* retrieval helps?",
+        "unlinked inline: → [Why You Are Wasting Your Time With AI Practice Tests](/wa",
+        "unlinked inline: → [Why YouTube Is Slowing Down Your Cloud Learning](/youtube",
+        "unlinked inline: - One step processes input",
+        "unlinked inline: - Another step transforms it",
+        "unlinked inline: - Another step validates or refines it",
+        "unlinked inline: - Resume analyzer + feedback generator",
+        "unlinked inline: - Content pipeline (idea → draft → improve)",
+        "unlinked inline: - Chat system with memory",
+        "unlinked inline: - Chaining logic",
+        "unlinked inline: - State management",
+        "unlinked inline: - System design thinking",
+        "unlinked inline: - Logging",
+        "unlinked inline: - Basic evaluation (good vs bad responses)",
+        "unlinked inline: - Retry mechanisms",
+        "unlinked inline: - Guardrails (limit bad outputs)",
+        "unlinked inline: - When does this system fail?",
+        "unlinked inline: - How can I detect that?",
+        "unlinked inline: - How can I improve it?",
+        "unlinked inline: - How LLMs are used in real systems",
+        "unlinked inline: - How retrieval works",
+        "unlinked inline: - How to debug failures",
+        "unlinked inline: - How to design multi-step workflows",
+        "unlinked inline: → Read: [Why Most People Fail at Learning AI Engineering](/l",
+        "unlinked inline: → Read: [Why YouTube Is Slowing Down Your Cloud Learning](/y",
+        "unlinked inline: → Read: [Why You Are Wasting Your Time With AI Practice Test"
+      ]
+    },
+    {
+      "path": "blogs\\top-five-cloud-projects.mdx",
+      "removed_lines": 3,
+      "modified_lines": 99,
+      "notes": [
+        "unlinked inline: → [Azure vs AWS vs GCP: Which Cloud Should You Learn in 2026",
+        "unlinked inline: - How cloud storage works",
+        "unlinked inline: - Public vs private access",
+        "unlinked inline: - Basic DNS and custom domains",
+        "unlinked inline: - Firewalls / security groups",
+        "unlinked inline: - Public IPs",
+        "unlinked inline: - Port access (80/443)",
+        "unlinked inline: - Secure service-to-service communication",
+        "unlinked inline: - Connection strings and credentials",
+        "unlinked inline: - Keeping databases private (no public exposure)",
+        "unlinked inline: - **Rookie mode** → reinforces core concepts (storage vs com",
+        "unlinked inline: - **Challenger mode** → tests how services connect and inter",
+        "unlinked inline: - Automation",
+        "unlinked inline: - Repeatability",
+        "unlinked inline: - Real-world deployment practices",
+        "unlinked inline: - CI/CD fundamentals",
+        "unlinked inline: - Version control workflows",
+        "unlinked inline: - Deployment automation"
+      ]
+    },
+    {
+      "path": "blogs\\top-five-cybersecurity-projects.mdx",
+      "removed_lines": 0,
+      "modified_lines": 61,
+      "notes": [
+        "unlinked inline: - Explain concepts",
+        "unlinked inline: - Define attacks",
+        "unlinked inline: - Recognize terminology",
+        "unlinked inline: 1. **Do not skip projects**",
+        "unlinked inline: Each one builds on the previous",
+        "unlinked inline: 2. **You are allowed to struggle**",
+        "unlinked inline: If everything works instantly, you are not learning enough",
+        "unlinked inline: - VirtualBox or VMware",
+        "unlinked inline: - One Windows machine",
+        "unlinked inline: - One Linux machine (Kali Linux is common)",
+        "unlinked inline: - Networking basics",
+        "unlinked inline: - System setup",
+        "unlinked inline: - How machines communicate",
+        "unlinked inline: - Nmap",
+        "unlinked inline: - Open ports",
+        "unlinked inline: - Running services",
+        "unlinked inline: - Possible vulnerabilities",
+        "unlinked inline: - How systems expose themselves",
+        "unlinked inline: - How attackers gather information",
+        "unlinked inline: - Why misconfiguration is dangerous",
+        "unlinked inline: - Generate activity in your lab",
+        "unlinked inline: - Log system events",
+        "unlinked inline: - Analyze logs manually",
+        "unlinked inline: - Failed login attempts",
+        "unlinked inline: - Unusual access patterns",
+        "unlinked inline: - Suspicious processes",
+        "unlinked inline: - How attacks look from the inside",
+        "unlinked inline: - How detection actually works",
+        "unlinked inline: - Why logging is critical",
+        "unlinked inline: - Can I explain what I just did?",
+        "unlinked inline: - Do I understand *why* it works?",
+        "unlinked inline: - Can I identify mistakes?",
+        "unlinked inline: → [Why You Are Wasting Your Time With AI Practice Tests](/wa",
+        "unlinked inline: - Identify a vulnerable service",
+        "unlinked inline: - Attempt a controlled exploit (in a safe environment only)",
+        "unlinked inline: - Weak passwords",
+        "unlinked inline: - Misconfigured services",
+        "unlinked inline: - How vulnerabilities are exploited",
+        "unlinked inline: - The gap between theory and reality",
+        "unlinked inline: - Why security misconfigurations matter",
+        "unlinked inline: - Close unnecessary ports",
+        "unlinked inline: - Strengthen passwords",
+        "unlinked inline: - Configure firewall rules",
+        "unlinked inline: - Apply updates and patches",
+        "unlinked inline: 👉 Try scanning it again",
+        "unlinked inline: - Defensive thinking",
+        "unlinked inline: - Hardening techniques",
+        "unlinked inline: - Real-world security improvements",
+        "unlinked inline: - How systems are attacked",
+        "unlinked inline: - How they are defended",
+        "unlinked inline: - How vulnerabilities appear",
+        "unlinked inline: - How to fix them",
+        "unlinked inline: → Read: [Cybersecurity Certifications Ranked: From Easiest t",
+        "unlinked inline: → Read: [Why You Are Wasting Your Time With AI Practice Test",
+        "unlinked inline: - Test your understanding",
+        "unlinked inline: - Identify weak areas",
+        "unlinked inline: - Improve systematically",
+        "unlinked inline: - Scenario-based questions",
+        "unlinked inline: - Clear explanations",
+        "unlinked inline: - Progressive difficulty",
+        "unlinked inline: 👉 Decision making, not memorization"
+      ]
+    },
+    {
+      "path": "blogs\\top-gcp-services-ranked.mdx",
+      "removed_lines": 6,
+      "modified_lines": 79,
+      "notes": [
+        "L14: removed embed component: <PracticeExamEmbed examSlug=\"google-cloud-associate-cloud-en",
+        "L21: removed embed component: <PracticeExamEmbed examSlug=\"google-cloud-professional-cloud",
+        "L38: removed embed component: <PracticeExamEmbed examSlug=\"google-cloud-professional-data-",
+        "unlinked inline: → [Top 5 Cloud Projects for Learning Cloud Computing](/top-f"
+      ]
+    },
+    {
+      "path": "blogs\\top-tech-management-skills.mdx",
+      "removed_lines": 0,
+      "modified_lines": 0,
+      "notes": []
+    },
+    {
+      "path": "blogs\\two-hour-weekend-building-plan.mdx",
+      "removed_lines": 3,
+      "modified_lines": 106,
+      "notes": [
+        "L19: removed standalone link line: [The 1-Hour Daily Learning Plan](./one-hour-daily-learning-p",
+        "L67: removed standalone link line: [Five prompts to speed-up your learning](./five-prompts-for-",
+        "unlinked inline: 👉 If you haven’t set that up yet, start here:",
+        "unlinked inline: - Create a virtual network and subnet",
+        "unlinked inline: - Deploy a simple virtual machine",
+        "unlinked inline: - Build a basic CI/CD pipeline",
+        "unlinked inline: - Store and retrieve data",
+        "unlinked inline: 👉 Learn more to get best results :",
+        "unlinked inline: 👉 [The 1-Hour Daily Learning Plan](./one-hour-daily-learning",
+        "unlinked inline: - [Top Five Cloud Projects](./top-five-cloud-projects)",
+        "unlinked inline: - [Top Five Cybersecurity Projects](./top-five-cybersecurity",
+        "unlinked inline: - [Top Five AI Projects for Beginners](./top-five-ai-project"
+      ]
+    },
+    {
+      "path": "blogs\\wasting-time-ai-practice-tests.mdx",
+      "removed_lines": 12,
+      "modified_lines": 20,
+      "notes": [
+        "L94: removed link-block label: Related links:",
+        "L96: removed link line under label: [How to practice with ExamOS : Quiz Formats and Modes Explai",
+        "L98: removed link line under label: [Why daily practice beats cramming](/blog/why-daily-practice",
+        "L100: removed link line under label: [Why Scenario-Based Practice Tests Are Best for IT Certifica",
+        "L54: removed standalone link line: [5 AI Prompts That Will Speed Up Your Learning for IT Certif",
+        "L68: removed standalone link line: [How to practice with ExamOS : Quiz Formats and Modes Explai",
+        "unlinked inline: → Go read: [Azure vs AWS vs GCP: Which Cloud Should You Lear",
+        "unlinked inline: → Start here: [Top 5 Cloud Projects for Learning Cloud Compu"
+      ]
+    },
+    {
+      "path": "blogs\\what-cissp-is-actually-testing-psychologically-operationally.mdx",
+      "removed_lines": 1,
+      "modified_lines": 102,
+      "notes": [
+        "unlinked inline: For a deep dive into the stakes, what it means to think like",
+        "unlinked inline: *Ready to build the CISSP mindset with daily scenario-based "
+      ]
+    },
+    {
+      "path": "blogs\\what-next-after-az-104.mdx",
+      "removed_lines": 19,
+      "modified_lines": 142,
+      "notes": [
+        "L46: removed standalone link line: [Security Engineer Associate : AZ-500](/exams/azure-security",
+        "L48: removed standalone link line: [Network Engineer Associate : AZ-700](/exams/azure-network-e",
+        "L61: removed standalone link line: [AWS Solutions Architect Associate : SAA-C03](/exams/aws-cer",
+        "L63: removed standalone link line: [Google Cloud Professional Cloud Architect Associate : PCA](",
+        "L151: removed standalone link line: [Start Practice Test AZ-104](/exams/azure-administrator-asso",
+        "L155: removed standalone link line: [Azure Fundamentas :AZ-900](/exams/azure-fundamentals-az-900",
+        "L157: removed standalone link line: [Security Engineer Associate : AZ-500](/exams/azure-security",
+        "L159: removed standalone link line: [Network Engineer Associate : AZ-700](/exams/azure-network-e",
+        "L161: removed standalone link line: [DevOps Engineer Expert : AZ-400](/exams/azure-devops-engine",
+        "L163: removed standalone link line: [Solutions Architect Expert: AZ- 305](/exams/azure-solutions",
+        "unlinked inline: 👉[Learn more about Solutions Architect Expert: AZ- 305](/exa",
+        "unlinked inline: Daily scenario practice closes that gap faster than anything",
+        "unlinked inline: | :--- | :--- |",
+        "unlinked inline: If you want structured daily practice for AZ-305, AZ-500, or"
+      ]
+    },
+    {
+      "path": "blogs\\what-next-after-saa.mdx",
+      "removed_lines": 2,
+      "modified_lines": 94,
+      "notes": [
+        "unlinked inline: 👉 [AWS Solutions Architect Associate : SAA-C03](/exams/aws-c",
+        "unlinked inline: 👉 [AWS Solutions Architect Professional : SAP-C02](/exams/aw",
+        "unlinked inline: 👉 [AWS Networking - Speciality : ANS-C01](./aws-certified-ad",
+        "unlinked inline: 👉 [AWS DevOps Engineer Professional : DOP-C02](/exams/aws-ce",
+        "unlinked inline: 👉 [Certified Kubernetes Administrator](/exams/certified-kube",
+        "unlinked inline: 👉 [HashiCorp Terraform Associate](/exams/terraform-associate",
+        "unlinked inline: 👉 [Azure Administrator : AZ-104](/exams/azure-administrator-",
+        "unlinked inline: 👉 [AWS Security Speciality : SCS-C03](/exams/aws-certified-s",
+        "unlinked inline: 👉 [CompTIA Security+](/exams/comptia-security-sy0-701)",
+        "unlinked inline: Platforms like [ExamOS](/) are built around daily scenario e",
+        "unlinked inline: *Keeping your AWS knowledge sharp between cert cycles matter",
+        "unlinked inline: 👉 [AWS Solutions Architect Associate : SAA-C03](/exams/aws-c"
+      ]
+    },
+    {
+      "path": "blogs\\why-cramming-fails-cloud-certification-exams.mdx",
+      "removed_lines": 1,
+      "modified_lines": 113,
+      "notes": [
+        "unlinked inline: [ExamOS](/exams/aws-solutions-architect-associate) is built ",
+        "unlinked inline: *Build durable cloud certification readiness with daily scen"
+      ]
+    },
+    {
+      "path": "blogs\\why-daily-practice-beats-cramming.mdx",
+      "removed_lines": 1,
+      "modified_lines": 94,
+      "notes": [
+        "unlinked inline: 1. **You can handle shifting constraints.**",
+        "unlinked inline: A question changes the RTO from 4 hours to 15 minutes. Your ",
+        "unlinked inline: 2. **You’re bored with the basics.**",
+        "unlinked inline: When S3 storage tiers and VPC peering feel automatic, you st",
+        "unlinked inline: 3. **Your practice scores stabilise over a week.**",
+        "unlinked inline: No wild swings from 65% to 90%. Your floor has risen. You kn",
+        "unlinked inline: *Ready to replace cramming with a daily habit? Start a 30‑mi"
+      ]
+    },
+    {
+      "path": "blogs\\why-most-fail-az-305.mdx",
+      "removed_lines": 2,
+      "modified_lines": 73,
+      "notes": [
+        "unlinked inline: 👉 [Learn more about Solutions Architect Expert: AZ- 305](/ex",
+        "unlinked inline: 👉 [Learn more about Azure Administrator AZ-104](/exams/azure",
+        "unlinked inline: - **Practice daily, not in blocks** – 15 minutes of scenario",
+        "unlinked inline: *Build design judgment with daily scenario‑based practice on",
+        "unlinked inline: 👉 [Start Practice Test : AZ- 305](/exams/azure-solutions-arc"
+      ]
+    },
+    {
+      "path": "blogs\\why-sc-900-is-good-for-beginners.mdx",
+      "removed_lines": 0,
+      "modified_lines": 0,
+      "notes": []
+    },
+    {
+      "path": "blogs\\why-scenario-based-tests-work.mdx",
+      "removed_lines": 3,
+      "modified_lines": 124,
+      "notes": [
+        "L111: removed standalone link line: [The 1-Hour Daily Learning Plan](./one-hour-daily-learning-p",
+        "unlinked inline: - multiple virtual machines",
+        "unlinked inline: - a specific network setup",
+        "unlinked inline: - an application that isn’t working correctly",
+        "unlinked inline: - What is actually happening here?",
+        "unlinked inline: - What is the constraint?",
+        "unlinked inline: - What would I change first?",
+        "unlinked inline: - a cost limitation",
+        "unlinked inline: - a security requirement",
+        "unlinked inline: - a dependency between services",
+        "unlinked inline: - **Rookie mode** helps you confirm basic understanding",
+        "unlinked inline: - **Challenger mode** introduces practical scenarios",
+        "unlinked inline: - **Legend mode** pushes you into more complex, exam-style p",
+        "unlinked inline: - learn a concept",
+        "unlinked inline: - test yourself with questions",
+        "unlinked inline: - review mistakes",
+        "unlinked inline: - repeat",
+        "unlinked inline: 👉 If you want a structured way to do that daily, this helps:",
+        "unlinked inline: 👉 [The 2-Hour Weekend Building Plan](./two-hour-weekend-buil"
+      ]
+    },
+    {
+      "path": "blogs\\why-technical-experts-fail-cissp.mdx",
+      "removed_lines": 9,
+      "modified_lines": 114,
+      "notes": [
+        "L117: removed standalone link line: [Exam Overview : CISSP](/exams/certified-information-systems",
+        "L119: removed standalone link line: [Study Plan : CISSP](/study-plans/certified-information-syst",
+        "L121: removed standalone link line: [CISSP vs. CISM vs. CCSP - Which to pursue first](/blog/ciss",
+        "L123: removed standalone link line: [ExamOS Cybersecurity Practice Exam Hub](/exams/cybersecurit",
+        "unlinked inline: 👉 [Learn more about CISSP](/exams/certified-information-syst",
+        "unlinked inline: [ExamOS](/exams/certified-information-systems-security-profe",
+        "unlinked inline: *Preparing for the CISSP? Build managerial reasoning with da"
+      ]
+    },
+    {
+      "path": "blogs\\youtube-for-technical-learning.mdx",
+      "removed_lines": 0,
+      "modified_lines": 3,
+      "notes": [
+        "unlinked inline: * **Choosing a path:** Start here: [Azure vs AWS vs GCP: Whi",
+        "unlinked inline: * **Getting hands-on:** Follow this guide: [Top 5 Cloud Proj",
+        "unlinked inline: * **Exam preparation:** Read this: [Why You Are Wasting Your"
+      ]
+    }
+  ]
+}

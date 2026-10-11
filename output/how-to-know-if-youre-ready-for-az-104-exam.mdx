@@ -1,0 +1,177 @@
+---
+slug: how-to-know-if-youre-ready-for-az-104-exam
+title: "How to Know If You're Actually Ready for the AZ-104 Exam"
+seoTitle: "Am I Ready for the AZ-104 Exam? Signs You're Actually Prepared"
+seoDescription: "Not sure whether to book the AZ-104 exam? Here's a practical readiness framework covering practice scores, scenario reasoning, and the specific signals that matter for the Azure Administrator exam."
+type: "post"
+author: "Priya Krishnamurthy"
+imagePosition: "top"
+categories: ["strategy", "azure", "beginner"]
+examCodes: ["AZ-104"]
+order: 200
+---
+# How to Know If You're Actually Ready for the AZ-104 Exam
+
+The word “Associate” on the AZ‑104 certificate misleads many candidates. It creates an expectation of an entry‑level exam, manageable with a few weeks of video courses. Experienced Azure professionals regularly find themselves retaking it.
+
+The AZ‑104 is Microsoft’s Azure Administrator exam. It tests whether you can **actually administer** Azure environments, not just understand what Azure is. That distinction changes how you prepare and how you assess readiness.
+
+Here’s the objective framework for knowing when you are.
+
+---
+
+## What the AZ‑104 Actually Tests
+
+A conceptual exam asks: *do you know what this service does?*
+
+The AZ‑104 asks: *given this specific requirement, this existing infrastructure, and these constraints, what do you configure, how do you configure it, and what are the consequences?*
+
+That requires operational judgment – knowing how services interact, what their defaults are, where they behave unexpectedly, and how to diagnose problems. Candidates who’ve studied conceptually often struggle on scenario‑based questions that describe real administrative situations.
+
+---
+
+## The Core Concept: Azure’s Layered Hierarchy
+
+More AZ‑104 questions hinge on one principle than any other: **Azure’s permission and control hierarchy**.
+
+Management Groups → Subscriptions → Resource Groups → Resources. Policies, RBAC assignments, locks, and tags all flow through this hierarchy with specific inheritance and override rules.
+
+This shows up in questions about:
+- Why a user can act at resource level but not resource group level
+- Why a policy applied at subscription level isn’t affecting a resource
+- Why a resource lock blocks an operation even with the right RBAC role
+- Which scope to assign a role at for least privilege
+
+Candidates who understand the hierarchy reason through unfamiliar scenarios. Those who memorised role names without the underlying model get stuck.
+
+---
+
+## Five Readiness Signals for AZ‑104
+
+### 1. You’ve Actually Configured Things, Not Just Read About Them
+
+The AZ‑104 rewards hands‑on experience more than most associate exams. Some questions are very hard to answer correctly unless you’ve navigated the portal and run into the specific behaviour.
+
+**Readiness check:** For each major topic (networking, identity, storage, VMs), have you completed a lab task, not just read a study guide section? If mostly yes, your foundation is solid. If mostly no, practice questions alone won’t close the gap. The Microsoft Learn sandbox is free – use it.
+
+### 2. You Can Navigate the Identity Distinction Without Hesitation
+
+The most consistent source of AZ‑104 mistakes is confusion between **Microsoft Entra ID roles** and **Azure RBAC roles**. They operate in parallel:
+
+- **Entra ID roles** control access to directory resources (users, groups, apps). Examples: Global Administrator, User Administrator.
+- **Azure RBAC roles** control access to Azure resources (VMs, storage, VNets). Examples: Owner, Contributor, Reader.
+
+**Readiness test:** For each scenario, instantly identify which role system applies:
+- A user needs to reset others’ passwords → Entra ID role (User Administrator).
+- A user needs to create VMs in a subscription → Azure RBAC role (Contributor).
+- A user needs to manage group memberships without broader admin → Entra ID role (Groups Administrator).
+- A user needs read‑only access to all resources in a resource group → Azure RBAC role (Reader).
+
+If any require careful thought, that’s a gap.
+
+### 3. Your Networking Knowledge Is Operational, Not Conceptual
+
+Networking is where the gap between preparation and exam performance is largest.
+
+**Key operational topics:**
+- **NSG rule processing** – priority order (lowest number first), first match stops evaluation. A Deny at priority 100 blocks an Allow at 200.
+- **VNet peering non‑transitivity** – A↔B and B↔C does not give A→C. Direct peering only.
+- **UDRs** – User Defined Routes apply to a specific subnet, not the whole VNet.
+- **Service Endpoints vs. Private Endpoints** – Service Endpoints are free, keep PaaS service’s public IP; Private Endpoints have private IPs, work with on‑premises, cost more.
+- **Azure Bastion subnet naming** – Must be `AzureBastionSubnet` with /26 minimum.
+
+**Readiness test:** Take five networking troubleshooting scenarios. Can you trace through NSG order, routing tables, and peering config to find the cause? That diagnostic reasoning is what the exam tests.
+
+### 4. You Understand Azure Monitor and Log Analytics Better Than You Think
+
+Monitoring is underestimated by most candidates, then accounts for a surprising number of wrong answers.
+
+**What matters:**
+- **Diagnostic settings** control where logs/metrics go (Log Analytics, storage, Event Hub). Missing data? Check the diagnostic setting.
+- **Log Analytics queries (KQL)** – recognise basic queries, understand workspace scope.
+- **Alert architecture** – signal (metric/log), condition (threshold/query), action group (what happens).
+- **Azure Advisor** – provides cost, security, reliability, performance recommendations. Often the correct answer for “how to identify optimisation opportunities”.
+
+**Readiness check:** Describe how to be notified when a VM’s CPU exceeds 90% for five minutes. Walk through the Azure Monitor components. If you can do it without notes, you’re solid.
+
+### 5. Your Legend Mode Performance Is Consistent
+
+The AZ‑104 presents long, layered scenarios combining multiple concepts: a VNet, NSG rules, peering, RBAC – then asks why an operation is failing.
+
+> **Consistently scoring 80% or above on Legend mode on ExamOS** – five consecutive sessions, not just one – is a strong readiness signal. It shows operational reasoning, not pattern matching.
+
+If Legend mode scores are much lower than standard scores, you’ve built conceptual knowledge without the operational reasoning the exam tests at its hardest.
+
+---
+
+## Domains That Catch Candidates Off Guard
+
+- **Storage account configuration** – LRS vs. ZRS vs. GRS vs. GZRS vs. RA‑GRS; lifecycle management policies; blob‑level vs. account‑level tiers; Azure Files identity‑based auth requirements.
+- **Azure Policy vs. RBAC** – RBAC controls *who can do what*. Azure Policy controls *what can be deployed* (even blocks Owners). Conflating them causes misses.
+- **Backup and recovery specifics** – Azure Backup (data recovery) vs. Azure Site Recovery (infrastructure failover); vault region constraints; VM agent requirements.
+- **CLI/PowerShell recognition** – you don’t need to write scripts, but recognise what a command does. Portal‑only users will find these harder.
+
+---
+
+## Readiness Checklist for AZ‑104
+
+**Hands‑on**
+- Completed labs for each major domain (not just reading)
+- Navigated portal to know where config options live
+- Used CLI or PowerShell for core tasks
+
+**Identity & access**
+- Instantly distinguish Entra ID roles from Azure RBAC roles
+- Understand hierarchy and RBAC scope inheritance
+- Know when to use built‑in vs. custom roles
+
+**Networking**
+- Trace connectivity problems through NSG order, UDRs, peering
+- Understand peering non‑transitivity and gateway transit
+- Distinguish Service Endpoints from Private Endpoints
+
+**Monitoring**
+- Understand diagnostic settings, alerts, Log Analytics basics
+- Know Azure Advisor’s role
+
+**Practice performance**
+- Stable scores across 5+ timed attempts (varied banks)
+- Timed scores within 10 points of untimed
+- Consistent >80% on Legend mode (hardest difficulty)
+- No single domain consistently dragging score down
+
+---
+
+## A Mistake Worth Naming
+
+The most common AZ‑104 mistake is **passive study** – watching videos, reading docs, feeling familiar, but never configuring anything.
+
+Familiarity ≠ operational knowledge. You can understand VNet peering conceptually and still miss questions about specific behaviours you’ve never encountered. Watching someone configure Azure is not the same as doing it yourself.
+
+> Every topic you’ve studied by watching but not doing has a ceiling that exam questions can find. Lower that ceiling by building labs. No shortcut.
+
+---
+
+## When to Book
+
+If the checklist is mostly checked – book the exam.
+
+AZ‑104 rewards operational preparation: labs, networking scenarios, identity distinction, complex practice. A real exam date focuses remaining preparation better than open‑ended study.
+
+If your Legend mode scores are consistently >80% on scenario‑based practice and hands‑on prep covers the major domains, you’re ready. If not, the checklist tells you exactly what’s missing – target those gaps.
+
+---
+
+## The Honest Final Test
+
+Before booking, ask yourself:
+
+**If the exam presents a networking troubleshooting scenario I’ve never seen, can I reason through it from the configuration details, or am I hoping to recognise it from practice?**
+
+If reasoning → you’re ready. If hoping to recognise → more operational practice needed.
+
+The AZ‑104 rewards administrators who can diagnose and solve real problems, not candidates who memorised answers to familiar questions.
+
+*Build operational reasoning for AZ‑104 with daily scenario practice on ExamOS.*
+
+Related links

@@ -1,0 +1,40 @@
+{
+  "ai-in-project-management-pmbok-8-what-every-pmp-candidate-must-know": [
+    {
+      "slug": "project-management-professional-pmp8",
+      "text": "PMP Certification Study Plan",
+      "position": "top",
+      "type": "study-plan"
+    },
+    {
+      "slug": "sustainable-project-management-what-it-is-and-why-it-matters",
+      "text": "Sustainable Project Management: What It Is and Why It Matters",
+      "position": "20%",
+      "type": "blog"
+    },
+    {
+      "slug": "decoding-esg-questions-on-the-pmp-sample-scenarios-and-how-to-answer-them",
+      "text": "Decoding ESG Questions on the PMP Exam: Sample Scenarios and How to Answer Them",
+      "position": "50%",
+      "type": "blog"
+    },
+    {
+      "slug": "pmp-exam-changes-july-2026-faq",
+      "text": "PMP Exam Changes July 2026",
+      "position": "75%",
+      "type": "blog"
+    },
+    {
+      "slug": "certifications-worth-it-ai-era",
+      "text": "Are IT Certifications Still Worth It in the AI Era?",
+      "position": "100%",
+      "type": "blog"
+    },
+    {
+      "slug": "future-project-manager",
+      "text": "Modern Technical Project Manager Roadmap",
+      "position": "related",
+      "type": "roadmap"
+    }
+  ]
+}

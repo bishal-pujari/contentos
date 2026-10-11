@@ -1,0 +1,170 @@
+---
+slug: ai-200-study-guide-vector-search-managed-identity-observability-containers
+title: "AI-200 Study Guide: Vector Search, Managed Identity, Observability, and Containers"
+seoTitle: "AI-200 Study Guide 2026: The 4 Concepts That Decide Your Score"
+seoDescription: "AI-200 has flat domain weighting, but four concepts show up across nearly every domain — vector search, managed identity, OpenTelemetry/KQL observability, and containerized AI workloads. Here's exactly what to know for each."
+type: post
+categories: ["azure", "ai", "certifications", "developer", "preparation"]
+author: "Priya Krishnamurthy"
+date: "2026-08-15"
+order: 900
+---
+# AI-200 Study Guide: Vector Search, Managed Identity, Observability, and Containers
+
+AI-200 has four domains, and Microsoft weighted them unusually flat — nothing falls below 20%. That flatness makes a "just focus on the biggest domain" strategy less useful than it would be on an exam with one dominant section.
+
+But domain weight isn't the only way to find where your study time pays off. A handful of concepts cut across multiple domains simultaneously, showing up in data management questions, security questions, and monitoring questions alike.
+
+Get these four solid, and you're not just covering one domain well — you're covering connective tissue that runs through the whole exam.
+
+This guide covers those four: **vector search**, **managed identity**, **observability with OpenTelemetry and KQL**, and **containerized AI workloads**.
+
+A quick note before diving in — event-driven messaging (Service Bus, Event Grid) is a legitimate fourth domain worth its own study time, but it's also the area of AI-200 that carries over most directly from prior Azure development experience. The four below are where the exam genuinely departs from what a general Azure developer already knows, which is why they earn the focused treatment here.
+
+---
+
+## 1. Vector Search: The Concept With No AZ-204 Equivalent
+
+If you're coming from any prior Azure development background, this is the one with zero prior context to lean on. It's also the heaviest single domain on the exam, which makes it the highest-leverage place to spend disproportionate study time.
+
+### What It Actually Is
+
+Vector search finds records by semantic similarity rather than exact match. Text, images, or other content gets converted into embeddings — arrays of numbers representing meaning — and a query returns the records whose embeddings are mathematically closest to the query's embedding.
+
+This is the retrieval half of RAG (retrieval-augmented generation), and it's the mechanism that lets an AI application ground its responses in your actual data instead of only what a model learned during training.
+
+### The Three Services the Exam Tests
+
+| Service | When to Use | Key Signal |
+|---------|-------------|------------|
+| **Cosmos DB with vector search** | Data is already document-shaped (JSON) or building something new without relational dependency | Existing document data, need unified query |
+| **pgvector on Azure Database for PostgreSQL** | Existing relational PostgreSQL workload adding vector capability | Team has PostgreSQL experience, minimal new infrastructure |
+| **Azure Managed Redis** | Scenario emphasizes low-latency retrieval alongside vector search | "Fast" is a stated constraint, not just "accurate" |
+
+### The Mistake to Avoid
+
+Candidates consistently default to whichever service they're personally most comfortable with rather than the one the scenario's constraints point to. Every vector search question on this exam has a signal buried in the requirements — existing infrastructure, latency sensitivity, data shape — and the correct answer follows that signal, not personal familiarity.
+
+### How to Actually Prepare
+
+Deploy a small application using at least two of these three services and run real similarity queries against real data. Reading a comparison table gets you through recognition-level questions. It won't get you through a scenario where you need to reason about why pgvector fits a described constraint better than Cosmos does.
+
+---
+
+## 2. Managed Identity: The Default the Exam Consistently Rewards
+
+This concept shows up across every domain on the exam, not just security. Any time an application needs to talk to a data store, a message queue, or another Azure service, this is the mechanism the exam expects you to reach for.
+
+### What It Actually Is
+
+A managed identity is an Azure-managed credential that lets a resource — an App Service, a Container App, a Function — authenticate to other Azure services without you storing or rotating a secret anywhere. Azure handles the credential lifecycle entirely. Your application code authenticates using the identity, and Azure verifies it behind the scenes.
+
+### Why the Exam Cares This Much
+
+Connection strings and access keys are a real attack surface — they get committed to source control, they end up in configuration files, they require manual rotation that often doesn't happen. Managed identity eliminates that surface entirely.
+
+Early candidate reports consistently note the same pattern: when a scenario presents a connection-string option alongside a managed-identity option, the connection string is almost always the wrong answer, even in scenarios where it would technically work.
+
+### The Two Flavors Worth Knowing
+
+| Type | Description | When to Use |
+|------|-------------|-------------|
+| **System-assigned** | Tied to a single resource's lifecycle | Identity has no reason to exist independently of the resource |
+| **User-assigned** | Created as a standalone resource, assignable to multiple resources | Multiple resources need to share the same identity and permissions |
+
+### How to Actually Prepare
+
+Build the habit in every lab exercise: connect using managed identity from the start, not as a "fix it properly later" step after getting something working with a key. The exam is testing whether this is your default instinct under scenario pressure, not whether you can define managed identity if asked directly.
+
+---
+
+## 3. Observability with OpenTelemetry and KQL
+
+This is the concept most likely to be underprepared by candidates who assume their Application Insights experience from prior Azure work already covers it. It doesn't, entirely — the exam leans on distributed tracing concepts that go beyond a basic dashboard.
+
+### What It Actually Is
+
+OpenTelemetry is the vendor-neutral standard for collecting traces, metrics, and logs from an application. In an AI-powered application specifically, this matters more than in a typical web app, because a single user request might touch a container, a vector search query, a model call, and a downstream service — and when something goes wrong, you need to see the whole path, not just one component's logs in isolation.
+
+### The Core Concepts Worth Knowing Cold
+
+- **Traces and spans** — a trace represents one end-to-end request; spans are the individual steps within it (the vector query, the model call, the response formatting). Distributed tracing stitches spans together across service boundaries so you can see where time and errors actually occur.
+
+- **Correlation across services** — when a request passes through multiple Azure resources, a trace ID needs to propagate along with it. This is what lets you follow a single failed request from the container that received it through to the vector store it queried.
+
+- **KQL (Kusto Query Language)** — the query language for Azure Monitor and Log Analytics. You're not expected to write complex nested queries from scratch, but you need to recognize what a given KQL query is doing and whether it would surface the described problem — filtering logs by severity, aggregating error counts over a time window, joining trace data with application logs.
+
+### Why This Matters More for AI Workloads
+
+A traditional web app failure is often a single point of failure — the database timed out, the API returned a 500. An AI application failure can be distributed and subtle — the vector search returned results, but they weren't relevant; the model responded, but the response wasn't grounded in the retrieved data. Diagnosing this requires tracing across every step of the pipeline, which is exactly what the exam's monitoring domain is testing your ability to reason about.
+
+### How to Actually Prepare
+
+Instrument a small application with OpenTelemetry, deploy it, generate some traffic including a few intentional failures, and practice reading the resulting traces in Azure Monitor. Write and run a handful of real KQL queries against the logs it generates rather than only reading example queries in documentation.
+
+---
+
+## 4. Containerized AI Workloads: Familiar Technology, Different Context
+
+Containers survived the transition from AZ-204 to AI-200, but don't assume that means this domain requires no new preparation. The exam tests container deployment specifically in the context of AI workloads, and that context changes what "correct" looks like.
+
+### What's Different from General-Purpose Containerization
+
+AZ-204-era container questions were mostly about deploying a standard web application. AI-200 tests deploying models, agents, and vector-search-backed services in containers — which introduces considerations that a generic containerized web app doesn't have:
+
+- Larger image sizes for AI dependencies
+- GPU or specialized compute requirements for certain model workloads
+- Connection patterns to vector stores and AI services that need to be configured correctly at the container level, ideally using the managed identity pattern from above rather than embedded credentials
+
+### The Services Worth Knowing at a Practical Level
+
+| Service | When to Use | Key Signal |
+|---------|-------------|------------|
+| **Azure Container Registry (ACR)** | Building and storing container images | Any containerized workload needs ACR |
+| **ACR Tasks** | Automated build triggers to keep images current | Frequent updates, avoid manual rebuilds |
+| **Azure Container Apps** | Managed, serverless-leaning option | Simple workload, minimal infrastructure management |
+| **AKS (Azure Kubernetes Service)** | Complex orchestration needs | Multiple interdependent services, fine-grained scaling control |
+
+### The Decision the Exam Actually Tests
+
+Not "can you deploy a container," but "given this workload's complexity and the team's operational capacity, which hosting option fits."
+
+A scenario describing a simple, single-purpose AI service with a team that wants minimal operational overhead points to Container Apps. A scenario describing multiple interdependent AI services needing fine-grained orchestration points to AKS.
+
+Picking the more complex option when the simpler one satisfies the requirements is a common wrong answer.
+
+### How to Actually Prepare
+
+Build and push an image to ACR, deploy it to Container Apps, and separately deploy something similar to AKS if you can. Configure the container to authenticate to a downstream service — ideally the vector store from concept one — using managed identity rather than an environment variable holding a key. This single combined exercise touches three of the four concepts in this guide at once.
+
+---
+
+## Why These Four, Specifically
+
+Look at what these four concepts have in common: none of them are things a strong AZ-204 candidate already knew cold.
+
+- **Vector search** is entirely new
+- **Managed identity** existed before but wasn't the near-universal default it is now
+- **Observability** goes deeper than a basic Application Insights dashboard
+- **Containers** are familiar technology applied to an unfamiliar workload type
+
+That's not a coincidence. These are the places where Microsoft rebuilt the exam around what an AI-aware Azure developer actually needs to know in 2026, rather than what a general Azure developer needed in 2022.
+
+Study time spent here transfers across multiple domains simultaneously, because these concepts don't live in one isolated section — they're the connective tissue running through the entire exam.
+
+---
+
+## Quick Reference: The Four Concepts at a Glance
+
+| Concept | Domain Coverage | Prep Priority |
+|---------|-----------------|---------------|
+| **Vector Search** | Data Management (25-30%) | Highest — entirely new content |
+| **Managed Identity** | Security + Data + Monitoring | High — shows up everywhere |
+| **Observability (OpenTelemetry + KQL)** | Monitoring (20-25%) | High — most underprepared area |
+| **Containerized AI Workloads** | Compute (20-25%) | Medium — familiar tech, new context |
+
+---
+
+*Preparing for AI-200? ExamOS covers scenario-based practice across vector search, managed identity, observability, and containerized AI workloads — the concepts early candidates consistently flag as where real preparation makes the biggest difference.*
+
+👉 Related Exams

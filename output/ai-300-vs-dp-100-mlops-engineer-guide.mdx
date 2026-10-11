@@ -1,0 +1,109 @@
+---
+slug: ai-300-vs-dp-100-mlops-engineer-guide
+title: "AI-300 vs DP-100: What Changed and How to Prepare for the New MLOps Exam"
+seoTitle: "AI-300 vs DP-100: Key Differences and How to Prepare (2026 Guide)"
+seoDescription: "DP-100 retired June 1, 2026. AI-300 is its replacement, but the shift is bigger than a rename. It moves from building models to operating them in production. Here's what changed and how to prepare."
+type: post
+categories: ["azure", "ai", "certifications", "ml"]
+author: "Priya Krishnamurthy"
+date: "2026-08-15"
+order: 902
+---
+# AI-300 vs DP-100: What Changed and How to Prepare for the New MLOps Exam
+
+DP-100 retired on June 1, 2026. AI-300, officially titled **Operationalizing Machine Learning and Generative AI Solutions**, is the replacement. Not a rename, not a refresh. Microsoft repositioned the role itself: from data scientist to MLOps engineer. The exam reflects that shift in every domain.
+
+👉 Azure AI Engineer Roadmap
+
+## AI-300 Domain Weights
+
+| Domain and weight | Core focus |
+|:--- |:--- |
+| **Implement ML model lifecycle and operations** (25-30%) | Training, deploying, and managing traditional ML on Azure ML |
+| **Design and implement a GenAIOps infrastructure** (20-25%) | Foundry environments, foundation models, prompt versioning |
+| **Design and implement a MLOps infrastructure** (15-20%) | Data assets in ML Workspace, infrastructure as code for ML |
+| **Implement generative AI quality assurance and observability** (10-15%) | Output evaluation, monitoring, catching quality regressions |
+| **Optimize generative AI systems and model performance** (10-15%) | Cost, latency, and accuracy trade-offs for deployed systems |
+
+The heaviest domain, model lifecycle and operations, is where DP-100 knowledge transfers most directly. The MLOps infrastructure domain has partial overlap. The remaining three, especially GenAIOps, are where the exam departs from anything DP-100 covered.
+
+👉 AI-300 Study Guide: One Core Concept From Each of the Five Domains
+
+## DP-100 vs AI-300: What Actually Changed
+
+| What DP-100 tested | What AI-300 tests |
+|:--- |:--- |
+| Building and evaluating models | Operating models and GenAI systems in production |
+| Data scientist workflow (explore, train, evaluate) | Platform engineer workflow (automate, deploy, monitor) |
+| Standard model metrics | Generative output quality: **relevance, coherence, groundedness** |
+| Minimal infrastructure as code | Explicit **GitHub Actions, Bicep, Azure CLI** across two infrastructure domains |
+| No generative AI coverage | **GenAIOps infrastructure (20-25%)** plus observability (10-15%) |
+| Model monitoring as afterthought | **Continuous monitoring, drift detection** as core competency |
+
+DP-100 rewarded a data scientist's instincts. AI-300 rewards a platform engineer's instincts applied to ML and GenAI workloads. The exam tests not just whether services exist, but whether you can build the automation and infrastructure that keeps models running reliably once deployed.
+
+## What Carries Over From DP-100
+
+Your DP-100 preparation is not wasted. But the overlap is narrower than you might assume.
+
+| DP-100 topic | Status in AI-300 |
+|:--- |:--- |
+| Azure ML workspace fundamentals | **Carries over**, core concepts unchanged |
+| MLflow experiment tracking | **Carries over**, still the primary mechanism |
+| Managed online endpoints | **Carries over**, deployment patterns for traditional models |
+| Python for ML | **Carries over**, core language |
+| Data exploration and feature engineering | **Compressed**, assumed knowledge, lightly tested |
+| Traditional model evaluation metrics | **Compressed**, de-emphasized |
+| MLOps infrastructure and IaC for ML | **Expanded**, partial overlap, now standalone 15-20% domain |
+| GenAIOps and Foundry | **Entirely new**, no DP-100 equivalent |
+| Generative AI observability | **Entirely new**, no DP-100 equivalent |
+
+If you hold DP-100, it remains valid until its normal expiry. The renewal path no longer exists. When it expires, AI-300 is the only forward path.
+
+## The Two Domains With Zero Prior Foundation
+
+### GenAIOps Infrastructure and Microsoft Foundry
+
+DP-100 predates production generative AI on Azure. AI-300 expects you to **configure Foundry environments, deploy foundation models, manage prompt versioning like code versioning, and implement security settings governing deployment access.** If your preparation never touched Foundry, this is a cold start. Stand up a project, deploy a foundation model, and work through prompt versioning and security directly. Reading about it does not substitute for doing it.
+
+### Generative AI Quality Assurance and Observability
+
+DP-100 tested standard model evaluation metrics. AI-300 tests whether you can measure qualities specific to generative outputs: **relevance** (does the output match the query?), **coherence** (is it logically consistent?), and **groundedness** (is it supported by retrieved data?). These are not interchangeable terms. A system can fail on any one independently. Responsible AI dashboards for **bias and safety detection** carry real exam weight. This is new territory even for experienced data scientists.
+
+## The Near-Miss Trap: MLOps Engineer vs. Data Scientist
+
+The most common prep mistake is treating AI-300 as DP-100 with a GenAI chapter added. It is not. The exam positions the **MLOps Engineer** role (automating infrastructure, managing model registries, orchestrating CI/CD pipelines for ML), not the **Data Scientist** role of exploring data and optimizing model accuracy.
+
+**When DP-100-era habits transfer:** Azure ML workspace operations, MLflow tracking, managed endpoint deployment patterns.
+
+**When they do not:** Feature engineering depth, exploratory data analysis, traditional metric optimization. These are compressed to assumed knowledge and carry minimal weight.
+
+## The Mistake Candidates Make
+
+**Over-investing in model training knowledge while GenAIOps and observability sit untouched.** Candidates with a data science background instinctively spend time on what feels familiar: tuning hyperparameters, comparing evaluation metrics, writing training scripts. Meanwhile, GenAIOps infrastructure and generative AI observability together represent roughly **a third of the exam**, and neither has any DP-100 preparation to fall back on. You can walk in with strong model-building skills and still underperform because a third of the exam tested something you never studied.
+
+## What to Deprioritize
+
+**Data exploration, feature engineering, and traditional model evaluation metrics** carry the lowest preparation ROI. AI-300 treats these as assumed background. If you are comfortable with standard preprocessing and basic model metrics, move on.
+
+## How to Prepare
+
+**Start with model lifecycle and operations (25-30%).** Existing Azure ML knowledge does the most work here.
+
+**Do not skip MLOps infrastructure (15-20%).** Partial overlap with DP-100, but now a standalone domain with explicit IaC expectations. If you have never written a Bicep template or GitHub Actions workflow that provisions Azure ML resources, that is a real gap.
+
+**Budget real time for GenAIOps infrastructure.** Stand up a Foundry environment. Deploy a foundation model. Change a prompt twice, once improving and once regressing, so you see what versioning and rollback actually look like.
+
+**Practice evaluating generative outputs, not just defining them.** Relevance, coherence, and groundedness need to be measurable qualities you can assess under exam conditions, not terms you can recite.
+
+**Think production lifecycle, not deployment moment.** A meaningful share of the exam asks what happens after deployment: drift detection, continuous monitoring, retraining triggers.
+
+## Test Where You Stand Right Now
+
+Take the AI-300 practice exam on ExamOS to map your current preparation against all five domains. Your score breakdown shows exactly where the gaps are. If GenAIOps infrastructure and generative AI observability produce the most misses, start there. They represent roughly a third of the exam with no DP-100 preparation to fall back on.
+
+---
+
+*Preparing for AI-300? ExamOS covers scenario-based practice across model lifecycle management, GenAIOps infrastructure on Microsoft Foundry, and generative AI observability, the domains where candidates from a pure data science background most often need the extra preparation.*
+
+👉 Related Exams

@@ -1,0 +1,170 @@
+---
+slug: ai-103-study-guide-foundry-agents-rag
+title: "AI-103 Study Guide: Microsoft Foundry, Agents, and RAG Explained (2026)"
+seoTitle: "AI-103 Study Guide 2026: Microsoft Foundry, AI Agents, and RAG Explained"
+seoDescription: "AI-103 covers 5 domains, but Generative AI and Agentic Solutions alone is 30-35% of the exam. Here's exactly where to spend your study time and why."
+type: post
+categories: ["azure", "ai", "certifications", "preparation"]
+author: "Priya Krishnamurthy"
+order: 27
+imagePosition: "top"
+date: "2026-08-09"
+---
+# AI-103 Study Guide: Microsoft Foundry, Agents, and RAG Explained
+
+Most AI-103 material online falls into one of two traps: a repackaged AI-102 guide with a new exam code, or a two-paragraph overview that tells you the exam exists without telling you what's on it.
+
+AI-103 is not AI-102 renamed. It's built around Microsoft Foundry, agentic AI, and RAG — and nearly a third of it is content that had no AI-102 equivalent at all. Here's what's actually tested, in the proportions it's actually tested.
+
+**Quick facts:** 40-60 questions · 120 minutes · 700/1000 to pass · $165 USD · annual free renewal
+
+---
+
+## The Domain Weights (Read This First)
+
+| Domain | Weight |
+|---|---|
+| Generative AI and Agentic Solutions | **30-35%** |
+| Plan and Manage Azure AI Solutions | 25-30% |
+| Computer Vision Solutions | 10-15% |
+| Text Analysis Solutions | 10-15% |
+| Information Extraction Solutions | 10-15% |
+
+One domain is worth more than the other three combined. If your study plan gives all five equal time, you're underinvesting in the section that decides whether you pass.
+
+👉 Follow the full 6-week AI-103 study plan — it's already weighted to match this table.
+
+---
+
+## Microsoft Foundry: The Platform Everything Sits On
+
+Skip this and every later topic feels harder than it should.
+
+- **Hub** — the top-level container. Holds connections to Azure AI Search, Storage, Key Vault, and shared security/networking config.
+- **Project** — sits inside a hub. Where the real work happens: model deployments, agents, evaluations.
+- **Model deployment** — pick from LLMs (complex reasoning), small language models (cost/latency-sensitive), multimodal models (image/video/audio + text), or code models (code tasks). The exam tests this as a decision, not a definition.
+- **Connections** — how a project reaches Azure AI Search (retrieval), Storage (documents), and Key Vault (secrets). Every RAG or agent question assumes you understand these are configured, not just present.
+
+Don't treat Foundry as "the new portal." Treat it as an architecture you can draw from memory.
+
+---
+
+## Agents: The Domain That Decides Your Score
+
+An agent is not a smarter chatbot. It runs a loop: **reason → act → observe → repeat.** Questions describe a requirement and ask what tools and instructions the agent needs — you're designing the loop, not recognizing it.
+
+**Know these cold:**
+- **Instructions** — defines the agent's role and boundaries
+- **Tools** — function tools, Code Interpreter, Azure AI Search grounding, Bing grounding
+- **Threads** — how conversation memory persists across turns
+- **Tool schemas** — the structured contract for what a tool accepts and returns
+
+**Two orchestration patterns get tested:**
+- **Orchestrated multi-agent** — one orchestrator routes to specialist agents (e.g., billing agent vs. support agent)
+- **Autonomous/semiautonomous** — agents act with safeguards and human approval checkpoints
+
+**Governance matters as much as capability.** Agents need Azure managed identities scoped with RBAC — never inherited user credentials or shared service accounts. This is scored content, not a nice-to-have.
+
+The exam guide references "Foundry SDKs and connectors" without naming a specific orchestration framework. Study the *concepts* — plugins, function-calling, planners — not any one SDK's syntax.
+
+---
+
+## RAG: Shows Up Everywhere, Not Just One Domain
+
+A model's knowledge is frozen at training time. RAG retrieves current, relevant data at query time and grounds the response in it. This isn't confined to Information Extraction — it's core to the agents domain too.
+
+**Azure AI Search, the primary retrieval engine, tests three modes:**
+- **Vector search** — similarity by meaning
+- **Hybrid search** — vector + keyword (BM25); the default for most RAG scenarios
+- **Semantic ranking** — reranks hybrid results for top relevance, at the cost of latency
+
+**The ingestion pipeline:** Document Intelligence (OCR/layout extraction) → chunking (semantic chunking usually beats fixed-size) → enrichment → index. The exam tests the *whole flow* from document to agent, not retrieval in isolation.
+
+**Evaluation is where candidates lose easy points.** The Azure AI Evaluation SDK checks:
+- **Groundedness** — is the answer actually supported by retrieved content?
+- **Relevance** — did retrieval pull the right content?
+- **Quality** — accurate and well-structured?
+- **Safety** — harmful or biased content?
+
+A question describing a plausible-but-wrong RAG answer is testing whether you know which of these four to check first.
+
+---
+
+## Content Understanding: The Service Most Study Guides Miss
+
+Azure AI Content Understanding uses LLM-based extraction (not traditional OCR) to turn documents, images, audio, and video into structured output. It shows up in three places:
+
+- **Computer Vision** — extracting visual characteristics from images/video
+- **Information Extraction** — producing clean, grounded data for RAG and agents
+- **Agents** — as a tool an agent can call directly
+
+If your prep materials don't mention this service, they're incomplete for this exam.
+
+---
+
+## Plan and Manage Azure AI Solutions (25-30%)
+
+The governance layer underneath everything else. Four areas:
+
+- **Service selection** — right model, right retrieval method, right agent tooling for the scenario
+- **Infrastructure and deployment** — Azure AI infra design, deployment options, CI/CD integration
+- **Monitoring and security** — quotas, cost, drift detection, managed identity, private networking
+- **Responsible AI** — safety filters, guardrails, trace logging, agent oversight controls
+
+Questions here regularly combine two of these at once — service selection plus security, or monitoring plus responsible AI. Don't study this domain as isolated bullet points.
+
+---
+
+## The Three Smaller Domains, in Brief
+
+- **Computer Vision (10-15%)** — image/video *generation* from prompts (not just analysis), multimodal understanding, unsafe content and prompt-injection detection
+- **Text Analysis (10-15%)** — entity/sentiment/summarization via generative prompting, plus speech (STT/TTS) framed as an *agent modality*, not standalone transcription
+- **Information Extraction (10-15%)** — document extraction, RAG ingestion with OCR, Content Understanding analyzers
+
+Individually smaller, collectively a third of the exam. Don't skip them — just don't over-invest either.
+
+---
+
+## The Mistake Most Candidates Make
+
+Treating this like a vocabulary exam. Knowing that Azure AI Search does vector search, or that agents use tools, gets you through the easy questions. It won't get you through a scenario asking you to pick between three plausible architectures under a stated constraint (cost, latency, data sensitivity, safety).
+
+**Build these before your exam, not just read about them:**
+- One working RAG pipeline
+- One multi-agent system with tool-access governance
+
+👉 Top 5 AI Projects for Beginners
+
+---
+
+## Fast Answers
+
+### How is this different from AI-102? 
+
+Foundry-centric instead of separate service endpoints. Generative AI and agents (30-35%) barely existed on AI-102. Image/video *generation*, Content Understanding, and agent governance are all new. Expect 40-50% new content if you're coming from AI-102.
+
+### Do I need Python?
+
+Yes. This is a developer exam — you'll read and reason about Foundry SDK code throughout.
+
+### How much hands-on practice do I need?
+
+Significant. Build a real RAG pipeline and a real multi-agent system in Foundry. Configure Content Understanding analyzers. Set up safety filters and guardrails. Scenario questions assume you have done these things.
+
+### Is Semantic Kernel on the exam? 
+
+Not named explicitly, but it's the dominant orchestration framework in this ecosystem. Study the concepts (plugins, function-calling, planners), not SDK-specific syntax.
+
+### What's the passing score?** 
+
+700/1000, scaled scoring, so don't try to back-calculate how many questions you can miss.
+
+### Can I use reference materials during the exam?** 
+
+Yes. You can use the integrated Microsoft Learn platform. Practice searching so that you do not waste too much time.
+
+---
+
+*Want to pressure-test your understanding with scenario-based practice across all five domains? ExamOS covers Foundry architecture, agentic solutions, and RAG design decisions the way the real exam actually tests them — daily practice that builds judgment, not just recall.*
+
+👉 Related Exam
